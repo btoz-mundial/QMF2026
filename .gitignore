@@ -1,0 +1,15 @@
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+nput_open/
+input_lock/
+
+*.xlsx
+*.log
+
+.vscode/
+.DS_Store
+
+*.log

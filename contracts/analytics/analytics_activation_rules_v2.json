@@ -1,0 +1,383 @@
+{
+  "version": "v2",
+
+  "registry_type": "analytics_activation_rules",
+
+  "description": "Statistical governance layer for analytics activation and maturity control. Prevents misleading analytics during low-sample tournament stages.",
+
+  "maturity_states": [
+    "inactive",
+    "provisional",
+    "stable",
+    "mature"
+  ],
+
+  "confidence_tiers": [
+    "low_confidence",
+    "moderate_confidence",
+    "high_confidence"
+  ],
+
+  "global_rules": {
+
+    "minimum_users_for_percentiles": 5,
+
+    "minimum_users_for_ranking_tiers": 8,
+
+    "minimum_snapshots_for_timeline": 3,
+
+    "hide_percentiles_before_stable": true,
+
+    "hide_ranking_tiers_before_stable": true
+  },
+
+  "activation_rules": {
+
+    "precision_general_activation": {
+
+      "metric_id": "precision_general",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_completed_matches": 0,
+          "minimum_sample_size": 0
+        },
+
+        "provisional": {
+          "minimum_completed_matches": 5,
+          "minimum_sample_size": 5
+        },
+
+        "stable": {
+          "minimum_completed_matches": 20,
+          "minimum_sample_size": 20
+        },
+
+        "mature": {
+          "minimum_completed_matches": 50,
+          "minimum_sample_size": 50
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "low_confidence",
+
+        "stable": "moderate_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {
+
+        "hide_percentiles_before_stable": true,
+
+        "hide_ranking_tiers_before_stable": true
+      }
+    },
+
+
+
+    "precision_avance_activation": {
+
+      "metric_id": "precision_avance",
+
+     "activation": {
+
+        "inactive": {
+        "minimum_completed_group_matches": 0 },
+
+        "provisional": {
+        "minimum_completed_group_matches": 72
+        },
+
+        "stable": {
+        "minimum_completed_group_matches": 72
+        },
+
+        "mature": {
+        "minimum_completed_group_matches": 72
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "high_confidence",
+
+        "stable": "high_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {}
+    },
+
+
+    "precision_marcadores_exactos_activation": {
+
+      "metric_id": "precision_marcadores_exactos",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_completed_knockout_matches": 0,
+          "minimum_sample_size": 0
+        },
+
+        "provisional": {
+          "minimum_completed_knockout_matches": 4,
+          "minimum_sample_size": 4
+        },
+
+        "stable": {
+          "minimum_completed_knockout_matches": 12,
+          "minimum_sample_size": 12
+        },
+
+        "mature": {
+          "minimum_completed_knockout_matches": 24,
+          "minimum_sample_size": 24
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "low_confidence",
+
+        "stable": "moderate_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {
+
+        "hide_percentiles_before_stable": true,
+
+        "hide_ranking_tiers_before_stable": true
+      }
+    },
+
+
+
+    "precision_tabla_activation": {
+
+      "metric_id": "precision_tabla",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_completed_group_matches": 0
+        },
+
+        "provisional": {
+          "minimum_completed_group_matches": 72
+        },
+
+        "stable": {
+          "minimum_completed_group_matches": 72
+        },
+
+        "mature": {
+          "minimum_completed_group_matches": 72
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "moderate_confidence",
+
+        "stable": "high_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {}
+    },
+
+
+
+    "eficiencia_de_puntos_activation": {
+
+      "metric_id": "eficiencia_de_puntos",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_completed_matches": 0,
+          "minimum_available_points": 0
+        },
+
+        "provisional": {
+          "minimum_completed_matches": 5,
+          "minimum_available_points": 5
+        },
+
+        "stable": {
+          "minimum_completed_matches": 20,
+          "minimum_available_points": 20
+        },
+
+        "mature": {
+          "minimum_completed_matches": 50,
+          "minimum_available_points": 50
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "low_confidence",
+
+        "stable": "moderate_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {
+
+        "hide_percentiles_before_stable": true,
+
+        "hide_ranking_tiers_before_stable": true
+      }
+    },
+
+
+
+    "consistencia_ranking_activation": {
+
+      "metric_id": "consistencia_ranking",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_snapshots": 0
+        },
+
+        "provisional": {
+          "minimum_snapshots": 3
+        },
+
+        "stable": {
+          "minimum_snapshots": 8
+        },
+
+        "mature": {
+          "minimum_snapshots": 20
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "low_confidence",
+
+        "stable": "moderate_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {
+
+        "hide_ranking_tiers_before_stable": true
+      }
+    },
+
+
+
+    "timeline_race_activation": {
+
+      "metric_id": "timeline_race",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_snapshots": 0
+        },
+
+        "provisional": {
+          "minimum_snapshots": 3
+        },
+
+        "stable": {
+          "minimum_snapshots": 6
+        },
+
+        "mature": {
+          "minimum_snapshots": 12
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "low_confidence",
+
+        "stable": "moderate_confidence",
+
+        "mature": "high_confidence"
+      },
+
+      "suppressions": {}
+    },
+
+
+
+    "consenso_partidos_activation": {
+
+      "metric_id": "consenso_partidos",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_users": 0
+        },
+
+        "provisional": {
+          "minimum_users": 2
+        },
+
+        "stable": {
+          "minimum_users": 5
+        },
+
+        "mature": {
+          "minimum_users": 10
+        }
+      },
+
+      "confidence_mapping": {
+
+        "provisional": "low_confidence",
+
+        "stable": "moderate_confidence",
+
+        "mature": "high_confidence"
+      },
+
+     "suppressions": {}
+  },
+
+
+    "campeon_vivo_activation": {
+
+      "metric_id": "campeon_vivo",
+
+      "activation": {
+
+        "inactive": {
+          "minimum_completed_group_matches": 0
+        },
+
+        "mature": {
+          "minimum_completed_group_matches": 72
+        }
+      },
+
+      "confidence_mapping": {
+
+        "mature": "high_confidence"
+
+      },
+
+      "suppressions": {}
+    }
+  }
+}

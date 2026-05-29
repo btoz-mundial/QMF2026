@@ -1,0 +1,330 @@
+{
+  "73": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 1,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 90,
+      "slot": "home"
+    }
+  },
+  "74": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 2,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 89,
+      "slot": "home"
+    }
+  },
+  "75": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 3,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 90,
+      "slot": "away"
+    }
+  },
+  "76": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 4,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 91,
+      "slot": "home"
+    }
+  },
+  "77": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 5,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 89,
+      "slot": "away"
+    }
+  },
+  "78": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 6,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 91,
+      "slot": "away"
+    }
+  },
+  "79": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 7,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 92,
+      "slot": "home"
+    }
+  },
+  "80": {
+    "stage": "ROUND_OF_32",
+    "column": 1,
+    "bracket_position": 8,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 92,
+      "slot": "away"
+    }
+  },
+  "81": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 1,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 94,
+      "slot": "home"
+    }
+  },
+  "82": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 2,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 94,
+      "slot": "away"
+    }
+  },
+  "83": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 3,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 93,
+      "slot": "home"
+    }
+  },
+  "84": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 4,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 93,
+      "slot": "away"
+    }
+  },
+  "85": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 5,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 96,
+      "slot": "home"
+    }
+  },
+  "86": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 6,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 95,
+      "slot": "home"
+    }
+  },
+  "87": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 7,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 96,
+      "slot": "away"
+    }
+  },
+  "88": {
+    "stage": "ROUND_OF_32",
+    "column": 9,
+    "bracket_position": 8,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 95,
+      "slot": "away"
+    }
+  },
+
+  "89": {
+    "stage": "ROUND_OF_16",
+    "column": 2,
+    "bracket_position": 1,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 97,
+      "slot": "home"
+    }
+  },
+  "90": {
+    "stage": "ROUND_OF_16",
+    "column": 2,
+    "bracket_position": 2,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 97,
+      "slot": "away"
+    }
+  },
+  "91": {
+    "stage": "ROUND_OF_16",
+    "column": 2,
+    "bracket_position": 3,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 99,
+      "slot": "home"
+    }
+  },
+  "92": {
+    "stage": "ROUND_OF_16",
+    "column": 2,
+    "bracket_position": 4,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 99,
+      "slot": "away"
+    }
+  },
+  "93": {
+    "stage": "ROUND_OF_16",
+    "column": 8,
+    "bracket_position": 1,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 98,
+      "slot": "home"
+    }
+  },
+  "94": {
+    "stage": "ROUND_OF_16",
+    "column": 8,
+    "bracket_position": 2,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 98,
+      "slot": "away"
+    }
+  },
+  "95": {
+    "stage": "ROUND_OF_16",
+    "column": 8,
+    "bracket_position": 3,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 100,
+      "slot": "home"
+    }
+  },
+  "96": {
+    "stage": "ROUND_OF_16",
+    "column": 8,
+    "bracket_position": 4,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 100,
+      "slot": "away"
+    }
+  },
+
+  "97": {
+    "stage": "QUARTER_FINAL",
+    "column": 3,
+    "bracket_position": 1,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 101,
+      "slot": "home"
+    }
+  },
+  "98": {
+    "stage": "QUARTER_FINAL",
+    "column": 3,
+    "bracket_position": 2,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 101,
+      "slot": "away"
+    }
+  },
+  "99": {
+    "stage": "QUARTER_FINAL",
+    "column": 7,
+    "bracket_position": 1,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 102,
+      "slot": "home"
+    }
+  },
+  "100": {
+    "stage": "QUARTER_FINAL",
+    "column": 7,
+    "bracket_position": 2,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 102,
+      "slot": "away"
+    }
+  },
+
+  "101": {
+    "stage": "SEMI_FINAL",
+    "column": 4,
+    "bracket_position": 1,
+    "side": "left",
+    "feeds_into": {
+      "match_id": 104,
+      "slot": "home"
+    },
+    "loser_feeds_into": {
+      "match_id": 103,
+      "slot": "home"
+    }
+  },
+
+  "102": {
+    "stage": "SEMI_FINAL",
+    "column": 6,
+    "bracket_position": 1,
+    "side": "right",
+    "feeds_into": {
+      "match_id": 104,
+      "slot": "away"
+    },
+    "loser_feeds_into": {
+      "match_id": 103,
+      "slot": "away"
+    }
+  },
+
+  "103": {
+    "stage": "THIRD_PLACE",
+    "column": 5,
+    "bracket_position": 2,
+    "side": "center",
+    "feeds_into": null
+  },
+
+  "104": {
+    "stage": "FINAL",
+    "column": 5,
+    "bracket_position": 1,
+    "side": "center",
+    "feeds_into": null
+  }
+}

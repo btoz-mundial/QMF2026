@@ -1,0 +1,168 @@
+{
+  "version": "v1",
+
+  "system": "runtime_archetype_activation",
+
+  "governance": "contracts/analytics/runtime_profiles/runtime_profile_governance_v1.md",
+
+  "registry": "contracts/analytics/runtime_profiles/archetype_registry_v1.json",
+
+  "global_rules": {
+
+    "max_active_archetypes_per_user": 1,
+
+    "under_assignment_preferred": true,
+
+    "runtime_stability_required": true,
+
+    "minimum_tournament_maturity_required": true,
+
+    "minimum_sample_size_required": true,
+
+    "allow_multiple_eligible_archetypes": true,
+
+    "precedence_resolution_mode": "hierarchical",
+
+    "precedence_order": [
+      "front_runner",
+      "sharpshooter",
+      "consistency_machine",
+      "clutch_hunter"
+    ],
+
+    "allow_fast_archetype_switching": false,
+
+    "allow_single_snapshot_activation": false,
+
+    "allow_single_snapshot_removal": false
+  },
+
+  "activation_governance": {
+
+    "minimum_snapshots_required": 3,
+
+    "stability_window_required": true,
+
+    "sustained_behavior_required": true,
+
+    "isolated_performance_spikes_are_valid": false
+  },
+
+  "archetypes": [
+
+    {
+      "id": "front_runner",
+
+      "enabled": true,
+
+      "activation_mode": "strict",
+
+      "rarity_target": "extremely_rare",
+
+      "requires_top_tier_rank_consistency": true,
+
+      "requires_sustained_high_ranking": true,
+
+      "requires_low_rank_volatility": true,
+
+      "requires_multiple_snapshot_validation": true,
+
+      "minimum_tournament_completion_required": 0.28,
+
+      "stability_window_snapshots": 2,
+
+      "required_metrics": [
+        "average_rank",
+        "payout_zone_duration_percentage",
+        "rank_range"
+      ]
+    },
+
+    {
+      "id": "sharpshooter",
+
+      "enabled": true,
+
+      "activation_mode": "strict",
+
+      "rarity_target": "very_rare",
+
+      "requires_goal_prediction_precision": true,
+
+      "requires_home_goal_accuracy": true,
+
+      "requires_away_goal_accuracy": true,
+
+      "requires_multiple_snapshot_validation": true,
+
+      "minimum_goal_prediction_sample_required": true,
+
+      "stability_window_snapshots": 2,
+
+      "required_metrics": [
+        "goal_prediction_precision",
+        "home_goal_accuracy",
+        "away_goal_accuracy"
+      ]
+    },
+
+    {
+      "id": "consistency_machine",
+
+      "enabled": true,
+
+      "activation_mode": "strict",
+
+      "rarity_target": "moderately_rare",
+
+      "requires_global_competitive_stability": true,
+
+      "requires_low_runtime_volatility": true,
+
+      "requires_sustained_scoring_floor": true,
+
+      "requires_multiple_snapshot_validation": true,
+
+      "minimum_tournament_completion_required": 0.35,
+
+      "stability_window_snapshots": 2,
+
+      "required_metrics": [
+        "runtime_volatility",
+        "ranking_stability",
+        "score_floor_stability",
+        "phase_balance"
+      ]
+    },
+
+    {
+      "id": "clutch_hunter",
+
+      "enabled": true,
+
+      "activation_mode": "strict",
+
+      "rarity_target": "rare",
+
+      "requires_knockout_performance": true,
+
+      "requires_late_stage_strength": true,
+
+      "requires_knockout_sample_validation": true,
+
+      "minimum_knockout_completion_required": 0.25,
+
+      "minimum_snapshots_required": 5,
+
+      "stability_window_snapshots": 2,
+
+      "required_metrics": [
+        "knockout_performance",
+        "late_stage_strength",
+        "knockout_efficiency",
+        "phase_delta"
+      ]
+    }
+
+  ]
+}

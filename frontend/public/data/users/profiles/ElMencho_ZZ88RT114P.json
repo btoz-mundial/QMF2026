@@ -1,0 +1,391 @@
+{
+  "user_id": "ZZ88RT114P",
+  "display_name": "ElMencho",
+  "source_file": "mock_manual_4.json",
+  "processed_at": "2026-05-07T18:30:00.000Z",
+
+  "group_stage": [
+    { "match_id": 1, "prediction": "E" },
+    { "match_id": 2, "prediction": "V" },
+    { "match_id": 3, "prediction": "E" },
+    { "match_id": 4, "prediction": "E" },
+    { "match_id": 5, "prediction": "V" },
+    { "match_id": 6, "prediction": "E" },
+    { "match_id": 7, "prediction": "E" },
+    { "match_id": 8, "prediction": "V" },
+    { "match_id": 9, "prediction": "E" },
+    { "match_id": 10, "prediction": "E" },
+    { "match_id": 11, "prediction": "V" },
+    { "match_id": 12, "prediction": "E" },
+    { "match_id": 13, "prediction": "E" },
+    { "match_id": 14, "prediction": "V" },
+    { "match_id": 15, "prediction": "E" },
+    { "match_id": 16, "prediction": "E" },
+    { "match_id": 17, "prediction": "V" },
+    { "match_id": 18, "prediction": "E" },
+    { "match_id": 19, "prediction": "E" },
+    { "match_id": 20, "prediction": "V" },
+    { "match_id": 21, "prediction": "E" },
+    { "match_id": 22, "prediction": "E" },
+    { "match_id": 23, "prediction": "V" },
+    { "match_id": 24, "prediction": "E" },
+    { "match_id": 25, "prediction": "E" },
+    { "match_id": 26, "prediction": "V" },
+    { "match_id": 27, "prediction": "E" },
+    { "match_id": 28, "prediction": "E" },
+    { "match_id": 29, "prediction": "V" },
+    { "match_id": 30, "prediction": "E" },
+    { "match_id": 31, "prediction": "E" },
+    { "match_id": 32, "prediction": "V" },
+    { "match_id": 33, "prediction": "E" },
+    { "match_id": 34, "prediction": "E" },
+    { "match_id": 35, "prediction": "V" },
+    { "match_id": 36, "prediction": "E" },
+    { "match_id": 37, "prediction": "E" },
+    { "match_id": 38, "prediction": "V" },
+    { "match_id": 39, "prediction": "E" },
+    { "match_id": 40, "prediction": "E" },
+    { "match_id": 41, "prediction": "V" },
+    { "match_id": 42, "prediction": "E" },
+    { "match_id": 43, "prediction": "E" },
+    { "match_id": 44, "prediction": "V" },
+    { "match_id": 45, "prediction": "E" },
+    { "match_id": 46, "prediction": "E" },
+    { "match_id": 47, "prediction": "V" },
+    { "match_id": 48, "prediction": "E" },
+    { "match_id": 49, "prediction": "E" },
+    { "match_id": 50, "prediction": "V" },
+    { "match_id": 51, "prediction": "E" },
+    { "match_id": 52, "prediction": "E" },
+    { "match_id": 53, "prediction": "V" },
+    { "match_id": 54, "prediction": "E" },
+    { "match_id": 55, "prediction": "E" },
+    { "match_id": 56, "prediction": "V" },
+    { "match_id": 57, "prediction": "E" },
+    { "match_id": 58, "prediction": "E" },
+    { "match_id": 59, "prediction": "V" },
+    { "match_id": 60, "prediction": "E" },
+    { "match_id": 61, "prediction": "E" },
+    { "match_id": 62, "prediction": "V" },
+    { "match_id": 63, "prediction": "E" },
+    { "match_id": 64, "prediction": "E" },
+    { "match_id": 65, "prediction": "V" },
+    { "match_id": 66, "prediction": "E" },
+    { "match_id": 67, "prediction": "E" },
+    { "match_id": 68, "prediction": "V" },
+    { "match_id": 69, "prediction": "E" },
+    { "match_id": 70, "prediction": "E" },
+    { "match_id": 71, "prediction": "V" },
+    { "match_id": 72, "prediction": "E" }
+  ],
+
+  "knockout": [
+    {
+      "match_id": 73,
+      "home_team": "Mexico",
+      "away_team": "Suiza",
+      "home_score": 3,
+      "away_score": 2,
+      "advance": "Mexico"
+    },
+    {
+      "match_id": 74,
+      "home_team": "Alemania",
+      "away_team": "Suecia",
+      "home_score": 2,
+      "away_score": 0,
+      "advance": "Alemania"
+    },
+    {
+      "match_id": 75,
+      "home_team": "Japon",
+      "away_team": "Escocia",
+      "home_score": 1,
+      "away_score": 0,
+      "advance": "Japon"
+    },
+    {
+      "match_id": 76,
+      "home_team": "Brasil",
+      "away_team": "P Bajos",
+      "home_score": 4,
+      "away_score": 1,
+      "advance": "Brasil"
+    },
+    {
+      "match_id": 77,
+      "home_team": "Francia",
+      "away_team": "Egipto",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "Francia"
+    },
+    {
+      "match_id": 78,
+      "home_team": "Ecuador",
+      "away_team": "Senegal",
+      "home_score": 2,
+      "away_score": 0,
+      "advance": "Ecuador"
+    },
+    {
+      "match_id": 79,
+      "home_team": "Czechia",
+      "away_team": "Marruecos",
+      "home_score": 1,
+      "away_score": 2,
+      "advance": "Marruecos"
+    },
+    {
+      "match_id": 80,
+      "home_team": "Inglaterra",
+      "away_team": "Arabia S",
+      "home_score": 3,
+      "away_score": 1,
+      "advance": "Inglaterra"
+    },
+    {
+      "match_id": 81,
+      "home_team": "USA",
+      "away_team": "Bosnia H",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "USA"
+    },
+    {
+      "match_id": 82,
+      "home_team": "Belgica",
+      "away_team": "Costa de M",
+      "home_score": 2,
+      "away_score": 0,
+      "advance": "Belgica"
+    },
+    {
+      "match_id": 83,
+      "home_team": "Colombia",
+      "away_team": "Croacia",
+      "home_score": 1,
+      "away_score": 2,
+      "advance": "Croacia"
+    },
+    {
+      "match_id": 84,
+      "home_team": "España",
+      "away_team": "Austria",
+      "home_score": 3,
+      "away_score": 1,
+      "advance": "España"
+    },
+    {
+      "match_id": 85,
+      "home_team": "Canada",
+      "away_team": "Noruega",
+      "home_score": 0,
+      "away_score": 1,
+      "advance": "Noruega"
+    },
+    {
+      "match_id": 86,
+      "home_team": "Argentina",
+      "away_team": "Uruguay",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "Argentina"
+    },
+    {
+      "match_id": 87,
+      "home_team": "Portugal",
+      "away_team": "Turquia",
+      "home_score": 3,
+      "away_score": 0,
+      "advance": "Portugal"
+    },
+    {
+      "match_id": 88,
+      "home_team": "Paraguay",
+      "away_team": "Iran",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "Paraguay"
+    },
+    {
+      "match_id": 89,
+      "home_team": "Alemania",
+      "away_team": "Francia",
+      "home_score": 1,
+      "away_score": 2,
+      "advance": "Francia"
+    },
+    {
+      "match_id": 90,
+      "home_team": "Mexico",
+      "away_team": "Japon",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "Mexico"
+    },
+    {
+      "match_id": 91,
+      "home_team": "Brasil",
+      "away_team": "Ecuador",
+      "home_score": 3,
+      "away_score": 0,
+      "advance": "Brasil"
+    },
+    {
+      "match_id": 92,
+      "home_team": "Marruecos",
+      "away_team": "Inglaterra",
+      "home_score": 0,
+      "away_score": 2,
+      "advance": "Inglaterra"
+    },
+    {
+      "match_id": 93,
+      "home_team": "Croacia",
+      "away_team": "España",
+      "home_score": 1,
+      "away_score": 2,
+      "advance": "España"
+    },
+    {
+      "match_id": 94,
+      "home_team": "USA",
+      "away_team": "Belgica",
+      "home_score": 1,
+      "away_score": 0,
+      "advance": "USA"
+    },
+    {
+      "match_id": 95,
+      "home_team": "Argentina",
+      "away_team": "Paraguay",
+      "home_score": 2,
+      "away_score": 0,
+      "advance": "Argentina"
+    },
+    {
+      "match_id": 96,
+      "home_team": "Noruega",
+      "away_team": "Portugal",
+      "home_score": 1,
+      "away_score": 2,
+      "advance": "Portugal"
+    },
+    {
+      "match_id": 97,
+      "home_team": "Francia",
+      "away_team": "Mexico",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "Francia"
+    },
+    {
+      "match_id": 98,
+      "home_team": "España",
+      "away_team": "USA",
+      "home_score": 3,
+      "away_score": 1,
+      "advance": "España"
+    },
+    {
+      "match_id": 99,
+      "home_team": "Brasil",
+      "away_team": "Inglaterra",
+      "home_score": 2,
+      "away_score": 0,
+      "advance": "Brasil"
+    },
+    {
+      "match_id": 100,
+      "home_team": "Argentina",
+      "away_team": "Portugal",
+      "home_score": 1,
+      "away_score": 3,
+      "advance": "Portugal"
+    },
+    {
+      "match_id": 101,
+      "home_team": "Francia",
+      "away_team": "España",
+      "home_score": 1,
+      "away_score": 0,
+      "advance": "Francia"
+    },
+    {
+      "match_id": 102,
+      "home_team": "Brasil",
+      "away_team": "Portugal",
+      "home_score": 3,
+      "away_score": 2,
+      "advance": "Brasil"
+    },
+    {
+      "match_id": 103,
+      "home_team": "España",
+      "away_team": "Portugal",
+      "home_score": 2,
+      "away_score": 1,
+      "advance": "España"
+    },
+    {
+      "match_id": 104,
+      "home_team": "Francia",
+      "away_team": "Brasil",
+      "home_score": 1,
+      "away_score": 2,
+      "advance": "Brasil"
+    }
+  ],
+
+  "standings": [
+    {
+      "group": "A",
+      "positions": ["Mexico", "Suiza", "Bosnia H", "Qatar"]
+    },
+    {
+      "group": "B",
+      "positions": ["Brasil", "Escocia", "Marruecos", "Haiti"]
+    },
+    {
+      "group": "C",
+      "positions": ["USA", "Turquia", "Paraguay", "Australia"]
+    },
+    {
+      "group": "D",
+      "positions": ["Canada", "Croacia", "Panama", "Ghana"]
+    },
+    {
+      "group": "E",
+      "positions": ["Alemania", "Japon", "Suecia", "Curazao"]
+    },
+    {
+      "group": "F",
+      "positions": ["P Bajos", "Belgica", "Tunez", "Iran"]
+    },
+    {
+      "group": "G",
+      "positions": ["España", "Egipto", "Arabia S", "Cabo Verde"]
+    },
+    {
+      "group": "H",
+      "positions": ["Uruguay", "Austria", "Noruega", "Irak"]
+    },
+    {
+      "group": "I",
+      "positions": ["Francia", "Senegal", "Argentina", "Argelia"]
+    },
+    {
+      "group": "J",
+      "positions": ["Portugal", "Colombia", "Uzbequistan", "R Congo"]
+    },
+    {
+      "group": "K",
+      "positions": ["Inglaterra", "Costa de M", "Bosnia H", "N Zelandia"]
+    },
+    {
+      "group": "E",
+      "positions": ["Croacia", "Ecuador", "Canada", "Panama"]
+    }
+  ]
+}

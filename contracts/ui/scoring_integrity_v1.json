@@ -1,0 +1,492 @@
+{
+  "id": "scoring_integrity",
+  "version": "1.0.0",
+  "tabs": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "meta": {
+        "tone": "cinematic",
+        "density": "low",
+        "layout": "editorial",
+        "theme": "competitive"
+      },
+      "hero": {
+        "eyebrow": "QMF 2026",
+        "headline": "Cada decisión deja huella",
+        "subheadline": "La competencia evoluciona partido a partido y siempre existe espacio para seguir sumando."
+      },
+      "sections": [
+        {
+          "id": "overview_philosophy",
+          "type": "paragraph",
+          "style": "hero-body",
+          "content": [
+            "Cada punto se calcula aplicando exactamente las mismas reglas para todos los participantes.",
+            "Desde la fase de grupos hasta la final, el sistema recompensa precisión sostenida sobre resultados aislados."
+          ]
+        },
+        {
+          "id": "overview_transparency",
+          "type": "paragraph",
+          "style": "secondary",
+          "content": [
+            "Cada partido conserva una fotografía exacta del torneo en ese momento.",
+            "La evolución de la competencia puede seguirse jornada tras jornada.",
+            "Las predicciones se bloquean automáticamente al inicio del torneo y todos los resultados competitivos se resuelven a partir de marcadores oficiales."
+          ]
+        },
+        {
+          "id": "overview_manifesto",
+          "type": "rotating_manifesto",
+          "style": "ambient",
+          "motion": {
+            "animation": "slow-crossfade",
+            "duration_ms": 1200,
+            "easing": "ease-in-out",
+            "loop": true
+          },
+          "rotation_seconds": 8,
+          "items": [
+            {
+              "text": "La competencia es intensa, pero el objetivo es divertirnos."
+            },
+            {
+              "text": "Detrás de cada score hay competencia. Detrás del torneo, solo gente disfrutando fútbol."
+            },
+            {
+              "text": "Competitivo por naturaleza. Social por espíritu."
+            }
+          ]
+        },
+        {
+          "id": "overview_closing_quote",
+          "type": "quote",
+          "style": "closing",
+          "content": "Con suerte puedes ganar partidos. Con consistencia ganas torneos."
+        },
+        {
+          "id": "overview_metrics",
+          "type": "metrics_strip",
+          "style": "minimal",
+          "items": [
+            {
+              "value": "372",
+              "label": "Puntos posibles"
+            },
+            {
+              "value": "104",
+              "label": "Partidos"
+            },
+            {
+              "value": "100%",
+              "label": "Determinístico"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "scoring",
+      "label": "Scoring",
+      "meta": {
+        "tone": "structured",
+        "density": "medium",
+        "layout": "modular",
+        "theme": "deterministic"
+      },
+      "hero": {
+        "eyebrow": "QMF 2026",
+        "headline": "Scoring determinístico",
+        "subheadline": "Cada punto sigue reglas visibles, acumulativas y aplicadas exactamente igual para todos los participantes."
+      },
+      "sections": [
+        {
+          "id": "group_stage_scoring",
+          "type": "scoring_block",
+          "style": "minimal-card",
+          "title": "Fase de grupos",
+          "metrics": [
+            {
+              "value": "72",
+              "label": "Puntos posibles"
+            },
+            {
+              "value": "+1",
+              "label": "Resultado correcto"
+            }
+          ]
+        },
+        {
+          "id": "standings_scoring",
+          "type": "scoring_block",
+          "style": "minimal-card",
+          "title": "Posiciones de grupo",
+          "metrics": [
+            {
+              "value": "120",
+              "label": "Puntos posibles"
+            }
+          ],
+          "rules": [
+            {
+              "label": "1° lugar",
+              "points": 4
+            },
+            {
+              "label": "2° lugar",
+              "points": 3
+            },
+            {
+              "label": "3° lugar",
+              "points": 2
+            },
+            {
+              "label": "4° lugar",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "knockout_scoring",
+          "type": "scoring_block",
+          "style": "featured-card",
+          "title": "Rondas eliminatorias",
+          "metrics": [
+            {
+              "value": "180",
+              "label": "Puntos posibles"
+            },
+            {
+              "value": "5",
+              "label": "Máximo por partido"
+            }
+          ],
+          "rules": [
+            {
+              "label": "Equipo local correcto",
+              "points": 1
+            },
+            {
+              "label": "Equipo visitante correcto",
+              "points": 1
+            },
+            {
+              "label": "Goles local correctos",
+              "points": 1
+            },
+            {
+              "label": "Goles visitante correctos",
+              "points": 1
+            },
+            {
+              "label": "Marcador exacto",
+              "points": 1
+            }
+          ]
+        },
+        {
+          "id": "knockout_example",
+          "type": "scoring_example",
+          "style": "cinematic-example",
+          "title": "Ejemplo de scoring",
+          "prediction": {
+            "home_team": "México",
+            "home_goals": 2,
+            "away_goals": 1,
+            "away_team": "Arabia Saudita"
+          },
+          "result": {
+            "home_team": "México",
+            "home_goals": 2,
+            "away_goals": 1,
+            "away_team": "Inglaterra"
+          },
+          "breakdown": [
+            {
+              "label": "Equipo local correcto",
+              "result": true,
+              "points": 1
+            },
+            {
+              "label": "Equipo visitante incorrecto",
+              "result": false,
+              "points": 0
+            },
+            {
+              "label": "Goles local correctos",
+              "result": true,
+              "points": 1
+            },
+            {
+              "label": "Goles visitante correctos",
+              "result": true,
+              "points": 1
+            },
+            {
+              "label": "Marcador exacto",
+              "result": true,
+              "points": 1
+            }
+          ],
+          "total_points": 4
+        },
+        {
+          "id": "regular_time_rule",
+          "type": "info_strip",
+          "style": "minimal-note",
+          "content": [
+            "Los marcadores utilizados para la quiniela corresponden exclusivamente al resultado al finalizar los 90 minutos reglamentarios.",
+            "Tiempos extra y penales únicamente determinan el equipo que avanza."
+          ]
+        },
+        {
+          "id": "bonus_scoring",
+          "type": "scoring_block",
+          "style": "minimal-card",
+          "title": "Bonos finales",
+          "rules": [
+            {
+              "label": "Campeón correcto",
+              "points": 15
+            },
+            {
+              "label": "Tercer lugar correcto",
+              "points": 5
+            }
+          ]
+        },
+        {
+          "id": "scoring_closing_quote",
+          "type": "quote",
+          "style": "closing",
+          "content": "Cada acierto suma. La consistencia separa a los mejores."
+        }
+      ]
+    },
+    {
+      "id": "payouts",
+      "label": "Payouts",
+      "meta": {
+        "tone": "financial",
+        "density": "low",
+        "layout": "terminal-editorial",
+        "theme": "transparent"
+      },
+      "hero": {
+        "eyebrow": "QMF 2026",
+        "headline": "Distribución transparente de premios",
+        "subheadline": "Los premios se calculan automáticamente a partir de posiciones finales y reglas públicas de distribución."
+      },
+      "sections": [
+        {
+          "id": "payout_positions",
+          "type": "paragraph",
+          "style": "hero-body",
+          "content": [
+            "Las posiciones pagadas se determinan en función del número de participantes registrados al cierre de inscripciones."
+          ]
+        },
+        {
+          "id": "payout_examples",
+          "type": "metrics_strip",
+          "style": "financial-grid",
+          "items": [
+            {
+              "value": "Top 8",
+              "label": "19 participantes"
+            },
+            {
+              "value": "Top 6",
+              "label": "30 participantes"
+            },
+            {
+              "value": "Top 10",
+              "label": "50 participantes"
+            }
+          ]
+        },
+        {
+          "id": "golf_split",
+          "type": "financial_example",
+          "style": "featured-terminal",
+          "title": "Empates (Golf Split)",
+          "scenario": "Empate entre 1° y 2°",
+          "positions": [
+            {
+              "position": "1°",
+              "prize": "$4,500"
+            },
+            {
+              "position": "2°",
+              "prize": "$3,000"
+            }
+          ],
+          "combined_pool": "$7,500",
+          "final_distribution": "$3,750 por participante"
+        },
+        {
+          "id": "payout_determinism",
+          "type": "paragraph",
+          "style": "secondary",
+          "title": "Determinismo",
+          "content": [
+            "Los payouts se generan automáticamente a partir del leaderboard final.",
+            "No existen desempates manuales ni ajustes posteriores."
+          ]
+        },
+        {
+          "id": "payout_transparency",
+          "type": "paragraph",
+          "style": "secondary",
+          "title": "Transparencia",
+          "content": [
+            "Cada snapshot conserva el estado exacto de la competencia en ese momento.",
+            "La evolución del leaderboard puede verificarse jornada tras jornada hasta el cierre final del torneo."
+          ]
+        },
+        {
+          "id": "payout_closing_quote",
+          "type": "quote",
+          "style": "closing",
+          "content": "Competimos por orgullo. Los premios son solo parte del juego."
+        }
+      ],
+      "visual": {
+        "row_style": "terminal-line",
+        "number_align": "right",
+        "accent_color": "var(--color-accent)"
+      }
+    },
+    {
+      "id": "backstage",
+      "label": "Backstage",
+      "meta": {
+        "tone": "systemic",
+        "density": "medium",
+        "layout": "terminal-grid",
+        "theme": "matrix"
+      },
+      "hero": {
+        "eyebrow": "QMF 2026",
+        "headline": "Infraestructura competitiva",
+        "subheadline": "Cada predicción, score, snapshot y payout atraviesa un pipeline determinístico diseñado para preservar integridad competitiva."
+      },
+      "sections": [
+        {
+          "id": "snapshot_pipeline",
+          "type": "system_flow",
+          "style": "terminal-flow",
+          "title": "Snapshots automáticos",
+          "steps": [
+            "Resultado oficial",
+            "Score Engine",
+            "Snapshot",
+            "Leaderboard"
+          ],
+          "content": [
+            "Cada partido completado genera automáticamente un snapshot congelado del leaderboard.",
+            "Esto permite reconstruir el estado exacto de la competencia en cualquier momento del torneo."
+          ]
+        },
+        {
+          "id": "prediction_locking",
+          "type": "paragraph",
+          "style": "secondary",
+          "title": "Predicciones bloqueadas",
+          "content": [
+            "Las predicciones se bloquean automáticamente al iniciar el torneo.",
+            "No pueden editarse, reemplazarse ni modificarse una vez iniciada la competencia."
+          ]
+        },
+        {
+          "id": "scoring_modules",
+          "type": "code_modules",
+          "style": "matrix-grid",
+          "title": "Scoring Engine",
+          "modules": [
+            {
+              "name": "group_stage_score.js",
+              "label": "Fase de grupos"
+            },
+            {
+              "name": "knockout_stage_score.js",
+              "label": "Rondas eliminatorias"
+            },
+            {
+              "name": "standings_score.js",
+              "label": "Posiciones de grupo"
+            },
+            {
+              "name": "bonus_score.js",
+              "label": "Bonos finales"
+            }
+          ],
+          "content": [
+            "Cada módulo procesa únicamente su propia capa de scoring antes de integrarse al leaderboard final."
+          ]
+        },
+        {
+          "id": "deterministic_resolution",
+          "type": "paragraph",
+          "style": "secondary",
+          "title": "Resolución determinística",
+          "content": [
+            "Todos los rankings y payouts se resuelven exclusivamente a partir de resultados oficiales y reglas públicas predefinidas.",
+            "No existen ajustes manuales posteriores."
+          ]
+        },
+        {
+          "id": "golf_split_resolution",
+          "type": "system_flow",
+          "style": "financial-terminal",
+          "title": "Resolución de empates",
+          "steps": [
+            "Leaderboard Final",
+            "Posiciones Pagadas",
+            "Golf Split",
+            "Payout Final"
+          ],
+          "content": [
+            "Los empates heredan automáticamente el pool combinado de posiciones involucradas y redistribuyen el payout de forma equitativa."
+          ]
+        },
+        {
+          "id": "backstage_metrics",
+          "type": "metrics_strip",
+          "style": "terminal-metrics",
+          "items": [
+            {
+              "value": "104",
+              "label": "Snapshots"
+            },
+            {
+              "value": "372",
+              "label": "Puntos posibles"
+            },
+            {
+              "value": "100%",
+              "label": "Determinístico"
+            },
+            {
+              "value": "0",
+              "label": "Ajustes manuales"
+            }
+          ]
+        },
+        {
+          "id": "backstage_closing_quote",
+          "type": "quote",
+          "style": "closing",
+          "content": "La competencia ocurre en la cancha. La integridad se protege detrás del sistema."
+        }
+      ],
+      "visual": {
+        "pipeline_animation": "sequential-fade",
+        "pipeline_delay_ms": 120,
+        "module_style": "directory-listing",
+        "matrix_opacity": 0.15
+      }
+    }
+  ]
+}

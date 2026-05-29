@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+
+  "description": "Temporal visual standings derived from completed group stage matches.",
+
+  "snapshot_match_id": "number|null",
+
+  "groups": [
+    {
+      "group": "string",
+
+      "table": [
+        {
+          "team": "string",
+          "position": "number",
+
+          "pts": "number",
+          "pj": "number",
+          "pg": "number",
+          "pe": "number",
+          "pp": "number",
+
+          "gf": "number",
+          "gc": "number",
+          "dg": "number",
+
+          "form": ["W", "D", "L"]
+        }
+      ]
+    }
+  ]
+}

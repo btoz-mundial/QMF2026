@@ -1,0 +1,73 @@
+{
+  "version": "v2",
+  "registry_type": "analytics_presentation",
+  "description": "Presentation hints derivados de analytics_contracts_v2.md. NO editar a mano.",
+  "source": "contracts/analytics/analytics_contracts_v2.md",
+  "generated_at": "2026-05-29T17:50:58.947Z",
+  "metric_count": 9,
+  "metrics": {
+    "campeon_vivo": {
+      "metric_id": "campeon_vivo",
+      "display_name": "Still in the Race",
+      "short_description": "Indica si el campeón predicho por un usuario sigue vivo en el torneo.",
+      "featured": true,
+      "unit": "boolean"
+    },
+    "consenso_partidos": {
+      "metric_id": "consenso_partidos",
+      "display_name": "Mente Colectiva",
+      "short_description": "Mide tendencias colectivas de predicción entre usuarios.",
+      "featured": false,
+      "unit": "percent"
+    },
+    "consistencia_ranking": {
+      "metric_id": "consistencia_ranking",
+      "display_name": "Muro de Acero",
+      "short_description": "Mide estabilidad relativa de posiciones históricas en snapshots oficiales.",
+      "featured": true,
+      "unit": "rank"
+    },
+    "eficiencia_de_puntos": {
+      "metric_id": "eficiencia_de_puntos",
+      "display_name": "Point Hunter",
+      "short_description": "Mide qué porcentaje de puntos disponibles ha conseguido un usuario.",
+      "featured": true,
+      "unit": "percent"
+    },
+    "precision_avance": {
+      "metric_id": "precision_avance",
+      "display_name": "Killer Eliminations",
+      "short_description": "Mide qué tan seguido un usuario acierta qué equipos avanzan en eliminatorias.",
+      "featured": true,
+      "unit": "percent"
+    },
+    "precision_general": {
+      "metric_id": "precision_general",
+      "display_name": "Top Predictor",
+      "short_description": "Mide qué tan seguido un usuario acierta predicciones evaluadas del torneo.",
+      "featured": true,
+      "unit": "percent"
+    },
+    "precision_marcadores_exactos": {
+      "metric_id": "precision_marcadores_exactos",
+      "display_name": "Ice Cold",
+      "short_description": "Mide qué tan seguido un usuario acierta marcadores exactos evaluados.",
+      "featured": true,
+      "unit": "percent"
+    },
+    "precision_tabla": {
+      "metric_id": "precision_tabla",
+      "display_name": "Table Master",
+      "short_description": "Mide qué tan acertado un usuario pronosticó posiciones oficiales de standings.",
+      "featured": false,
+      "unit": "percent"
+    },
+    "timeline_race": {
+      "metric_id": "timeline_race",
+      "display_name": "Timeline Race",
+      "short_description": "Representa la evolución histórica del leaderboard durante el torneo.",
+      "featured": false,
+      "unit": "timeline"
+    }
+  }
+}

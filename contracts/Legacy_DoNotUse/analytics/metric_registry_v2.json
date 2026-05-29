@@ -1,0 +1,492 @@
+{
+  "version": "v2",
+
+  "registry_type": "analytics_metric_registry_v2",
+
+  "description": "Semantic governance registry for analytics metrics. Defines identity, governance and capabilities for official analytics outputs.",
+
+  "metric_types": [
+    "deterministic_metric",
+    "interpretive_metric",
+    "runtime_derivation",
+    "system_metric"
+  ],
+
+  "lifecycle_statuses": [
+    "draft",
+    "experimental",
+    "active",
+    "deprecated",
+    "disabled"
+  ],
+
+  "interpretation_risk_levels": [
+    "low",
+    "medium",
+    "high"
+  ],
+
+  "metrics": [
+
+    {
+      "metric_id": "precision_general",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "precision",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "score_details.json"
+      ],
+
+      "depends_on": [
+        "group.breakdown.correct",
+        "knockout.breakdown.*",
+        "standings.details"
+      ],
+
+      "unit": "percentage",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": true,
+
+      "supports_rankings": true,
+
+      "supports_ranking_tiers": true,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 10,
+
+      "activation_rule": "precision_general_activation",
+
+      "interpretation_risk": "low",
+
+      "contract_ref":
+        "analytics_contracts_v2.precision_general"
+    },
+
+
+
+    {
+      "metric_id": "precision_avance",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "precision",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "score_details.json"
+      ],
+
+      "depends_on": [
+        "knockout.breakdown.advance"
+      ],
+
+      "unit": "percentage",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": true,
+
+      "supports_rankings": true,
+
+      "supports_ranking_tiers": true,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 4,
+
+      "activation_rule": "precision_avance_activation",
+
+      "interpretation_risk": "medium",
+
+      "contract_ref":
+        "analytics_contracts_v2.precision_avance"
+    },
+
+
+
+    {
+      "metric_id": "precision_marcadores_exactos",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "precision",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "score_details.json"
+      ],
+
+      "depends_on": [
+        "knockout.breakdown.exact_score"
+      ],
+
+      "unit": "percentage",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": true,
+
+      "supports_rankings": true,
+
+      "supports_ranking_tiers": true,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 4,
+
+      "activation_rule":
+        "precision_marcadores_exactos_activation",
+
+      "interpretation_risk": "high",
+
+      "contract_ref":
+        "analytics_contracts_v2.precision_marcadores_exactos"
+    },
+
+
+
+    {
+      "metric_id": "precision_tabla",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "precision",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "score_details.json"
+      ],
+
+      "depends_on": [
+        "standings.details"
+      ],
+
+      "unit": "percentage",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": false,
+
+      "supports_percentiles": true,
+
+      "supports_rankings": true,
+
+      "supports_ranking_tiers": true,
+
+      "supports_timeline": false,
+
+      "minimum_sample_size": 48,
+
+      "activation_rule": "precision_tabla_activation",
+
+      "interpretation_risk": "medium",
+
+      "contract_ref":
+        "analytics_contracts_v2.precision_tabla"
+    },
+
+
+
+    {
+      "metric_id": "eficiencia_de_puntos",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "efficiency",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "leaderboard.json",
+        "score_details.json"
+      ],
+
+      "depends_on": [
+        "leaderboard.total_points"
+      ],
+
+      "unit": "percentage",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": true,
+
+      "supports_rankings": true,
+
+      "supports_ranking_tiers": true,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 10,
+
+      "activation_rule":
+        "eficiencia_de_puntos_activation",
+
+      "interpretation_risk": "medium",
+
+      "contract_ref":
+        "analytics_contracts_v2.eficiencia_de_puntos"
+    },
+
+
+
+    {
+      "metric_id": "consistencia_ranking",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "timeline",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "snapshots"
+      ],
+
+      "depends_on": [
+        "leaderboard.rank"
+      ],
+
+      "unit": "score",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": true,
+
+      "supports_rankings": true,
+
+      "supports_ranking_tiers": true,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 5,
+
+      "activation_rule":
+        "consistencia_ranking_activation",
+
+      "interpretation_risk": "medium",
+
+      "contract_ref":
+        "analytics_contracts_v2.consistencia_ranking"
+    },
+
+
+
+    {
+      "metric_id": "timeline_race",
+
+      "version": "v2",
+
+      "metric_type": "runtime_derivation",
+
+      "category": "timeline",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "snapshots"
+      ],
+
+      "depends_on": [
+        "leaderboard.rank",
+        "leaderboard.total_points"
+      ],
+
+      "unit": "timeline",
+
+      "value_range": {
+        "min": null,
+        "max": null
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": false,
+
+      "supports_rankings": false,
+
+      "supports_ranking_tiers": false,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 3,
+
+      "activation_rule":
+        "timeline_race_activation",
+
+      "interpretation_risk": "low",
+
+      "contract_ref":
+        "analytics_contracts_v2.timeline_race"
+    },
+
+
+
+    {
+      "metric_id": "consenso_partidos",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "consensus",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "users/*.json"
+      ],
+
+      "depends_on": [
+        "group_stage.prediction",
+        "knockout.advance"
+      ],
+
+      "unit": "percentage",
+
+      "value_range": {
+        "min": 0,
+        "max": 100
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": false,
+
+      "supports_rankings": false,
+
+      "supports_ranking_tiers": false,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 5,
+
+      "activation_rule":
+        "consenso_partidos_activation",
+
+      "interpretation_risk": "medium",
+
+      "contract_ref":
+        "analytics_contracts_v2.consenso_partidos"
+    },
+
+
+
+    {
+      "metric_id": "campeon_vivo",
+
+      "version": "v2",
+
+      "metric_type": "deterministic_metric",
+
+      "category": "status",
+
+      "lifecycle_status": "active",
+
+      "source_layer": "analytics",
+
+      "source_of_truth": [
+        "results/*.json",
+        "users/*.json"
+      ],
+
+      "depends_on": [
+        "knockout.advance"
+      ],
+
+      "unit": "boolean",
+
+      "value_range": {
+        "min": 0,
+        "max": 1
+      },
+
+      "supports_history": true,
+
+      "supports_percentiles": false,
+
+      "supports_rankings": false,
+
+      "supports_ranking_tiers": false,
+
+      "supports_timeline": true,
+
+      "minimum_sample_size": 1,
+
+      "activation_rule":
+        "campeon_vivo_activation",
+
+      "interpretation_risk": "low",
+
+      "contract_ref":
+        "analytics_contracts_v2.campeon_vivo"
+    }
+
+  ]
+}

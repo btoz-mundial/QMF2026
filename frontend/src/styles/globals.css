@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  /* Colors — Dark mode (default) */
+  --color-bg:           #0B1120;
+  --color-surface:      #111827;
+  --color-surface-2:    #1F2937;
+  --color-border:       #2D3748;
+  --color-border-light: #374151;
+
+  --color-primary:      #38BDF8;
+  --color-primary-dim:  #0284C7;
+  --color-accent:       #FBBF24;
+  --color-accent-dim:   #D97706;
+
+  --color-success:      #34D399;
+  --color-error:        #F87171;
+  --color-warning:      #FBBF24;
+  --color-pending:      #4B5563;
+
+  --color-text-1:       #F1F5F9;
+  --color-text-2:       #94A3B8;
+  --color-text-3:       #64748B;
+
+  /* Typography */
+  --font-display:  'DM Sans', sans-serif;
+  --font-body:     'DM Sans', sans-serif;
+  --font-mono:     'IBM Plex Mono', monospace;
+
+  /* Spacing */
+  --nav-height: 56px;
+}
+
+[data-theme="light"] {
+  --color-bg:           #E8EDF3;
+  --color-surface:      #F2F5F9;
+  --color-surface-2:    #F8FAFC;
+  --color-border:       #D1D9E4;
+  --color-border-light: #BCC8D8;
+
+  --color-primary:      #0284C7;
+  --color-primary-dim:  #0369A1;
+  --color-accent:       #D97706;
+  --color-accent-dim:   #B45309;
+
+  --color-success:      #059669;
+  --color-error:        #DC2626;
+  --color-warning:      #D97706;
+  --color-pending:      #94A3B8;
+
+  --color-text-1:       #0F172A;
+  --color-text-2:       #475569;
+  --color-text-3:       #94A3B8;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-1);
+  font-family: var(--font-body);
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar        { width: 4px; height: 4px; }
+::-webkit-scrollbar-track  { background: var(--color-surface); }
+::-webkit-scrollbar-thumb  { background: var(--color-border-light); border-radius: 2px; }
+
+/* Focus */
+:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}

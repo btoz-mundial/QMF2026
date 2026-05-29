@@ -1,0 +1,15 @@
+{
+  "name": "quinela-mundial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "sync":  "node scripts/sync_to_public.js",
+    "build": "npm run sync && cd frontend && npm run build",
+    "dev":   "npm run sync && cd frontend && npm run dev"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

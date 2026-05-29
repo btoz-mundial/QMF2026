@@ -1,0 +1,447 @@
+{
+  "version": "v1",
+
+  "registry_type": "runtime_insight_registry",
+
+  "description": "Registry for runtime-derived narrative insights generated from official analytics and historical snapshots. Runtime insights are interpretive render artifacts and never official scoring metrics.",
+
+  "insight_categories": [
+    "momentum",
+    "consistency",
+    "dominance",
+    "survival",
+    "precision",
+    "efficiency",
+    "community"
+  ],
+
+  "severity_levels": [
+    "low",
+    "medium",
+    "high"
+  ],
+
+  "persistence_types": [
+    "temporary",
+    "snapshot_based",
+    "tournament_wide"
+  ],
+
+  "insights": [
+
+    {
+      "insight_id": "mayor_remontada",
+
+      "category": "momentum",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta al usuario con la mayor subida positiva de ranking entre snapshots.",
+
+      "trigger_type": "ranking_delta",
+
+      "minimum_conditions": {
+        "minimum_rank_gain": 5,
+        "minimum_snapshots": 2
+      },
+
+      "supports_tiers": false,
+
+      "severity": "high",
+
+      "persistence": "snapshot_based"
+    },
+
+
+
+    {
+      "insight_id": "caida_fuerte",
+
+      "category": "momentum",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta caídas importantes de ranking entre snapshots.",
+
+      "trigger_type": "ranking_delta",
+
+      "minimum_conditions": {
+        "minimum_rank_loss": 5,
+        "minimum_snapshots": 2
+      },
+
+      "supports_tiers": false,
+
+      "severity": "high",
+
+      "persistence": "snapshot_based"
+    },
+
+
+
+    {
+      "insight_id": "en_ascenso",
+
+      "category": "momentum",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta crecimiento sostenido de ranking en snapshots consecutivos.",
+
+      "trigger_type": "positive_streak",
+
+      "minimum_conditions": {
+        "minimum_positive_snapshots": 3
+      },
+
+      "supports_tiers": true,
+
+      "severity": "medium",
+
+      "persistence": "temporary"
+    },
+
+
+
+    {
+      "insight_id": "perdio_terreno",
+
+      "category": "momentum",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta tendencia negativa sostenida de ranking.",
+
+      "trigger_type": "negative_streak",
+
+      "minimum_conditions": {
+        "minimum_negative_snapshots": 3
+      },
+
+      "supports_tiers": false,
+
+      "severity": "medium",
+
+      "persistence": "temporary"
+    },
+
+
+
+    {
+      "insight_id": "muro_de_acero",
+
+      "category": "consistency",
+
+      "source_analytics": [
+        "consistencia_ranking"
+      ],
+
+      "description": "Detecta estabilidad alta de ranking durante el torneo.",
+
+      "trigger_type": "ranking_stability",
+
+      "minimum_conditions": {
+        "minimum_snapshots": 5
+      },
+
+      "supports_tiers": true,
+
+      "severity": "high",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "siempre_en_la_pelea",
+
+      "category": "consistency",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta usuarios que permanecen consistentemente competitivos.",
+
+      "trigger_type": "top_presence",
+
+      "minimum_conditions": {
+        "minimum_top_presence_percentage": 70
+      },
+
+      "supports_tiers": true,
+
+      "severity": "medium",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "lider_solido",
+
+      "category": "dominance",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta liderazgo sostenido en snapshots consecutivos.",
+
+      "trigger_type": "leader_streak",
+
+      "minimum_conditions": {
+        "minimum_leader_snapshots": 3
+      },
+
+      "supports_tiers": true,
+
+      "severity": "high",
+
+      "persistence": "snapshot_based"
+    },
+
+
+
+    {
+      "insight_id": "dominio_total",
+
+      "category": "dominance",
+
+      "source_analytics": [
+        "timeline_race"
+      ],
+
+      "description": "Detecta dominio prolongado del leaderboard.",
+
+      "trigger_type": "extended_leader_streak",
+
+      "minimum_conditions": {
+        "minimum_leader_snapshots": 6
+      },
+
+      "supports_tiers": true,
+
+      "severity": "high",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "sigue_vivo",
+
+      "category": "survival",
+
+      "source_analytics": [
+        "campeon_vivo"
+      ],
+
+      "description": "Detecta usuarios cuyo campeón predicho sigue con vida.",
+
+      "trigger_type": "boolean_state",
+
+      "minimum_conditions": {},
+
+      "supports_tiers": false,
+
+      "severity": "medium",
+
+      "persistence": "snapshot_based"
+    },
+
+
+
+    {
+      "insight_id": "ultima_esperanza",
+
+      "category": "survival",
+
+      "source_analytics": [
+        "campeon_vivo"
+      ],
+
+      "description": "Detecta usuarios que mantienen vivo un campeón poco común.",
+
+      "trigger_type": "rare_survival",
+
+      "minimum_conditions": {
+        "maximum_survival_percentage": 10
+      },
+
+      "supports_tiers": false,
+
+      "severity": "high",
+
+      "persistence": "snapshot_based"
+    },
+
+
+
+    {
+      "insight_id": "killer_eliminations",
+
+      "category": "precision",
+
+      "source_analytics": [
+        "precision_avance"
+      ],
+
+      "description": "Detecta alta precisión en eliminatorias.",
+
+      "trigger_type": "high_precision",
+
+      "minimum_conditions": {
+        "minimum_precision_percentage": 70
+      },
+
+      "supports_tiers": true,
+
+      "severity": "high",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "ice_cold",
+
+      "category": "precision",
+
+      "source_analytics": [
+        "precision_marcadores_exactos"
+      ],
+
+      "description": "Detecta precisión alta en marcadores exactos.",
+
+      "trigger_type": "high_precision",
+
+      "minimum_conditions": {
+        "minimum_precision_percentage": 40
+      },
+
+      "supports_tiers": true,
+
+      "severity": "high",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "table_master",
+
+      "category": "precision",
+
+      "source_analytics": [
+        "precision_tabla"
+      ],
+
+      "description": "Detecta precisión alta en standings.",
+
+      "trigger_type": "high_precision",
+
+      "minimum_conditions": {
+        "minimum_precision_percentage": 70
+      },
+
+      "supports_tiers": true,
+
+      "severity": "medium",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "point_hunter",
+
+      "category": "efficiency",
+
+      "source_analytics": [
+        "eficiencia_de_puntos"
+      ],
+
+      "description": "Detecta usuarios con alta eficiencia de scoring.",
+
+      "trigger_type": "high_efficiency",
+
+      "minimum_conditions": {
+        "minimum_efficiency_percentage": 70
+      },
+
+      "supports_tiers": true,
+
+      "severity": "high",
+
+      "persistence": "tournament_wide"
+    },
+
+
+
+    {
+      "insight_id": "contra_la_corriente",
+
+      "category": "community",
+
+      "source_analytics": [
+        "consenso_partidos"
+      ],
+
+      "description": "Detecta picks opuestos al consenso colectivo.",
+
+      "trigger_type": "low_consensus_pick",
+
+      "minimum_conditions": {
+        "maximum_consensus_percentage": 20
+      },
+
+      "supports_tiers": false,
+
+      "severity": "medium",
+
+      "persistence": "snapshot_based"
+    },
+
+
+
+    {
+      "insight_id": "mente_colectiva",
+
+      "category": "community",
+
+      "source_analytics": [
+        "consenso_partidos"
+      ],
+
+      "description": "Detecta alineación frecuente con picks colectivos.",
+
+      "trigger_type": "high_consensus_alignment",
+
+      "minimum_conditions": {
+        "minimum_consensus_alignment_percentage": 70
+      },
+
+      "supports_tiers": false,
+
+      "severity": "low",
+
+      "persistence": "snapshot_based"
+    }
+
+  ]
+}

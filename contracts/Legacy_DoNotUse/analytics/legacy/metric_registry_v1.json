@@ -1,0 +1,458 @@
+{
+"deprecated": true,
+"deprecated_reason": "Replaced by V2 governance layer",
+"do_not_use_for_new_analytics": true,
+  
+  "precision_general": {
+    "metric_id": "precision_general",
+    "display_name": "Precisión Total",
+    "gaming_name": "Oráculo",
+    "description": "Mide qué tan precisos son los pronósticos generales del usuario en todas las etapas del torneo.",
+    "short_description": "Precisión global de pronósticos.",
+    "icon": "target",
+    "category": "core",
+    "chart_type": "radial",
+    "unit": "percent",
+    "source": "score_details",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Oráculo Supremo",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Oráculo Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Oráculo",
+        "top_percent": 50
+      }
+    ]
+  },
+
+  "precision_avance": {
+    "metric_id": "precision_avance",
+    "display_name": "Clasificaciones",
+    "gaming_name": "Killer Bracket",
+    "description": "Evalúa la capacidad del usuario para predecir correctamente los equipos en la fase eliminatoria.",
+    "short_description": "Precisión prediciendo clasificados.",
+    "icon": "git-merge",
+    "category": "core",
+    "chart_type": "bar",
+    "unit": "percent",
+    "source": "score_details",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "supports_breakdowns": true,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Killer Bracket Supremo",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Killer Bracket Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Killer Bracket",
+        "top_percent": 50
+      }
+    ]
+  },
+
+  "precision_marcadores_exactos": {
+    "metric_id": "precision_marcadores_exactos",
+    "display_name": "Marcadores Exactos",
+    "gaming_name": "Francotirador",
+    "description": "Mide la cantidad de marcadores exactos acertados por el usuario.",
+    "short_description": "Precisión de marcadores exactos.",
+    "icon": "crosshair",
+    "category": "core",
+    "chart_type": "bar",
+    "unit": "count",
+    "source": "score_details",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Francotirador Legendario",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Francotirador Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Francotirador",
+        "top_percent": 50
+      }
+    ]
+  },
+
+  "precision_tabla": {
+    "metric_id": "precision_tabla",
+    "display_name": "Predicción de Grupos",
+    "gaming_name": "Group Master",
+    "description": "Evalúa qué tan precisas fueron las predicciones de posiciones en fase de grupos.",
+    "short_description": "Precisión en grupos.",
+    "icon": "table",
+    "category": "core",
+    "chart_type": "bar",
+    "unit": "percent",
+    "source": "score_details",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "enabled": true,
+    "featured_metric": false,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Group Master Supremo",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Group Master Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Group Master",
+        "top_percent": 50
+      }
+    ]
+  },
+
+  "puntos_por_categoria": {
+    "metric_id": "puntos_por_categoria",
+    "display_name": "Distribución de Puntos",
+    "gaming_name": "Máquina de Puntos",
+    "description": "Muestra cómo se distribuyen los puntos obtenidos entre grupos, standings, knockout y bonus.",
+    "short_description": "Distribución del scoring.",
+    "icon": "chart-pie",
+    "category": "core",
+    "chart_type": "stacked_bar",
+    "unit": "points",
+    "source": "leaderboard",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": false,
+    "supports_tiers": false,
+    "supports_history": false,
+    "enabled": true,
+    "featured_metric": false,
+    "version": 1
+  },
+
+  "eficiencia_de_puntos": {
+    "metric_id": "eficiencia_de_puntos",
+    "display_name": "Aprovechamiento",
+    "gaming_name": "Depredador",
+    "description": "Mide qué porcentaje de los puntos disponibles del torneo ha conseguido el usuario, incluyendo breakdown por categorías.",
+    "short_description": "% de puntos aprovechados por categoría.",
+    "icon": "paw-print",
+    "category": "core",
+    "chart_type": "radial",
+    "unit": "percent",
+    "source": "score_details",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "supports_breakdowns": true,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Depredador Supremo",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Depredador Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Depredador",
+        "top_percent": 50
+      }
+    ]
+  },
+
+"historial_ranking": {
+  "metric_id": "historial_ranking",
+  "display_name": "Historial de Ranking",
+  "gaming_name": null,
+  "description": "Muestra la evolución histórica del ranking del usuario durante el torneo.",
+  "short_description": "Evolución histórica de ranking.",
+  "icon": "chart-line",
+  "category": "timeline",
+  "chart_type": "line",
+  "unit": "rank",
+  "source": "snapshots",
+  "sort_direction": "asc",
+  "supports_ranking": false,
+  "supports_percentile": false,
+  "supports_tiers": false,
+  "supports_history": true,
+  "enabled": true,
+  "featured_metric": false,
+  "version": 1
+},
+
+"remontador": {
+  "metric_id": "remontador",
+  "display_name": "Remontadas",
+  "gaming_name": "Remontador",
+  "description": "Mide cuántas posiciones ha recuperado el usuario desde su peor posición en el torneo hasta su ranking actual.",
+  "short_description": "Recuperación desde el peor ranking.",
+  "icon": "trending-up",
+  "category": "timeline",
+  "chart_type": "bar",
+  "unit": "positions",
+  "source": "snapshots",
+  "sort_direction": "desc",
+  "supports_ranking": true,
+  "supports_percentile": true,
+  "supports_tiers": true,
+  "supports_history": true,
+  "enabled": true,
+  "featured_metric": true,
+  "version": 1,
+  "tiers": [
+    {
+      "stars": 3,
+      "name": "Remontador Legendario",
+      "top_percent": 10
+    },
+    {
+      "stars": 2,
+      "name": "Remontador Elite",
+      "top_percent": 25
+    },
+    {
+      "stars": 1,
+      "name": "Remontador",
+      "top_percent": 50
+    }
+  ]
+},
+
+  "evolucion_puntos": {
+    "metric_id": "evolucion_puntos",
+    "display_name": "Evolución de Puntos",
+    "gaming_name": "Imparable",
+    "description": "Muestra cómo crecen los puntos acumulados del usuario a lo largo del torneo.",
+    "short_description": "Progresión de puntos.",
+    "icon": "trending-up",
+    "category": "timeline",
+    "chart_type": "line",
+    "unit": "points",
+    "source": "snapshots",
+    "sort_direction": "desc",
+    "supports_ranking": false,
+    "supports_percentile": false,
+    "supports_tiers": false,
+    "supports_history": true,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1
+  },
+
+  "consistencia_ranking": {
+    "metric_id": "consistencia_ranking",
+    "display_name": "Consistencia",
+    "gaming_name": "Muro de Acero",
+    "description": "Evalúa la estabilidad del usuario en el ranking durante el torneo.",
+    "short_description": "Estabilidad en ranking.",
+    "icon": "activity",
+    "category": "timeline",
+    "chart_type": "radial",
+    "unit": "rank",
+    "source": "snapshots",
+    "sort_direction": "asc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Muro de Acero Legendario",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Muro de Acero Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Muro de Acero",
+        "top_percent": 50
+      }
+    ]
+  },
+
+  "campeon_vivo": {
+    "metric_id": "campeon_vivo",
+    "display_name": "Campeón Vivo",
+    "gaming_name": "Visionario",
+    "description": "Indica si el campeón pronosticado por el usuario sigue con vida en el torneo.",
+    "short_description": "Estado del campeón elegido.",
+    "icon": "crown",
+    "category": "intelligence",
+    "chart_type": "badge",
+    "unit": "boolean",
+    "source": "knockout_results",
+    "sort_direction": "desc",
+    "supports_ranking": false,
+    "supports_percentile": false,
+    "supports_tiers": false,
+    "supports_history": false,
+    "enabled": true,
+    "featured_metric": true,
+    "version": 1
+  },
+
+  "coincidencia_con_consenso": {
+    "metric_id": "coincidencia_con_consenso",
+    "display_name": "Consenso",
+    "gaming_name": "Mente Colectiva",
+    "description": "Mide cuánto coinciden los picks del usuario con las selecciones más populares.",
+    "short_description": "Coincidencia con picks populares.",
+    "icon": "users",
+    "category": "engagement",
+    "chart_type": "radial",
+    "unit": "percent",
+    "source": "all_predictions",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": false,
+    "supports_history": true,
+    "enabled": false,
+    "featured_metric": false,
+    "version": 1
+  },
+
+  "indice_contrario": {
+    "metric_id": "indice_contrario",
+    "display_name": "Factor Sorpresa",
+    "gaming_name": "Rebelde",
+    "description": "Evalúa qué tan diferente es un usuario respecto al consenso general.",
+    "short_description": "Nivel de diferencia respecto al consenso.",
+    "icon": "map-pin-off",
+    "category": "engagement",
+    "chart_type": "radial",
+    "unit": "percent",
+    "source": "all_predictions",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": false,
+    "supports_history": true,
+    "enabled": false,
+    "featured_metric": false,
+    "version": 1
+  },
+
+  "indice_riesgo": {
+    "metric_id": "indice_riesgo",
+    "display_name": "Nivel de Riesgo",
+    "gaming_name": "Todo o Nada",
+    "description": "Mide el nivel de agresividad y riesgo en los picks del usuario.",
+    "short_description": "Agresividad de picks.",
+    "icon": "alert-triangle",
+    "category": "engagement",
+    "chart_type": "radial",
+    "unit": "percent",
+    "source": "all_predictions",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": false,
+    "supports_history": true,
+    "enabled": false,
+    "featured_metric": false,
+    "version": 1
+  },
+
+  "picks_unicos": {
+    "metric_id": "picks_unicos",
+    "display_name": "Picks Únicos",
+    "gaming_name": "Lobo Solitario",
+    "description": "Identifica picks exclusivos realizados únicamente por el usuario.",
+    "short_description": "Cantidad de picks exclusivos.",
+    "icon": "git-branch",
+    "category": "engagement",
+    "chart_type": "bar",
+    "unit": "count",
+    "source": "all_predictions",
+    "sort_direction": "desc",
+    "supports_ranking": true,
+    "supports_percentile": true,
+    "supports_tiers": true,
+    "supports_history": true,
+    "enabled": false,
+    "featured_metric": true,
+    "version": 1,
+    "tiers": [
+      {
+        "stars": 3,
+        "name": "Lobo Solitario Legendario",
+        "top_percent": 10
+      },
+      {
+        "stars": 2,
+        "name": "Lobo Solitario Elite",
+        "top_percent": 25
+      },
+      {
+        "stars": 1,
+        "name": "Lobo Solitario",
+        "top_percent": 50
+      }
+    ]
+  }
+}

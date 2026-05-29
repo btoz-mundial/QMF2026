@@ -1,0 +1,45 @@
+
+
+{
+
+"deprecated": true,
+"deprecated_reason": "Replaced by V2 governance layer",
+"do_not_use_for_new_analytics": true,
+
+  "precision_general": {
+    "min_match_id": 10
+  },
+
+  "precision_avance": {
+    "min_match_id": 73
+  },
+
+  "precision_marcadores_exactos": {
+    "min_match_id": 8
+  },
+
+  "precision_tabla": {
+    "min_match_id": 36
+  },
+
+  "puntos_por_categoria": {
+    "min_match_id": 15
+  },
+
+  "eficiencia_de_puntos": {
+    "min_match_id": 10
+  },
+
+   "consistencia_ranking": {
+    "min_match_id": 12
+  },
+
+  "campeon_vivo": {
+    "min_match_id": 73
+  },
+
+  "consenso_partidos": {
+    "min_match_id": 1
+  }
+
+}

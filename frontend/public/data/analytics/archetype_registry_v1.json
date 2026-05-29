@@ -1,0 +1,88 @@
+{
+  "version": "v1",
+  "system": "runtime_archetypes",
+  "generated_by": "generate_archetypes.js",
+  "governance": "contracts/analytics/runtime_profiles/archetype_governance_v1.md",
+  "last_updated": null,
+  "rules": {
+    "max_active_archetypes_per_user": 1,
+    "fallback_identity_enabled": true,
+    "fallback_identity": "participante_oficial",
+    "exclusive_archetypes": true,
+    "under_assignment_preferred": true,
+    "requires_runtime_stability": true,
+    "requires_tournament_maturity": true,
+    "requires_minimum_sample_size": true
+  },
+
+   "archetypes": [
+    {
+      "id": "front_runner",
+      "display_name": "Front Runner",
+      "short_description": "Control sostenido del torneo.",
+      "short_metric": "Permanece en posiciones altas durante la mayor parte del torneo.",
+      "identity_formula": "Se mantiene a la cabeza aun cuando el torneo aprieta.",
+      "enabled": true,
+      "lifecycle_status": "production",
+      "category": "competitive_identity",
+      "rarity_tier": "elite",
+      "exclusive": true,
+      "stability_required": true,
+      "minimum_maturity_required": true,
+      "minimum_sample_size_required": true,
+      "asset": "assets/archetypes/front_runner.png",
+      "archetype_version": "v1"
+    },
+    {
+      "id": "consistency_machine",
+      "display_name": "Consistency Machine",
+      "short_description": "Rendimiento estable durante todo el torneo.",
+      "short_metric": "Mantiene un nivel competitivo a lo largo de diferentes etapas del torneo",
+      "identity_formula": "Semana tras semana sigue sumando.",
+      "enabled": true,
+      "lifecycle_status": "production",
+      "category": "competitive_identity",
+      "rarity_tier": "rare",
+      "exclusive": true,
+      "stability_required": true,
+      "minimum_maturity_required": true,
+      "minimum_sample_size_required": true,
+      "asset": "assets/archetypes/consistency_machine.png",
+      "archetype_version": "v1"
+    },
+    {
+      "id": "clutch_hunter",
+      "display_name": "Elimination Specialist",
+      "short_description": "Eleva su nivel en eliminación directa.",
+      "short_metric": "Mantiene un nivel competitivo en grupos y mejora su desempeño en eliminación directa.",
+      "identity_formula": "Crece cuando llegan las eliminatorias.",
+      "enabled": true,
+      "lifecycle_status": "production",
+      "category": "competitive_identity",
+      "rarity_tier": "uncommon_rare",
+      "exclusive": true,
+      "stability_required": true,
+      "minimum_maturity_required": true,
+      "minimum_sample_size_required": true,
+      "asset": "assets/archetypes/clutch_hunter.png",
+      "archetype_version": "v1"
+    },
+    {
+      "id": "sharpshooter",
+      "display_name": "Sniper",
+      "short_description": "Predice el marcador con precisión élite.",
+      "short_metric": "Alta taza de acierto en marcadores exactos",
+      "identity_formula": "Convierte precisión de marcadores en ventaja.",
+      "enabled": true,
+      "lifecycle_status": "production",
+      "category": "competitive_identity",
+      "rarity_tier": "elite",
+      "exclusive": true,
+      "stability_required": true,
+      "minimum_maturity_required": true,
+      "minimum_sample_size_required": true,
+      "asset": "assets/archetypes/sharpshooter.png",
+      "archetype_version": "v1"
+    }
+  ]
+}
