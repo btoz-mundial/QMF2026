@@ -12,21 +12,21 @@ git pull
 if errorlevel 1 goto ERROR
 
 echo.
-echo [2/6] Procesando Fixture Master...
+echo [2/6] Procesando Resultados Oficiales...
 node scripts\ingest_fixture_master.js
 if errorlevel 1 goto ERROR
 
 echo.
-echo [3/6] Ejecutando pipeline...
+echo [3/6] Ejecutando calculos...
 node run_pipeline.js
 if errorlevel 1 goto ERROR
 
 echo.
-echo [4/6] Agregando cambios...
+echo [4/6] Preparando para subir...
 git add .
 
 echo.
-echo [5/6] Creando commit...
+echo [5/6] Procediendo con la carga...
 git commit -m "Resultados actualizados"
 
 echo.
@@ -36,7 +36,7 @@ if errorlevel 1 goto ERROR
 
 echo.
 echo ==========================================
-echo ACTUALIZACION COMPLETADA EXITOSAMENTE
+echo QUINELA ACTUALIZADA EXITOSAMENTE
 echo ==========================================
 pause
 exit
