@@ -190,7 +190,7 @@ yes
 
 ## Unit
 
-percent
+rank
 
 ---
 
@@ -500,7 +500,7 @@ yes
 
 ## Unit
 
-score
+rank
 
 ---
 

@@ -3,7 +3,7 @@
   "registry_type": "analytics_presentation",
   "description": "Presentation hints derivados de analytics_contracts_v2.md. NO editar a mano.",
   "source": "contracts/analytics/analytics_contracts_v2.md",
-  "generated_at": "2026-05-29T17:50:58.947Z",
+  "generated_at": "2026-05-29T23:24:54.031Z",
   "metric_count": 9,
   "metrics": {
     "campeon_vivo": {
@@ -37,9 +37,9 @@
     "precision_avance": {
       "metric_id": "precision_avance",
       "display_name": "Killer Eliminations",
-      "short_description": "Mide qué tan seguido un usuario acierta qué equipos avanzan en eliminatorias.",
+      "short_description": "Mide la capacidad de proyectar correctamente el desarrollo del torneo en dos dimensiones:",
       "featured": true,
-      "unit": "percent"
+      "unit": "rank"
     },
     "precision_general": {
       "metric_id": "precision_general",
