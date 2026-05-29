@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/Quinela-MundialFIFA-2026/',
+  base: '/QMR2026/',
   plugins: [
     react(),
     tailwindcss(),
