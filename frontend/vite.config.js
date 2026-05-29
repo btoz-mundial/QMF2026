@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/QMR2026/',
+  base: '/QMF2026/',
   plugins: [
     react(),
     tailwindcss(),
