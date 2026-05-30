@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import MainLayout from '@/layouts/MainLayout'
 
 const Leaderboard   = lazy(() => import('@/pages/Leaderboard'))
@@ -31,7 +31,7 @@ function PageLoader() {
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <Suspense fallback={<PageLoader />}>
         <Routes>
           <Route element={<MainLayout />}>
@@ -47,7 +47,7 @@ function App() {
           </Route>
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
