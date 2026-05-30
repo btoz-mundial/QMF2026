@@ -1,6 +1,271 @@
 {
-  "generated_at": "2026-05-30T00:24:00.512Z",
+  "generated_at": "2026-05-30T00:27:35.366Z",
   "system": "runtime_archetypes",
   "version": "v1",
-  "users": []
+  "users": [
+    {
+      "user_id": "3616094014",
+      "display_name": "PIMR",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "2BC645A052",
+      "display_name": "BtoZ",
+      "active_archetype": "front_runner",
+      "eligible_archetypes": [
+        "front_runner",
+        "sharpshooter",
+        "consistency_machine"
+      ],
+      "rejected_by_precedence": [
+        "sharpshooter",
+        "consistency_machine"
+      ],
+      "activation_reasons": [
+        "sustained_high_ranking",
+        "extended_payout_zone_presence",
+        "low_rank_volatility"
+      ],
+      "previous_archetype": "front_runner",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "2443A7AA23",
+      "display_name": "Reynol",
+      "active_archetype": "front_runner",
+      "eligible_archetypes": [
+        "front_runner",
+        "sharpshooter"
+      ],
+      "rejected_by_precedence": [
+        "sharpshooter"
+      ],
+      "activation_reasons": [
+        "sustained_high_ranking",
+        "extended_payout_zone_presence",
+        "low_rank_volatility"
+      ],
+      "previous_archetype": "front_runner",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "19FD1C6118",
+      "display_name": "H Zapata",
+      "active_archetype": "front_runner",
+      "eligible_archetypes": [
+        "front_runner"
+      ],
+      "rejected_by_precedence": [],
+      "activation_reasons": [
+        "sustained_high_ranking",
+        "extended_payout_zone_presence",
+        "low_rank_volatility"
+      ],
+      "previous_archetype": "front_runner",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "B40AF87447",
+      "display_name": "MrConservador",
+      "active_archetype": "sharpshooter",
+      "eligible_archetypes": [
+        "sharpshooter"
+      ],
+      "rejected_by_precedence": [],
+      "activation_reasons": [
+        "sustained_precision",
+        "elite_home_accuracy",
+        "elite_away_accuracy",
+        "elite_combined_precision"
+      ],
+      "previous_archetype": "sharpshooter",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "4EECA46DE1",
+      "display_name": "JIPM",
+      "active_archetype": "sharpshooter",
+      "eligible_archetypes": [
+        "sharpshooter"
+      ],
+      "rejected_by_precedence": [],
+      "activation_reasons": [
+        "sustained_precision",
+        "elite_home_accuracy",
+        "elite_away_accuracy",
+        "elite_combined_precision",
+        "elite_exact_score_precision"
+      ],
+      "previous_archetype": "sharpshooter",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "411A537F6F",
+      "display_name": "JuanCa",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "7A8134D49E",
+      "display_name": "Jose J Silva",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "621DA87FB2",
+      "display_name": "MrPerfect",
+      "active_archetype": "sharpshooter",
+      "eligible_archetypes": [
+        "sharpshooter"
+      ],
+      "rejected_by_precedence": [],
+      "activation_reasons": [
+        "sustained_precision",
+        "elite_home_accuracy",
+        "elite_away_accuracy",
+        "elite_combined_precision"
+      ],
+      "previous_archetype": "sharpshooter",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "220B53DC66",
+      "display_name": "Empatero",
+      "active_archetype": "sharpshooter",
+      "eligible_archetypes": [
+        "sharpshooter"
+      ],
+      "rejected_by_precedence": [],
+      "activation_reasons": [
+        "sustained_precision",
+        "elite_home_accuracy",
+        "elite_away_accuracy",
+        "elite_combined_precision"
+      ],
+      "previous_archetype": "sharpshooter",
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "7A18E68A88",
+      "display_name": "HighRiskPicks",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "3EE0EEE7BE",
+      "display_name": "LJMV",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "00B5C3CC03",
+      "display_name": "LCV",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "8718EFCC4C",
+      "display_name": "Tom",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "436876C0EB",
+      "display_name": "El Mencho",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "61757240D1",
+      "display_name": "Luigi R",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "39C53BCDF0",
+      "display_name": "Penalty Chaos",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "F7B71AEB54",
+      "display_name": "DisasterPicks",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "031CAE0D1F",
+      "display_name": "CasualFan",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    }
+  ]
 }

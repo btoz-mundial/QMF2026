@@ -1,1 +1,974 @@
-[]
+[
+  {
+    "user_id": "2BC645A052",
+    "display_name": "BtoZ",
+    "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Preciso en avances",
+        "description": "Alta precisión prediciendo equipos clasificados.",
+        "confidence": "high",
+        "metrics": {
+          "advance_accuracy": 1,
+          "knockout_matches": 30
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 1,
+        "correct": 30,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 1,
+        "rank_swing": 0,
+        "volatility_score": 0
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          1,
+          1,
+          1
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.17,
+        "group_accuracy": 1,
+        "knockout_accuracy": 0.83,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "031CAE0D1F",
+    "display_name": "CasualFan",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 18,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.2,
+        "correct": 6,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 19,
+        "rank_swing": 18,
+        "volatility_score": 0.95
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          19,
+          18,
+          19
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.16,
+        "group_accuracy": 0.38,
+        "knockout_accuracy": 0.22,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "F7B71AEB54",
+    "display_name": "DisasterPicks",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "medium",
+        "metrics": {
+          "rank_swing": 7,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.43,
+        "correct": 13,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 12,
+        "worst_rank": 19,
+        "rank_swing": 7,
+        "volatility_score": 0.37
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          18,
+          19,
+          18
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.04,
+        "group_accuracy": 0.21,
+        "knockout_accuracy": 0.25,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "436876C0EB",
+    "display_name": "El Mencho",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 14,
+          "volatility_threshold": 5
+        }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Especialista de grupos",
+        "description": "Destaca especialmente en la fase de grupos.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.47,
+          "knockout_accuracy": 0.21,
+          "strength_delta": 0.26
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.4,
+        "correct": 12,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 15,
+        "rank_swing": 14,
+        "volatility_score": 0.74
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
+        "recent_ranks": [
+          14,
+          14,
+          15
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.26,
+        "group_accuracy": 0.47,
+        "knockout_accuracy": 0.21,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "220B53DC66",
+    "display_name": "Empatero",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 17,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.27,
+        "correct": 8,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 18,
+        "rank_swing": 17,
+        "volatility_score": 0.89
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
+        "recent_ranks": [
+          9,
+          9,
+          10
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.01,
+        "group_accuracy": 0.33,
+        "knockout_accuracy": 0.32,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "7A18E68A88",
+    "display_name": "HighRiskPicks",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 13,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.47,
+        "correct": 14,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 6,
+        "worst_rank": 19,
+        "rank_swing": 13,
+        "volatility_score": 0.68
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          10,
+          11,
+          10
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.07,
+        "group_accuracy": 0.35,
+        "knockout_accuracy": 0.28,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "19FD1C6118",
+    "display_name": "H Zapata",
+    "traits": [
+      {
+        "id": "group_specialist",
+        "label": "Especialista de grupos",
+        "description": "Destaca especialmente en la fase de grupos.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.85,
+          "knockout_accuracy": 0.16,
+          "strength_delta": 0.69
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.23,
+        "correct": 7,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 4,
+        "rank_swing": 3,
+        "volatility_score": 0.16
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          3,
+          3,
+          3
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.69,
+        "group_accuracy": 0.85,
+        "knockout_accuracy": 0.16,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "4EECA46DE1",
+    "display_name": "JIPM",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 15,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.57,
+        "correct": 17,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 16,
+        "rank_swing": 15,
+        "volatility_score": 0.79
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          5,
+          5,
+          5
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.19,
+        "group_accuracy": 0.64,
+        "knockout_accuracy": 0.45,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "7A8134D49E",
+    "display_name": "Jose J Silva",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 12,
+          "volatility_threshold": 5
+        }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Especialista de grupos",
+        "description": "Destaca especialmente en la fase de grupos.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.67,
+          "knockout_accuracy": 0.39,
+          "strength_delta": 0.28
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.55,
+        "correct": 16,
+        "total_matches": 29
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 13,
+        "rank_swing": 12,
+        "volatility_score": 0.63
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 1,
+        "momentum_strength": 1,
+        "recent_ranks": [
+          8,
+          7,
+          7
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.28,
+        "group_accuracy": 0.67,
+        "knockout_accuracy": 0.39,
+        "group_matches": 72,
+        "knockout_matches": 29
+      }
+    }
+  },
+  {
+    "user_id": "411A537F6F",
+    "display_name": "JuanCa",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 12,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.47,
+        "correct": 14,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 13,
+        "rank_swing": 12,
+        "volatility_score": 0.63
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          6,
+          6,
+          6
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.1,
+        "group_accuracy": 0.4,
+        "knockout_accuracy": 0.31,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "00B5C3CC03",
+    "display_name": "LCV",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 18,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.6,
+        "correct": 18,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 19,
+        "rank_swing": 18,
+        "volatility_score": 0.95
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          13,
+          13,
+          13
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.21,
+        "group_accuracy": 0.58,
+        "knockout_accuracy": 0.37,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "3EE0EEE7BE",
+    "display_name": "LJMV",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 16,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.63,
+        "correct": 19,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 17,
+        "rank_swing": 16,
+        "volatility_score": 0.84
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          12,
+          12,
+          12
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.16,
+        "group_accuracy": 0.54,
+        "knockout_accuracy": 0.38,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "61757240D1",
+    "display_name": "Luigi R",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 17,
+          "volatility_threshold": 5
+        }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Especialista de grupos",
+        "description": "Destaca especialmente en la fase de grupos.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.58,
+          "knockout_accuracy": 0.26,
+          "strength_delta": 0.33
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.43,
+        "correct": 13,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 18,
+        "rank_swing": 17,
+        "volatility_score": 0.89
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          16,
+          16,
+          16
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.33,
+        "group_accuracy": 0.58,
+        "knockout_accuracy": 0.26,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "B40AF87447",
+    "display_name": "MrConservador",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 12,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.3,
+        "correct": 9,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 13,
+        "rank_swing": 12,
+        "volatility_score": 0.63
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          4,
+          4,
+          4
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.09,
+        "group_accuracy": 0.43,
+        "knockout_accuracy": 0.34,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "621DA87FB2",
+    "display_name": "MrPerfect",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 18,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.27,
+        "correct": 8,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 19,
+        "rank_swing": 18,
+        "volatility_score": 0.95
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
+        "recent_ranks": [
+          7,
+          7,
+          8
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.07,
+        "group_accuracy": 0.39,
+        "knockout_accuracy": 0.32,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "39C53BCDF0",
+    "display_name": "Penalty Chaos",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 17,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.3,
+        "correct": 9,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 18,
+        "rank_swing": 17,
+        "volatility_score": 0.89
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 1,
+        "momentum_strength": 1,
+        "recent_ranks": [
+          17,
+          16,
+          16
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0.1,
+        "group_accuracy": 0.35,
+        "knockout_accuracy": 0.24,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "3616094014",
+    "display_name": "PIMR",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 15,
+          "volatility_threshold": 5
+        }
+      },
+      {
+        "id": "rising",
+        "label": "En ascenso",
+        "description": "Ha mejorado consistentemente en los últimos partidos.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            10,
+            9,
+            8
+          ],
+          "momentum_strength": 2
+        }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Especialista de grupos",
+        "description": "Destaca especialmente en la fase de grupos.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.67,
+          "knockout_accuracy": 0.41,
+          "strength_delta": 0.26
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.53,
+        "correct": 16,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 16,
+        "rank_swing": 15,
+        "volatility_score": 0.79
+      },
+      "momentum": {
+        "trend": "up",
+        "recent_delta": 2,
+        "momentum_strength": 2,
+        "recent_ranks": [
+          10,
+          9,
+          8
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.26,
+        "group_accuracy": 0.67,
+        "knockout_accuracy": 0.41,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "2443A7AA23",
+    "display_name": "Reynol",
+    "traits": [
+      {
+        "id": "group_specialist",
+        "label": "Especialista de grupos",
+        "description": "Destaca especialmente en la fase de grupos.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.85,
+          "knockout_accuracy": 0.38,
+          "strength_delta": 0.47
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.43,
+        "correct": 13,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 4,
+        "rank_swing": 3,
+        "volatility_score": 0.16
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          2,
+          2,
+          2
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.47,
+        "group_accuracy": 0.85,
+        "knockout_accuracy": 0.38,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  },
+  {
+    "user_id": "8718EFCC4C",
+    "display_name": "Tom",
+    "traits": [
+      {
+        "id": "high_volatility",
+        "label": "Alta volatilidad",
+        "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 17,
+          "volatility_threshold": 5
+        }
+      }
+    ],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0.5,
+        "correct": 15,
+        "total_matches": 30
+      },
+      "volatility": {
+        "best_rank": 1,
+        "worst_rank": 18,
+        "rank_swing": 17,
+        "volatility_score": 0.89
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": [
+          14,
+          14,
+          14
+        ]
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.22,
+        "group_accuracy": 0.56,
+        "knockout_accuracy": 0.34,
+        "group_matches": 72,
+        "knockout_matches": 30
+      }
+    }
+  }
+]

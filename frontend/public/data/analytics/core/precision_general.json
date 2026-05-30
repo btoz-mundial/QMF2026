@@ -1,5 +1,500 @@
 {
-  "generated_at": "2026-05-30T00:24:00.057Z",
+  "generated_at": "2026-05-30T00:27:34.846Z",
   "metric": "precision_general",
-  "users": []
+  "users": [
+    {
+      "user_id": "2BC645A052",
+      "display_name": "BtoZ",
+      "value": 1,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "group",
+        "category_breakdown": {
+          "group": {
+            "correct": 72,
+            "possible": 72,
+            "accuracy": 100
+          },
+          "standings": {
+            "correct": 48,
+            "possible": 48,
+            "accuracy": 100
+          },
+          "knockout": {
+            "correct": 180,
+            "possible": 180,
+            "accuracy": 100
+          }
+        }
+      }
+    },
+    {
+      "user_id": "031CAE0D1F",
+      "display_name": "CasualFan",
+      "value": 0.29,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "knockout",
+        "category_breakdown": {
+          "group": {
+            "correct": 27,
+            "possible": 72,
+            "accuracy": 37.5
+          },
+          "standings": {
+            "correct": 15,
+            "possible": 48,
+            "accuracy": 31.25
+          },
+          "knockout": {
+            "correct": 45,
+            "possible": 180,
+            "accuracy": 25
+          }
+        }
+      }
+    },
+    {
+      "user_id": "F7B71AEB54",
+      "display_name": "DisasterPicks",
+      "value": 0.2966666666666667,
+      "extra": {
+        "best_category": "standings",
+        "worst_category": "group",
+        "category_breakdown": {
+          "group": {
+            "correct": 15,
+            "possible": 72,
+            "accuracy": 20.83
+          },
+          "standings": {
+            "correct": 16,
+            "possible": 48,
+            "accuracy": 33.33
+          },
+          "knockout": {
+            "correct": 58,
+            "possible": 180,
+            "accuracy": 32.22
+          }
+        }
+      }
+    },
+    {
+      "user_id": "436876C0EB",
+      "display_name": "El Mencho",
+      "value": 0.33,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "knockout",
+        "category_breakdown": {
+          "group": {
+            "correct": 34,
+            "possible": 72,
+            "accuracy": 47.22
+          },
+          "standings": {
+            "correct": 15,
+            "possible": 48,
+            "accuracy": 31.25
+          },
+          "knockout": {
+            "correct": 50,
+            "possible": 180,
+            "accuracy": 27.78
+          }
+        }
+      }
+    },
+    {
+      "user_id": "220B53DC66",
+      "display_name": "Empatero",
+      "value": 0.35333333333333333,
+      "extra": {
+        "best_category": "knockout",
+        "worst_category": "group",
+        "category_breakdown": {
+          "group": {
+            "correct": 24,
+            "possible": 72,
+            "accuracy": 33.33
+          },
+          "standings": {
+            "correct": 16,
+            "possible": 48,
+            "accuracy": 33.33
+          },
+          "knockout": {
+            "correct": 66,
+            "possible": 180,
+            "accuracy": 36.67
+          }
+        }
+      }
+    },
+    {
+      "user_id": "7A18E68A88",
+      "display_name": "HighRiskPicks",
+      "value": 0.36,
+      "extra": {
+        "best_category": "standings",
+        "worst_category": "group",
+        "category_breakdown": {
+          "group": {
+            "correct": 25,
+            "possible": 72,
+            "accuracy": 34.72
+          },
+          "standings": {
+            "correct": 19,
+            "possible": 48,
+            "accuracy": 39.58
+          },
+          "knockout": {
+            "correct": 64,
+            "possible": 180,
+            "accuracy": 35.56
+          }
+        }
+      }
+    },
+    {
+      "user_id": "19FD1C6118",
+      "display_name": "H Zapata",
+      "value": 0.41333333333333333,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "knockout",
+        "category_breakdown": {
+          "group": {
+            "correct": 61,
+            "possible": 72,
+            "accuracy": 84.72
+          },
+          "standings": {
+            "correct": 27,
+            "possible": 48,
+            "accuracy": 56.25
+          },
+          "knockout": {
+            "correct": 36,
+            "possible": 180,
+            "accuracy": 20
+          }
+        }
+      }
+    },
+    {
+      "user_id": "4EECA46DE1",
+      "display_name": "JIPM",
+      "value": 0.49666666666666665,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 46,
+            "possible": 72,
+            "accuracy": 63.89
+          },
+          "standings": {
+            "correct": 5,
+            "possible": 48,
+            "accuracy": 10.42
+          },
+          "knockout": {
+            "correct": 98,
+            "possible": 180,
+            "accuracy": 54.44
+          }
+        }
+      }
+    },
+    {
+      "user_id": "7A8134D49E",
+      "display_name": "Jose J Silva",
+      "value": 0.46938775510204084,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 48,
+            "possible": 72,
+            "accuracy": 66.67
+          },
+          "standings": {
+            "correct": 6,
+            "possible": 48,
+            "accuracy": 12.5
+          },
+          "knockout": {
+            "correct": 84,
+            "possible": 174,
+            "accuracy": 48.28
+          }
+        }
+      }
+    },
+    {
+      "user_id": "411A537F6F",
+      "display_name": "JuanCa",
+      "value": 0.39,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "knockout",
+        "category_breakdown": {
+          "group": {
+            "correct": 29,
+            "possible": 72,
+            "accuracy": 40.28
+          },
+          "standings": {
+            "correct": 19,
+            "possible": 48,
+            "accuracy": 39.58
+          },
+          "knockout": {
+            "correct": 69,
+            "possible": 180,
+            "accuracy": 38.33
+          }
+        }
+      }
+    },
+    {
+      "user_id": "00B5C3CC03",
+      "display_name": "LCV",
+      "value": 0.44,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 42,
+            "possible": 72,
+            "accuracy": 58.33
+          },
+          "standings": {
+            "correct": 5,
+            "possible": 48,
+            "accuracy": 10.42
+          },
+          "knockout": {
+            "correct": 85,
+            "possible": 180,
+            "accuracy": 47.22
+          }
+        }
+      }
+    },
+    {
+      "user_id": "3EE0EEE7BE",
+      "display_name": "LJMV",
+      "value": 0.44333333333333336,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 39,
+            "possible": 72,
+            "accuracy": 54.17
+          },
+          "standings": {
+            "correct": 7,
+            "possible": 48,
+            "accuracy": 14.58
+          },
+          "knockout": {
+            "correct": 87,
+            "possible": 180,
+            "accuracy": 48.33
+          }
+        }
+      }
+    },
+    {
+      "user_id": "61757240D1",
+      "display_name": "Luigi R",
+      "value": 0.36333333333333334,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 42,
+            "possible": 72,
+            "accuracy": 58.33
+          },
+          "standings": {
+            "correct": 8,
+            "possible": 48,
+            "accuracy": 16.67
+          },
+          "knockout": {
+            "correct": 59,
+            "possible": 180,
+            "accuracy": 32.78
+          }
+        }
+      }
+    },
+    {
+      "user_id": "B40AF87447",
+      "display_name": "MrConservador",
+      "value": 0.39666666666666667,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 31,
+            "possible": 72,
+            "accuracy": 43.06
+          },
+          "standings": {
+            "correct": 18,
+            "possible": 48,
+            "accuracy": 37.5
+          },
+          "knockout": {
+            "correct": 70,
+            "possible": 180,
+            "accuracy": 38.89
+          }
+        }
+      }
+    },
+    {
+      "user_id": "621DA87FB2",
+      "display_name": "MrPerfect",
+      "value": 0.36333333333333334,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 28,
+            "possible": 72,
+            "accuracy": 38.89
+          },
+          "standings": {
+            "correct": 15,
+            "possible": 48,
+            "accuracy": 31.25
+          },
+          "knockout": {
+            "correct": 66,
+            "possible": 180,
+            "accuracy": 36.67
+          }
+        }
+      }
+    },
+    {
+      "user_id": "39C53BCDF0",
+      "display_name": "Penalty Chaos",
+      "value": 0.30666666666666664,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 25,
+            "possible": 72,
+            "accuracy": 34.72
+          },
+          "standings": {
+            "correct": 14,
+            "possible": 48,
+            "accuracy": 29.17
+          },
+          "knockout": {
+            "correct": 53,
+            "possible": 180,
+            "accuracy": 29.44
+          }
+        }
+      }
+    },
+    {
+      "user_id": "3616094014",
+      "display_name": "PIMR",
+      "value": 0.4666666666666667,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 48,
+            "possible": 72,
+            "accuracy": 66.67
+          },
+          "standings": {
+            "correct": 3,
+            "possible": 48,
+            "accuracy": 6.25
+          },
+          "knockout": {
+            "correct": 89,
+            "possible": 180,
+            "accuracy": 49.44
+          }
+        }
+      }
+    },
+    {
+      "user_id": "2443A7AA23",
+      "display_name": "Reynol",
+      "value": 0.5633333333333334,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "knockout",
+        "category_breakdown": {
+          "group": {
+            "correct": 61,
+            "possible": 72,
+            "accuracy": 84.72
+          },
+          "standings": {
+            "correct": 27,
+            "possible": 48,
+            "accuracy": 56.25
+          },
+          "knockout": {
+            "correct": 81,
+            "possible": 180,
+            "accuracy": 45
+          }
+        }
+      }
+    },
+    {
+      "user_id": "8718EFCC4C",
+      "display_name": "Tom",
+      "value": 0.41,
+      "extra": {
+        "best_category": "group",
+        "worst_category": "standings",
+        "category_breakdown": {
+          "group": {
+            "correct": 40,
+            "possible": 72,
+            "accuracy": 55.56
+          },
+          "standings": {
+            "correct": 7,
+            "possible": 48,
+            "accuracy": 14.58
+          },
+          "knockout": {
+            "correct": 76,
+            "possible": 180,
+            "accuracy": 42.22
+          }
+        }
+      }
+    }
+  ]
 }
