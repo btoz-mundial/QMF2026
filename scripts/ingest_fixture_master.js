@@ -320,35 +320,45 @@ function validateRows(rows) {
       row.match_id
     );
 
-    // =====================================
-    // TEAM VALIDATION
-    // =====================================
+  // =====================================
+  // TEAM VALIDATION
+  // =====================================
 
-    if (
-      row.home_team &&
-      !validTeams.has(
-        row.home_team
-      )
-    ) {
+  const homeTeam =
+    normalizeString(
+      row.home_team
+    );
 
-      throw new Error(
-        `❌ Invalid home_team "${row.home_team}" at row ${rowNumber}`
-      );
+  const awayTeam =
+    normalizeString(
+      row.away_team
+    );
 
-    }
+  if (
+    homeTeam &&
+    !validTeams.has(
+      homeTeam
+    )
+  ) {
 
-    if (
-      row.away_team &&
-      !validTeams.has(
-        row.away_team
-      )
-    ) {
+    throw new Error(
+      `❌ Invalid home_team "${homeTeam}" at row ${rowNumber}`
+    );
 
-      throw new Error(
-        `❌ Invalid away_team "${row.away_team}" at row ${rowNumber}`
-      );
+  }
 
-    }
+  if (
+    awayTeam &&
+    !validTeams.has(
+      awayTeam
+    )
+  ) {
+
+    throw new Error(
+      `❌ Invalid away_team "${awayTeam}" at row ${rowNumber}`
+    );
+
+  }
 
     // =====================================
     // WINNER TYPE VALIDATION
