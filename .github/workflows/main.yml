@@ -31,6 +31,9 @@ jobs:
         working-directory: frontend
         run: npm install
 
+      - name: Validate Repository
+        run: node scripts/validate_repository.js
+
       - name: Build
         working-directory: frontend
         run: npm run build

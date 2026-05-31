@@ -169,23 +169,24 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
       transition={{ duration: 0.3 }}
       style={{
         display: 'grid',
-        gridTemplateColumns: '38fr 62fr',
+        gridTemplateColumns: isMobile ? '1fr' : '38fr 62fr',
         background: 'var(--color-surface)',
         border: `1px solid ${borderColor}`,
         borderRadius: 16,
         marginBottom: '1.5rem',
-        minHeight: 220,
+        minHeight: isMobile ? 'auto' : 220,
         overflow: 'hidden',
         position: 'relative',
       }}
     >
       {/* ── LEFT: Ranking / Performance ─────────────────────────── */}
       <div style={{
-        padding: '1.75rem',
+        padding: isMobile ? '1.25rem' : '1.75rem',
         display: 'flex',
         flexDirection: 'column',
         gap: '1.25rem',
-        borderRight: '1px solid var(--color-border)',
+        borderRight: isMobile ? 'none' : '1px solid var(--color-border)',
+        borderBottom: isMobile ? '1px solid var(--color-border)' : 'none',
       }}>
 
         {/* Player identity */}
@@ -202,7 +203,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
           </div>
           <div style={{ minWidth: 0 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.25rem', flexWrap: 'wrap' }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', color: 'var(--color-text-1)', letterSpacing: '0.02em', margin: 0, lineHeight: 1.2 }}>
+              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '1.35rem' : '1.75rem', color: 'var(--color-text-1)', letterSpacing: '0.02em', margin: 0, lineHeight: 1.2 }}>
                 {leaderboard?.display_name}
               </h2>
               <MovementChip movement={snapUser?.movement} delta={snapUser?.rank_delta} />
@@ -235,7 +236,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
           <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.375rem', marginBottom: '0.75rem' }}>
             <span style={{
               fontFamily: 'var(--font-display)',
-              fontSize: '3.25rem',
+              fontSize: isMobile ? '2.5rem' : '3.25rem',
               lineHeight: 1,
               color: rank === 1 ? '#FFB800' : 'var(--color-text-1)',
               letterSpacing: '0.01em',
@@ -277,7 +278,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
 
       {/* ── RIGHT: Archetype Identity ─────────────────────────────── */}
       <div style={{
-        padding: '1.75rem 2rem 1.75rem 2rem',
+        padding: isMobile ? '1.25rem' : '1.75rem 2rem 1.75rem 2rem',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
@@ -321,7 +322,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
           <>
             <div style={{
               fontFamily: 'var(--font-display)',
-              fontSize: '2rem',
+              fontSize: isMobile ? '1.5rem' : '2rem',
               lineHeight: 1.15,
               color: 'var(--color-primary)',
               fontWeight: 700,
@@ -409,13 +410,14 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
 // ─── Tabs ──────────────────────────────────────────────────────────────────────
 
 const TAB_LIST = [
-  { key: 'resumen',     label: 'Resumen'         },
-  { key: 'predictions', label: 'Predicciones'    },
-  { key: 'timeline',    label: 'Línea de Tiempo' },
-  { key: 'auditoria',   label: 'Scoring & Auditability' },
+  { key: 'resumen',     label: 'Resumen',              shortLabel: 'Resumen'   },
+  { key: 'predictions', label: 'Predicciones',         shortLabel: 'Preds.'   },
+  { key: 'timeline',    label: 'Línea de Tiempo',      shortLabel: 'Timeline' },
+  { key: 'auditoria',   label: 'Scoring & Auditability', shortLabel: 'Scoring' },
 ]
 
 function Tabs({ active, onChange }) {
+  const isMobile = useIsMobile(680)
   return (
     <div style={{ display:'flex', gap:4, background:'var(--color-surface)', border:'1px solid var(--color-border)', borderRadius:10, padding:4, marginBottom:'1.75rem' }}>
       {TAB_LIST.map(tab => (
@@ -423,11 +425,12 @@ function Tabs({ active, onChange }) {
           flex:1, padding:'0.5rem', borderRadius:7, border:'none', cursor:'pointer',
           background: active === tab.key ? 'var(--color-surface-2)' : 'transparent',
           color: active === tab.key ? 'var(--color-text-1)' : 'var(--color-text-3)',
-          fontFamily:'var(--font-body)', fontSize:'0.82rem', fontWeight: active === tab.key ? 600 : 400,
+          fontFamily:'var(--font-body)', fontSize: isMobile ? '0.7rem' : '0.82rem', fontWeight: active === tab.key ? 600 : 400,
           transition:'all 0.15s',
           borderBottom: active === tab.key ? '2px solid var(--color-primary)' : '2px solid transparent',
+          whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis',
         }}>
-          {tab.label}
+          {isMobile ? tab.shortLabel : tab.label}
         </button>
       ))}
     </div>
@@ -1263,6 +1266,7 @@ function FinalMatchup({ finalist1, finalist1Status, finalist1Stage, finalist2, f
 }
 
 function ChampionAliveCard({ campeonVivo, userId, teamMap }) {
+  const isMobile = useIsMobile(680)
   if (!campeonVivo?.users?.length) return null
   const userEntry = campeonVivo.users.find(u => u.user_id === userId)
   if (!userEntry) return null
@@ -1298,9 +1302,9 @@ function ChampionAliveCard({ campeonVivo, userId, teamMap }) {
       {/* ── 3-column horizontal layout: Campeón | Tercer Lugar | La Final ── */}
       <div style={{
         display:             'grid',
-        gridTemplateColumns: '1fr 1px 1fr 1px 1fr',
+        gridTemplateColumns: isMobile ? '1fr' : '1fr 1px 1fr 1px 1fr',
         alignItems:          'start',
-        gap:                 0,
+        gap:                 isMobile ? '1rem' : 0,
         marginTop:           '0.125rem',
       }}>
 
@@ -1320,10 +1324,10 @@ function ChampionAliveCard({ campeonVivo, userId, teamMap }) {
         </div>
 
         {/* Vertical divider */}
-        <div style={{ background: 'var(--color-border)', alignSelf: 'stretch' }} />
+        {!isMobile && <div style={{ background: 'var(--color-border)', alignSelf: 'stretch' }} />}
 
         {/* 2. Tercer Lugar — 5 pts */}
-        <div style={{ padding: '0.25rem 1.25rem' }}>
+        <div style={{ padding: isMobile ? '0.25rem 0' : '0.25rem 1.25rem' }}>
           {thirdPlace && (
             <ApuestaRow
               label="Tercer Lugar"
@@ -1338,10 +1342,10 @@ function ChampionAliveCard({ campeonVivo, userId, teamMap }) {
         </div>
 
         {/* Vertical divider */}
-        <div style={{ background: 'var(--color-border)', alignSelf: 'stretch' }} />
+        {!isMobile && <div style={{ background: 'var(--color-border)', alignSelf: 'stretch' }} />}
 
         {/* 3. La Final */}
-        <div style={{ paddingLeft: '1.25rem', paddingTop: '0.25rem', paddingBottom: '0.25rem' }}>
+        <div style={{ paddingLeft: isMobile ? 0 : '1.25rem', paddingTop: '0.25rem', paddingBottom: '0.25rem' }}>
           {(finalist1 || finalist2) && (
             <FinalMatchup
               finalist1={finalist1}     finalist1Status={f1Status} finalist1Stage={f1Stage}
@@ -2423,6 +2427,7 @@ function TeamWithFlag({ name, teamMap, align = 'left' }) {
 }
 
 function GroupPredictionsSection({ groupDetail, matchMap, groupResults, teamMap }) {
+  const isMobile = useIsMobile(680)
   if (!groupDetail?.length) return null
 
   const resultLookup = {}
@@ -2468,7 +2473,7 @@ function GroupPredictionsSection({ groupDetail, matchMap, groupResults, teamMap 
           <div style={{ fontSize:'0.65rem', color:'var(--color-text-3)', fontFamily:'var(--font-mono)' }}>{groupDetail.length} partidos</div>
         </div>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : 'repeat(3, 1fr)', gap: '0.75rem' }}>
         {columns.map((groupKeys, ci) => (
           <div key={ci} style={{ display: 'flex', flexDirection: 'column', gap: '0.625rem' }}>
             {groupKeys.map(grp => {
@@ -2600,7 +2605,7 @@ function StandingsPredictionsSection({ standingsDetail, teamMap }) {
           <div style={{ fontSize:'0.65rem', color:'var(--color-text-3)', fontFamily:'var(--font-mono)' }}>{standingsDetail.length} grupos</div>
         </div>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: `repeat(${columns.length}, 1fr)`, gap: '0.625rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : `repeat(${columns.length}, 1fr)`, gap: '0.625rem' }}>
         {columns.map((chunk, ci) => (
           <div key={ci} style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {chunk.map(grp => {

@@ -1,175 +1,42 @@
 {
-  "generated_at": "2026-05-30T00:27:34.906Z",
+  "generated_at": "2026-05-30T21:06:55.940Z",
   "metric": "campeon_vivo",
   "users": [
     {
-      "user_id": "2BC645A052",
-      "display_name": "BtoZ",
-      "value": true,
-      "extra": {
-        "champion": "Francia",
-        "champion_status": "alive",
-        "champion_eliminated_by_stage": null,
-        "third_place": "Argentina",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
-        "finalist1": "Francia",
-        "finalist1_status": "alive",
-        "finalist1_eliminated_by_stage": null,
-        "finalist2": "Brasil",
-        "finalist2_status": "alive",
-        "finalist2_eliminated_by_stage": null
-      }
-    },
-    {
       "user_id": "031CAE0D1F",
       "display_name": "CasualFan",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Uzbequistan",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "GROUP",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "Francia",
-        "third_place_status": "alive",
+        "third_place_status": "pending",
         "third_place_eliminated_by_stage": null,
         "finalist1": "Uzbequistan",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "GROUP",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Marruecos",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "R32"
-      }
-    },
-    {
-      "user_id": "4EECA46DE1",
-      "display_name": "JIPM",
-      "value": false,
-      "extra": {
-        "champion": "España",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "SF",
-        "third_place": "Francia",
-        "third_place_status": "alive",
-        "third_place_eliminated_by_stage": null,
-        "finalist1": "España",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "SF",
-        "finalist2": "Argentina",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "SF"
-      }
-    },
-    {
-      "user_id": "7A8134D49E",
-      "display_name": "Jose J Silva",
-      "value": true,
-      "extra": {
-        "champion": "Francia",
-        "champion_status": "alive",
-        "champion_eliminated_by_stage": null,
-        "third_place": "Argentina",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
-        "finalist1": "Francia",
-        "finalist1_status": "alive",
-        "finalist1_eliminated_by_stage": null,
-        "finalist2": "Brasil",
-        "finalist2_status": "alive",
+        "finalist2_status": "pending",
         "finalist2_eliminated_by_stage": null
-      }
-    },
-    {
-      "user_id": "00B5C3CC03",
-      "display_name": "LCV",
-      "value": false,
-      "extra": {
-        "champion": "Argentina",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "SF",
-        "third_place": "Francia",
-        "third_place_status": "alive",
-        "third_place_eliminated_by_stage": null,
-        "finalist1": "España",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "SF",
-        "finalist2": "Argentina",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "SF"
-      }
-    },
-    {
-      "user_id": "3EE0EEE7BE",
-      "display_name": "LJMV",
-      "value": true,
-      "extra": {
-        "champion": "Francia",
-        "champion_status": "alive",
-        "champion_eliminated_by_stage": null,
-        "third_place": "España",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
-        "finalist1": "Francia",
-        "finalist1_status": "alive",
-        "finalist1_eliminated_by_stage": null,
-        "finalist2": "Argentina",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "SF"
-      }
-    },
-    {
-      "user_id": "61757240D1",
-      "display_name": "Luigi R",
-      "value": false,
-      "extra": {
-        "champion": "Portugal",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "QF",
-        "third_place": "España",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
-        "finalist1": "P Bajos",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "QF",
-        "finalist2": "Portugal",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "QF"
       }
     },
     {
       "user_id": "39C53BCDF0",
       "display_name": "Penalty Chaos",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Inglaterra",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "España",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
-        "finalist1": "Fancia",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "GROUP",
-        "finalist2": "Inglaterra",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "OF"
-      }
-    },
-    {
-      "user_id": "3616094014",
-      "display_name": "PIMR",
-      "value": false,
-      "extra": {
-        "champion": "España",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "SF",
-        "third_place": "Francia",
-        "third_place_status": "alive",
+        "third_place_status": "pending",
         "third_place_eliminated_by_stage": null,
-        "finalist1": "España",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "SF",
-        "finalist2": "Brasil",
-        "finalist2_status": "alive",
+        "finalist1": "Fancia",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Inglaterra",
+        "finalist2_status": "pending",
         "finalist2_eliminated_by_stage": null
       }
     },
@@ -179,17 +46,17 @@
       "value": true,
       "extra": {
         "champion": "Francia",
-        "champion_status": "alive",
+        "champion_status": "pending",
         "champion_eliminated_by_stage": null,
         "third_place": "USA",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "R32",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Francia",
-        "finalist1_status": "alive",
+        "finalist1_status": "pending",
         "finalist1_eliminated_by_stage": null,
         "finalist2": "Inglaterra",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "OF"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     },
     {
@@ -198,17 +65,17 @@
       "value": true,
       "extra": {
         "champion": "Francia",
-        "champion_status": "alive",
+        "champion_status": "pending",
         "champion_eliminated_by_stage": null,
         "third_place": "Bosnia H",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "R32",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Francia",
-        "finalist1_status": "alive",
+        "finalist1_status": "pending",
         "finalist1_eliminated_by_stage": null,
         "finalist2": "Arabia S",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "GROUP"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     },
     {
@@ -217,150 +84,302 @@
       "value": true,
       "extra": {
         "champion": "Francia",
-        "champion_status": "alive",
+        "champion_status": "pending",
         "champion_eliminated_by_stage": null,
         "third_place": "Senegal",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "OF",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Francia",
-        "finalist1_status": "alive",
+        "finalist1_status": "pending",
         "finalist1_eliminated_by_stage": null,
         "finalist2": "Paraguay",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "R32"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "2443A7AA23",
       "display_name": "Reynol",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Alemania",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "Colombia",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "R32",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Brasil",
-        "finalist2_status": "alive",
+        "finalist2_status": "pending",
         "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "B40AF87447",
       "display_name": "MrConservador",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Alemania",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "R Congo",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "GROUP",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Haiti",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "GROUP"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "F7B71AEB54",
       "display_name": "DisasterPicks",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Alemania",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "R Congo",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "GROUP",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Brasil",
-        "finalist2_status": "alive",
+        "finalist2_status": "pending",
         "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "220B53DC66",
       "display_name": "Empatero",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Alemania",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "R Congo",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "GROUP",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Escocia",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "R32"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "7A18E68A88",
       "display_name": "HighRiskPicks",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Alemania",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "España",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Brasil",
-        "finalist2_status": "alive",
+        "finalist2_status": "pending",
         "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "621DA87FB2",
       "display_name": "MrPerfect",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Alemania",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "OF",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "R Congo",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "GROUP",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Haiti",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "GROUP"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "2BC645A052",
+      "display_name": "BtoZ",
+      "value": true,
+      "extra": {
+        "champion": "Francia",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Argentina",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "Francia",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Brasil",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "EDCFEC1155",
+      "display_name": "Gabo",
+      "value": true,
+      "extra": {
+        "champion": "Portugal",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Francia",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "España",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Portugal",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "4EECA46DE1",
+      "display_name": "JIPM",
+      "value": true,
+      "extra": {
+        "champion": "España",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Francia",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "España",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Argentina",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "7A8134D49E",
+      "display_name": "Jose J Silva",
+      "value": true,
+      "extra": {
+        "champion": "Francia",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Argentina",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "Francia",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Brasil",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "00B5C3CC03",
+      "display_name": "LCV",
+      "value": true,
+      "extra": {
+        "champion": "Argentina",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Francia",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "España",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Argentina",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "3EE0EEE7BE",
+      "display_name": "LJMV",
+      "value": true,
+      "extra": {
+        "champion": "Francia",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "España",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "Francia",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Argentina",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "61757240D1",
+      "display_name": "Luigi R",
+      "value": true,
+      "extra": {
+        "champion": "Portugal",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "España",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "P Bajos",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Portugal",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "3616094014",
+      "display_name": "PIMR",
+      "value": true,
+      "extra": {
+        "champion": "España",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Francia",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "España",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Brasil",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     },
     {
       "user_id": "8718EFCC4C",
       "display_name": "Tom",
-      "value": false,
+      "value": true,
       "extra": {
         "champion": "Mexico",
-        "champion_status": "eliminated",
-        "champion_eliminated_by_stage": "R32",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
         "third_place": "Argentina",
-        "third_place_status": "eliminated",
-        "third_place_eliminated_by_stage": "SF",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
         "finalist1": "Alemania",
-        "finalist1_status": "eliminated",
-        "finalist1_eliminated_by_stage": "OF",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
         "finalist2": "Mexico",
-        "finalist2_status": "eliminated",
-        "finalist2_eliminated_by_stage": "R32"
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
       }
     }
   ]

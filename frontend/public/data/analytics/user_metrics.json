@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T00:27:35.532Z",
+  "generated_at": "2026-05-30T21:06:56.316Z",
   "users": [
     {
       "user_id": "3616094014",
@@ -126,45 +126,24 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 15,
-          "ranking": 9,
-          "percentile": 57.89,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 16,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 72,
-            "worst_rank_stage": "group",
-            "rank_range": 15,
-            "rank_changes": 26,
-            "consistency_score": 41,
-            "most_common_rank": 4,
-            "consecutive_payout_snapshots": 71,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "España",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "SF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "Francia",
-            "third_place_status": "alive",
+            "third_place_status": "pending",
             "third_place_eliminated_by_stage": null,
             "finalist1": "España",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "SF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Brasil",
-            "finalist2_status": "alive",
+            "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }
         }
@@ -310,27 +289,6 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 0,
-          "ranking": 19,
-          "percentile": 5.26,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 1,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 1,
-            "worst_rank_stage": "group",
-            "rank_range": 0,
-            "rank_changes": 0,
-            "consistency_score": 0,
-            "most_common_rank": 1,
-            "consecutive_payout_snapshots": 103,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
           "value": true,
@@ -339,16 +297,16 @@
           "tier": null,
           "extra": {
             "champion": "Francia",
-            "champion_status": "alive",
+            "champion_status": "pending",
             "champion_eliminated_by_stage": null,
             "third_place": "Argentina",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Francia",
-            "finalist1_status": "alive",
+            "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Brasil",
-            "finalist2_status": "alive",
+            "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }
         }
@@ -469,46 +427,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 18,
-          "ranking": 1,
-          "percentile": 100,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 19,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 99,
-            "worst_rank_stage": "knockout",
-            "rank_range": 18,
-            "rank_changes": 41,
-            "consistency_score": 59,
-            "most_common_rank": 14,
-            "consecutive_payout_snapshots": 4,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Uzbequistan",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "GROUP",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "Francia",
-            "third_place_status": "alive",
+            "third_place_status": "pending",
             "third_place_eliminated_by_stage": null,
             "finalist1": "Uzbequistan",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "GROUP",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Marruecos",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "R32"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -622,45 +559,24 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 7,
-          "ranking": 16,
-          "percentile": 21.05,
-          "tier": null,
-          "extra": {
-            "best_rank": 12,
-            "worst_rank": 19,
-            "best_rank_match_id": 2,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 6,
-            "worst_rank_stage": "group",
-            "rank_range": 7,
-            "rank_changes": 23,
-            "consistency_score": 30,
-            "most_common_rank": 19,
-            "consecutive_payout_snapshots": 0,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Alemania",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "R Congo",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "GROUP",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Brasil",
-            "finalist2_status": "alive",
+            "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }
         }
@@ -783,27 +699,6 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 14,
-          "ranking": 11,
-          "percentile": 47.37,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 15,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 99,
-            "worst_rank_stage": "knockout",
-            "rank_range": 14,
-            "rank_changes": 27,
-            "consistency_score": 41,
-            "most_common_rank": 11,
-            "consecutive_payout_snapshots": 18,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
           "value": true,
@@ -812,17 +707,17 @@
           "tier": null,
           "extra": {
             "champion": "Francia",
-            "champion_status": "alive",
+            "champion_status": "pending",
             "champion_eliminated_by_stage": null,
             "third_place": "USA",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "R32",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Francia",
-            "finalist1_status": "alive",
+            "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Inglaterra",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "OF"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -938,46 +833,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 17,
-          "ranking": 4,
-          "percentile": 84.21,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 18,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 23,
-            "worst_rank_stage": "group",
-            "rank_range": 17,
-            "rank_changes": 18,
-            "consistency_score": 35,
-            "most_common_rank": 18,
-            "consecutive_payout_snapshots": 10,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Alemania",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "R Congo",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "GROUP",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Escocia",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "R32"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -1089,45 +963,24 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 13,
-          "ranking": 12,
-          "percentile": 42.11,
-          "tier": null,
-          "extra": {
-            "best_rank": 6,
-            "worst_rank": 19,
-            "best_rank_match_id": 75,
-            "best_rank_stage": "knockout",
-            "worst_rank_match_id": 2,
-            "worst_rank_stage": "group",
-            "rank_range": 13,
-            "rank_changes": 41,
-            "consistency_score": 54,
-            "most_common_rank": 16,
-            "consecutive_payout_snapshots": 15,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Alemania",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "España",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Brasil",
-            "finalist2_status": "alive",
+            "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }
         }
@@ -1250,27 +1103,6 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 3,
-          "ranking": 17,
-          "percentile": 15.79,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 4,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 8,
-            "worst_rank_stage": "group",
-            "rank_range": 3,
-            "rank_changes": 5,
-            "consistency_score": 8,
-            "most_common_rank": 2,
-            "consecutive_payout_snapshots": 103,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
           "value": true,
@@ -1279,17 +1111,17 @@
           "tier": null,
           "extra": {
             "champion": "Francia",
-            "champion_status": "alive",
+            "champion_status": "pending",
             "champion_eliminated_by_stage": null,
             "third_place": "Bosnia H",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "R32",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Francia",
-            "finalist1_status": "alive",
+            "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Arabia S",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "GROUP"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -1421,46 +1253,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 15,
-          "ranking": 10,
-          "percentile": 52.63,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 16,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 74,
-            "worst_rank_stage": "knockout",
-            "rank_range": 15,
-            "rank_changes": 20,
-            "consistency_score": 35,
-            "most_common_rank": 6,
-            "consecutive_payout_snapshots": 71,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "España",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "SF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "Francia",
-            "third_place_status": "alive",
+            "third_place_status": "pending",
             "third_place_eliminated_by_stage": null,
             "finalist1": "España",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "SF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Argentina",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "SF"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -1592,27 +1403,6 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 12,
-          "ranking": 13,
-          "percentile": 36.84,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 13,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 73,
-            "worst_rank_stage": "knockout",
-            "rank_range": 12,
-            "rank_changes": 23,
-            "consistency_score": 35,
-            "most_common_rank": 4,
-            "consecutive_payout_snapshots": 66,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
           "value": true,
@@ -1621,16 +1411,16 @@
           "tier": null,
           "extra": {
             "champion": "Francia",
-            "champion_status": "alive",
+            "champion_status": "pending",
             "champion_eliminated_by_stage": null,
             "third_place": "Argentina",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Francia",
-            "finalist1_status": "alive",
+            "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Brasil",
-            "finalist2_status": "alive",
+            "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }
         }
@@ -1741,27 +1531,6 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 12,
-          "ranking": 14,
-          "percentile": 31.58,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 13,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 12,
-            "worst_rank_stage": "group",
-            "rank_range": 12,
-            "rank_changes": 34,
-            "consistency_score": 46,
-            "most_common_rank": 5,
-            "consecutive_payout_snapshots": 32,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
           "value": true,
@@ -1770,17 +1539,17 @@
           "tier": null,
           "extra": {
             "champion": "Francia",
-            "champion_status": "alive",
+            "champion_status": "pending",
             "champion_eliminated_by_stage": null,
             "third_place": "Senegal",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "OF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Francia",
-            "finalist1_status": "alive",
+            "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Paraguay",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "R32"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -1912,46 +1681,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 18,
-          "ranking": 2,
-          "percentile": 94.74,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 19,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 72,
-            "worst_rank_stage": "group",
-            "rank_range": 18,
-            "rank_changes": 27,
-            "consistency_score": 45,
-            "most_common_rank": 8,
-            "consecutive_payout_snapshots": 57,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Argentina",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "SF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "Francia",
-            "third_place_status": "alive",
+            "third_place_status": "pending",
             "third_place_eliminated_by_stage": null,
             "finalist1": "España",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "SF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Argentina",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "SF"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -2081,27 +1829,6 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 16,
-          "ranking": 8,
-          "percentile": 63.16,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 17,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 73,
-            "worst_rank_stage": "knockout",
-            "rank_range": 16,
-            "rank_changes": 23,
-            "consistency_score": 39,
-            "most_common_rank": 10,
-            "consecutive_payout_snapshots": 11,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
           "value": true,
@@ -2110,17 +1837,17 @@
           "tier": null,
           "extra": {
             "champion": "Francia",
-            "champion_status": "alive",
+            "champion_status": "pending",
             "champion_eliminated_by_stage": null,
             "third_place": "España",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Francia",
-            "finalist1_status": "alive",
+            "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Argentina",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "SF"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -2254,46 +1981,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 17,
-          "ranking": 5,
-          "percentile": 78.95,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 18,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 91,
-            "worst_rank_stage": "knockout",
-            "rank_range": 17,
-            "rank_changes": 28,
-            "consistency_score": 45,
-            "most_common_rank": 7,
-            "consecutive_payout_snapshots": 49,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Portugal",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "QF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "España",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "P Bajos",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "QF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Portugal",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "QF"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -2405,46 +2111,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 12,
-          "ranking": 15,
-          "percentile": 26.32,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 13,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 36,
-            "worst_rank_stage": "group",
-            "rank_range": 12,
-            "rank_changes": 20,
-            "consistency_score": 32,
-            "most_common_rank": 4,
-            "consecutive_payout_snapshots": 32,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Alemania",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "R Congo",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "GROUP",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Haiti",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "GROUP"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -2560,46 +2245,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 18,
-          "ranking": 3,
-          "percentile": 89.47,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 19,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 8,
-            "worst_rank_stage": "group",
-            "rank_range": 18,
-            "rank_changes": 32,
-            "consistency_score": 50,
-            "most_common_rank": 15,
-            "consecutive_payout_snapshots": 32,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Alemania",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "R Congo",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "GROUP",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Haiti",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "GROUP"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -2717,46 +2381,25 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 17,
-          "ranking": 6,
-          "percentile": 73.68,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 18,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 18,
-            "worst_rank_stage": "group",
-            "rank_range": 17,
-            "rank_changes": 29,
-            "consistency_score": 46,
-            "most_common_rank": 17,
-            "consecutive_payout_snapshots": 1,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Inglaterra",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "España",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Fancia",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "GROUP",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Inglaterra",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "OF"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
@@ -2878,45 +2521,24 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 3,
-          "ranking": 18,
-          "percentile": 10.53,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 4,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 8,
-            "worst_rank_stage": "group",
-            "rank_range": 3,
-            "rank_changes": 4,
-            "consistency_score": 7,
-            "most_common_rank": 2,
-            "consecutive_payout_snapshots": 103,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Alemania",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "OF",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "Colombia",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "R32",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Brasil",
-            "finalist2_status": "alive",
+            "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }
         }
@@ -3047,46 +2669,52 @@
             }
           }
         },
-        "consistencia_ranking": {
-          "metric_id": "consistencia_ranking",
-          "value": 17,
-          "ranking": 7,
-          "percentile": 68.42,
-          "tier": null,
-          "extra": {
-            "best_rank": 1,
-            "worst_rank": 18,
-            "best_rank_match_id": 1,
-            "best_rank_stage": "group",
-            "worst_rank_match_id": 74,
-            "worst_rank_stage": "knockout",
-            "rank_range": 17,
-            "rank_changes": 29,
-            "consistency_score": 46,
-            "most_common_rank": 9,
-            "consecutive_payout_snapshots": 16,
-            "snapshots": 103
-          }
-        },
         "campeon_vivo": {
           "metric_id": "campeon_vivo",
-          "value": false,
+          "value": true,
           "ranking": null,
           "percentile": null,
           "tier": null,
           "extra": {
             "champion": "Mexico",
-            "champion_status": "eliminated",
-            "champion_eliminated_by_stage": "R32",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
             "third_place": "Argentina",
-            "third_place_status": "eliminated",
-            "third_place_eliminated_by_stage": "SF",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
             "finalist1": "Alemania",
-            "finalist1_status": "eliminated",
-            "finalist1_eliminated_by_stage": "OF",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
             "finalist2": "Mexico",
-            "finalist2_status": "eliminated",
-            "finalist2_eliminated_by_stage": "R32"
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
+          }
+        }
+      }
+    },
+    {
+      "user_id": "EDCFEC1155",
+      "display_name": "Gabo",
+      "metrics": {
+        "campeon_vivo": {
+          "metric_id": "campeon_vivo",
+          "value": true,
+          "ranking": null,
+          "percentile": null,
+          "tier": null,
+          "extra": {
+            "champion": "Portugal",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
+            "third_place": "Francia",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
+            "finalist1": "España",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
+            "finalist2": "Portugal",
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
           }
         }
       }
