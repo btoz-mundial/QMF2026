@@ -37,6 +37,17 @@ async function fetchRobust(url) {
   } catch { return null }
 }
 
+// ── Responsive hook ───────────────────────────────────────────────────────────
+function useIsMobile(breakpoint = 720) {
+  const [isMobile, setIsMobile] = useState(() => window.innerWidth < breakpoint)
+  useEffect(() => {
+    const handler = () => setIsMobile(window.innerWidth < breakpoint)
+    window.addEventListener('resize', handler)
+    return () => window.removeEventListener('resize', handler)
+  }, [breakpoint])
+  return isMobile
+}
+
 // ── Constants ──────────────────────────────────────────────────────────────────
 const ARCH_COLORS = {
   front_runner:        '#FBBF24',
@@ -55,8 +66,9 @@ function getInitials(name) {
   return name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2)
 }
 
-// Grid template shared by header + every data row
-const GRID = '32px 32px minmax(130px,1fr) 70px 64px 48px 120px 56px 56px 60px 54px minmax(80px,auto)'
+// Grid templates — desktop full / mobile compact
+const GRID        = '32px 32px minmax(130px,1fr) 70px 64px 48px 120px 56px 56px 60px 54px minmax(80px,auto)'
+const MOBILE_GRID = '32px 32px 1fr 70px'
 
 const TH_STYLE = {
   fontSize: '0.53rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)',
@@ -145,7 +157,7 @@ function buildScoreMap(scoreDetails) {
 }
 
 // ── SummaryCards ───────────────────────────────────────────────────────────────
-function SummaryCards({ lb, paidPositions, payoutsTotal }) {
+function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile }) {
   const leader = lb[0]
   const second = lb[1]
   const gap = (leader?.total_points ?? 0) - (second?.total_points ?? 0)
@@ -180,7 +192,7 @@ function SummaryCards({ lb, paidPositions, payoutsTotal }) {
     },
   ]
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '0.625rem', marginBottom: '1.125rem' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2,1fr)' : 'repeat(4,1fr)', gap: '0.625rem', marginBottom: '1.125rem' }}>
       {cards.map((c, i) => (
         <motion.div key={i}
           initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.07 }}
@@ -290,26 +302,29 @@ function ZoneDivider({ label, color, icon }) {
 }
 
 // ── TableHeader ───────────────────────────────────────────────────────────────
-function TableHeader() {
+function TableHeader({ isMobile }) {
+  const grid = isMobile ? MOBILE_GRID : GRID
   return (
-    <div style={{ display: 'grid', gridTemplateColumns: GRID, gap: '0 0.5rem', alignItems: 'center', padding: '0.3rem 0.75rem 0.4rem', borderBottom: '1px solid var(--color-border)' }}>
+    <div style={{ display: 'grid', gridTemplateColumns: grid, gap: '0 0.5rem', alignItems: 'center', padding: '0.3rem 0.75rem 0.4rem', borderBottom: '1px solid var(--color-border)' }}>
       <div /><div />
       <span style={TH_STYLE}>Jugador</span>
       <span style={{ ...TH_STYLE, textAlign: 'right' }}>Total</span>
-      <span style={{ ...TH_STYLE, textAlign: 'right' }}>Dif. Ant.</span>
-      <span style={{ ...TH_STYLE, textAlign: 'center' }}>Pos △</span>
-      <span style={{ ...TH_STYLE, textAlign: 'center' }}>Racha</span>
-      <span style={{ ...TH_STYLE, textAlign: 'right' }}>Grp</span>
-      <span style={{ ...TH_STYLE, textAlign: 'right' }}>Tab</span>
-      <span style={{ ...TH_STYLE, textAlign: 'right' }}>KO</span>
-      <span style={{ ...TH_STYLE, textAlign: 'right' }}>Bonus</span>
-      <span style={TH_STYLE}>Progreso</span>
+      {!isMobile && <>
+        <span style={{ ...TH_STYLE, textAlign: 'right' }}>Dif. Ant.</span>
+        <span style={{ ...TH_STYLE, textAlign: 'center' }}>Pos △</span>
+        <span style={{ ...TH_STYLE, textAlign: 'center' }}>Racha</span>
+        <span style={{ ...TH_STYLE, textAlign: 'right' }}>Grp</span>
+        <span style={{ ...TH_STYLE, textAlign: 'right' }}>Tab</span>
+        <span style={{ ...TH_STYLE, textAlign: 'right' }}>KO</span>
+        <span style={{ ...TH_STYLE, textAlign: 'right' }}>Bonus</span>
+        <span style={TH_STYLE}>Progreso</span>
+      </>}
     </div>
   )
 }
 
 // ── TableRow ──────────────────────────────────────────────────────────────────
-function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, paidPositions, total, hasAnyMovement, prevPts, lastZonePts, onClick }) {
+function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, paidPositions, total, hasAnyMovement, prevPts, lastZonePts, onClick, isMobile }) {
   const isPodium = entry.rank <= 3
   const isInZone = !isPodium && paidPositions > 0 && entry.rank <= paidPositions
   const avatarColor = avatarBg(index)
@@ -348,7 +363,7 @@ function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, pa
     <motion.div
       initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: index * 0.025, duration: 0.2 }}
       onClick={onClick}
-      style={{ display: 'grid', gridTemplateColumns: GRID, gap: '0 0.5rem', alignItems: 'center', padding: '0.45rem 0.75rem', borderRadius: 8, cursor: 'pointer', background: rowBg, border: rowBorder, transition: 'background 0.15s', position: 'relative', overflow: 'hidden' }}
+      style={{ display: 'grid', gridTemplateColumns: isMobile ? MOBILE_GRID : GRID, gap: '0 0.5rem', alignItems: 'center', padding: '0.45rem 0.75rem', borderRadius: 8, cursor: 'pointer', background: rowBg, border: rowBorder, transition: 'background 0.15s', position: 'relative', overflow: 'hidden' }}
       whileHover={{ background: hoverBg }}
     >
       {/* Podium left stripe */}
@@ -366,7 +381,7 @@ function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, pa
         </span>
       </div>
 
-      {/* Name + archetype chip */}
+      {/* Name + archetype chip + mobile breakdown */}
       <div style={{ minWidth: 0 }}>
         <div style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', fontSize: pod ? (entry.rank === 1 ? '0.95rem' : '0.9rem') : '0.85rem', fontWeight: 600, color: 'var(--color-text-1)', lineHeight: 1.3 }}>
           {entry.display_name}
@@ -376,58 +391,74 @@ function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, pa
             {arch.label.toUpperCase()}
           </span>
         )}
+        {isMobile && (
+          <div style={{ display: 'flex', gap: '0.4rem', marginTop: 2, alignItems: 'center' }}>
+            <span style={{ fontSize: '0.55rem', fontFamily: 'var(--font-mono)', color: 'var(--color-primary)' }}>G {entry.breakdown?.group ?? 0}</span>
+            <span style={{ fontSize: '0.5rem', color: 'var(--color-text-3)' }}>·</span>
+            <span style={{ fontSize: '0.55rem', fontFamily: 'var(--font-mono)', color: 'var(--color-accent)' }}>T {entry.breakdown?.standings ?? 0}</span>
+            <span style={{ fontSize: '0.5rem', color: 'var(--color-text-3)' }}>·</span>
+            <span style={{ fontSize: '0.55rem', fontFamily: 'var(--font-mono)', color: 'var(--color-success)' }}>KO {entry.breakdown?.knockout ?? 0}</span>
+            {bonusPts > 0 && <>
+              <span style={{ fontSize: '0.5rem', color: 'var(--color-text-3)' }}>·</span>
+              <span style={{ fontSize: '0.55rem', fontFamily: 'var(--font-mono)', color: '#A78BFA' }}>+{bonusPts}</span>
+            </>}
+          </div>
+        )}
       </div>
 
       {/* Total pts */}
       <div style={{ textAlign: 'right' }}>
-        <div style={{ fontFamily: 'var(--font-display)', fontSize: ptsSz, lineHeight: 1, color: ptsColor }}>
+        <div style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '1.25rem' : ptsSz, lineHeight: 1, color: ptsColor }}>
           {entry.total_points}
         </div>
         <div style={{ fontSize: '0.52rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>pts</div>
       </div>
 
-      {/* Dif anterior */}
-      <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: difAnterior != null && difAnterior > 0 ? '#F87171' : 'var(--color-text-3)' }}>
-        {difAnterior != null ? `-${difAnterior}` : '—'}
-      </div>
+      {/* Desktop-only columns */}
+      {!isMobile && <>
+        {/* Dif anterior */}
+        <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.8rem', color: difAnterior != null && difAnterior > 0 ? '#F87171' : 'var(--color-text-3)' }}>
+          {difAnterior != null ? `-${difAnterior}` : '—'}
+        </div>
 
-      {/* Position delta */}
-      <div>
-        {hasAnyMovement
-          ? <DeltaBadge delta={enrich?.lastDelta ?? 0} movement={enrich?.lastMovement ?? 'same'} />
-          : <span style={{ display: 'block', textAlign: 'center', fontSize: '0.65rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>—</span>
-        }
-      </div>
+        {/* Position delta */}
+        <div>
+          {hasAnyMovement
+            ? <DeltaBadge delta={enrich?.lastDelta ?? 0} movement={enrich?.lastMovement ?? 'same'} />
+            : <span style={{ display: 'block', textAlign: 'center', fontSize: '0.65rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>—</span>
+          }
+        </div>
 
-      {/* Racha boxes */}
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <RachaBoxes pts={racha} />
-      </div>
+        {/* Racha boxes */}
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <RachaBoxes pts={racha} />
+        </div>
 
-      {/* Grupos pts */}
-      <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-primary)' }}>
-        {entry.breakdown?.group ?? 0}
-      </div>
+        {/* Grupos pts */}
+        <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-primary)' }}>
+          {entry.breakdown?.group ?? 0}
+        </div>
 
-      {/* Tabla pts */}
-      <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-accent)' }}>
-        {entry.breakdown?.standings ?? 0}
-      </div>
+        {/* Tabla pts */}
+        <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-accent)' }}>
+          {entry.breakdown?.standings ?? 0}
+        </div>
 
-      {/* KO pts */}
-      <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-success)' }}>
-        {entry.breakdown?.knockout ?? 0}
-      </div>
+        {/* KO pts */}
+        <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-success)' }}>
+          {entry.breakdown?.knockout ?? 0}
+        </div>
 
-      {/* Bonus pts */}
-      <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: bonusPts > 0 ? '#A78BFA' : 'var(--color-text-3)' }}>
-        {bonusPts > 0 ? `+${bonusPts}` : '—'}
-      </div>
+        {/* Bonus pts */}
+        <div style={{ textAlign: 'right', fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: bonusPts > 0 ? '#A78BFA' : 'var(--color-text-3)' }}>
+          {bonusPts > 0 ? `+${bonusPts}` : '—'}
+        </div>
 
-      {/* Progreso narrative */}
-      <div style={{ fontSize: '0.67rem', fontFamily: 'var(--font-mono)', color: progresoColor, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-        {progresoText}
-      </div>
+        {/* Progreso narrative */}
+        <div style={{ fontSize: '0.67rem', fontFamily: 'var(--font-mono)', color: progresoColor, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          {progresoText}
+        </div>
+      </>}
     </motion.div>
   )
 }
@@ -437,7 +468,8 @@ export default function Leaderboard() {
   const [pageData, setPageData] = useState(null)
   const [loading, setLoading]   = useState(true)
   const [search, setSearch]     = useState('')
-  const navigate = useNavigate()
+  const navigate  = useNavigate()
+  const isMobile  = useIsMobile(680)
 
   useEffect(() => {
     async function load() {
@@ -504,7 +536,7 @@ export default function Leaderboard() {
       </motion.div>
 
       {/* ── Summary cards ── */}
-      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} />
+      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} />
 
       {/* ── Search ── */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}
@@ -524,10 +556,10 @@ export default function Leaderboard() {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.15 }}
         style={{ background: 'var(--color-surface)', borderRadius: 12, border: '1px solid var(--color-border)', overflow: 'hidden' }}>
 
-        {/* Horizontal scroll wrapper — keeps layout on narrow viewports */}
-        <div style={{ overflowX: 'auto' }}>
-          <div style={{ minWidth: 880 }}>
-            <TableHeader />
+        {/* Horizontal scroll wrapper — desktop only; mobile uses compact layout */}
+        <div style={{ overflowX: isMobile ? 'visible' : 'auto' }}>
+          <div style={{ minWidth: isMobile ? 'auto' : 880 }}>
+            <TableHeader isMobile={isMobile} />
             <div style={{ padding: '0.3rem' }}>
               <AnimatePresence>
                 {filtered.length === 0 ? (
@@ -562,6 +594,7 @@ export default function Leaderboard() {
                           prevPts={prevPts}
                           lastZonePts={lastZonePts}
                           onClick={() => navigate(`/player/${entry.user_id}`)}
+                          isMobile={isMobile}
                         />
                         {showPremiosLabel && (
                           <ZoneDivider
@@ -593,9 +626,10 @@ export default function Leaderboard() {
 
 // ── Loading / Error states ─────────────────────────────────────────────────────
 function LoadingState() {
+  const isMobile = useIsMobile(680)
   return (
     <div style={{ maxWidth: 1500, margin: '0 auto' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '0.625rem', marginBottom: '1.125rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2,1fr)' : 'repeat(4,1fr)', gap: '0.625rem', marginBottom: '1.125rem' }}>
         {[...Array(4)].map((_, i) => (
           <motion.div key={i} animate={{ opacity: [0.3, 0.6, 0.3] }} transition={{ duration: 1.5, repeat: Infinity, delay: i * 0.1 }}
             style={{ height: 72, borderRadius: 10, background: 'var(--color-surface)', border: '1px solid var(--color-border)' }} />

@@ -1,7 +1,19 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Crown, ChevronDown, ChevronUp, ChevronRight, Check, X, Minus } from 'lucide-react'
 import { flagUrl, getTeam } from '@/utils/teams'
+
+// ─── Responsive hook ─────────────────────────────────────────────────────────
+
+function useIsMobile(bp = 680) {
+  const [m, setM] = useState(() => window.innerWidth < bp)
+  useEffect(() => {
+    const h = () => setM(window.innerWidth < bp)
+    window.addEventListener('resize', h)
+    return () => window.removeEventListener('resize', h)
+  }, [bp])
+  return m
+}
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
@@ -148,7 +160,7 @@ function DonutChart({ value, total, color = 'var(--color-primary)', size = 68, s
   )
 }
 
-function StatsHeader({ knockoutDetail, matchMap, teamMap, finalMatch, predictedChamp, bonus }) {
+function StatsHeader({ knockoutDetail, matchMap, teamMap, finalMatch, predictedChamp, bonus, isMobile }) {
   const played    = knockoutDetail.filter(m => !matchIsPending(m.result))
   const exactHits = played.filter(m => m.breakdown?.exact_goals).length
   const matchPts  = knockoutDetail.reduce((s, m) => s + (m.points ?? 0), 0)
@@ -166,70 +178,83 @@ function StatsHeader({ knockoutDetail, matchMap, teamMap, finalMatch, predictedC
 
   const cardBase = { background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', borderRadius: 10 }
 
+  // ── Shared card content builders ──────────────────────────────────────────
+  const card1 = (
+    <div style={{ ...cardBase, padding: '0.875rem 0.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
+      <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
+        <DonutChart value={played.length} total={knockoutDetail.length} color="var(--color-primary)" size={72} strokeWidth={6} />
+        <div style={{ position: 'absolute', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
+          <span style={{ fontFamily: 'var(--font-mono)', fontSize: '1.1rem', fontWeight: 700, color: 'var(--color-text-1)', lineHeight: 1 }}>{played.length}</span>
+          <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--color-text-3)', lineHeight: 1 }}>/ {knockoutDetail.length}</span>
+        </div>
+      </div>
+      <span style={{ fontSize: isMobile ? '0.62rem' : '0.9rem', color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.08em', fontFamily: 'var(--font-mono)', textAlign: 'center' }}>Partidos Completados</span>
+    </div>
+  )
+
+  const card2 = (
+    <div style={{ ...cardBase, padding: '0.75rem 0.875rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
+      <div style={{ textAlign: 'center' }}>
+        <div style={{ fontFamily: 'var(--font-mono)', fontSize: '2.0rem', fontWeight: 700, color: 'var(--color-success)', lineHeight: 1 }}>+{totalPts}</div>
+        <div style={{ fontFamily: 'var(--font-mono)', fontSize: '.8rem', color: 'var(--color-text-3)', marginTop: '0.2rem' }}>{totalPts} / {maxPts} pts posibles</div>
+      </div>
+      <div style={{ borderTop: '1px solid var(--color-border)' }} />
+      <div style={{ display: 'flex', gap: '0.5rem' }}>
+        <div style={{ flex: 1, textAlign: 'center' }}>
+          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '1.3rem', fontWeight: 700, color: 'var(--color-primary)', lineHeight: 1 }}>{exactPct != null ? `${exactPct}%` : '—'}</div>
+          <div style={{ fontSize: '0.52rem', color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.06em', marginTop: '0.2rem', fontFamily: 'var(--font-mono)' }}>Marcador Exacto</div>
+        </div>
+      </div>
+    </div>
+  )
+
+  const card3 = (
+    <div style={{
+      ...cardBase,
+      background: champCorrect ? 'color-mix(in srgb, var(--color-success) 8%, var(--color-surface-2))' : champWrong ? 'color-mix(in srgb, var(--color-error) 8%, var(--color-surface-2))' : 'var(--color-surface-2)',
+      border: `1px solid ${champCorrect ? 'color-mix(in srgb, var(--color-success) 30%, transparent)' : champWrong ? 'color-mix(in srgb, var(--color-error) 30%, transparent)' : 'var(--color-border)'}`,
+      padding: '0.875rem 0.75rem', display: 'flex',
+      flexDirection: isMobile ? 'row' : 'column',
+      alignItems: 'center', justifyContent: isMobile ? 'flex-start' : 'center',
+      gap: isMobile ? '0.75rem' : '0.4rem', textAlign: isMobile ? 'left' : 'center',
+    }}>
+      {predictedChamp ? (
+        <>
+          {champFlag && <img src={champFlag} alt="" style={{ width: 34, height: 23, objectFit: 'cover', borderRadius: 3, boxShadow: '0 1px 6px rgba(0,0,0,0.45)', flexShrink: 0 }} />}
+          <div style={{ minWidth: 0 }}>
+            <span style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '0.9rem' : '1rem', fontWeight: 700, lineHeight: 1.2, color: champCorrect ? 'var(--color-success)' : champWrong ? 'var(--color-error)' : 'var(--color-text-1)', display: 'block' }}>
+              {predictedChamp}
+            </span>
+            {champCorrect && <span style={{ display: 'inline-flex', alignItems: 'center', gap: 3, fontSize: '0.6rem', color: 'var(--color-success)', fontFamily: 'var(--font-mono)', marginTop: 3 }}><Check size={10} strokeWidth={3} /> Acertaste</span>}
+            {champWrong && realChamp && <span style={{ fontSize: '0.58rem', color: 'var(--color-error)', fontFamily: 'var(--font-mono)', marginTop: 3, display: 'block' }}>Ganó: {realChamp}</span>}
+            {!realChamp && <span style={{ fontSize: '0.56rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: 3, display: 'block' }}>pendiente · 15 pts</span>}
+          </div>
+        </>
+      ) : (
+        <span style={{ fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', fontSize: '0.9rem' }}>—</span>
+      )}
+      {!isMobile && <div style={{ fontSize: '0.55rem', color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.08em', fontFamily: 'var(--font-mono)' }}>CAMPEÓN PRED.</div>}
+    </div>
+  )
+
+  if (isMobile) {
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, marginBottom: '1.25rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+          {card1}
+          {card2}
+        </div>
+        {card3}
+      </div>
+    )
+  }
+
   return (
     <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.4fr 1fr', gap: '0.75rem', marginBottom: '1.25rem' }}>
 
-      {/* ── Card 1: Partidos jugados (donut) ── */}
-      <div style={{ ...cardBase, padding: '0.875rem 0.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem' }}>
-        <div style={{ position: 'relative', display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }}>
-          <DonutChart value={played.length} total={knockoutDetail.length} color="var(--color-primary)" size={72} strokeWidth={6} />
-          <div style={{ position: 'absolute', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
-            <span style={{ fontFamily: 'var(--font-mono)', fontSize: '1.1rem', fontWeight: 700, color: 'var(--color-text-1)', lineHeight: 1 }}>{played.length}</span>
-            <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.7rem', color: 'var(--color-text-3)', lineHeight: 1 }}>/ {knockoutDetail.length}</span>
-          </div>
-        </div>
-        <span style={{ fontSize: '0.9rem', color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.08em', fontFamily: 'var(--font-mono)' }}>Partidos Completados</span>
-      </div>
-
-      {/* ── Card 2: Pts KO + % Exacto + % Avance ── */}
-      <div style={{ ...cardBase, padding: '0.75rem 0.875rem', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
-        <div style={{ textAlign: 'center' }}>
-          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '2.0rem', fontWeight: 700, color: 'var(--color-success)', lineHeight: 1 }}>+{totalPts}</div>
-          <div style={{ fontFamily: 'var(--font-mono)', fontSize: '.8rem', color: 'var(--color-text-3)', marginTop: '0.2rem' }}>{totalPts} / {maxPts} pts posibles</div>
-        </div>
-        <div style={{ borderTop: '1px solid var(--color-border)' }} />
-        <div style={{ display: 'flex', gap: '0.5rem' }}>
-          <div style={{ flex: 1, textAlign: 'center' }}>
-            <div style={{ fontFamily: 'var(--font-mono)', fontSize: '1.3rem', fontWeight: 700, color: 'var(--color-primary)', lineHeight: 1 }}>{exactPct != null ? `${exactPct}%` : '—'}</div>
-            <div style={{ fontSize: '0.52rem', color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.06em', marginTop: '0.2rem', fontFamily: 'var(--font-mono)' }}>Marcador Exacto</div>
-          </div>
-
-        </div>
-      </div>
-
-      {/* ── Card 3: Campeón predicho ── */}
-      <div style={{
-        ...cardBase,
-        background: champCorrect ? 'color-mix(in srgb, var(--color-success) 8%, var(--color-surface-2))' : champWrong ? 'color-mix(in srgb, var(--color-error) 8%, var(--color-surface-2))' : 'var(--color-surface-2)',
-        border: `1px solid ${champCorrect ? 'color-mix(in srgb, var(--color-success) 30%, transparent)' : champWrong ? 'color-mix(in srgb, var(--color-error) 30%, transparent)' : 'var(--color-border)'}`,
-        padding: '0.875rem 0.75rem', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', textAlign: 'center',
-      }}>
-        {predictedChamp ? (
-          <>
-            {champFlag && <img src={champFlag} alt="" style={{ width: 34, height: 23, objectFit: 'cover', borderRadius: 3, boxShadow: '0 1px 6px rgba(0,0,0,0.45)' }} />}
-            <span style={{ fontFamily: 'var(--font-display)', fontSize: '1rem', fontWeight: 700, lineHeight: 1.2, color: champCorrect ? 'var(--color-success)' : champWrong ? 'var(--color-error)' : 'var(--color-text-1)' }}>
-              {predictedChamp}
-            </span>
-            {champCorrect && (
-              <span style={{ display: 'flex', alignItems: 'center', gap: 3, fontSize: '0.6rem', color: 'var(--color-success)', fontFamily: 'var(--font-mono)' }}>
-                <Check size={10} strokeWidth={3} /> Acertaste
-              </span>
-            )}
-            {champWrong && realChamp && (
-              <span style={{ fontSize: '0.58rem', color: 'var(--color-error)', fontFamily: 'var(--font-mono)' }}>
-                Ganó: {realChamp}
-              </span>
-            )}
-            {!realChamp && (
-              <span style={{ fontSize: '0.56rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>pendiente</span>
-            )}
-          </>
-        ) : (
-          <span style={{ fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', fontSize: '0.9rem' }}>—</span>
-        )}
-        <div style={{ fontSize: '0.55rem', color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.08em', fontFamily: 'var(--font-mono)' }}>CAMPEÓN PRED.</div>
-      </div>
-
+      {card1}
+      {card2}
+      {card3}
     </div>
   )
 }
@@ -358,9 +383,115 @@ function MatchRow({ m, teamMap, predictedChamp, bonusDetail }) {
   )
 }
 
+// ─── Mobile Match Card ────────────────────────────────────────────────────────
+
+function MobileMatchCard({ m, teamMap, predictedChamp, bonusDetail }) {
+  const [expanded, setExpanded] = useState(false)
+  const pending      = matchIsPending(m.result)
+  const pred         = m.prediction ?? {}
+  const res          = m.result     ?? {}
+  const bd           = m.breakdown  ?? {}
+  const totalPts     = m.points ?? 0
+  const isPerfect    = !pending && !!(bd.home_team && bd.away_team && bd.home_goals && bd.away_goals && bd.exact_goals)
+  const isExact      = !pending && !!bd.exact_goals && !isPerfect
+  const advancePred  = predAdvance(pred)
+  const advanceReal  = resultAdvance(res)
+  const advanceOk    = !pending && advancePred != null && advancePred === advanceReal
+
+  const rowBg = isPerfect
+    ? 'color-mix(in srgb, #FBBF24 6%, transparent)'
+    : !pending && totalPts > 0 ? 'color-mix(in srgb, var(--color-success) 4%, transparent)' : 'transparent'
+  const rowBorder = isPerfect ? '#FBBF2460'
+    : !pending && totalPts === 0 ? 'color-mix(in srgb, var(--color-error) 12%, var(--color-border))'
+    : 'var(--color-border)'
+
+  return (
+    <div
+      onClick={() => !pending && setExpanded(e => !e)}
+      style={{ background: rowBg, border: `1px solid ${rowBorder}`, borderRadius: 8, padding: '10px 12px', marginBottom: 6, cursor: pending ? 'default' : 'pointer' }}
+    >
+      {/* Row 1: match ID + badges + pts */}
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 6 }}>
+        <span style={{ fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)' }}>#{m.match_id}</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+          {isPerfect && <span style={{ fontSize:'0.45rem',fontFamily:'var(--font-mono)',letterSpacing:'0.07em',textTransform:'uppercase',color:'#FBBF24',background:'#FBBF2418',border:'1px solid #FBBF2450',borderRadius:3,padding:'1px 4px',lineHeight:1.5 }}>PERFECTO</span>}
+          {isExact   && <span style={{ fontSize:'0.45rem',fontFamily:'var(--font-mono)',letterSpacing:'0.07em',textTransform:'uppercase',color:'#38BDF8',background:'#38BDF815',border:'1px solid #38BDF840',borderRadius:3,padding:'1px 4px',lineHeight:1.5 }}>EXACTO</span>}
+          <span style={{ fontSize: '0.78rem', fontWeight: 700, fontFamily: 'var(--font-mono)', color: pending ? 'var(--color-text-3)' : totalPts > 0 ? 'var(--color-success)' : 'var(--color-text-3)' }}>
+            {pending ? '—' : `+${totalPts}`}
+          </span>
+        </div>
+      </div>
+
+      {/* Row 2: home vs away + predicted score */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+        <span style={{ flex: 1, fontSize: '0.78rem', fontWeight: 600, color: !pending && bd.home_team ? '#FBBF24' : 'var(--color-text-1)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+          {pred.home_team ?? '—'}
+        </span>
+        <ScorePair home={pred.home_goals} away={pred.away_goals} />
+        <span style={{ flex: 1, fontSize: '0.78rem', fontWeight: 600, color: !pending && bd.away_team ? '#FBBF24' : 'var(--color-text-1)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', textAlign: 'right' }}>
+          {pred.away_team ?? '—'}
+        </span>
+      </div>
+
+      {/* Row 3: advance + hint */}
+      <div style={{ marginTop: 5, display: 'flex', alignItems: 'center', gap: 5 }}>
+        <span style={{ fontSize: '0.6rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', flexShrink: 0 }}>Avanza:</span>
+        <span style={{ fontSize: '0.6rem', fontWeight: 600, color: pending ? 'var(--color-primary)' : advanceOk ? 'var(--color-success)' : 'var(--color-error)' }}>
+          {advancePred ?? '—'}
+        </span>
+        {!pending && !advanceOk && advanceReal && (
+          <span style={{ fontSize: '0.58rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>
+            → <span style={{ color: 'var(--color-error)' }}>{advanceReal}</span>
+          </span>
+        )}
+        {!pending && (
+          <span style={{ marginLeft: 'auto', fontSize: '0.55rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>
+            {expanded ? '▲ cerrar' : '▼ desglose'}
+          </span>
+        )}
+      </div>
+
+      {/* Expanded: real result + breakdown dots */}
+      {expanded && !pending && (
+        <div style={{ marginTop: 8, paddingTop: 8, borderTop: '1px solid var(--color-border)' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 8 }}>
+            <span style={{ fontSize: '0.55rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', flexShrink: 0 }}>REAL:</span>
+            <span style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--color-text-2)', flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{res.home_team}</span>
+            <ScorePair home={res.home_goals} away={res.away_goals} />
+            <span style={{ fontSize: '0.7rem', fontWeight: 600, color: 'var(--color-text-2)', flex: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', textAlign: 'right' }}>{res.away_team}</span>
+          </div>
+          <div style={{ display: 'flex', gap: 12 }}>
+            {BD_FIELDS.map(f => (
+              <div key={f.key} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3 }}>
+                <BreakdownDot val={bd[f.key]} />
+                <span style={{ fontSize: '0.5rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>{f.header}</span>
+              </div>
+            ))}
+          </div>
+          {bonusDetail && (() => {
+            const earned = bonusDetail.correct
+            const pts    = bonusDetail.points
+            if (bonusDetail.actual === null)
+              return <div style={{ marginTop: 6, fontSize:'0.55rem',fontFamily:'var(--font-mono)',color:'var(--color-text-3)' }}>+{pts} pts si acierta el campeón</div>
+            return (
+              <div style={{ marginTop: 6 }}>
+                <span style={{ fontSize:'0.6rem',fontFamily:'var(--font-mono)',fontWeight:700,padding:'1px 5px',borderRadius:3,
+                  background: earned ? 'rgba(212,160,23,0.15)' : 'rgba(100,116,139,0.10)',
+                  border: `1px solid ${earned ? 'rgba(212,160,23,0.4)' : 'rgba(100,116,139,0.2)'}`,
+                  color: earned ? '#D4A017' : 'var(--color-text-3)',
+                }}>{earned ? `+${pts} BONO` : '+0 BONO'}</span>
+              </div>
+            )
+          })()}
+        </div>
+      )}
+    </div>
+  )
+}
+
 // ─── Stage Section ────────────────────────────────────────────────────────────
 
-function StageSection({ stage, matches, teamMap, predictedChamp, bonus }) {
+function StageSection({ stage, matches, teamMap, predictedChamp, bonus, isMobile }) {
   const [open, setOpen]         = useState(true)
   const [expanded, setExpanded] = useState(false)
   const visible  = expanded ? matches : matches.slice(0, PREVIEW_COUNT)
@@ -392,7 +523,21 @@ function StageSection({ stage, matches, teamMap, predictedChamp, bonus }) {
         )}
         {open ? <ChevronUp size={12} color="var(--color-text-3)" style={{ flexShrink: 0 }} /> : <ChevronDown size={12} color="var(--color-text-3)" style={{ flexShrink: 0 }} />}
       </button>
-      {open && (
+      {open && (isMobile ? (
+        <div style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderTop: 'none', borderRadius: '0 0 8px 8px', padding: '0.5rem' }}>
+          {visible.map(m => {
+            const bonusDetail = m.match_id === 104 ? bonus?.champion
+                              : m.match_id === 103 ? bonus?.third_place
+                              : null
+            return <MobileMatchCard key={m.match_id} m={m} teamMap={teamMap} predictedChamp={predictedChamp} bonusDetail={bonusDetail} />
+          })}
+          {hidden > 0 && !expanded && (
+            <button onClick={e => { e.stopPropagation(); setExpanded(true) }} style={{ width: '100%', marginTop: '0.25rem', padding: '0.375rem', background: 'transparent', border: '1px dashed var(--color-border)', borderRadius: 6, cursor: 'pointer', fontSize: '0.68rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>
+              Ver {hidden} partido{hidden !== 1 ? 's' : ''} más ▼
+            </button>
+          )}
+        </div>
+      ) : (
         <div style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderTop: 'none', borderRadius: '0 0 8px 8px', padding: '0.5rem 0.375rem 0.375rem', overflowX: 'auto' }}>
           <div style={{ minWidth: 600 }}>
             <TableHeaders />
@@ -409,7 +554,7 @@ function StageSection({ stage, matches, teamMap, predictedChamp, bonus }) {
             )}
           </div>
         </div>
-      )}
+      ))}
     </div>
   )
 }
@@ -417,6 +562,7 @@ function StageSection({ stage, matches, teamMap, predictedChamp, bonus }) {
 // ─── Main Export ──────────────────────────────────────────────────────────────
 
 export default function BracketAuditSection({ knockoutDetail, matchMap, teamMap, bonus }) {
+  const isMobile  = useIsMobile(680)
   const [champOnly, setChampOnly] = useState(false)
 
   if (!knockoutDetail?.length) {
@@ -463,6 +609,7 @@ export default function BracketAuditSection({ knockoutDetail, matchMap, teamMap,
         finalMatch={finalMatch}
         predictedChamp={predictedChamp}
         bonus={bonus}
+        isMobile={isMobile}
       />
 
       {predictedChamp && (
@@ -489,11 +636,12 @@ export default function BracketAuditSection({ knockoutDetail, matchMap, teamMap,
             teamMap={teamMap}
             predictedChamp={predictedChamp}
             bonus={bonus}
+            isMobile={isMobile}
           />
         )
       })}
 
-      <BreakdownLegend />
+      {!isMobile && <BreakdownLegend />}
     </div>
   )
 }

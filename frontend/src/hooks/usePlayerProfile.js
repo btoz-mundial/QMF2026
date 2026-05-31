@@ -57,7 +57,7 @@ export function usePlayerProfile(userId) {
           fetchRobust(DATA_URLS.scoreDetails),
           fetchJSON(DATA_URLS.userMetrics),
           fetchRobust(DATA_URLS.matchesMetadata),   // dict OR array, possibly truncated
-          fetchJSON(DATA_URLS.historialRanking),
+          fetchOptional(DATA_URLS.historialRanking),  // huérfano — pipeline no lo genera, no debe romper
           fetchOptional(DATA_URLS.payouts),
           fetchRobust(DATA_URLS.timelineRace),
           fetchJSON(DATA_URLS.groupResults),

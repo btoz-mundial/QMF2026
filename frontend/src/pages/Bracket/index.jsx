@@ -329,12 +329,14 @@ function MobileBracket({ bracketGraph, resultsMap, userPicksMap, championPath, t
   const matches = Object.entries(bracketGraph).filter(([,i])=>i.stage===active).sort(([,a],[,b])=>a.bracket_position-b.bracket_position).map(([id])=>parseInt(id))
   return (
     <div>
-      <div style={{ display:'flex',gap:4,overflowX:'auto',paddingBottom:8,scrollbarWidth:'none' }}>
-        {stages.map(s=>(
-          <button key={s} onClick={()=>setActive(s)} style={{ padding:'0.375rem 0.75rem',borderRadius:20,border:'1px solid',borderColor:active===s?'var(--color-primary)':'var(--color-border)',background:active===s?'color-mix(in srgb, var(--color-primary) 10%, transparent)':'transparent',color:active===s?'var(--color-primary)':'var(--color-text-3)',fontSize:'0.72rem',fontFamily:'var(--font-mono)',fontWeight:active===s?700:400,cursor:'pointer',flexShrink:0,whiteSpace:'nowrap' }}>
-            {STAGE_LABEL[s]}
-          </button>
-        ))}
+      <div style={{ overflow:'hidden', marginBottom:'0.5rem' }}>
+        <div style={{ display:'flex',gap:4,overflowX:'auto',paddingBottom:20,marginBottom:-20,scrollbarWidth:'none',msOverflowStyle:'none' }}>
+          {stages.map(s=>(
+            <button key={s} onClick={()=>setActive(s)} style={{ padding:'0.375rem 0.75rem',borderRadius:20,border:'1px solid',borderColor:active===s?'var(--color-primary)':'var(--color-border)',background:active===s?'color-mix(in srgb, var(--color-primary) 10%, transparent)':'transparent',color:active===s?'var(--color-primary)':'var(--color-text-3)',fontSize:'0.72rem',fontFamily:'var(--font-mono)',fontWeight:active===s?700:400,cursor:'pointer',flexShrink:0,whiteSpace:'nowrap' }}>
+              {STAGE_LABEL[s]}
+            </button>
+          ))}
+        </div>
       </div>
       <div style={{ marginTop:'0.625rem' }}>
         <div style={{ fontFamily:'var(--font-display)',fontSize:'0.95rem',color:'var(--color-text-1)',letterSpacing:'0.05em',marginBottom:'0.625rem' }}>
@@ -440,8 +442,8 @@ export default function BracketPage() {
       </motion.div>
       <div style={{ overflowX:'auto', paddingBottom:'1rem' }}>
         {isMobile
-          ? <MobileBracket bracketGraph={bracketGraph} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap}/>
-          : <DesktopBracket layout={layout} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap}/>}
+          ? <MobileBracket bracketGraph={bracketGraph} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} />
+          : <DesktopBracket layout={layout} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} />}
       </div>
     </div>
   )

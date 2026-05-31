@@ -232,6 +232,15 @@ function main() {
   const results = loadResults();
   const completedMatches = getCompletedMatches(results);
 
+  // =====================================
+  // TOURNAMENT STATUS
+  // =====================================
+
+  const latestCompletedMatch =
+    completedMatches.length > 0
+      ? completedMatches[completedMatches.length - 1]
+      : null;
+
   completedMatches.forEach(match => {
     const snapshot = buildLeaderboard(users, results, match.match_id);
     saveSnapshot(match, snapshot.leaderboard);
@@ -242,20 +251,138 @@ function main() {
     }
   });
 
-  if (completedMatches.length > 0) {
-    const latestMatch = completedMatches[completedMatches.length - 1];
-    const currentMatchId = latestMatch.match_id === 72 ? 72.5 : latestMatch.match_id;
+  // =====================================
+  // CURRENT LEADERBOARD
+  // =====================================
 
-    const current = buildLeaderboard(users, results, currentMatchId);
+let currentMatchId = 0;
 
-    const leaderboardPath = path.join(SCORES_DIR, 'leaderboard.json');
-    fs.writeFileSync(leaderboardPath, JSON.stringify(current.leaderboard, null, 2));
+if (completedMatches.length > 0) {
 
-    const detailsPath = path.join(SCORES_DIR, 'score_details.json');
-    fs.writeFileSync(detailsPath, JSON.stringify(current.scoreDetails, null, 2));
-  }
+  const latestMatch =
+    completedMatches[
+      completedMatches.length - 1
+    ];
+
+  currentMatchId =
+    latestMatch.match_id === 72
+      ? 72.5
+      : latestMatch.match_id;
+
+}
+
+const current =
+  buildLeaderboard(
+    users,
+    results,
+    currentMatchId
+  );
+
+// =====================================
+// LEADERBOARD
+// =====================================
+
+const leaderboardPath =
+  path.join(
+    SCORES_DIR,
+    'leaderboard.json'
+  );
+
+fs.writeFileSync(
+  leaderboardPath,
+  JSON.stringify(
+    current.leaderboard,
+    null,
+    2
+  )
+);
+
+// =====================================
+// DETAILS
+// =====================================
+
+const detailsPath =
+  path.join(
+    SCORES_DIR,
+    'score_details.json'
+  );
+
+fs.writeFileSync(
+  detailsPath,
+  JSON.stringify(
+    current.scoreDetails,
+    null,
+    2
+  )
+);
 
   console.log('\nScores generados -> output/scores');
+
+  // =====================================
+  // TOURNAMENT STATUS
+  // =====================================
+
+  let tournamentStatus = {
+
+    generated_at:
+      new Date().toISOString(),
+
+    last_match_id: 0,
+
+    last_match_label:
+      'Torneo sin iniciar',
+
+    completed_matches:
+      completedMatches.length
+
+  };
+
+  if (latestCompletedMatch) {
+
+    let lastMatch =
+
+      results.group.find(
+        m => m.match_id === latestCompletedMatch.match_id
+      )
+
+      ||
+
+      results.knockout.find(
+        m => m.match_id === latestCompletedMatch.match_id
+      );
+
+    if (lastMatch) {
+
+      tournamentStatus.last_match_id =
+        lastMatch.match_id;
+
+      if (
+        lastMatch.home_team &&
+        lastMatch.away_team
+      ) {
+
+        tournamentStatus.last_match_label =
+          `${lastMatch.home_team} vs ${lastMatch.away_team}`;
+
+      }
+    }
+
+  }
+
+  fs.writeFileSync(
+
+    path.join(
+      SCORES_DIR,
+      'tournament_status.json'
+    ),
+
+    JSON.stringify(
+      tournamentStatus,
+      null,
+      2
+    )
+
+  );
 }
 
 main();

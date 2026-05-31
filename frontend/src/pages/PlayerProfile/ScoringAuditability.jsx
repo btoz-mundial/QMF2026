@@ -1,4 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
+
+function useIsMobile(bp = 680) {
+  const [m, setM] = useState(() => window.innerWidth < bp)
+  useEffect(() => {
+    const h = () => setM(window.innerWidth < bp)
+    window.addEventListener('resize', h)
+    return () => window.removeEventListener('resize', h)
+  }, [bp])
+  return m
+}
 import { motion, AnimatePresence } from 'framer-motion'
 
 // ─── Load contract ─────────────────────────────────────────────────────────────
@@ -70,6 +80,7 @@ function resolveMetaStyles(meta = {}, visual = {}) {
 
 // ─── Sub-tab navigation ────────────────────────────────────────────────────────
 function AuditSubTabs({ tabs, active, onChange }) {
+  const isMobile = useIsMobile(680)
   return (
     <div style={{
       display: 'flex', gap: '0.25rem', marginBottom: '1.75rem',
@@ -80,13 +91,14 @@ function AuditSubTabs({ tabs, active, onChange }) {
         return (
           <button key={tab.id} onClick={() => onChange(tab.id)} style={{
             background: 'none', border: 'none', cursor: 'pointer',
-            padding: '0.5rem 1rem 0.625rem',
-            fontFamily: T.mono, fontSize: '0.68rem',
-            letterSpacing: '0.08em', textTransform: 'uppercase',
+            padding: isMobile ? '0.5rem 0.5rem 0.625rem' : '0.5rem 1rem 0.625rem',
+            fontFamily: T.mono, fontSize: isMobile ? '0.58rem' : '0.68rem',
+            letterSpacing: '0.06em', textTransform: 'uppercase',
             color: isActive ? T.text1 : T.text3,
             borderBottom: isActive ? `2px solid ${T.accent}` : '2px solid transparent',
             marginBottom: '-1px',
             transition: 'color 0.15s, border-color 0.15s',
+            whiteSpace: 'nowrap',
           }}>
             {tab.label}
           </button>
@@ -762,15 +774,9 @@ export default function ScoringAuditability() {
 
   return (
     <div style={{ paddingBottom: '3rem' }}>
-      <div style={{
-        fontFamily: T.mono, fontSize: '0.56rem', letterSpacing: '0.22em',
-        textTransform: 'uppercase', color: T.text3, marginBottom: '1.25rem',
-      }}>
-        Scoring &amp; Auditability
-      </div>
       <AuditSubTabs tabs={tabs} active={activeTab} onChange={setActiveTab} />
       <AnimatePresence mode="wait">
-        <TabContent key={activeTab} tab={current} />
+        {current && <TabContent key={activeTab} tab={current} />}
       </AnimatePresence>
     </div>
   )

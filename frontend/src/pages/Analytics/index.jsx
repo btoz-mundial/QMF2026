@@ -202,9 +202,9 @@ function AnalyticsTabBar({ activeTab, onTabChange }) {
             style={{
               background: 'none',
               border: 'none',
-              padding: '0.5rem 1rem',
+              padding: '0.5rem 0.55rem',
               cursor: 'pointer',
-              fontSize: '0.72rem',
+              fontSize: '0.62rem',
               fontFamily: 'var(--font-mono)',
               fontWeight: active ? 700 : 400,
               color: active ? 'var(--color-text-1)' : 'var(--color-text-3)',
@@ -668,7 +668,7 @@ function VeredictoAnticipado({ matches, teamIso2 }) {
 // ══════════════════════════════════════════════════════════════════════════════
 
 // ── S1: Quienes Somos ──────────────────────────────────────────────────
-function CompetitiveIdentityCard({ archetypeCounts, archRegistry, totalUsers }) {
+function CompetitiveIdentityCard({ archetypeCounts, archRegistry, totalUsers, isMobile }) {
   const [hoveredTile, setHoveredTile] = useState(null)
   const regMap = {}
   archRegistry?.archetypes?.forEach(a => { regMap[a.id] = a })
@@ -690,7 +690,7 @@ function CompetitiveIdentityCard({ archetypeCounts, archRegistry, totalUsers }) 
       <SectionHeader label="Quienes Somos" sub="Calculamos el perfil de cada jugador basado en su desempeño global y por etapas" />
 
       {/* Summary stats */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.875rem', marginBottom: '1.25rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--color-border)' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr 1fr' : 'repeat(4, 1fr)', gap: '0.875rem', marginBottom: '1.25rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--color-border)' }}>
         {[
           { label: 'PARTICIPANTES', value: totalUsers,    color: 'var(--color-text-1)', large: true,  sub: null },
           { label: 'CON PERFIL REVELADO',     value: revealedCount, color: '#34D399',             large: true,  sub: null },
@@ -705,8 +705,8 @@ function CompetitiveIdentityCard({ archetypeCounts, archRegistry, totalUsers }) 
         ))}
       </div>
 
-      {/* Archetype grid — 3 cols (4 archetypes + 1 fallback = 5 tiles) */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
+      {/* Archetype grid — 3 cols desktop / 2 cols mobile */}
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : 'repeat(3, 1fr)', gap: '0.5rem' }}>
         {ARCH_ORDER.map(id => {
           const meta   = regMap[id]
           const count  = archetypeCounts[id] ?? 0
@@ -1148,13 +1148,13 @@ function CommunityTraitsCard({ enrichedMatches, lb, archetypeCounts, totalUsers,
 }
 
 // ── Competitive DNA Tab ───────────────────────────────────────────────────────
-function CompetitiveDnaTab({ lb, archetypeCounts, archRegistry, totalUsers, consensoStats, avgPhaseAccuracy, hasResults, enrichedMatches, champList, avgEfic, avgPrecGen }) {
+function CompetitiveDnaTab({ lb, archetypeCounts, archRegistry, totalUsers, consensoStats, avgPhaseAccuracy, hasResults, enrichedMatches, champList, avgEfic, avgPrecGen, isMobile }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
       {/* Row 1-2: Identity + Tier left col; Rasgos spanning right col */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem', alignItems: 'stretch' }}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-          <CompetitiveIdentityCard archetypeCounts={archetypeCounts} archRegistry={archRegistry} totalUsers={totalUsers} />
+          <CompetitiveIdentityCard archetypeCounts={archetypeCounts} archRegistry={archRegistry} totalUsers={totalUsers} isMobile={isMobile} />
           <TierDistributionCard lb={lb} />
         </div>
         <CommunityTraitsCard enrichedMatches={enrichedMatches} lb={lb} archetypeCounts={archetypeCounts} totalUsers={totalUsers} champList={champList} avgEfic={avgEfic} avgPrecGen={avgPrecGen} />
@@ -1270,7 +1270,7 @@ function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 })
   )
 }
 
-function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats }) {
+function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile }) {
   if (!enrichedMatches || enrichedMatches.length === 0) {
     return (
       <div style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 12, padding: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', textAlign: 'center' }}>
@@ -1308,7 +1308,7 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats }) {
         <SectionHeader label="Mente Colectiva · Explorador" sub="Distribución del pensamiento colectivo por partido" />
 
         {/* Stats */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.25rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--color-border)' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr 1fr' : 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.25rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--color-border)' }}>
           {[
             { label: 'PARTIDOS ANALIZADOS', value: total,                                                   color: 'var(--color-text-1)' },
             { label: 'PRECISIÓN CONSENSO',  value: precision   != null ? `${precision.toFixed(1)}%`   : '—', color: precision != null ? (precision >= 50 ? '#34D399' : '#FB923C') : 'var(--color-text-3)' },
@@ -1345,14 +1345,14 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats }) {
 
       {/* ── La Mayor Discusión | Todos lo Vieron Venir ──────────────────────── */}
       {consensoStats && !consensoStats.empty && (
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem', alignItems: 'start' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '1.25rem', alignItems: 'start' }}>
           <BatallasPuebloCard consensoStats={consensoStats} teamIso2={teamIso2} />
           <VozUnanimeCard consensoStats={consensoStats} teamIso2={teamIso2} />
         </div>
       )}
 
       {/* ── Partidos Divididos | Partidos Unánimes ────────────────────────────── */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem', alignItems: 'start' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '1.25rem', alignItems: 'start' }}>
         <MatchExplorerBlock
           title="⚔ Batallas del Pueblo"
           subtitle="Menor consenso primero"
@@ -1587,7 +1587,7 @@ export default function Analytics() {
 
       {/* ══ COMPETITIVE DNA ═══════════════════════════════════════════════ */}
       {activeTab === 'Competitive DNA' && (
-        <CompetitiveDnaTab
+        <CompetitiveDnaTab isMobile={isMobile}
           lb={lb}
           archetypeCounts={archetypeCounts}
           archRegistry={archRegistry}
@@ -1602,10 +1602,10 @@ export default function Analytics() {
         />
       )}
 
-      {/* ══ MENTE COLECTIVA ═══════════════════════════════════════════════ */}
       {activeTab === 'Mente Colectiva' && (
-        <MenteColectivaTab enrichedMatches={enrichedMatches} teamIso2={teamIso2} consensoStats={consensoStats} />
+        <MenteColectivaTab enrichedMatches={enrichedMatches} teamIso2={teamIso2} consensoStats={consensoStats} isMobile={isMobile} />
       )}
+
     </motion.div>
   )
 }

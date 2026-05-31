@@ -159,7 +159,7 @@ function PosChip({ pts, correct }) {
 
 // ─── Standings Table ───────────────────────────────────────────────────────────
 
-function StandingsTable({ group, temporalGroup, officialGroup, userStandings, teamMap }) {
+function StandingsTable({ group, temporalGroup, officialGroup, userStandings, teamMap, isMobile }) {
   if (!temporalGroup && !officialGroup) return (
     <div style={{ color: 'var(--color-text-3)', fontSize: '0.8rem', padding: '1rem' }}>
       Sin datos para Grupo {group}
@@ -177,12 +177,16 @@ function StandingsTable({ group, temporalGroup, officialGroup, userStandings, te
   const userGroupStandings = userStandings?.find(s => s.group === group)
   const hasUser = !!userGroupStandings
 
-  const cols = hasUser
-    ? '36px 1fr 32px 32px 32px 32px 44px 52px 72px 72px'
-    : '36px 1fr 32px 32px 32px 32px 44px 52px 72px'
+  // Mobile: show only # | Equipo | PJ | PTS | DG (hide PG/PE/PP/Forma/Pred)
+  const cols = isMobile
+    ? '28px 1fr 26px 36px 36px'
+    : hasUser
+      ? '36px 1fr 32px 32px 32px 32px 44px 52px 72px 72px'
+      : '36px 1fr 32px 32px 32px 32px 44px 52px 72px'
 
-  const headers = ['#', 'Equipo', 'PJ', 'PG', 'PE', 'PP', 'DG', 'PTS', 'Forma']
-  if (hasUser) headers.push('Pred')
+  const headers = isMobile
+    ? ['#', 'Equipo', 'PJ', 'PTS', 'DG']
+    : ['#', 'Equipo', 'PJ', 'PG', 'PE', 'PP', 'DG', 'PTS', 'Forma', ...(hasUser ? ['Pred'] : [])]
 
   return (
     <div style={{
@@ -193,7 +197,7 @@ function StandingsTable({ group, temporalGroup, officialGroup, userStandings, te
       {/* Header */}
       <div style={{
         display: 'grid', gridTemplateColumns: cols,
-        padding: '10px 16px',
+        padding: isMobile ? '8px 12px' : '10px 16px',
         borderBottom: '1px solid var(--color-border)',
         background: 'color-mix(in srgb, var(--color-bg) 60%, transparent)',
       }}>
@@ -219,7 +223,7 @@ function StandingsTable({ group, temporalGroup, officialGroup, userStandings, te
         return (
           <div key={row.team} style={{
             display: 'grid', gridTemplateColumns: cols,
-            padding: '13px 16px',
+            padding: isMobile ? '10px 12px' : '13px 16px',
             borderBottom: idx < table.length - 1 ? '1px solid var(--color-border)' : 'none',
             alignItems: 'center',
             background: isQ ? 'color-mix(in srgb, var(--color-primary) 4%, transparent)' : 'transparent',
@@ -256,37 +260,38 @@ function StandingsTable({ group, temporalGroup, officialGroup, userStandings, te
 
             {/* PJ */}
             <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pj}</div>
-            {/* PG */}
-            <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pg}</div>
-            {/* PE */}
-            <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pe}</div>
-            {/* PP */}
-            <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pp}</div>
 
-            {/* DG */}
-            <div style={{
-              textAlign: 'center', fontSize: 12, fontFamily: 'var(--font-mono)', fontWeight: 600,
-              color: row.dg > 0 ? 'var(--color-success)' : row.dg < 0 ? '#EF4444' : 'var(--color-text-3)',
-            }}>
-              {row.dg > 0 ? `+${row.dg}` : row.dg}
-            </div>
+            {/* Mobile: PTS next, then DG — skip PG/PE/PP/Form */}
+            {isMobile ? (
+              <>
+                <div style={{ textAlign: 'center', fontSize: 14, fontWeight: 800, fontFamily: 'var(--font-mono)', color: isQ ? 'var(--color-text-1)' : 'var(--color-text-2)' }}>{row.pts}</div>
+                <div style={{ textAlign: 'center', fontSize: 12, fontFamily: 'var(--font-mono)', fontWeight: 600, color: row.dg > 0 ? 'var(--color-success)' : row.dg < 0 ? '#EF4444' : 'var(--color-text-3)' }}>
+                  {row.dg > 0 ? `+${row.dg}` : row.dg}
+                </div>
+              </>
+            ) : (
+              <>
+                {/* PG */}
+                <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pg}</div>
+                {/* PE */}
+                <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pe}</div>
+                {/* PP */}
+                <div style={{ textAlign: 'center', fontSize: 12, color: 'var(--color-text-2)' }}>{row.pp}</div>
+                {/* DG */}
+                <div style={{ textAlign: 'center', fontSize: 12, fontFamily: 'var(--font-mono)', fontWeight: 600, color: row.dg > 0 ? 'var(--color-success)' : row.dg < 0 ? '#EF4444' : 'var(--color-text-3)' }}>
+                  {row.dg > 0 ? `+${row.dg}` : row.dg}
+                </div>
+                {/* PTS */}
+                <div style={{ textAlign: 'center', fontSize: 18, fontWeight: 800, fontFamily: 'var(--font-mono)', color: isQ ? 'var(--color-text-1)' : 'var(--color-text-2)' }}>{row.pts}</div>
+                {/* Form */}
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4 }}>
+                  {(row.form ?? []).map((r, i) => <FormDot key={i} result={r} />)}
+                </div>
+              </>
+            )}
 
-            {/* PTS */}
-            <div style={{
-              textAlign: 'center', fontSize: 18, fontWeight: 800,
-              fontFamily: 'var(--font-mono)',
-              color: isQ ? 'var(--color-text-1)' : 'var(--color-text-2)',
-            }}>
-              {row.pts}
-            </div>
-
-            {/* Form */}
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 4 }}>
-              {(row.form ?? []).map((r, i) => <FormDot key={i} result={r} />)}
-            </div>
-
-            {/* User pred */}
-            {hasUser && (
+            {/* User pred — desktop only */}
+            {!isMobile && hasUser && (
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 2 }}>
                 {userPos ? (
                   <>
@@ -536,7 +541,9 @@ export default function Groups() {
   ]
 
   const temporalGroup  = temporalStandings?.groups?.find(g => g.group === selectedGroup)
-  const isOfficial     = standingsResults?.status === 'final'
+  // isOfficial solo si status=final Y al menos un equipo tiene real_team no-nulo
+  const hasRealTeams   = standingsResults?.groups?.some(g => g.positions?.some(p => p.real_team != null))
+  const isOfficial     = standingsResults?.status === 'final' && hasRealTeams
   const officialGroup  = isOfficial
     ? standingsResults.groups?.find(g => g.group === selectedGroup)
     : null
@@ -680,6 +687,7 @@ export default function Groups() {
               officialGroup={officialGroup}
               userStandings={userStandings}
               teamMap={teamMap}
+              isMobile={isMobile}
             />
           </div>
 
@@ -709,8 +717,10 @@ export default function Groups() {
       <div style={{ marginTop: '2rem', padding: '0.625rem 0', borderTop: '1px solid var(--color-border)' }}>
         <p style={{ fontSize: '0.8rem', color: isOfficial ? 'var(--color-text-2)' : 'var(--color-text-3)', margin: 0, fontStyle: 'italic', fontFamily: 'var(--font-mono)' }}>
           {isOfficial
-            ? '✓ Posiciones definitivas — standings oficiales FIFA aplicados al scoring.'
-            : `Tabla temporal — posiciones al juego #${temporalStandings?.snapshot_match_id ?? '–'}. Se reflejan resultados oficiales al concluir el juego #72.`}
+            ? '\u2713 Posiciones definitivas \u2014 standings oficiales FIFA aplicados al scoring.'
+            : temporalStandings?.snapshot_match_id
+              ? `Tabla temporal \u00b7 resultados al juego #${temporalStandings.snapshot_match_id}. Las posiciones oficiales se confirman al concluir el juego #72.`
+              : 'Tabla estimada \u00b7 el torneo a\u00fan no ha comenzado. Las posiciones se actualizar\u00e1n con los resultados oficiales.'}
         </p>
       </div>
 

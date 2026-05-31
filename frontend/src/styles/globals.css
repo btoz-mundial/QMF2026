@@ -34,25 +34,27 @@
 }
 
 [data-theme="light"] {
-  --color-bg:           #E8EDF3;
-  --color-surface:      #F2F5F9;
-  --color-surface-2:    #F8FAFC;
-  --color-border:       #D1D9E4;
-  --color-border-light: #BCC8D8;
+  /* Dim mode — misma paleta del dark pero luminosidad ~2x.
+     Se siente como el dark mode en una habitación con luz natural. */
+  --color-bg:           #1A2E4A;   /* navy medio — más claro que #0B1120 del dark */
+  --color-surface:      #1F3A5C;   /* cards en azul más claro que el bg */
+  --color-surface-2:    #264569;   /* tarjeta anidada */
+  --color-border:       #2E5278;   /* borde visible pero suave */
+  --color-border-light: #3A6088;
 
-  --color-primary:      #0284C7;
-  --color-primary-dim:  #0369A1;
-  --color-accent:       #D97706;
-  --color-accent-dim:   #B45309;
+  --color-primary:      #56C0F0;   /* azul primario más cálido — menos saturado que dark */
+  --color-primary-dim:  #3A9FCC;
+  --color-accent:       #F0B840;   /* dorado más suave */
+  --color-accent-dim:   #C89428;
 
-  --color-success:      #059669;
-  --color-error:        #DC2626;
-  --color-warning:      #D97706;
-  --color-pending:      #94A3B8;
+  --color-success:      #2EC48A;   /* verde más suave */
+  --color-error:        #F07070;   /* rojo más suave */
+  --color-warning:      #F0B840;
+  --color-pending:      #5A7A94;
 
-  --color-text-1:       #0F172A;
-  --color-text-2:       #475569;
-  --color-text-3:       #94A3B8;
+  --color-text-1:       #E4F0FC;   /* casi blanco con tinte azul — suave a la vista */
+  --color-text-2:       #96B8D4;   /* texto secundario azul-gris */
+  --color-text-3:       #6890A8;   /* labels terciarios — legibles sobre el azul oscuro */
 }
 
 * {

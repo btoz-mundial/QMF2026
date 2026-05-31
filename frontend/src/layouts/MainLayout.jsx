@@ -1,6 +1,88 @@
 import { Outlet, NavLink, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { Sun, Moon, Menu, X } from 'lucide-react'
+import { DATA_URLS } from '@/config/urls'
+
+// ── Tournament status bar ──────────────────────────────────────────────────────
+
+function deriveStage(matchId, completed) {
+  if (!completed || matchId === 0) return null
+  if (matchId <= 72)   return 'Grupos'
+  if (matchId <= 72.5) return 'Tabla'
+  if (matchId <= 104)  return 'Eliminatoria'
+  return 'Final'
+}
+
+function useTournamentStatus() {
+  const [status, setStatus] = useState(null)
+  useEffect(() => {
+    fetch(DATA_URLS.tournamentStatus)
+      .then(r => r.ok ? r.json() : null)
+      .then(d => { if (d) setStatus(d) })
+      .catch(() => {})
+  }, [])
+  return status
+}
+
+function TournamentSubBar({ status }) {
+  if (!status || status.completed_matches === 0) return null
+
+  const stage = deriveStage(status.last_match_id, status.completed_matches)
+  const genDate = status.generated_at
+    ? new Date(status.generated_at).toLocaleString('es-MX', { month:'short', day:'numeric', hour:'2-digit', minute:'2-digit', hour12:false })
+    : null
+
+  return (
+    <div style={{
+      background: 'color-mix(in srgb, var(--color-primary) 6%, var(--color-surface))',
+      borderBottom: '1px solid var(--color-border)',
+      padding: '0 1rem',
+      height: 28,
+      display: 'flex',
+      alignItems: 'center',
+      gap: '0.5rem',
+      overflowX: 'auto',
+      scrollbarWidth: 'none',
+    }}>
+      {/* Live dot */}
+      <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-success)', flexShrink: 0 }} />
+
+      {/* Stage chip */}
+      {stage && (
+        <span style={{
+          fontSize: '0.55rem', fontFamily: 'var(--font-mono)', fontWeight: 700,
+          color: 'var(--color-primary)', background: 'color-mix(in srgb, var(--color-primary) 12%, transparent)',
+          border: '1px solid color-mix(in srgb, var(--color-primary) 25%, transparent)',
+          padding: '1px 6px', borderRadius: 3, letterSpacing: '0.08em', textTransform: 'uppercase', flexShrink: 0,
+        }}>
+          {stage}
+        </span>
+      )}
+
+      {/* Last match label */}
+      <span style={{ fontSize: '0.62rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-2)', flexShrink: 0 }}>
+        {status.last_match_label}
+      </span>
+
+      <span style={{ color: 'var(--color-border)', fontSize: '0.6rem', flexShrink: 0 }}>·</span>
+
+      {/* Completed matches */}
+      <span style={{ fontSize: '0.6rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', flexShrink: 0 }}>
+        {status.completed_matches} / 104 partidos
+      </span>
+
+      {/* Timestamp */}
+      {genDate && (
+        <>
+          <span style={{ color: 'var(--color-border)', fontSize: '0.6rem', flexShrink: 0 }}>·</span>
+          <span style={{ fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', flexShrink: 0 }}>
+            Actualizado {genDate}
+          </span>
+        </>
+      )}
+    </div>
+  )
+}
 
 const NAV_ITEMS = [
   { to: '/leaderboard', label: 'Tabla' },
@@ -35,6 +117,7 @@ export default function MainLayout() {
   const isMobile = useIsMobile()
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  const tournamentStatus = useTournamentStatus()
 
   // Cierra el menú al cambiar de ruta
   useEffect(() => { setMenuOpen(false) }, [location.pathname])
@@ -182,6 +265,8 @@ export default function MainLayout() {
           </div>
         </>
       )}
+
+      <TournamentSubBar status={tournamentStatus} />
 
       <main style={{ padding: '1.5rem', maxWidth: '1600px', margin: '0 auto' }}>
         <Outlet />

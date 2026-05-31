@@ -869,6 +869,7 @@ function PhaseWaveform({ count, efficiency, volatility, color, seed, isStandings
 }
 
 function PhasePerformanceCard({ metrics, snapshots, userId, totalParticipants }) {
+  const isMobile = useIsMobile(680)
   const efExtra = metrics?.metrics?.eficiencia_de_puntos?.extra
   const pgExtra = metrics?.metrics?.precision_general?.extra
 
@@ -1070,33 +1071,35 @@ function PhasePerformanceCard({ metrics, snapshots, userId, totalParticipants })
 
         </svg>
 
-        {/* ── Caption row ── */}
-        <div style={{
-          display:             'grid',
-          gridTemplateColumns: `${G_W / SVG_W * 100}% ${S_W / SVG_W * 100}% ${K_W / SVG_W * 100}%`,
-          borderTop:           '1px solid var(--color-border)',
-        }}>
-          {PHASES_META.map(({ key, color, dom }, i) => {
-            const meta = PHASE_IDENTITY[key]
-            return (
-              <div key={key} style={{
-                padding:     '0.7rem 0.7rem',
-                borderRight: i < 2 ? '1px solid var(--color-border)' : 'none',
-                display:     'flex',
-                gap:         '0.4rem',
-                alignItems:  'flex-start',
-                opacity:     dom ? 0.92 : 0.52,
-              }}>
-                <span style={{ fontSize: '0.72rem', flexShrink: 0, color, lineHeight: 1.4, marginTop: '0.05rem' }}>
-                  {meta.icon}
-                </span>
-                <span style={{ fontSize: '0.68rem', color: 'var(--color-text-2)', lineHeight: 1.55, fontFamily: 'var(--font-mono)' }}>
-                  {meta.caption}
-                </span>
-              </div>
-            )
-          })}
-        </div>
+        {/* ── Caption row — hidden on mobile (too narrow to read) ── */}
+        {!isMobile && (
+          <div style={{
+            display:             'grid',
+            gridTemplateColumns: `${G_W / SVG_W * 100}% ${S_W / SVG_W * 100}% ${K_W / SVG_W * 100}%`,
+            borderTop:           '1px solid var(--color-border)',
+          }}>
+            {PHASES_META.map(({ key, color, dom }, i) => {
+              const meta = PHASE_IDENTITY[key]
+              return (
+                <div key={key} style={{
+                  padding:     '0.7rem 0.7rem',
+                  borderRight: i < 2 ? '1px solid var(--color-border)' : 'none',
+                  display:     'flex',
+                  gap:         '0.4rem',
+                  alignItems:  'flex-start',
+                  opacity:     dom ? 0.92 : 0.52,
+                }}>
+                  <span style={{ fontSize: '0.72rem', flexShrink: 0, color, lineHeight: 1.4, marginTop: '0.05rem' }}>
+                    {meta.icon}
+                  </span>
+                  <span style={{ fontSize: '0.68rem', color: 'var(--color-text-2)', lineHeight: 1.55, fontFamily: 'var(--font-mono)' }}>
+                    {meta.caption}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        )}
 
       </div>
     </div>
@@ -1124,10 +1127,11 @@ const STAGE_LABELS = {
 
 // Single bet row: used for Campeón and Tercer Lugar
 function ApuestaRow({ label, team, status, stage, teamMap, pointsBadge, large = false }) {
-  const isAlive   = status === 'alive'
-  const t         = getTeam(team, teamMap)
-  const flag      = flagUrl(t?.iso2)
-  const stageText = stage ? (STAGE_LABELS[stage] ?? stage) : null
+  const isAlive      = status === 'alive'
+  const isEliminated = status === 'eliminated'
+  const t            = getTeam(team, teamMap)
+  const flag         = flagUrl(t?.iso2)
+  const stageText    = stage ? (STAGE_LABELS[stage] ?? stage) : null
 
   return (
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '1rem' }}>
@@ -1184,7 +1188,7 @@ function ApuestaRow({ label, team, status, stage, teamMap, pointsBadge, large = 
           }}>
             ✓ Vivo
           </span>
-        ) : (
+        ) : isEliminated ? (
           <>
             <span style={{
               fontSize: '0.63rem', fontFamily: 'var(--font-mono)', fontWeight: 700,
@@ -1198,7 +1202,7 @@ function ApuestaRow({ label, team, status, stage, teamMap, pointsBadge, large = 
               </span>
             )}
           </>
-        )}
+        ) : null}
       </div>
 
     </div>
@@ -1215,10 +1219,11 @@ function FinalMatchup({ finalist1, finalist1Status, finalist1Stage, finalist2, f
   const f2Flag  = flagUrl(f2Team?.iso2)
 
   function FinalistChip({ flag, name, isAlive, stage }) {
-    const stageText = stage ? (STAGE_LABELS[stage] ?? stage) : null
+    const isEliminated = !isAlive && stage != null
+    const stageText    = stage ? (STAGE_LABELS[stage] ?? stage) : null
     return (
       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', opacity: isAlive ? 1 : 0.38 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', opacity: isEliminated ? 0.38 : 1 }}>
           {flag && (
             <img src={flag} alt="" style={{ width: 20, height: 13, objectFit: 'cover', borderRadius: 2, flexShrink: 0 }} />
           )}
@@ -1230,7 +1235,7 @@ function FinalMatchup({ finalist1, finalist1Status, finalist1Stage, finalist2, f
             {name}
           </span>
         </div>
-        {!isAlive && stageText && (
+        {isEliminated && stageText && (
           <span style={{ fontSize: '0.53rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', paddingLeft: flag ? 28 : 0 }}>
             Cayó en {stageText}
           </span>
@@ -2605,7 +2610,7 @@ function StandingsPredictionsSection({ standingsDetail, teamMap }) {
           <div style={{ fontSize:'0.65rem', color:'var(--color-text-3)', fontFamily:'var(--font-mono)' }}>{standingsDetail.length} grupos</div>
         </div>
       </div>
-      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2, 1fr)' : `repeat(${columns.length}, 1fr)`, gap: '0.625rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : `repeat(${columns.length}, 1fr)`, gap: '0.625rem' }}>
         {columns.map((chunk, ci) => (
           <div key={ci} style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {chunk.map(grp => {
@@ -2738,6 +2743,28 @@ function PredictionsTab({ data }) {
     })
   }, [userProfile, scoreDetail])
 
+  // Merge profile standings predictions with scoreDetail
+  // userProfile.standings[i] = { group, positions: ["TeamA","TeamB","TeamC","TeamD"] }
+  // scoreDetail.standings[i]  = { group, total_points, positions: [{position,predicted_team,real_team,correct,points}] }
+  const standingsDetail = useMemo(() => {
+    const fromScore   = scoreDetail?.standings ?? []
+    const fromProfile = userProfile?.standings  ?? []
+    if (fromScore.length) return fromScore   // scored data wins
+    if (!fromProfile.length) return []
+    // Build from raw profile predictions (no results yet)
+    return fromProfile.map(s => ({
+      group:        s.group,
+      total_points: 0,
+      positions:    (s.positions ?? []).map((team, i) => ({
+        position:       i + 1,
+        predicted_team: team,
+        real_team:      null,
+        correct:        null,
+        points:         null,
+      })),
+    }))
+  }, [userProfile, scoreDetail])
+
   const [subTab, setSubTab] = useState(() => {
     const hasKnockoutResults = knockoutDetail.some(m => m.result?.home_team != null)
     return hasKnockoutResults ? 'bracket' : 'grupos'
@@ -2757,7 +2784,7 @@ function PredictionsTab({ data }) {
       )}
 
       {subTab === 'tabla' && (
-        <StandingsPredictionsSection standingsDetail={scoreDetail?.standings} teamMap={teamMap} />
+        <StandingsPredictionsSection standingsDetail={standingsDetail} teamMap={teamMap} />
       )}
 
       {subTab === 'bracket' && (

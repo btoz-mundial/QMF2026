@@ -1,644 +1,149 @@
 {
-  "generated_at": "2026-05-30T00:27:34.871Z",
+  "generated_at": "2026-05-31T01:35:14.288Z",
   "metric": "precision_tabla",
   "users": [
     {
       "user_id": "2BC645A052",
       "display_name": "BtoZ",
-      "value": 1,
+      "value": 0,
       "extra": {
-        "correct_positions": 48,
+        "correct_positions": 0,
         "incorrect_positions": 0,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E",
-          "F",
-          "G",
-          "H",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
+        "possible_positions": 0,
+        "perfect_groups": [],
         "zero_points_groups": [],
-        "best_group_score": 10,
-        "best_groups": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E",
-          "F",
-          "G",
-          "H",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
-        "worst_group_score": 10,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E",
-          "F",
-          "G",
-          "H",
-          "I",
-          "J",
-          "K",
-          "L"
-        ]
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
-      "user_id": "031CAE0D1F",
-      "display_name": "CasualFan",
-      "value": 0.3125,
+      "user_id": "EDCFEC1155",
+      "display_name": "Gabo",
+      "value": 0,
       "extra": {
-        "correct_positions": 15,
-        "incorrect_positions": 33,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "I"
-        ],
-        "zero_points_groups": [
-          "B",
-          "H",
-          "J",
-          "K"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "I"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "B",
-          "H",
-          "J",
-          "K"
-        ]
-      }
-    },
-    {
-      "user_id": "F7B71AEB54",
-      "display_name": "DisasterPicks",
-      "value": 0.3333333333333333,
-      "extra": {
-        "correct_positions": 16,
-        "incorrect_positions": 32,
-        "possible_positions": 48,
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
         "perfect_groups": [],
-        "zero_points_groups": [
-          "A",
-          "L"
-        ],
-        "best_group_score": 7,
-        "best_groups": [
-          "C"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "436876C0EB",
-      "display_name": "El Mencho",
-      "value": 0.3125,
-      "extra": {
-        "correct_positions": 15,
-        "incorrect_positions": 33,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "I",
-          "K"
-        ],
-        "zero_points_groups": [
-          "B",
-          "C",
-          "G",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "I",
-          "K"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "B",
-          "C",
-          "G",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "220B53DC66",
-      "display_name": "Empatero",
-      "value": 0.3333333333333333,
-      "extra": {
-        "correct_positions": 16,
-        "incorrect_positions": 32,
-        "possible_positions": 48,
-        "perfect_groups": [],
-        "zero_points_groups": [
-          "B",
-          "L"
-        ],
-        "best_group_score": 6,
-        "best_groups": [
-          "E",
-          "H",
-          "K"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "B",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "7A18E68A88",
-      "display_name": "HighRiskPicks",
-      "value": 0.3958333333333333,
-      "extra": {
-        "correct_positions": 19,
-        "incorrect_positions": 29,
-        "possible_positions": 48,
-        "perfect_groups": [],
-        "zero_points_groups": [
-          "L"
-        ],
-        "best_group_score": 7,
-        "best_groups": [
-          "C"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "19FD1C6118",
-      "display_name": "H Zapata",
-      "value": 0.5625,
-      "extra": {
-        "correct_positions": 27,
-        "incorrect_positions": 21,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "B",
-          "E",
-          "H",
-          "K"
-        ],
-        "zero_points_groups": [
-          "A",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "B",
-          "E",
-          "H",
-          "K"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "L"
-        ]
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "4EECA46DE1",
       "display_name": "JIPM",
-      "value": 0.10416666666666667,
+      "value": 0,
       "extra": {
-        "correct_positions": 5,
-        "incorrect_positions": 43,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "H"
-        ],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ]
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
+        "perfect_groups": [],
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "7A8134D49E",
       "display_name": "Jose J Silva",
-      "value": 0.125,
+      "value": 0,
       "extra": {
-        "correct_positions": 6,
-        "incorrect_positions": 42,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "H"
-        ],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "411A537F6F",
-      "display_name": "JuanCa",
-      "value": 0.3958333333333333,
-      "extra": {
-        "correct_positions": 19,
-        "incorrect_positions": 29,
-        "possible_positions": 48,
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
         "perfect_groups": [],
         "zero_points_groups": [],
-        "best_group_score": 7,
-        "best_groups": [
-          "C"
-        ],
-        "worst_group_score": 1,
-        "worst_groups": [
-          "G"
-        ]
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "00B5C3CC03",
       "display_name": "LCV",
-      "value": 0.10416666666666667,
+      "value": 0,
       "extra": {
-        "correct_positions": 5,
-        "incorrect_positions": 43,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "H"
-        ],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ]
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
+        "perfect_groups": [],
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "3EE0EEE7BE",
       "display_name": "LJMV",
-      "value": 0.14583333333333334,
+      "value": 0,
       "extra": {
-        "correct_positions": 7,
-        "incorrect_positions": 41,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "H"
-        ],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K"
-        ]
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
+        "perfect_groups": [],
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "61757240D1",
       "display_name": "Luigi R",
-      "value": 0.16666666666666666,
+      "value": 0,
       "extra": {
-        "correct_positions": 8,
-        "incorrect_positions": 40,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "D",
-          "H"
-        ],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "D",
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "B40AF87447",
-      "display_name": "MrConservador",
-      "value": 0.375,
-      "extra": {
-        "correct_positions": 18,
-        "incorrect_positions": 30,
-        "possible_positions": 48,
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
         "perfect_groups": [],
-        "zero_points_groups": [
-          "L"
-        ],
-        "best_group_score": 7,
-        "best_groups": [
-          "B"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "621DA87FB2",
-      "display_name": "MrPerfect",
-      "value": 0.3125,
-      "extra": {
-        "correct_positions": 15,
-        "incorrect_positions": 33,
-        "possible_positions": 48,
-        "perfect_groups": [],
-        "zero_points_groups": [
-          "B",
-          "L"
-        ],
-        "best_group_score": 6,
-        "best_groups": [
-          "E",
-          "H",
-          "K"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "B",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "39C53BCDF0",
-      "display_name": "Penalty Chaos",
-      "value": 0.2916666666666667,
-      "extra": {
-        "correct_positions": 14,
-        "incorrect_positions": 34,
-        "possible_positions": 48,
-        "perfect_groups": [],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "L"
-        ],
-        "best_group_score": 6,
-        "best_groups": [
-          "E",
-          "H",
-          "K"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "L"
-        ]
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "3616094014",
       "display_name": "PIMR",
-      "value": 0.0625,
+      "value": 0,
       "extra": {
-        "correct_positions": 3,
-        "incorrect_positions": 45,
-        "possible_positions": 48,
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
         "perfect_groups": [],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ],
-        "best_group_score": 7,
-        "best_groups": [
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K",
-          "L"
-        ]
-      }
-    },
-    {
-      "user_id": "2443A7AA23",
-      "display_name": "Reynol",
-      "value": 0.5625,
-      "extra": {
-        "correct_positions": 27,
-        "incorrect_positions": 21,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "B",
-          "E",
-          "H",
-          "K"
-        ],
-        "zero_points_groups": [
-          "A",
-          "L"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "B",
-          "E",
-          "H",
-          "K"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "L"
-        ]
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     },
     {
       "user_id": "8718EFCC4C",
       "display_name": "Tom",
-      "value": 0.14583333333333334,
+      "value": 0,
       "extra": {
-        "correct_positions": 7,
-        "incorrect_positions": 41,
-        "possible_positions": 48,
-        "perfect_groups": [
-          "H"
-        ],
-        "zero_points_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K"
-        ],
-        "best_group_score": 10,
-        "best_groups": [
-          "H"
-        ],
-        "worst_group_score": 0,
-        "worst_groups": [
-          "A",
-          "B",
-          "C",
-          "E",
-          "F",
-          "G",
-          "I",
-          "J",
-          "K"
-        ]
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
+        "perfect_groups": [],
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
       }
     }
   ]

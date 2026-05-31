@@ -13,7 +13,8 @@ const PUBLIC      = path.join(ROOT, 'frontend', 'public', 'data')
 const PUBLIC_ROOT = path.join(ROOT, 'frontend', 'public')
 
 const COPIES = [
-  { from: 'output/scores/leaderboard.json',   to: 'scores/leaderboard.json' },
+  { from: 'output/scores/tournament_status.json', to: 'scores/tournament_status.json' },
+  { from: 'output/scores/leaderboard.json',       to: 'scores/leaderboard.json' },
   { from: 'output/scores/score_details.json', to: 'scores/score_details.json' },
   { from: 'output/scores/snapshots', to: 'scores/snapshots', dir: true },
   { from: 'output/users', to: 'users', dir: true },

@@ -2,6 +2,7 @@ const BASE = import.meta.env.BASE_URL
 
 export const DATA_URLS = {
   // --- Scoring (oficial) ---
+  tournamentStatus:         `${BASE}data/scores/tournament_status.json`,
   leaderboard:              `${BASE}data/scores/leaderboard.json`,
   scoreDetails:             `${BASE}data/scores/score_details.json`,
   temporalGroupStandings:   `${BASE}data/scores/temporal_group_standings.json`,
