@@ -16,6 +16,7 @@ const COPIES = [
   { from: 'output/scores/tournament_status.json', to: 'scores/tournament_status.json' },
   { from: 'output/scores/leaderboard.json',       to: 'scores/leaderboard.json' },
   { from: 'output/scores/score_details.json', to: 'scores/score_details.json' },
+  { from: 'output/scores/temporal_group_standings.json', to: 'scores/temporal_group_standings.json' },
   { from: 'output/scores/snapshots', to: 'scores/snapshots', dir: true },
   { from: 'output/users', to: 'users', dir: true },
   { from: 'data/results/group_results.json',     to: 'results/group_results.json' },
