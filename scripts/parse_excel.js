@@ -13,7 +13,22 @@ const EXPECTED_KNOCKOUT_MATCHES = 32;
 const EXPECTED_STANDINGS_ROWS = 48;
 const EXPECTED_GROUPS = 12;
 const EXPECTED_POSITIONS = 4;
+const TEAMS_FILE =  path.join( process.cwd(), 'data', 'teams', 'teams.json' );
+const TEAM_MAP = new Map();
 
+JSON.parse(
+  fs.readFileSync(
+    TEAMS_FILE,
+    'utf8'
+  )
+).forEach(team => {
+
+  TEAM_MAP.set(
+    normalizeTeamName(team.name),
+    team.name
+  );
+
+});
 
 // =================================
 // HELPERS
@@ -68,6 +83,17 @@ function normalizeRowKeys(row) {
   return o;
 }
 
+function normalizeTeamName(name) {
+
+  return name
+    ?.toString()
+    .trim()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toUpperCase();
+
+}
+
 function error(file, ref, stage, msg) {
 
   throw new Error(
@@ -76,6 +102,28 @@ function error(file, ref, stage, msg) {
 
 }
 
+function validateTeam(
+  team,
+  file,
+  context
+) {
+
+  const officialName =
+    TEAM_MAP.get(
+      normalizeTeamName(team)
+    );
+
+  if (!officialName) {
+
+    throw new Error(
+      `[${file}] [${context}] → Invalid team "${team}"`
+    );
+
+  }
+
+  return officialName;
+
+}
 
 // =================================
 // VALIDATIONS
@@ -284,36 +332,64 @@ function parseKnockout(rows, file) {
 
     }
 
+    const homeTeam =
+      validateTeam(
+        r.home_team,
+        file,
+        `match:${r.match_id}:home_team`
+      );
+
+    const awayTeam =
+      validateTeam(
+        r.away_team,
+        file,
+        `match:${r.match_id}:away_team`
+      );
+
+    const advanceTeamOfficial =
+      validateTeam(
+        advanceTeam,
+        file,
+        `match:${r.match_id}:advance_team`
+      );
+
+    if (
+     advanceTeamOfficial !== homeTeam &&
+      advanceTeamOfficial !== awayTeam
+    ){
+
+      error(
+        file,
+        r.match_id,
+        r.stage,
+        'Advance team must be home_team or away_team'
+      );
+
+    }
+
     // =================================
     // OUTPUT
     // =================================
 
-    return {
+   return {
 
-      match_id:
-        Number(r.match_id),
+     match_id: Number(r.match_id),
 
-      home_team:
-        r.home_team,
+      home_team: homeTeam,
 
-      away_team:
-        r.away_team,
+      away_team: awayTeam,
 
-      home_goals:
-        homeGoals,
+      home_goals: homeGoals,
 
-      away_goals:
-        awayGoals,
+      away_goals: awayGoals,
 
-      advance_team:
-        advanceTeam
+      advance_team: advanceTeamOfficial
 
     };
 
   });
 
 }
-
 
 function parseStandings(rows, file) {
 
@@ -331,15 +407,23 @@ function parseStandings(rows, file) {
     const pos =
       Number(r.position);
 
-    const team =
-      r.team
-        ?.toString()
-        ?.trim();
-
     if (!g) {
 
       throw new Error(
         `[${file}] → Missing standings group`
+      );
+
+    }
+    const VALID_GROUPS = [
+       'A','B','C','D',
+       'E','F','G','H',
+       'I','J','K','L'
+    ];
+
+    if (!VALID_GROUPS.includes(g)) {
+
+      throw new Error(
+        `[${file}] → Invalid group ${g}`
       );
 
     }
@@ -356,14 +440,13 @@ function parseStandings(rows, file) {
 
     }
 
-    if (!team) {
-
-      throw new Error(
-        `[${file}] [group:${g}] → Missing team`
+    const team =
+       validateTeam(
+          r.team,
+          file,
+          `group:${g}`
       );
-
-    }
-
+    
     if (!groups[g]) {
 
       groups[g] = [
