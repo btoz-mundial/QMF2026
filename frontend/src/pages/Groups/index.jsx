@@ -177,7 +177,7 @@ function StandingsTable({ group, temporalGroup, officialGroup, userStandings, te
   const userGroupStandings = userStandings?.find(s => s.group === group)
   const hasUser = !!userGroupStandings
 
-  // Mobile: show only # | Equipo | PJ | PTS | DG (hide PG/PE/PP/Forma/Pred)
+  // Mobile: show only # | Equipo | PJ | PTS | DG (hide PG/PE/PP/Racha/Pred)
   const cols = isMobile
     ? '28px 1fr 26px 36px 36px'
     : hasUser
@@ -186,7 +186,7 @@ function StandingsTable({ group, temporalGroup, officialGroup, userStandings, te
 
   const headers = isMobile
     ? ['#', 'Equipo', 'PJ', 'PTS', 'DG']
-    : ['#', 'Equipo', 'PJ', 'PG', 'PE', 'PP', 'DG', 'PTS', 'Forma', ...(hasUser ? ['Pred'] : [])]
+    : ['#', 'Equipo', 'PJ', 'PG', 'PE', 'PP', 'DG', 'PTS', 'Racha', ...(hasUser ? ['Pred'] : [])]
 
   return (
     <div style={{

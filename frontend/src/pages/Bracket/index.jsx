@@ -157,7 +157,7 @@ function ChampionBox({ result, pick, teamMap }) {
   const td    = getTeam(champ, teamMap)
   const flag  = flagUrl(td?.iso2)
   return (
-    <div style={{ border:`2px solid ${champ?'#D4A017':'rgba(212,160,23,0.3)'}`,borderRadius:10,padding:'4px 10px',textAlign:'center',background:'var(--color-surface)',boxShadow:champ?'0 0 24px rgba(212,160,23,0.35)':'none',width:'100%' }}>
+    <div style={{ border:`2px solid ${champ?'#D4A017':'rgba(212,160,23,0.3)'}`,borderRadius:10,padding:'4px 10px',textAlign:'center',background:'var(--color-surface)',boxShadow:champ?'0 0 24px rgba(212,160,23,0.35)':'none',width:'100%',minHeight:120,display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center' }}>
       <div style={{ fontFamily:'var(--font-display)',fontSize:'20px',color:'#D4A017',letterSpacing:'1px',marginBottom:6 }}>CAMPEÓN</div>
       {champ?(
         <>
