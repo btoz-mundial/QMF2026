@@ -292,7 +292,32 @@ function buildTemporalStandings(matches) {
   const groups = {};
 
   // =====================================
-  // PROCESS MATCHES
+  // INIT ALL GROUPS & TEAMS
+  // (ensures table renders even pre-torneo)
+  // =====================================
+
+  matches.forEach(match => {
+
+    const group = match.group;
+
+    if (!groups[group]) {
+      groups[group] = {};
+    }
+
+    if (!groups[group][match.home_team]) {
+      groups[group][match.home_team] =
+        createEmptyTeam(match.home_team);
+    }
+
+    if (!groups[group][match.away_team]) {
+      groups[group][match.away_team] =
+        createEmptyTeam(match.away_team);
+    }
+
+  });
+
+  // =====================================
+  // APPLY FINAL MATCH RESULTS
   // =====================================
 
   matches.forEach(match => {
@@ -315,41 +340,14 @@ function buildTemporalStandings(matches) {
     ) {
       return;
     }
-
-    const group = match.group;
-
-    if (!groups[group]) {
-
-      groups[group] = {};
-
-    }
-
-    // =====================================
-    // TEAM INIT
-    // =====================================
-
-    if (!groups[group][match.home_team]) {
-
-      groups[group][match.home_team] =
-        createEmptyTeam(match.home_team);
-
-    }
-
-    if (!groups[group][match.away_team]) {
-
-      groups[group][match.away_team] =
-        createEmptyTeam(match.away_team);
-
-    }
-
     // =====================================
     // APPLY RESULT
     // =====================================
 
     applyMatch(
 
-      groups[group][match.home_team],
-      groups[group][match.away_team],
+      groups[match.group][match.home_team],
+      groups[match.group][match.away_team],
       match
 
     );
