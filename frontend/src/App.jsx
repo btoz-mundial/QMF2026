@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react'
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom'
 import MainLayout from '@/layouts/MainLayout'
+import TitleManager from '@/components/common/TitleManager'
 
 const Leaderboard   = lazy(() => import('@/pages/Leaderboard'))
 const PlayerProfile = lazy(() => import('@/pages/PlayerProfile'))
@@ -32,6 +33,7 @@ function PageLoader() {
 function App() {
   return (
     <HashRouter>
+      <TitleManager />
       <Suspense fallback={<PageLoader />}>
         <Routes>
           <Route element={<MainLayout />}>
