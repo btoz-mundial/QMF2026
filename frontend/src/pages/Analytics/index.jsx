@@ -1511,8 +1511,10 @@ export default function Analytics() {
       }
 
       const koList      = Array.isArray(koResults) ? koResults : []
-      const nextMatch   = koList.find(m => m.home_goals === null || m.home_goals === undefined)
-      const lastMatch   = koList.length > 0 ? koList[koList.length - 1] : null
+      const allMatches  = [...(Array.isArray(groupResults) ? groupResults : []), ...koList]
+                           .sort((a, b) => a.match_id - b.match_id)
+      const nextMatch   = allMatches.find(m => m.home_goals === null || m.home_goals === undefined)
+      const lastMatch   = allMatches.filter(m => m.home_goals != null).pop() ?? null
       const matchToShow = nextMatch ?? lastMatch
       const isUpcoming  = !!nextMatch
       const matchToShowMeta = matchToShow ? (metaMap[matchToShow.match_id] ?? null) : null
