@@ -221,6 +221,8 @@ export default function HallOfFame() {
         archetype: archMap[u.display_name] ?? null,
       }))
 
+      if (!rows.length) return
+
       const champion    = rows[0]
       const champExact  = exactMap[champion.display_name]
       const champGen    = genMap[champion.display_name]
