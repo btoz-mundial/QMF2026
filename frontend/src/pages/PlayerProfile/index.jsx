@@ -137,23 +137,28 @@ function BreakdownBar({ breakdown, total }) {
 // The archetype side is the emotional center of gravity.
 // Typography scale creates the hierarchy — no illustrations, no gradients.
 
-function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snapUser, archetype, traits, allLeaderboard }) {
+function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snapUser, archetype, traits, allLeaderboard, notStarted, alphaRank }) {
   const isMobile = useIsMobile(680)
   const rank    = leaderboard?.rank ?? '-'
   const cutoff  = classificationCutoff(totalParticipants)
-  const inZone  = typeof rank === 'number' && rank <= cutoff
+  // Pre-tournament: no real ranking/zone exists yet — everything neutral
+  const inZone  = !notStarted && typeof rank === 'number' && rank <= cutoff
+  const displayRank = notStarted ? (alphaRank ?? '—') : rank
+  const isGold  = !notStarted && rank === 1
 
-  // Points gaps — informational context
+  // Points gaps — informational context (suppressed pre-tournament)
   const allLB_h      = allLeaderboard ?? []
   const leaderPts    = allLB_h.find(u => u.rank === 1)?.total_points ?? null
   const zonePts      = allLB_h.find(u => u.rank === cutoff)?.total_points ?? null
   const myPts        = leaderboard?.total_points ?? 0
-  const gapToLeader  = rank !== 1 && leaderPts != null ? leaderPts - myPts : null
-  const gapToZone    = !inZone && zonePts != null ? Math.max(0, zonePts - myPts) : null
-  const bubble  = typeof rank === 'number' && (rank === cutoff + 1 || rank === cutoff + 2)
-  const color   = typeof rank === 'number' ? userColor(rank) : 'var(--color-text-2)'
+  const gapToLeader  = !notStarted && rank !== 1 && leaderPts != null ? leaderPts - myPts : null
+  const gapToZone    = !notStarted && !inZone && zonePts != null ? Math.max(0, zonePts - myPts) : null
+  const bubble  = !notStarted && typeof rank === 'number' && (rank === cutoff + 1 || rank === cutoff + 2)
+  const color   = notStarted ? 'var(--color-text-2)' : (typeof rank === 'number' ? userColor(rank) : 'var(--color-text-2)')
 
-  const borderColor = rank === 1
+  const borderColor = notStarted
+    ? 'var(--color-border)'
+    : rank === 1
     ? 'rgba(255,184,0,0.35)'
     : rank <= 3  ? 'rgba(192,192,192,0.2)'
     : inZone     ? 'rgba(0,230,118,0.2)'
@@ -195,7 +200,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
             width: 48, height: 48, borderRadius: '50%', flexShrink: 0,
             background: `${color}18`, border: `2px solid ${color}44`,
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: rank === 1 ? '0 0 20px rgba(255,184,0,0.16)' : 'none',
+            boxShadow: isGold ? '0 0 20px rgba(255,184,0,0.16)' : 'none',
           }}>
             <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.2rem', color }}>
               {getInitials(leaderboard?.display_name)}
@@ -210,8 +215,13 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.375rem', flexWrap: 'wrap' }}>
               <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.82rem', color: 'var(--color-text-3)' }}>
-                #{rank} de {totalParticipants}
+                #{displayRank} de {totalParticipants}
               </span>
+              {notStarted && (
+                <span style={{ fontSize: '0.57rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', padding: '0.1rem 0.4rem', borderRadius: 20 }}>
+                  Sin posición aún
+                </span>
+              )}
               {inZone && (
                 <span style={{ fontSize: '0.57rem', fontFamily: 'var(--font-mono)', color: '#FFB800', background: 'rgba(255,184,0,0.08)', border: '1px solid rgba(255,184,0,0.2)', padding: '0.1rem 0.4rem', borderRadius: 20 }}>
                   ★ Zona
@@ -238,7 +248,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
               fontFamily: 'var(--font-display)',
               fontSize: isMobile ? '2.5rem' : '3.25rem',
               lineHeight: 1,
-              color: rank === 1 ? '#FFB800' : 'var(--color-text-1)',
+              color: isGold ? '#FFB800' : 'var(--color-text-1)',
               letterSpacing: '0.01em',
             }}>
               {leaderboard?.total_points}
@@ -396,7 +406,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
 
       </div>
 
-      {rank === 1 && (
+      {isGold && (
         <div style={{
           position: 'absolute', inset: 0, pointerEvents: 'none',
           background: 'radial-gradient(ellipse at top left, rgba(255,184,0,0.05), transparent 55%)',
@@ -476,7 +486,28 @@ function SubTabs({ active, onChange }) {
 // Zone = gold territory. Player mark = dominant. Ghost = best historical.
 // Density communicates competition before any label is read.
 
-function TournamentStateCard({ leaderboard, metrics, totalParticipants, snapshots, userId }) {
+function TournamentStateCard({ leaderboard, metrics, totalParticipants, snapshots, userId, notStarted, alphaRank }) {
+  // Pre-tournament: no positions exist yet — show a neutral preparation state
+  if (notStarted) {
+    return (
+      <Card style={{ padding: '1rem 1.75rem 1.25rem', marginBottom: '1rem' }}>
+        <SectionLabel>Estado del Torneo</SectionLabel>
+        <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', marginTop: '0.5rem' }}>
+          <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.78rem', fontWeight: 700, color: 'var(--color-primary)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
+            Fase de Preparación
+          </span>
+          <span style={{ color: 'var(--color-border)', fontSize: '0.75rem' }}>|</span>
+          <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.68rem', color: 'var(--color-text-3)' }}>
+            orden alfabético <span style={{ color: 'var(--color-text-2)', fontWeight: 700 }}>#{alphaRank ?? '—'}</span> de {totalParticipants}
+          </span>
+        </div>
+        <p style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: '0.5rem', lineHeight: 1.5 }}>
+          Tus predicciones están registradas. Tu posición aparecerá cuando comience el torneo.
+        </p>
+      </Card>
+    )
+  }
+
   const rank      = leaderboard?.rank
   const cutoff    = classificationCutoff(totalParticipants)
   const inZone    = typeof rank === 'number' && rank <= cutoff
@@ -1377,6 +1408,8 @@ function ResumenTab({ data }) {
         totalParticipants={data.totalParticipants}
         snapshots={data.timelineRaceSnapshots}
         userId={data.leaderboard?.user_id}
+        notStarted={data.notStarted}
+        alphaRank={data.alphaRank}
       />
       {/* Por Fase — hero section, main narrative of the Resumen */}
       <PhasePerformanceCard metrics={data.metrics} snapshots={data.timelineRaceSnapshots} userId={data.leaderboard?.user_id} totalParticipants={data.totalParticipants} />
@@ -2873,6 +2906,8 @@ export default function PlayerProfile() {
         archetype={data.archetype}
         traits={data.traits}
         allLeaderboard={data.allLeaderboard}
+        notStarted={data.notStarted}
+        alphaRank={data.alphaRank}
       />
 
       <Tabs active={activeTab} onChange={setActiveTab} />

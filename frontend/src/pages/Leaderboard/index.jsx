@@ -156,25 +156,50 @@ function buildScoreMap(scoreDetails) {
   return map
 }
 
+// ── PreparationBanner ────────────────────────────────────────────────────────────
+function PreparationBanner() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }}
+      style={{
+        display: 'flex', alignItems: 'center', gap: '0.75rem',
+        background: 'color-mix(in srgb, var(--color-primary) 7%, var(--color-surface))',
+        border: '1px solid color-mix(in srgb, var(--color-primary) 28%, var(--color-border))',
+        borderRadius: 10, padding: '0.75rem 1rem', marginBottom: '1.125rem',
+      }}
+    >
+      <Shield size={18} color="var(--color-primary)" style={{ flexShrink: 0 }} />
+      <div style={{ minWidth: 0 }}>
+        <div style={{ fontFamily: 'var(--font-display)', fontSize: '0.9rem', color: 'var(--color-primary)', letterSpacing: '0.08em', textTransform: 'uppercase', lineHeight: 1.3 }}>
+          Fase de Preparación
+        </div>
+        <div style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: 2 }}>
+          Todas las predicciones están registradas. Las posiciones aparecerán cuando comiencen los partidos.
+        </div>
+      </div>
+    </motion.div>
+  )
+}
+
 // ── SummaryCards ───────────────────────────────────────────────────────────────
-function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile }) {
+function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile, notStarted }) {
   const leader = lb[0]
   const second = lb[1]
   const gap = (leader?.total_points ?? 0) - (second?.total_points ?? 0)
   const cards = [
     {
-      icon:   <Trophy size={15} color="#FFB800" />,
+      icon:   <Trophy size={15} color={notStarted ? 'var(--color-text-3)' : '#FFB800'} />,
       label:  'Líder',
-      value:  leader?.display_name ?? '—',
-      sub:    `${leader?.total_points ?? 0} pts`,
-      accent: '#FFB800',
+      value:  notStarted ? 'Por definir' : (leader?.display_name ?? '—'),
+      sub:    notStarted ? 'al iniciar el torneo' : `${leader?.total_points ?? 0} pts`,
+      accent: notStarted ? 'var(--color-text-2)' : '#FFB800',
     },
     {
-      icon:   <TrendingUp size={15} color="var(--color-primary)" />,
+      icon:   <TrendingUp size={15} color={notStarted ? 'var(--color-text-3)' : 'var(--color-primary)'} />,
       label:  'Ventaja del Líder',
-      value:  gap > 0 ? `+${gap} pts` : 'Empatados',
-      sub:    `sobre ${second?.display_name ?? '—'}`,
-      accent: 'var(--color-primary)',
+      value:  notStarted ? '—' : (gap > 0 ? `+${gap} pts` : 'Empatados'),
+      sub:    notStarted ? 'sin partidos jugados' : `sobre ${second?.display_name ?? '—'}`,
+      accent: notStarted ? 'var(--color-text-2)' : 'var(--color-primary)',
     },
     {
       icon:   <Users size={15} color="var(--color-accent)" />,
@@ -220,7 +245,13 @@ function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile }) {
 }
 
 // ── RankBadge ─────────────────────────────────────────────────────────────────
-function RankBadge({ rank }) {
+function RankBadge({ rank, neutral = false, listNum }) {
+  // Pre-tournament: every participant gets the same neutral badge with a plain list number
+  if (neutral) return (
+    <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+      <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.68rem', color: 'var(--color-text-3)', fontWeight: 600 }}>{listNum}</span>
+    </div>
+  )
   if (rank === 1) return (
     <div style={{ width: 32, height: 32, borderRadius: '50%', background: 'linear-gradient(135deg,#FFB800,#FF8C00)', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 16px rgba(255,184,0,0.4)', flexShrink: 0 }}>
       <Trophy size={14} color="#0F1520" strokeWidth={2.5} />
@@ -324,10 +355,10 @@ function TableHeader({ isMobile }) {
 }
 
 // ── TableRow ──────────────────────────────────────────────────────────────────
-function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, paidPositions, total, hasAnyMovement, prevPts, lastZonePts, onClick, isMobile }) {
-  const isPodium = entry.rank <= 3
-  const isInZone = !isPodium && paidPositions > 0 && entry.rank <= paidPositions
-  const avatarColor = avatarBg(index)
+function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enrich, archDisplayMap, paidPositions, total, hasAnyMovement, prevPts, lastZonePts, onClick, isMobile }) {
+  const isPodium = !notStarted && entry.rank <= 3
+  const isInZone = !notStarted && !isPodium && paidPositions > 0 && entry.rank <= paidPositions
+  const avatarColor = avatarBg((listNum ?? index + 1) - 1)
 
   const archId = enrich?.archetype
   const arch   = archId ? (archDisplayMap?.[archId] ?? { label: archId, color: '#94A3B8' }) : null
@@ -339,7 +370,10 @@ function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, pa
 
   // Progreso narrative
   let progresoText, progresoColor
-  if (entry.rank === 1) {
+  if (notStarted) {
+    progresoText  = '✓ Registrado'
+    progresoColor = 'var(--color-text-3)'
+  } else if (entry.rank === 1) {
     progresoText  = '🏆 Líder'
     progresoColor = '#FFB800'
   } else if (isPodium || isInZone) {
@@ -351,8 +385,8 @@ function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, pa
     progresoColor = 'var(--color-text-3)'
   }
 
-  // Row visual
-  const pod      = PODIUM[entry.rank]
+  // Row visual — no podium treatment before the tournament starts
+  const pod      = notStarted ? null : PODIUM[entry.rank]
   const rowBg    = pod ? pod.bg : 'transparent'
   const rowBorder = pod ? `1px solid ${pod.border}` : '1px solid transparent'
   const ptsColor = pod?.ptsColor ?? 'var(--color-text-1)'
@@ -372,7 +406,7 @@ function TableRow({ entry, index, scoreDetail, racha, enrich, archDisplayMap, pa
       )}
 
       {/* Rank badge */}
-      <RankBadge rank={entry.rank} />
+      <RankBadge rank={entry.rank} neutral={notStarted} listNum={listNum} />
 
       {/* Avatar */}
       <div style={{ width: 32, height: 32, borderRadius: '50%', background: avatarColor + '22', border: `2px solid ${avatarColor}55`, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
@@ -473,15 +507,21 @@ export default function Leaderboard() {
 
   useEffect(() => {
     async function load() {
-      const [lb, timeline, archetypes, archRegistry, payouts, scoreDetails] = await Promise.all([
+      const [lb, timeline, archetypes, archRegistry, payouts, scoreDetails, status] = await Promise.all([
         fetchOptional(DATA_URLS.leaderboard),
         fetchRobust(DATA_URLS.timelineRace),
         fetchOptional(DATA_URLS.archetypes),
         fetchRobust(DATA_URLS.archetypeRegistry),
         fetchOptional(DATA_URLS.payouts),
         fetchRobust(DATA_URLS.scoreDetails),
+        fetchOptional(DATA_URLS.tournamentStatus),
       ])
       if (!lb) { setLoading(false); return }
+
+      // Pre-tournament gate: no official matches scored yet → neutral "preparation" state.
+      // Robust fallback: if status missing, treat all-zero points as not started.
+      const notStarted = (status?.completed_matches ?? 0) === 0
+        && (lb.every(u => (u?.total_points ?? 0) === 0))
 
       const { userEnrich, hasAnyMovement, archDisplayMap } = buildEnrichment(timeline, archetypes, archRegistry)
       const rachaMap   = buildRachaBoxes(timeline)
@@ -499,7 +539,7 @@ export default function Leaderboard() {
       const lastSnap = snaps[snaps.length - 1]
       const snapshotLabel = lastSnap?.label ?? null
 
-      setPageData({ lb, userEnrich, hasAnyMovement, archDisplayMap, paidPositions, payoutsTotal, rachaMap, scoreMap, snapshotLabel })
+      setPageData({ lb, userEnrich, hasAnyMovement, archDisplayMap, paidPositions, payoutsTotal, rachaMap, scoreMap, snapshotLabel, notStarted })
       setLoading(false)
     }
     load()
@@ -508,8 +548,14 @@ export default function Leaderboard() {
   if (loading)   return <LoadingState />
   if (!pageData) return <ErrorState />
 
-  const { lb, userEnrich, hasAnyMovement, archDisplayMap, paidPositions, payoutsTotal, rachaMap, scoreMap, snapshotLabel } = pageData
-  const safeData    = lb.filter(x => x?.user_id)
+  const { lb, userEnrich, hasAnyMovement, archDisplayMap, paidPositions, payoutsTotal, rachaMap, scoreMap, snapshotLabel, notStarted } = pageData
+  let safeData      = lb.filter(x => x?.user_id)
+  // Pre-tournament: present everyone in neutral alphabetical order (no real ranking exists yet)
+  if (notStarted) {
+    safeData = [...safeData].sort((a, b) =>
+      (a.display_name ?? '').localeCompare(b.display_name ?? '', 'es', { sensitivity: 'base' })
+    )
+  }
   const total       = safeData.length
   const lastZonePts = paidPositions > 0 ? (safeData[paidPositions - 1]?.total_points ?? null) : null
 
@@ -530,13 +576,20 @@ export default function Leaderboard() {
         </div>
         <p style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>
           {total} participantes
-          {paidPositions > 0 && ` · Top ${paidPositions} en zona de premios`}
-          {snapshotLabel && ` · hasta ${snapshotLabel}`}
+          {notStarted
+            ? ' · Torneo sin iniciar'
+            : <>
+                {paidPositions > 0 && ` · Top ${paidPositions} en zona de premios`}
+                {snapshotLabel && ` · hasta ${snapshotLabel}`}
+              </>}
         </p>
       </motion.div>
 
+      {/* ── Pre-tournament banner ── */}
+      {notStarted && <PreparationBanner />}
+
       {/* ── Summary cards ── */}
-      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} />
+      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} notStarted={notStarted} />
 
       {/* ── Search ── */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}
@@ -573,8 +626,11 @@ export default function Leaderboard() {
                     const isLastPodium = entry.rank === 3
                     const isLastZone   = entry.rank === paidPositions
 
-                    // Divider shown only after the last prize position
-                    const showPremiosLabel = !search && isLastZone && paidPositions < total
+                    // Divider shown only after the last prize position — never pre-tournament
+                    const showPremiosLabel = !notStarted && !search && isLastZone && paidPositions < total
+
+                    // Stable alphabetical list number (independent of search filter)
+                    const listNum = safeData.findIndex(u => u.user_id === entry.user_id) + 1
 
                     // Points of person ranked immediately above (rank-1, 0-indexed: rank-2)
                     const prevPts = entry.rank > 1 ? (safeData[entry.rank - 2]?.total_points ?? null) : null
@@ -584,6 +640,8 @@ export default function Leaderboard() {
                         <TableRow
                           entry={entry}
                           index={index}
+                          listNum={listNum}
+                          notStarted={notStarted}
                           scoreDetail={scoreMap[entry.user_id]}
                           racha={rachaMap[entry.user_id]}
                           enrich={userEnrich[entry.user_id]}

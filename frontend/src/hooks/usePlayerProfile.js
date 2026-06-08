@@ -51,7 +51,7 @@ export function usePlayerProfile(userId) {
           leaderboard, scoreDetails, userMetrics, matchesMeta,
           historialRanking, payouts, timelineRace, groupResults,
           teamMap, archetypesData, traitsData, registryData,
-          campeonVivoData, userProfile,
+          campeonVivoData, userProfile, tournamentStatus,
         ] = await Promise.all([
           fetchJSON(DATA_URLS.leaderboard),
           fetchRobust(DATA_URLS.scoreDetails),
@@ -67,6 +67,7 @@ export function usePlayerProfile(userId) {
           fetchOptional(DATA_URLS.archetypeRegistry),
           fetchOptional(DATA_URLS.campeonVivo),
           profileFile ? fetchOptional(DATA_URLS.userProfile(profileFile)) : Promise.resolve(null),
+          fetchOptional(DATA_URLS.tournamentStatus),
         ])
 
         if (cancelled) return
@@ -123,6 +124,17 @@ export function usePlayerProfile(userId) {
           : null
         const traits = userTraitsEntry?.traits ?? []
 
+        // Pre-tournament gate — no official matches scored yet.
+        // Fallback: if status is missing, treat all-zero leaderboard as not started.
+        const notStarted = (tournamentStatus?.completed_matches ?? 0) === 0
+          && leaderboard.every(u => (u?.total_points ?? 0) === 0)
+
+        // Neutral alphabetical position for the pre-tournament state
+        const alphaSorted = [...leaderboard].sort((a, b) =>
+          (a.display_name ?? '').localeCompare(b.display_name ?? '', 'es', { sensitivity: 'base' })
+        )
+        const alphaRank = alphaSorted.findIndex(u => u.user_id === userId) + 1
+
         setData({
           leaderboard:            leaderboardEntry,
           scoreDetail,
@@ -140,6 +152,8 @@ export function usePlayerProfile(userId) {
           timelineRaceSnapshots:  snapshots,
           allLeaderboard:         leaderboard,
           userProfile:            userProfile ?? null,
+          notStarted,
+          alphaRank,
         })
       } catch(e) {
         if (!cancelled) setError(e)

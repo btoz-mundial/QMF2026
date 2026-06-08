@@ -1,5 +1,3022 @@
 {
-  "generated_at": "2026-06-01T16:46:24.871Z",
+  "generated_at": "2026-06-08T04:37:25.234Z",
   "metric": "consenso_partidos",
-  "matches": []
+  "matches": [
+    {
+      "match_id": 1,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 70,
+          "percentage": 95.89
+        },
+        "E": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 95.89,
+      "divisiveness": 4.109999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 2,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 33,
+          "percentage": 45.21
+        },
+        "E": {
+          "count": 32,
+          "percentage": 43.84
+        },
+        "V": {
+          "count": 8,
+          "percentage": 10.96
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 45.21,
+      "divisiveness": 54.79,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 3,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 52,
+          "percentage": 71.23
+        },
+        "E": {
+          "count": 18,
+          "percentage": 24.66
+        },
+        "V": {
+          "count": 3,
+          "percentage": 4.11
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 71.23,
+      "divisiveness": 28.769999999999996,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 4,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 40,
+          "percentage": 54.79
+        },
+        "E": {
+          "count": 25,
+          "percentage": 34.25
+        },
+        "V": {
+          "count": 8,
+          "percentage": 10.96
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 54.79,
+      "divisiveness": 45.21,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 5,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 7,
+          "percentage": 9.59
+        },
+        "V": {
+          "count": 65,
+          "percentage": 89.04
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 89.04,
+      "divisiveness": 10.959999999999994,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 6,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 51,
+          "percentage": 69.86
+        },
+        "E": {
+          "count": 20,
+          "percentage": 27.4
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 69.86,
+      "divisiveness": 30.14,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 7,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 4,
+          "percentage": 5.48
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 67,
+          "percentage": 91.78
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "E",
+      "consensus_strength": 91.78,
+      "divisiveness": 8.219999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 8,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "E": {
+          "count": 14,
+          "percentage": 19.18
+        },
+        "V": {
+          "count": 50,
+          "percentage": 68.49
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 68.49,
+      "divisiveness": 31.510000000000005,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 9,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 10,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 49,
+          "percentage": 67.12
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 5,
+          "percentage": 6.85
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 67.12,
+      "divisiveness": 32.879999999999995,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 11,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 13,
+          "percentage": 17.81
+        },
+        "E": {
+          "count": 22,
+          "percentage": 30.14
+        },
+        "V": {
+          "count": 38,
+          "percentage": 52.05
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 52.05,
+      "divisiveness": 47.95,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 12,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 59,
+          "percentage": 80.82
+        },
+        "E": {
+          "count": 13,
+          "percentage": 17.81
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 80.82,
+      "divisiveness": 19.180000000000007,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 13,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 14,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 61,
+          "percentage": 83.56
+        },
+        "E": {
+          "count": 11,
+          "percentage": 15.07
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 83.56,
+      "divisiveness": 16.439999999999998,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 15,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 0,
+          "percentage": 0
+        },
+        "E": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "V": {
+          "count": 64,
+          "percentage": 87.67
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 87.67,
+      "divisiveness": 12.329999999999998,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 16,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 42,
+          "percentage": 57.53
+        },
+        "E": {
+          "count": 17,
+          "percentage": 23.29
+        },
+        "V": {
+          "count": 14,
+          "percentage": 19.18
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 57.53,
+      "divisiveness": 42.47,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 17,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 69,
+          "percentage": 94.52
+        },
+        "E": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 94.52,
+      "divisiveness": 5.480000000000004,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 18,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "E": {
+          "count": 4,
+          "percentage": 5.48
+        },
+        "V": {
+          "count": 67,
+          "percentage": 91.78
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 91.78,
+      "divisiveness": 8.219999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 19,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 20,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 61,
+          "percentage": 83.56
+        },
+        "E": {
+          "count": 11,
+          "percentage": 15.07
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 83.56,
+      "divisiveness": 16.439999999999998,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 21,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 22,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 44,
+          "percentage": 60.27
+        },
+        "E": {
+          "count": 25,
+          "percentage": 34.25
+        },
+        "V": {
+          "count": 4,
+          "percentage": 5.48
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 60.27,
+      "divisiveness": 39.73,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 23,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 44,
+          "percentage": 60.27
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 10,
+          "percentage": 13.7
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 60.27,
+      "divisiveness": 39.73,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 24,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 0,
+          "percentage": 0
+        },
+        "E": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "V": {
+          "count": 70,
+          "percentage": 95.89
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 95.89,
+      "divisiveness": 4.109999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 25,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 40,
+          "percentage": 54.79
+        },
+        "E": {
+          "count": 31,
+          "percentage": 42.47
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 54.79,
+      "divisiveness": 45.21,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 26,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 54,
+          "percentage": 73.97
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 73.97,
+      "divisiveness": 26.03,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 27,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 63,
+          "percentage": 86.3
+        },
+        "E": {
+          "count": 10,
+          "percentage": 13.7
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 86.3,
+      "divisiveness": 13.700000000000003,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 28,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 44,
+          "percentage": 60.27
+        },
+        "E": {
+          "count": 16,
+          "percentage": 21.92
+        },
+        "V": {
+          "count": 13,
+          "percentage": 17.81
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 60.27,
+      "divisiveness": 39.73,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 29,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 62,
+          "percentage": 84.93
+        },
+        "E": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 84.93,
+      "divisiveness": 15.069999999999993,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 30,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 8,
+          "percentage": 10.96
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 46,
+          "percentage": 63.01
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 63.01,
+      "divisiveness": 36.99,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 31,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 32,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 29,
+          "percentage": 39.73
+        },
+        "E": {
+          "count": 22,
+          "percentage": 30.14
+        },
+        "V": {
+          "count": 22,
+          "percentage": 30.14
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 39.73,
+      "divisiveness": 60.27,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 33,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 53,
+          "percentage": 72.6
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 72.6,
+      "divisiveness": 27.400000000000006,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 34,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 68,
+          "percentage": 93.15
+        },
+        "E": {
+          "count": 5,
+          "percentage": 6.85
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 93.15,
+      "divisiveness": 6.849999999999994,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 35,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 66,
+          "percentage": 90.41
+        },
+        "E": {
+          "count": 7,
+          "percentage": 9.59
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 90.41,
+      "divisiveness": 9.590000000000003,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 36,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 7,
+          "percentage": 9.59
+        },
+        "V": {
+          "count": 65,
+          "percentage": 89.04
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 89.04,
+      "divisiveness": 10.959999999999994,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 37,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 71,
+          "percentage": 97.26
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 97.26,
+      "divisiveness": 2.739999999999995,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 38,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 69,
+          "percentage": 94.52
+        },
+        "E": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 94.52,
+      "divisiveness": 5.480000000000004,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 39,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 40,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 6,
+          "percentage": 8.22
+        },
+        "E": {
+          "count": 15,
+          "percentage": 20.55
+        },
+        "V": {
+          "count": 52,
+          "percentage": 71.23
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 71.23,
+      "divisiveness": 28.769999999999996,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 41,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 60,
+          "percentage": 82.19
+        },
+        "E": {
+          "count": 12,
+          "percentage": 16.44
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 82.19,
+      "divisiveness": 17.810000000000002,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 42,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 72,
+          "percentage": 98.63
+        },
+        "E": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 98.63,
+      "divisiveness": 1.3700000000000045,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 1,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 43,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 30,
+          "percentage": 41.1
+        },
+        "E": {
+          "count": 30,
+          "percentage": 41.1
+        },
+        "V": {
+          "count": 13,
+          "percentage": 17.81
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 41.1,
+      "divisiveness": 58.9,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 44,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 30,
+          "percentage": 41.1
+        },
+        "V": {
+          "count": 42,
+          "percentage": 57.53
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 57.53,
+      "divisiveness": 42.47,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 45,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 73,
+          "percentage": 100
+        },
+        "E": {
+          "count": 0,
+          "percentage": 0
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 100,
+      "divisiveness": 0,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 46,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 70,
+          "percentage": 95.89
+        },
+        "E": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 95.89,
+      "divisiveness": 4.109999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 47,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 0,
+          "percentage": 0
+        },
+        "E": {
+          "count": 6,
+          "percentage": 8.22
+        },
+        "V": {
+          "count": 67,
+          "percentage": 91.78
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 91.78,
+      "divisiveness": 8.219999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 48,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 68,
+          "percentage": 93.15
+        },
+        "E": {
+          "count": 5,
+          "percentage": 6.85
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 93.15,
+      "divisiveness": 6.849999999999994,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 49,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 36,
+          "percentage": 49.32
+        },
+        "E": {
+          "count": 33,
+          "percentage": 45.21
+        },
+        "V": {
+          "count": 4,
+          "percentage": 5.48
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 49.32,
+      "divisiveness": 50.68,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 50,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 38,
+          "percentage": 52.05
+        },
+        "E": {
+          "count": 20,
+          "percentage": 27.4
+        },
+        "V": {
+          "count": 15,
+          "percentage": 20.55
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 52.05,
+      "divisiveness": 47.95,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 51,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 0,
+          "percentage": 0
+        },
+        "E": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "V": {
+          "count": 72,
+          "percentage": 98.63
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 98.63,
+      "divisiveness": 1.3700000000000045,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 1,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 52,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 66,
+          "percentage": 90.41
+        },
+        "E": {
+          "count": 5,
+          "percentage": 6.85
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 90.41,
+      "divisiveness": 9.590000000000003,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 53,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "E": {
+          "count": 20,
+          "percentage": 27.4
+        },
+        "V": {
+          "count": 50,
+          "percentage": 68.49
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 68.49,
+      "divisiveness": 31.510000000000005,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 54,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "E": {
+          "count": 18,
+          "percentage": 24.66
+        },
+        "V": {
+          "count": 53,
+          "percentage": 72.6
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 72.6,
+      "divisiveness": 27.400000000000006,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 55,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 15,
+          "percentage": 20.55
+        },
+        "V": {
+          "count": 57,
+          "percentage": 78.08
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 78.08,
+      "divisiveness": 21.92,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 56,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 53,
+          "percentage": 72.6
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 72.6,
+      "divisiveness": 27.400000000000006,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 57,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 33,
+          "percentage": 45.21
+        },
+        "E": {
+          "count": 34,
+          "percentage": 46.58
+        },
+        "V": {
+          "count": 6,
+          "percentage": 8.22
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "V",
+      "consensus_strength": 46.58,
+      "divisiveness": 53.42,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 58,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 0,
+          "percentage": 0
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 71,
+          "percentage": 97.26
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 97.26,
+      "divisiveness": 2.739999999999995,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 59,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 15,
+          "percentage": 20.55
+        },
+        "E": {
+          "count": 31,
+          "percentage": 42.47
+        },
+        "V": {
+          "count": 27,
+          "percentage": 36.99
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "L",
+      "consensus_strength": 42.47,
+      "divisiveness": 57.53,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 60,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 47,
+          "percentage": 64.38
+        },
+        "E": {
+          "count": 17,
+          "percentage": 23.29
+        },
+        "V": {
+          "count": 9,
+          "percentage": 12.33
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 64.38,
+      "divisiveness": 35.620000000000005,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 61,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 14,
+          "percentage": 19.18
+        },
+        "V": {
+          "count": 58,
+          "percentage": 79.45
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 79.45,
+      "divisiveness": 20.549999999999997,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 62,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 54,
+          "percentage": 73.97
+        },
+        "E": {
+          "count": 15,
+          "percentage": 20.55
+        },
+        "V": {
+          "count": 4,
+          "percentage": 5.48
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 73.97,
+      "divisiveness": 26.03,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 63,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 4,
+          "percentage": 5.48
+        },
+        "E": {
+          "count": 30,
+          "percentage": 41.1
+        },
+        "V": {
+          "count": 39,
+          "percentage": 53.42
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 53.42,
+      "divisiveness": 46.58,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 64,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 35,
+          "percentage": 47.95
+        },
+        "V": {
+          "count": 37,
+          "percentage": 50.68
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 50.68,
+      "divisiveness": 49.32,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 65,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 29,
+          "percentage": 39.73
+        },
+        "E": {
+          "count": 32,
+          "percentage": 43.84
+        },
+        "V": {
+          "count": 12,
+          "percentage": 16.44
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "V",
+      "consensus_strength": 43.84,
+      "divisiveness": 56.16,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 66,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 0,
+          "percentage": 0
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 71,
+          "percentage": 97.26
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 97.26,
+      "divisiveness": 2.739999999999995,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 67,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "E": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "V": {
+          "count": 69,
+          "percentage": 94.52
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "E",
+      "consensus_strength": 94.52,
+      "divisiveness": 5.480000000000004,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 1,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 68,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 58,
+          "percentage": 79.45
+        },
+        "E": {
+          "count": 13,
+          "percentage": 17.81
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 79.45,
+      "divisiveness": 20.549999999999997,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 69,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 4,
+          "percentage": 5.48
+        },
+        "E": {
+          "count": 38,
+          "percentage": 52.05
+        },
+        "V": {
+          "count": 31,
+          "percentage": 42.47
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "L",
+      "consensus_strength": 52.05,
+      "divisiveness": 47.95,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 70,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 15,
+          "percentage": 20.55
+        },
+        "E": {
+          "count": 39,
+          "percentage": 53.42
+        },
+        "V": {
+          "count": 19,
+          "percentage": 26.03
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "L",
+      "consensus_strength": 53.42,
+      "divisiveness": 46.58,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 71,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 5,
+          "percentage": 6.85
+        },
+        "E": {
+          "count": 26,
+          "percentage": 35.62
+        },
+        "V": {
+          "count": 42,
+          "percentage": 57.53
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 57.53,
+      "divisiveness": 42.47,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 72,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "E": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "V": {
+          "count": 71,
+          "percentage": 97.26
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 97.26,
+      "divisiveness": 2.739999999999995,
+      "unique_pick_count": {
+        "L": 1,
+        "E": 1,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 73,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 39,
+          "percentage": 53.42
+        },
+        "E": {
+          "count": 11,
+          "percentage": 15.07
+        },
+        "V": {
+          "count": 23,
+          "percentage": 31.51
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 53.42,
+      "divisiveness": 46.58,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 74,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 71,
+          "percentage": 97.26
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 97.26,
+      "divisiveness": 2.739999999999995,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 75,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 51,
+          "percentage": 69.86
+        },
+        "E": {
+          "count": 16,
+          "percentage": 21.92
+        },
+        "V": {
+          "count": 6,
+          "percentage": 8.22
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 69.86,
+      "divisiveness": 30.14,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 76,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 67,
+          "percentage": 91.78
+        },
+        "E": {
+          "count": 4,
+          "percentage": 5.48
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 91.78,
+      "divisiveness": 8.219999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 77,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 72,
+          "percentage": 98.63
+        },
+        "E": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 98.63,
+      "divisiveness": 1.3700000000000045,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 1,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 78,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 16,
+          "percentage": 21.92
+        },
+        "E": {
+          "count": 21,
+          "percentage": 28.77
+        },
+        "V": {
+          "count": 36,
+          "percentage": 49.32
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 49.32,
+      "divisiveness": 50.68,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 79,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 64,
+          "percentage": 87.67
+        },
+        "E": {
+          "count": 7,
+          "percentage": 9.59
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 87.67,
+      "divisiveness": 12.329999999999998,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 80,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 70,
+          "percentage": 95.89
+        },
+        "E": {
+          "count": 3,
+          "percentage": 4.11
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 95.89,
+      "divisiveness": 4.109999999999999,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 81,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 54,
+          "percentage": 73.97
+        },
+        "E": {
+          "count": 14,
+          "percentage": 19.18
+        },
+        "V": {
+          "count": 5,
+          "percentage": 6.85
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 73.97,
+      "divisiveness": 26.03,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 82,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 62,
+          "percentage": 84.93
+        },
+        "E": {
+          "count": 10,
+          "percentage": 13.7
+        },
+        "V": {
+          "count": 1,
+          "percentage": 1.37
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 84.93,
+      "divisiveness": 15.069999999999993,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 1
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 83,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 21,
+          "percentage": 28.77
+        },
+        "E": {
+          "count": 28,
+          "percentage": 38.36
+        },
+        "V": {
+          "count": 24,
+          "percentage": 32.88
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "L",
+      "consensus_strength": 38.36,
+      "divisiveness": 61.64,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 84,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 71,
+          "percentage": 97.26
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 97.26,
+      "divisiveness": 2.739999999999995,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 85,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 59,
+          "percentage": 80.82
+        },
+        "E": {
+          "count": 10,
+          "percentage": 13.7
+        },
+        "V": {
+          "count": 4,
+          "percentage": 5.48
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 80.82,
+      "divisiveness": 19.180000000000007,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 86,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 50,
+          "percentage": 68.49
+        },
+        "E": {
+          "count": 20,
+          "percentage": 27.4
+        },
+        "V": {
+          "count": 3,
+          "percentage": 4.11
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 68.49,
+      "divisiveness": 31.510000000000005,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 87,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 72,
+          "percentage": 98.63
+        },
+        "E": {
+          "count": 1,
+          "percentage": 1.37
+        },
+        "V": {
+          "count": 0,
+          "percentage": 0
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 98.63,
+      "divisiveness": 1.3700000000000045,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 1,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 88,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 46,
+          "percentage": 63.01
+        },
+        "E": {
+          "count": 13,
+          "percentage": 17.81
+        },
+        "V": {
+          "count": 14,
+          "percentage": 19.18
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 63.01,
+      "divisiveness": 36.99,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 89,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "E": {
+          "count": 17,
+          "percentage": 23.29
+        },
+        "V": {
+          "count": 47,
+          "percentage": 64.38
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 64.38,
+      "divisiveness": 35.620000000000005,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 90,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "E": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "V": {
+          "count": 69,
+          "percentage": 94.52
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 94.52,
+      "divisiveness": 5.480000000000004,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 91,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 63,
+          "percentage": 86.3
+        },
+        "E": {
+          "count": 8,
+          "percentage": 10.96
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 86.3,
+      "divisiveness": 13.700000000000003,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 92,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 13,
+          "percentage": 17.81
+        },
+        "E": {
+          "count": 15,
+          "percentage": 20.55
+        },
+        "V": {
+          "count": 45,
+          "percentage": 61.64
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 61.64,
+      "divisiveness": 38.36,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 93,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "E": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "V": {
+          "count": 62,
+          "percentage": 84.93
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 84.93,
+      "divisiveness": 15.069999999999993,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 94,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 16,
+          "percentage": 21.92
+        },
+        "E": {
+          "count": 19,
+          "percentage": 26.03
+        },
+        "V": {
+          "count": 38,
+          "percentage": 52.05
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 52.05,
+      "divisiveness": 47.95,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 95,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 65,
+          "percentage": 89.04
+        },
+        "E": {
+          "count": 6,
+          "percentage": 8.22
+        },
+        "V": {
+          "count": 2,
+          "percentage": 2.74
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 89.04,
+      "divisiveness": 10.959999999999994,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 96,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 2,
+          "percentage": 2.74
+        },
+        "E": {
+          "count": 5,
+          "percentage": 6.85
+        },
+        "V": {
+          "count": 66,
+          "percentage": 90.41
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "L",
+      "consensus_strength": 90.41,
+      "divisiveness": 9.590000000000003,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 97,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 53,
+          "percentage": 72.6
+        },
+        "E": {
+          "count": 14,
+          "percentage": 19.18
+        },
+        "V": {
+          "count": 6,
+          "percentage": 8.22
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 72.6,
+      "divisiveness": 27.400000000000006,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 98,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 59,
+          "percentage": 80.82
+        },
+        "E": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "V": {
+          "count": 5,
+          "percentage": 6.85
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 80.82,
+      "divisiveness": 19.180000000000007,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 99,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 46,
+          "percentage": 63.01
+        },
+        "E": {
+          "count": 18,
+          "percentage": 24.66
+        },
+        "V": {
+          "count": 9,
+          "percentage": 12.33
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 63.01,
+      "divisiveness": 36.99,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 100,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 21,
+          "percentage": 28.77
+        },
+        "E": {
+          "count": 27,
+          "percentage": 36.99
+        },
+        "V": {
+          "count": 25,
+          "percentage": 34.25
+        }
+      },
+      "consensus_pick": "E",
+      "least_common_pick": "L",
+      "consensus_strength": 36.99,
+      "divisiveness": 63.01,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 101,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 32,
+          "percentage": 43.84
+        },
+        "E": {
+          "count": 17,
+          "percentage": 23.29
+        },
+        "V": {
+          "count": 24,
+          "percentage": 32.88
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 43.84,
+      "divisiveness": 56.16,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 102,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 25,
+          "percentage": 34.25
+        },
+        "E": {
+          "count": 18,
+          "percentage": 24.66
+        },
+        "V": {
+          "count": 30,
+          "percentage": 41.1
+        }
+      },
+      "consensus_pick": "V",
+      "least_common_pick": "E",
+      "consensus_strength": 41.1,
+      "divisiveness": 58.9,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 103,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 42,
+          "percentage": 57.53
+        },
+        "E": {
+          "count": 9,
+          "percentage": 12.33
+        },
+        "V": {
+          "count": 22,
+          "percentage": 30.14
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "E",
+      "consensus_strength": 57.53,
+      "divisiveness": 42.47,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    },
+    {
+      "match_id": 104,
+      "total_picks": 73,
+      "distribution": {
+        "L": {
+          "count": 33,
+          "percentage": 45.21
+        },
+        "E": {
+          "count": 21,
+          "percentage": 28.77
+        },
+        "V": {
+          "count": 19,
+          "percentage": 26.03
+        }
+      },
+      "consensus_pick": "L",
+      "least_common_pick": "V",
+      "consensus_strength": 45.21,
+      "divisiveness": 54.79,
+      "unique_pick_count": {
+        "L": 0,
+        "E": 0,
+        "V": 0
+      },
+      "rare_pick_threshold": 10,
+      "ultra_rare_pick_threshold": 5
+    }
+  ]
 }
