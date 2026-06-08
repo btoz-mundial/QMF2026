@@ -801,7 +801,7 @@ function main() {
         XLSX.utils
           .sheet_to_json(
             groupSheet,
-            { defval: null }
+            { defval: null, range: 1 }
           )
           .map(normalizeRowKeys);
 
@@ -809,7 +809,7 @@ function main() {
         XLSX.utils
           .sheet_to_json(
             knockoutSheet,
-            { defval: null }
+            { defval: null, range: 1 }
           )
           .map(normalizeRowKeys);
 
@@ -817,7 +817,7 @@ function main() {
         XLSX.utils
           .sheet_to_json(
             standingsSheet,
-            { defval: null }
+            { defval: null, range: 1 }
           )
           .map(normalizeRowKeys);
 
