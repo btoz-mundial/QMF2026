@@ -133,7 +133,7 @@ before:
 
 ### Core Sections
 - Resumen
-- Predicciones
+- Pronósticos
 - Timeline
 - Auditoría
 
@@ -161,7 +161,7 @@ The product should allow users to feel:
 | Subtab | Emotional Question |
 |---|---|
 | Resumen | “¿Qué tal me va en el torneo?” |
-| Predicciones | “¿Qué tal van mis apuestas?” |
+| Pronósticos | “¿Qué tal van mis apuestas?” |
 | Timeline | “¿Cómo va mi carrera por el premio?” |
 | Auditoría | “¿Puedo confiar en este torneo?” |
 

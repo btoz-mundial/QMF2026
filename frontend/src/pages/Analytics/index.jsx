@@ -301,7 +301,7 @@ function CampeonDelPueblo({ champList, teamIso2, isMobile }) {
           style={{ position: 'absolute', right: -10, top: '45%', transform: 'translateY(-40%)', width: 110, height: 220, objectFit: 'contain', opacity: 0.8, pointerEvents: 'none' }}
           onError={e => { e.target.style.display = 'none' }} />
       )}
-      <SectionHeader label="El Campeón del Pueblo" sub="¿Qué selecciones lideran las predicciones de campeón?" />
+      <SectionHeader label="El Campeón del Pueblo" sub="¿Qué selecciones lideran los pronósticos de campeón?" />
       <div style={{ display: 'grid', gridTemplateColumns: '20px .6fr 30px 70px', gap: '0.35rem', padding: '0 0 0.4rem', borderBottom: '1px solid var(--color-border)', marginBottom: '0.25rem' }}>
         {['#', 'CAMPEÓN', 'USR', 'STATUS'].map((h, i) => (
           <div key={i} style={{ fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', letterSpacing: '0.1em', textAlign: i >= 2 ? 'center' : 'left' }}>{h}</div>
@@ -332,7 +332,7 @@ function CampeonDelPueblo({ champList, teamIso2, isMobile }) {
         >{showAll ? '↑ COLAPSAR' : `VER ${remaining} MÁS ↓`}</button>
       )}
       <div style={{ marginTop: '0.75rem', fontSize: '0.62rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', borderTop: '1px solid rgba(255,255,255,0.05)', paddingTop: '0.5rem' }}>
-        Basado en todas las predicciones participante.
+        Basado en todos los pronósticos participante.
       </div>
     </div>
   )
@@ -571,8 +571,8 @@ function MenteColectiva({ consensoStats, teamIso2, isMobile }) {
       <div style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 12, padding: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', textAlign: 'center' }}>
         <div style={{ fontSize: '1.75rem', opacity: 0.5 }}>🧠</div>
         <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--color-text-1)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>Mente Colectiva</div>
-        <div style={{ fontSize: '0.78rem', color: 'var(--color-text-2)', lineHeight: 1.6, maxWidth: 320 }}>Las predicciones ya están registradas. Los consensos y aciertos colectivos aparecerán en cuanto arranquen los partidos.</div>
-        <div style={{ fontSize: '0.68rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', marginTop: 4 }}>{consensoStats.totalMatches} partidos con predicciones · pendientes de resultado</div>
+        <div style={{ fontSize: '0.78rem', color: 'var(--color-text-2)', lineHeight: 1.6, maxWidth: 320 }}>Los pronósticos ya están registrados. Los consensos y aciertos colectivos aparecerán en cuanto arranquen los partidos.</div>
+        <div style={{ fontSize: '0.68rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', marginTop: 4 }}>{consensoStats.totalMatches} partidos con pronósticos · pendientes de resultado</div>
       </div>
     )
   }
@@ -1102,7 +1102,7 @@ function CommunityTraitsCard({ enrichedMatches, lb, archetypeCounts, totalUsers,
   // ── T7: Concentración de campeones ──────────────────────────────────────────
   let t7Title, t7Sub, t7Color
   if (!champList || champList.length === 0) {
-    t7Title = 'Sin predicciones de campeón'; t7Sub = 'No hay datos disponibles aún'; t7Color = 'var(--color-text-3)'
+    t7Title = 'Sin pronóstico de campeón'; t7Sub = 'No hay datos disponibles aún'; t7Color = 'var(--color-text-3)'
   } else {
     const top2Count = champList.slice(0, 2).reduce((s, [, i]) => s + i.count, 0)
     const top2Pct   = totalUsers > 0 ? top2Count / totalUsers * 100 : 0

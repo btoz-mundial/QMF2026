@@ -266,8 +266,8 @@ function TableHeaders() {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: GRID, gap: '0.375rem', padding: '0.3rem 0.625rem 0.375rem', marginBottom: '0.125rem' }}>
       <span style={s}>#</span>
-      <span style={s}>PRED → REAL</span>
-      <span style={{ ...s, textAlign: 'center' }}>Pred.</span>
+      <span style={s}>PRON → REAL</span>
+      <span style={{ ...s, textAlign: 'center' }}>Pron.</span>
       <span style={{ ...s, textAlign: 'center' }}>Result.</span>
       <span style={{ ...s, textAlign: 'center' }}>Avanza</span>
       <span style={{ ...s, textAlign: 'right' }}>Pts</span>

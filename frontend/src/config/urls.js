@@ -10,7 +10,7 @@ export const DATA_URLS = {
   // --- Teams ---
   teams:            `${BASE}data/teams/teams.json`,
 
-  // --- Users (predicciones) ---
+  // --- Users (pronósticos) ---
   userIndex:        `${BASE}data/users/index.json`,
   userProfile:      (profileFile) => `${BASE}data/users/${profileFile}`,
 

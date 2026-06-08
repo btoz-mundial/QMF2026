@@ -74,7 +74,7 @@ Archivos inspeccionados:
 
 **Prototipo muestra:**
 - Nombre, avatar, rango actual (#7 de 12), puntos totales (199)
-- Tags: "Desde el día 1", "Predicciones Bloqueadas"
+- Tags: "Desde el día 1", "Pronósticos Bloqueados"
 - Barras de progreso por fase: Grupos / Tabla / Knockout
 - Percentil general "Top 58%"
 
@@ -84,8 +84,8 @@ Archivos inspeccionados:
 |---|---|---|---|
 | Nombre, rank, pts | ✅ | leaderboard.json | Directo |
 | Breakdown pts (3 barras) | ✅ | leaderboard.breakdown | Directo |
-| "Predicciones Bloqueadas" | ✅ | user profile metadata | Ya existe el concepto |
-| "Desde el día 1" | ⚠️ | Requiere definición explícita | ¿Qué significa? ¿Que el usuario tiene predicciones del snapshot inicial? Necesita contrato |
+| "Pronósticos Bloqueados" | ✅ | user profile metadata | Ya existe el concepto |
+| "Desde el día 1" | ⚠️ | Requiere definición explícita | ¿Qué significa? ¿Que el usuario tiene pronósticos del snapshot inicial? Necesita contrato |
 | Top 58% percentil general | ⚠️ | Calculable desde leaderboard | No es el mismo percentile que en user_metrics (que es por métrica). Necesita derivación: rank/total_users |
 
 **Riesgo:** "Top 58%" es fácil de calcular (1 - rank/N), pero no está en ningún output. Si se calcula en frontend, viola la regla de no-logic en frontend. Debe ser campo en leaderboard o derivado en pipeline.
@@ -196,7 +196,7 @@ Nota pendiente: mostrar "Momentum en KO +32 pts" como fortaleza en la misma list
 
 ---
 
-### 2.6 Predicciones vs Resultados (3 donuts)
+### 2.6 Pronósticos vs Resultados (3 donuts)
 
 **Prototipo muestra:**
 - Fase de Grupos: 45.8% acierto, 22 aciertos / 14 parciales / 12 fallos
@@ -262,7 +262,7 @@ Los otros tres momentos (mejor jornada, peor caída, mayor ascenso) son derivabl
 ### 2.9 Transparencia & Auditabilidad
 
 **Prototipo muestra:**
-- Predicciones bloqueadas antes del torneo
+- Pronósticos bloqueados antes del torneo
 - Fuente de resultados: data/results/*.json
 - Cálculo de puntos: score.js (determinístico) v1.4.2
 - Última actualización: timestamp
@@ -393,7 +393,7 @@ En orden de prioridad:
 3. ~~**Añadir campo `quote` al archetype_registry**~~ — resuelto: `identity_formula` ya está en el registry con los 4 archetypes completos.
 
 ### 9.2 Pipeline fixes / derivaciones nuevas
-4. **Reparar campeon_vivo.json**: Cruzar predicciones de advance_team con resultados reales.
+4. **Reparar campeon_vivo.json**: Cruzar Pronóstico de advance_team con resultados reales.
 5. **Derivar campo de racha reciente**: Calcular delta de rank en últimos N snapshots → añadir a traits.json o nuevo output.
 6. **Derivar percentil global**: rank/total_users → añadir a leaderboard.json.
 7. **Integrar precision_avance en user_metrics**: Actualmente es output separado, no integrado.

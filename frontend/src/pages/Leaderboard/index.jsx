@@ -174,7 +174,7 @@ function PreparationBanner() {
           Fase de Preparación
         </div>
         <div style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: 2 }}>
-          Todas las predicciones están registradas. Las posiciones aparecerán cuando comiencen los partidos.
+          Todos los pronósticos están registradas. Las posiciones aparecerán cuando comiencen los partidos.
         </div>
       </div>
     </motion.div>

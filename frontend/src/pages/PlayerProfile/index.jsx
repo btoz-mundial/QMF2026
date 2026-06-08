@@ -421,7 +421,7 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
 
 const TAB_LIST = [
   { key: 'resumen',     label: 'Resumen',              shortLabel: 'Resumen'   },
-  { key: 'predictions', label: 'Predicciones',         shortLabel: 'Preds.'   },
+  { key: 'predictions', label: 'Pronósticos',         shortLabel: 'Pron.'   },
   { key: 'timeline',    label: 'Línea de Tiempo',      shortLabel: 'Timeline' },
   { key: 'auditoria',   label: 'Scoring & Auditability', shortLabel: 'Scoring' },
 ]
@@ -447,7 +447,7 @@ function Tabs({ active, onChange }) {
   )
 }
 
-// ─── Sub-tab system (Predicciones) ────────────────────────────────────────────
+// ─── Sub-tab system (Pronósticos) ────────────────────────────────────────────
 
 function SubTabs({ active, onChange }) {
   const tabs = [
@@ -502,7 +502,7 @@ function TournamentStateCard({ leaderboard, metrics, totalParticipants, snapshot
           </span>
         </div>
         <p style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: '0.5rem', lineHeight: 1.5 }}>
-          Tus predicciones están registradas. Tu posición aparecerá cuando comience el torneo.
+          Tus pronósticos están registradas. Tu posición aparecerá cuando comience el torneo.
         </p>
       </Card>
     )
@@ -2540,7 +2540,7 @@ function GroupPredictionsSection({ groupDetail, matchMap, groupResults, teamMap 
                   <div style={{ display:'flex', alignItems:'center', gap:'0.25rem', padding:'0.2rem 0.625rem 0.2rem', borderTop:'1px solid var(--color-border)', borderBottom:'1px solid var(--color-border)', background:'var(--color-surface)' }}>
                     <span style={{ flex:1, fontSize:'0.47rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.05em' }}>PARTIDO</span>
                     <span style={{ fontSize:'0.47rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.05em', flexShrink:0, width:44, textAlign:'center' }}>RESULT. OFICIAL</span>
-                    <span style={{ fontSize:'0.47rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.05em', flexShrink:0, width:46, textAlign:'center' }}>PRED.</span>
+                    <span style={{ fontSize:'0.47rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.05em', flexShrink:0, width:46, textAlign:'center' }}>PRON.</span>
                     <span style={{ fontSize:'0.47rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.05em', flexShrink:0, width:20, textAlign:'right' }}>PTS</span>
                   </div>
 
@@ -2682,7 +2682,7 @@ function StandingsPredictionsSection({ standingsDetail, teamMap }) {
                   <div style={{ display:'flex', alignItems:'center', gap:'0.35rem', marginBottom:'0.3rem', paddingBottom:'0.25rem', borderBottom:'1px solid var(--color-border)' }}>
                     <span style={{ width:13, flexShrink:0 }} />
                     {!isMobile && <span style={{ width:16, flexShrink:0 }} />}
-                    <span style={{ flex:1, fontSize:'0.48rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.06em' }}>PRED</span>
+                    <span style={{ flex:1, fontSize:'0.48rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.06em' }}>PRON</span>
                     <span style={{ fontSize:'0.48rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.06em', flexShrink:0, width:22, textAlign:'right' }}>REAL</span>
                     <span style={{ fontSize:'0.48rem', fontFamily:'var(--font-mono)', color:'var(--color-text-3)', textTransform:'uppercase', letterSpacing:'0.06em', flexShrink:0, width:18, textAlign:'right' }}>PTS</span>
                   </div>

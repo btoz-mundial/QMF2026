@@ -604,7 +604,7 @@ export default function HallOfFame() {
         {/* ── CLOSING QUOTE ───────────────────────────────────── */}
         <section style={{ textAlign: 'center', paddingTop: 8 }}>
           <div style={{ fontSize: isMobile ? 14 : 18, color: 'var(--color-text-3)', fontStyle: 'italic', letterSpacing: '0.02em', lineHeight: 1.7, borderTop: '1px solid rgba(255,255,255,0.07)', paddingTop: 44 }}>
-            "Las predicciones desaparecen. Los nombres permanecen."
+            "Los pronósticos desaparecen. Los nombres permanecen."
           </div>
         </section>
 
