@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T17:41:09.865Z",
+  "generated_at": "2026-06-08T18:00:34.389Z",
   "metric": "consenso_partidos",
   "matches": [
     {
@@ -2849,22 +2849,22 @@
       "total_picks": 73,
       "distribution": {
         "L": {
-          "count": 46,
-          "percentage": 63.01
+          "count": 45,
+          "percentage": 61.64
         },
         "E": {
           "count": 18,
           "percentage": 24.66
         },
         "V": {
-          "count": 9,
-          "percentage": 12.33
+          "count": 10,
+          "percentage": 13.7
         }
       },
       "consensus_pick": "L",
       "least_common_pick": "V",
-      "consensus_strength": 63.01,
-      "divisiveness": 36.99,
+      "consensus_strength": 61.64,
+      "divisiveness": 38.36,
       "unique_pick_count": {
         "L": 0,
         "E": 0,
