@@ -449,7 +449,7 @@ export default function HallOfFame() {
           <div style={{ borderRadius: 15, overflow: 'hidden', border: '1px solid rgba(255,255,255,0.08)', background: 'rgba(255,255,255,0.01)' }}>
             {!isMobile && (
               <div style={{ display: 'grid', gridTemplateColumns: '52px 1fr 200px 110px 130px 100px', padding: '10px 20px', borderBottom: '1px solid rgba(255,255,255,0.08)', background: 'rgba(255,255,255,0.03)' }}>
-                {['#', 'USUARIO', 'ARQUETIPO PRINCIPAL', 'PUNTAJE FINAL', 'BRECHA', 'PREMIO (USD)'].map((h, i) => (
+                {['#', 'USUARIO', 'ARQUETIPO PRINCIPAL', 'PUNTAJE FINAL', 'BRECHA', 'PREMIO (MXN)'].map((h, i) => (
                   <div key={h} style={{ fontSize: 13, fontWeight: 600, color: i === 4 ? 'rgba(255,255,255,0.35)' : 'var(--color-text-3)', fontFamily: 'var(--font-mono)', letterSpacing: '0.1em', textAlign: i >= 3 ? 'right' : 'left' }}>{h}</div>
                 ))}
               </div>
