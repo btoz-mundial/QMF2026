@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T17:21:16.559Z",
+  "generated_at": "2026-06-08T17:41:09.891Z",
   "metric": "campeon_vivo",
   "users": [
     {
@@ -1257,25 +1257,6 @@
       }
     },
     {
-      "user_id": "11B404F38C",
-      "display_name": "HZE",
-      "value": true,
-      "extra": {
-        "champion": "P Bajos",
-        "champion_status": "pending",
-        "champion_eliminated_by_stage": null,
-        "third_place": "Belgica",
-        "third_place_status": "pending",
-        "third_place_eliminated_by_stage": null,
-        "finalist1": "P Bajos",
-        "finalist1_status": "pending",
-        "finalist1_eliminated_by_stage": null,
-        "finalist2": "Portugal",
-        "finalist2_status": "pending",
-        "finalist2_eliminated_by_stage": null
-      }
-    },
-    {
       "user_id": "F6E2313B1B",
       "display_name": "JCAV",
       "value": true,
@@ -1385,6 +1366,25 @@
         "finalist1_status": "pending",
         "finalist1_eliminated_by_stage": null,
         "finalist2": "Brasil",
+        "finalist2_status": "pending",
+        "finalist2_eliminated_by_stage": null
+      }
+    },
+    {
+      "user_id": "103C994F4A",
+      "display_name": "HZE",
+      "value": true,
+      "extra": {
+        "champion": "P Bajos",
+        "champion_status": "pending",
+        "champion_eliminated_by_stage": null,
+        "third_place": "Belgica",
+        "third_place_status": "pending",
+        "third_place_eliminated_by_stage": null,
+        "finalist1": "P Bajos",
+        "finalist1_status": "pending",
+        "finalist1_eliminated_by_stage": null,
+        "finalist2": "Portugal",
         "finalist2_status": "pending",
         "finalist2_eliminated_by_stage": null
       }
