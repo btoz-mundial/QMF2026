@@ -188,7 +188,7 @@ export default function HallOfFame() {
 
   useEffect(() => {
     async function load() {
-      const [lb, pay, arch, exactData, genData, registry, knockout] = await Promise.all([
+      const [lb, pay, arch, exactData, genData, registry, knockout, status] = await Promise.all([
         fetchOptional(DATA_URLS.leaderboard),
         fetchOptional(DATA_URLS.payouts),
         fetchOptional(DATA_URLS.archetypes),
@@ -196,12 +196,18 @@ export default function HallOfFame() {
         fetchRobust(DATA_URLS.precisionGeneral),
         fetchRobust(DATA_URLS.archetypeRegistry),
         fetchOptional(DATA_URLS.knockoutResults),
+        fetchOptional(DATA_URLS.tournamentStatus),
       ])
       if (!lb) return
 
       // Tournament is over only when match 104 (Final) has status 'final'
       const tournamentOver = Array.isArray(knockout)
         && knockout.some(m => m.match_id === 104 && m.status === 'final')
+
+      // Pre-tournament: no official matches scored yet → neutral preparation state.
+      // Fallback: if status missing, treat all-zero leaderboard as not started.
+      const notStarted = (status?.completed_matches ?? 0) === 0
+        && lb.every(u => (u?.total_points ?? 0) === 0)
 
       // Build archMeta: id → registry entry (display_name, short_description, identity_formula, …)
       const archMeta = {}
@@ -215,11 +221,18 @@ export default function HallOfFame() {
       if (exactData?.users) exactData.users.forEach(u => { exactMap[u.display_name] = u })
       if (genData?.users)   genData.users.forEach(u => { genMap[u.display_name] = u })
 
-      const rows = lb.map(u => ({
+      let rows = lb.map(u => ({
         ...u,
         payout:    payMap[u.display_name] ?? 0,
         archetype: archMap[u.display_name] ?? null,
       }))
+
+      // Pre-tournament: present everyone in neutral alphabetical order (no ranking exists yet)
+      if (notStarted) {
+        rows = [...rows].sort((a, b) =>
+          (a.display_name ?? '').localeCompare(b.display_name ?? '', 'es', { sensitivity: 'base' })
+        )
+      }
 
       if (!rows.length) return
 
@@ -235,7 +248,7 @@ export default function HallOfFame() {
       ARCH_ORDER.forEach(id => { archetypeGroups[id] = [] })
       rows.forEach(u => { if (u.archetype && archetypeGroups[u.archetype]) archetypeGroups[u.archetype].push(u) })
 
-      setData({ rows, champion, champStats, archetypeGroups, archMeta, tournamentOver })
+      setData({ rows, champion, champStats, archetypeGroups, archMeta, tournamentOver, notStarted })
     }
     load()
   }, [])
@@ -248,8 +261,8 @@ export default function HallOfFame() {
     )
   }
 
-  const { rows, champion, champStats, archetypeGroups, archMeta, tournamentOver } = data
-  const payoutCutoff = rows.findIndex(r => r.payout === 0)
+  const { rows, champion, champStats, archetypeGroups, archMeta, tournamentOver, notStarted } = data
+  const payoutCutoff = notStarted ? -1 : rows.findIndex(r => r.payout === 0)
   // Gap reference point: points of the last paid position
   const lastPaidPts = payoutCutoff > 0
     ? rows[payoutCutoff - 1].total_points
@@ -316,6 +329,8 @@ export default function HallOfFame() {
           <div style={{ marginTop: tournamentOver ? 12 : 8, fontSize: isMobile ? (tournamentOver ? 15 : 12) : (tournamentOver ? 13 : 12), letterSpacing: '0.1em', fontFamily: 'var(--font-mono)' }}>
             {tournamentOver
               ? <span style={{ color: 'rgba(255,255,255,0.35)' }}>QMF 2026 · Cierre oficial de resultados</span>
+              : notStarted
+              ? <span style={{ color: 'rgba(56,189,248,0.50)' }}>QMF 2026 · Fase de preparación — el salón se llenará cuando comience el torneo</span>
               : <span style={{ color: 'rgba(56,189,248,0.50)' }}>QMF 2026 · Torneo en curso — tabla provisional, actualizada después de cada partido</span>
             }
           </div>
