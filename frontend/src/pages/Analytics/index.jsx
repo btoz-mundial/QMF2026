@@ -480,6 +480,18 @@ function consensoText(pct) {
   return 'Cuando la comunidad coincide, suele acertar.'
 }
 
+// ── "Partido dividido" = volado real entre los dos picks más votados ───────────
+// Mide el margen entre el 1er y 2º pick (no la cuota del ganador). Margen <10 pts
+// = empate técnico. Fuente única usada por todos los KPI de "Partidos Divididos".
+const DIVIDED_MARGIN = 10
+function topTwoMargin(m) {
+  const d = m?.distribution
+  if (!d) return 100
+  const ps = ['L', 'E', 'V'].map(k => d[k]?.percentage ?? 0).sort((a, b) => b - a)
+  return ps[0] - ps[1]
+}
+function isDividedMatch(m) { return topTwoMargin(m) < DIVIDED_MARGIN }
+
 function HitChip({ hit }) {
   if (hit === null || hit === undefined) return null
   return (
@@ -581,7 +593,7 @@ function MenteColectiva({ consensoStats, teamIso2, isMobile }) {
   const STATS = [
     { label: 'Sabiduría Colectiva', value: `${precision.toFixed(1)}%`, sub: consensoText(precision), color: precision >= 50 ? '#34D399' : '#FB923C' },
     { label: 'Consenso Promedio',   value: `${avgConsensus.toFixed(1)}%`, sub: 'Apoyo promedio del favorito', color: '#38BDF8' },
-    { label: 'Partidos Divididos',  value: divididos, sub: 'Sin favorito claro', color: '#FBBF24' },
+    { label: 'Partidos Divididos',  value: divididos, sub: 'Voto muy parejo (<10 pts)', color: '#FBBF24' },
     { label: 'Partidos Unánimes',   value: unanimes, sub: 'Todos escogieron lo mismo', color: '#A78BFA' },
   ]
   return (
@@ -882,7 +894,7 @@ function RiskProfileCard({ consensoStats }) {
 
   const STATS = [
     { label: 'CONSENSO PROMEDIO',  value: `${avgConsensus.toFixed(1)}%`, color: riskColor,  sub: 'Apoyo promedio del favorito' },
-    { label: 'PARTIDOS DIVIDIDOS', value: divididos ?? '—',              color: '#FBBF24', sub: 'Sin favorito claro (<42%)' },
+    { label: 'PARTIDOS DIVIDIDOS', value: divididos ?? '—',              color: '#FBBF24', sub: 'Voto muy parejo (<10 pts)' },
     { label: 'PARTIDOS UNÁNIMES',  value: unanimes ?? '—',               color: '#A78BFA', sub: 'Todos eligieron lo mismo' },
   ]
 
@@ -1270,7 +1282,65 @@ function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 })
   )
 }
 
+// ── Lens toggle (Predicciones / Resultados) — governs the two cards below ──────
+function LensToggle({ lens, onChange, completedCount }) {
+  const opts = [
+    { key: 'predicciones', label: 'Predicciones' },
+    { key: 'resultados',   label: 'Resultados', count: completedCount },
+  ]
+  const caption = lens === 'predicciones'
+    ? 'Cómo votó la comunidad en todos los partidos del torneo.'
+    : `Cómo le fue a la comunidad en ${completedCount} ${completedCount === 1 ? 'partido ya jugado' : 'partidos ya jugados'}.`
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '0.75rem', flexWrap: 'wrap' }}>
+      <div style={{ display: 'flex', gap: 4, background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', borderRadius: 9, padding: 4 }}>
+        {opts.map(o => {
+          const active = lens === o.key
+          return (
+            <button
+              key={o.key}
+              onClick={() => onChange(o.key)}
+              style={{ position: 'relative', border: 'none', background: 'transparent', cursor: 'pointer', padding: '0.4rem 0.9rem', borderRadius: 6 }}
+            >
+              {active && (
+                <motion.div
+                  layoutId="lensPill"
+                  transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                  style={{ position: 'absolute', inset: 0, borderRadius: 6, background: 'color-mix(in srgb, var(--color-primary) 15%, transparent)', border: '1px solid color-mix(in srgb, var(--color-primary) 40%, transparent)' }}
+                />
+              )}
+              <span style={{ position: 'relative', zIndex: 1, fontSize: '0.66rem', fontFamily: 'var(--font-mono)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: active ? 'var(--color-primary)' : 'var(--color-text-3)', whiteSpace: 'nowrap' }}>
+                {o.label}
+                {o.key === 'resultados' && <span style={{ marginLeft: 6, opacity: 0.85 }}>· {o.count}</span>}
+              </span>
+            </button>
+          )
+        })}
+      </div>
+      <div style={{ fontSize: '0.6rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-1)', flex: '1 1 auto', textAlign: 'right', minWidth: 0 }}>
+        {caption}
+      </div>
+    </div>
+  )
+}
+
+function ResultadosEmptyState() {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}
+      style={{ background: 'var(--color-surface)', border: '1px dashed var(--color-border)', borderRadius: 12, padding: '2.5rem 1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.6rem', textAlign: 'center' }}
+    >
+      <div style={{ fontSize: '1.6rem', opacity: 0.5 }}>⚽</div>
+      <div style={{ fontSize: '0.8rem', fontWeight: 700, color: 'var(--color-text-1)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Todavía no rueda el balón</div>
+      <div style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', fontStyle: 'italic', maxWidth: '40ch', lineHeight: 1.5 }}>
+        Cuando se cierre el primer partido, aquí verás si la voz del pueblo acertó o falló.
+      </div>
+    </motion.div>
+  )
+}
+
 function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile }) {
+  const [lens, setLens] = useState('predicciones')
   if (!enrichedMatches || enrichedMatches.length === 0) {
     return (
       <div style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 12, padding: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', textAlign: 'center' }}>
@@ -1288,17 +1358,21 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
   // ── Global stats ────────────────────────────────────────────────────────────
   const precision   = completed.length > 0 ? completed.filter(m => m.consensus_hit).length / completed.length * 100 : null
   const avgStrength = total > 0 ? withTeams.reduce((s, m) => s + m.consensus_strength, 0) / total : null
-  const splitCount  = withTeams.filter(m => m.consensus_strength < 42).length
+  const splitCount  = withTeams.filter(isDividedMatch).length
 
   const pickDist = { L: 0, E: 0, V: 0 }
   withTeams.forEach(m => { if (m.consensus_pick) pickDist[m.consensus_pick]++ })
   const maxPickCount = Math.max(...Object.values(pickDist), 1)
 
   // ── 50/50 non-overlapping split by consensus_strength ───────────────────────
-  const sortedByStrength = [...withTeams].sort((a, b) => a.consensus_strength - b.consensus_strength)
+  // Lens-aware: 'predicciones' = all matches, 'resultados' = only completed ones.
+  const lensSource = lens === 'resultados' ? completed : withTeams
+  const sortedByStrength = [...lensSource].sort((a, b) => a.consensus_strength - b.consensus_strength)
   const mid        = Math.ceil(sortedByStrength.length / 2)
   const byDivided  = sortedByStrength.slice(0, mid)              // bottom 50% — least unanimous
-  const byUnanimous = sortedByStrength.slice(mid).reverse()      // top 50% — most unanimous first
+  let byUnanimous  = sortedByStrength.slice(mid).reverse()       // top 50% — most unanimous first
+  // Scarce-data guard: never leave a card empty when results are few (e.g. N=1)
+  if (byUnanimous.length === 0 && byDivided.length) byUnanimous = [...byDivided].reverse()
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
@@ -1311,8 +1385,8 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
         <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr 1fr' : 'repeat(4, 1fr)', gap: '1rem', marginBottom: '1.25rem', paddingBottom: '1.25rem', borderBottom: '1px solid var(--color-border)' }}>
           {[
             { label: 'PARTIDOS ANALIZADOS', value: total,                                                   color: 'var(--color-text-1)' },
-            { label: 'PRECISIÓN CONSENSO',  value: precision   != null ? `${precision.toFixed(1)}%`   : '—', color: precision != null ? (precision >= 50 ? '#34D399' : '#FB923C') : 'var(--color-text-3)' },
-            { label: 'FUERZA PROMEDIO',     value: avgStrength != null ? `${avgStrength.toFixed(1)}%` : '—', color: '#38BDF8' },
+            { label: 'PRECISIÓN COLECTIVA',  value: precision   != null ? `${precision.toFixed(1)}%`   : '—', color: precision != null ? (precision >= 50 ? '#34D399' : '#FB923C') : 'var(--color-text-3)' },
+            { label: 'ACUERDO PROMEDIO',     value: avgStrength != null ? `${avgStrength.toFixed(1)}%` : '—', color: '#38BDF8' },
             { label: 'PARTIDOS DIVIDIDOS',  value: splitCount,                                                color: '#FBBF24' },
           ].map((s, i) => (
             <div key={i}>
@@ -1351,22 +1425,34 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
         </div>
       )}
 
-      {/* ── Partidos Divididos | Partidos Unánimes ────────────────────────────── */}
-      <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '1.25rem', alignItems: 'start' }}>
-        <MatchExplorerBlock
-          title="⚔ Batallas del Pueblo"
-          subtitle="Menor consenso primero"
-          accentColor="#FBBF24"
-          matches={byDivided}
-          teamIso2={teamIso2}
-        />
-        <MatchExplorerBlock
-          title="📢 Voz Unánime"
-          subtitle="Mayor consenso primero"
-          accentColor="#34D399"
-          matches={byUnanimous}
-          teamIso2={teamIso2}
-        />
+      {/* ── Batallas del Pueblo | Voz Unánime — gobernadas por el toggle ──────── */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        <LensToggle lens={lens} onChange={setLens} completedCount={completed.length} />
+
+        {lens === 'resultados' && completed.length === 0 ? (
+          <ResultadosEmptyState />
+        ) : (
+          <motion.div
+            key={lens}
+            initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}
+            style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: '1.25rem', alignItems: 'start' }}
+          >
+            <MatchExplorerBlock
+              title="⚔ Batallas del Pueblo"
+              subtitle="Menor consenso primero"
+              accentColor="#FBBF24"
+              matches={byDivided}
+              teamIso2={teamIso2}
+            />
+            <MatchExplorerBlock
+              title="📢 Voz Unánime"
+              subtitle="Mayor consenso primero"
+              accentColor="#34D399"
+              matches={byUnanimous}
+              teamIso2={teamIso2}
+            />
+          </motion.div>
+        )}
       </div>
 
     </div>
@@ -1501,7 +1587,7 @@ export default function Analytics() {
         } else {
           const precision    = completed.filter(m => m.consensus_hit).length / completed.length * 100
           const avgConsensus = enriched.reduce((s, m) => s + m.consensus_strength, 0) / enriched.length
-          const divididos    = enriched.filter(m => m.consensus_strength < 42).length
+          const divididos    = enriched.filter(isDividedMatch).length
           const unanimes     = enriched.filter(m => m.consensus_strength === 100).length
           const sorted       = [...completed].sort((a, b) => a.consensus_strength - b.consensus_strength)
           const topDivided   = sorted.slice(0, 5)
