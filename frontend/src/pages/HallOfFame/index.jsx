@@ -159,8 +159,10 @@ function ArchLabel({ id, archMeta }) {
   return <span style={{ color: style.color, fontSize: 13, fontWeight: 500 }}>{meta?.display_name ?? id}</span>
 }
 
-function MedalIcon({ rank }) {
+function MedalIcon({ rank, neutral = false, listNum }) {
   const base = { width: 22, height: 22, borderRadius: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 10, fontWeight: 900, fontFamily: 'var(--font-mono)', flexShrink: 0 }
+  // Pre-tournament: neutral list number, no medal styling
+  if (neutral) return <span style={{ color: 'var(--color-text-3)', fontSize: 12, fontFamily: 'var(--font-mono)', width: 22, textAlign: 'center' }}>{listNum}</span>
   if (rank === 1) return <div style={{ ...base, background: 'rgba(251,191,36,0.22)', color: '#FBBF24', border: '1px solid rgba(251,191,36,0.5)' }}>1</div>
   if (rank === 2) return <div style={{ ...base, background: 'rgba(200,210,230,0.12)', color: '#C8D2E6', border: '1px solid rgba(200,210,230,0.3)' }}>2</div>
   if (rank === 3) return <div style={{ ...base, background: 'rgba(200,140,80,0.12)', color: '#C88C50', border: '1px solid rgba(200,140,80,0.3)' }}>3</div>
@@ -427,9 +429,15 @@ export default function HallOfFame() {
             <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
               <CoinsSVG />
               <div>
-                <div style={{ fontSize: isMobile ? 15 : 17, fontWeight: 800, color: 'var(--color-text-1)', letterSpacing: '0.02em' }}>ZONA DE PAGO</div>
+                <div style={{ fontSize: isMobile ? 15 : 17, fontWeight: 800, color: 'var(--color-text-1)', letterSpacing: '0.02em' }}>
+                  {notStarted ? 'PARTICIPANTES' : 'ZONA DE PAGO'}
+                </div>
                 <div style={{ fontSize: 12, color: 'var(--color-text-3)', marginTop: 2, fontFamily: 'var(--font-mono)' }}>
-                  {tournamentOver ? 'Los mejores del torneo. Cierre oficial de resultados.' : 'Clasificación provisional — se actualiza con cada partido jugado.'}
+                  {tournamentOver
+                    ? 'Los mejores del torneo. Cierre oficial de resultados.'
+                    : notStarted
+                    ? 'Predicciones registradas — las posiciones y premios aparecerán al iniciar el torneo.'
+                    : 'Clasificación provisional — se actualiza con cada partido jugado.'}
                 </div>
               </div>
             </div>
@@ -459,15 +467,16 @@ export default function HallOfFame() {
                     gridTemplateColumns: isMobile ? '40px 1fr auto' : '52px 1fr 200px 110px 130px 100px',
                     alignItems: 'center', gap: isMobile ? 10 : 0,
                     padding: isMobile ? '12px 14px' : '13px 20px',
-                    background: rowBg(u.rank), borderLeft: rowBorderLeft(u.rank),
+                    background: notStarted ? 'transparent' : rowBg(u.rank),
+                    borderLeft: notStarted ? '3px solid transparent' : rowBorderLeft(u.rank),
                     borderBottom: '1px solid rgba(255,255,255,0.05)',
-                    opacity: inPayout ? 1 : 0.65,
+                    opacity: notStarted ? 1 : (inPayout ? 1 : 0.65),
                   }}>
-                    <div style={{ display: 'flex', justifyContent: 'center' }}><MedalIcon rank={u.rank} /></div>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}><MedalIcon rank={u.rank} neutral={notStarted} listNum={i + 1} /></div>
                     <div>
                       <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                        <span style={{ fontSize: u.rank <= 3 ? 15 : 14, fontWeight: u.rank <= 3 ? 800 : 600, color: u.rank === 1 ? '#FDE68A' : 'var(--color-text-1)' }}>{u.display_name}</span>
-                        {u.rank === 1 && <span style={{ fontSize: 13 }}>👑</span>}
+                        <span style={{ fontSize: (!notStarted && u.rank <= 3) ? 15 : 14, fontWeight: (!notStarted && u.rank <= 3) ? 800 : 600, color: (!notStarted && u.rank === 1) ? '#FDE68A' : 'var(--color-text-1)' }}>{u.display_name}</span>
+                        {!notStarted && u.rank === 1 && <span style={{ fontSize: 13 }}>👑</span>}
                       </div>
                       {isMobile && <div style={{ marginTop: 2 }}><ArchLabel id={u.archetype} archMeta={archMeta} /></div>}
                     </div>
@@ -486,7 +495,9 @@ export default function HallOfFame() {
                     {/* BRECHA — desktop only */}
                     {!isMobile && (
                       <div style={{ textAlign: 'right' }}>
-                        {u.rank === 1 ? (
+                        {notStarted ? (
+                          <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.25)', fontFamily: 'var(--font-mono)' }}>—</span>
+                        ) : u.rank === 1 ? (
                           <span style={{ fontSize: 11, fontWeight: 700, color: '#FBBF24', fontFamily: 'var(--font-mono)', letterSpacing: '0.06em' }}>LÍDER</span>
                         ) : u.payout > 0 ? (
                           <span style={{ fontSize: 13, color: 'var(--color-text-2)', fontFamily: 'var(--font-mono)', fontWeight: 600 }}>
@@ -503,7 +514,9 @@ export default function HallOfFame() {
                     {/* PREMIO — desktop only */}
                     {!isMobile && (
                       <div style={{ textAlign: 'right' }}>
-                        {inPayout
+                        {notStarted
+                          ? <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)', fontFamily: 'var(--font-mono)' }}>—</span>
+                          : inPayout
                           ? <span style={{ fontSize: 15, fontWeight: 800, color: '#FBBF24', fontFamily: 'var(--font-mono)' }}>${u.payout.toLocaleString()}</span>
                           : <span style={{ fontSize: 12, color: 'rgba(255,255,255,0.2)', fontFamily: 'var(--font-mono)' }}>—</span>
                         }
