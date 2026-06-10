@@ -1672,7 +1672,28 @@ function TimelineTab({ data, userId }) {
   const [addSearch,  setAddSearch]  = useState('')
   const [addFocused, setAddFocused] = useState(false)
 
-  if (!snapshots.length) return null
+  // La línea de tiempo solo es relevante con una trayectoria real (≥3 snapshots).
+  // Antes de eso muestra un empty state con progreso, en vez de pantalla en blanco.
+  const TL_MIN_SNAPS = 3
+  const realSnapsCount = snapshots.filter(s => s.snapshot_match_id !== '+').length
+  if (realSnapsCount < TL_MIN_SNAPS) {
+    return (
+      <motion.div initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}>
+        <Card style={{ border: '1px dashed var(--color-border)', padding: '2.75rem 1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.7rem', textAlign: 'center' }}>
+          <div style={{ fontSize: '1.7rem', opacity: 0.55 }}>📈</div>
+          <div style={{ fontFamily: 'var(--font-display)', fontSize: '1rem', color: 'var(--color-text-1)', letterSpacing: '0.03em' }}>
+            La historia aún no empieza
+          </div>
+          <div style={{ fontSize: '0.75rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', maxWidth: '44ch', lineHeight: 1.6 }}>
+            Tu trayectoria de posiciones aparecerá tras los primeros partidos, cuando haya movimiento que contar.
+          </div>
+          <div style={{ fontSize: '0.62rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', marginTop: '0.3rem', padding: '0.28rem 0.7rem', borderRadius: 20, border: '1px solid var(--color-border)', background: 'var(--color-surface-2)' }}>
+            {realSnapsCount} de {TL_MIN_SNAPS} partidos
+          </div>
+        </Card>
+      </motion.div>
+    )
+  }
 
   const ys = rank => TL_PT + ((rank - 1) / Math.max(N - 1, 1)) * TL_CH
 
