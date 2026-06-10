@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T18:00:34.319Z",
+  "generated_at": "2026-06-10T17:01:59.052Z",
   "metric": "eficiencia_de_puntos",
   "users": [
     {
@@ -1889,6 +1889,47 @@
       "rank": 46
     },
     {
+      "user_id": "3DE522E965",
+      "display_name": "LUD",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 0,
+      "breakdown": {
+        "group_efficiency": 0,
+        "standings_efficiency": 0,
+        "knockout_efficiency": 0
+      },
+      "extra": {
+        "earned_points": 0,
+        "available_points": 0,
+        "earned_group_points": 0,
+        "available_group_points": 0,
+        "earned_standings_points": 0,
+        "available_standings_points": 0,
+        "earned_knockout_points": 0,
+        "available_knockout_points": 0,
+        "best_stage": "group",
+        "worst_stage": "group",
+        "stage_breakdown": {
+          "group": {
+            "earned": 0,
+            "available": 0,
+            "efficiency": 0
+          },
+          "standings": {
+            "earned": 0,
+            "available": 0,
+            "efficiency": 0
+          },
+          "knockout": {
+            "earned": 0,
+            "available": 0,
+            "efficiency": 0
+          }
+        }
+      },
+      "rank": 47
+    },
+    {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
       "metric_id": "eficiencia_de_puntos",
@@ -1927,7 +1968,7 @@
           }
         }
       },
-      "rank": 47
+      "rank": 48
     },
     {
       "user_id": "8E0D4A705C",
@@ -1968,7 +2009,7 @@
           }
         }
       },
-      "rank": 48
+      "rank": 49
     },
     {
       "user_id": "1829AF0B20",
@@ -2009,7 +2050,7 @@
           }
         }
       },
-      "rank": 49
+      "rank": 50
     },
     {
       "user_id": "F4DAEB067A",
@@ -2050,7 +2091,7 @@
           }
         }
       },
-      "rank": 50
+      "rank": 51
     },
     {
       "user_id": "CC6B00FB62",
@@ -2091,7 +2132,7 @@
           }
         }
       },
-      "rank": 51
+      "rank": 52
     },
     {
       "user_id": "0C09D57C3D",
@@ -2132,7 +2173,7 @@
           }
         }
       },
-      "rank": 52
+      "rank": 53
     },
     {
       "user_id": "E1B3B9BFCB",
@@ -2173,7 +2214,7 @@
           }
         }
       },
-      "rank": 53
+      "rank": 54
     },
     {
       "user_id": "7667C7B572",
@@ -2214,7 +2255,7 @@
           }
         }
       },
-      "rank": 54
+      "rank": 55
     },
     {
       "user_id": "349A5D07D9",
@@ -2255,7 +2296,7 @@
           }
         }
       },
-      "rank": 55
+      "rank": 56
     },
     {
       "user_id": "2EF31BF1A6",
@@ -2296,7 +2337,7 @@
           }
         }
       },
-      "rank": 56
+      "rank": 57
     },
     {
       "user_id": "224DC707ED",
@@ -2337,7 +2378,7 @@
           }
         }
       },
-      "rank": 57
+      "rank": 58
     },
     {
       "user_id": "72A9ED8F20",
@@ -2378,7 +2419,7 @@
           }
         }
       },
-      "rank": 58
+      "rank": 59
     },
     {
       "user_id": "9EB553DA57",
@@ -2419,7 +2460,7 @@
           }
         }
       },
-      "rank": 59
+      "rank": 60
     },
     {
       "user_id": "726607D90E",
@@ -2460,7 +2501,7 @@
           }
         }
       },
-      "rank": 60
+      "rank": 61
     },
     {
       "user_id": "1D2C13E050",
@@ -2501,7 +2542,7 @@
           }
         }
       },
-      "rank": 61
+      "rank": 62
     },
     {
       "user_id": "C19435FB3E",
@@ -2542,7 +2583,7 @@
           }
         }
       },
-      "rank": 62
+      "rank": 63
     },
     {
       "user_id": "A44F6A82DF",
@@ -2583,7 +2624,7 @@
           }
         }
       },
-      "rank": 63
+      "rank": 64
     },
     {
       "user_id": "CB1163524F",
@@ -2624,52 +2665,11 @@
           }
         }
       },
-      "rank": 64
+      "rank": 65
     },
     {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 0,
-      "breakdown": {
-        "group_efficiency": 0,
-        "standings_efficiency": 0,
-        "knockout_efficiency": 0
-      },
-      "extra": {
-        "earned_points": 0,
-        "available_points": 0,
-        "earned_group_points": 0,
-        "available_group_points": 0,
-        "earned_standings_points": 0,
-        "available_standings_points": 0,
-        "earned_knockout_points": 0,
-        "available_knockout_points": 0,
-        "best_stage": "group",
-        "worst_stage": "group",
-        "stage_breakdown": {
-          "group": {
-            "earned": 0,
-            "available": 0,
-            "efficiency": 0
-          },
-          "standings": {
-            "earned": 0,
-            "available": 0,
-            "efficiency": 0
-          },
-          "knockout": {
-            "earned": 0,
-            "available": 0,
-            "efficiency": 0
-          }
-        }
-      },
-      "rank": 65
-    },
-    {
-      "user_id": "ACA9D258D8",
-      "display_name": "RWN",
       "metric_id": "eficiencia_de_puntos",
       "value": 0,
       "breakdown": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T18:00:34.580Z",
+  "generated_at": "2026-06-10T17:01:59.704Z",
   "users": [
     {
       "user_id": "4EE3A0CA82",
@@ -5706,8 +5706,8 @@
       }
     },
     {
-      "user_id": "4CA014CA5E",
-      "display_name": "Luigi R",
+      "user_id": "3DE522E965",
+      "display_name": "LUD",
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
@@ -5775,6 +5775,130 @@
           "value": 0,
           "ranking": 47,
           "percentile": 36.99,
+          "tier": null,
+          "extra": {
+            "earned_points": 0,
+            "available_points": 0,
+            "earned_group_points": 0,
+            "available_group_points": 0,
+            "earned_standings_points": 0,
+            "available_standings_points": 0,
+            "earned_knockout_points": 0,
+            "available_knockout_points": 0,
+            "best_stage": "group",
+            "worst_stage": "group",
+            "stage_breakdown": {
+              "group": {
+                "earned": 0,
+                "available": 0,
+                "efficiency": 0
+              },
+              "standings": {
+                "earned": 0,
+                "available": 0,
+                "efficiency": 0
+              },
+              "knockout": {
+                "earned": 0,
+                "available": 0,
+                "efficiency": 0
+              }
+            }
+          }
+        },
+        "campeon_vivo": {
+          "metric_id": "campeon_vivo",
+          "value": true,
+          "ranking": null,
+          "percentile": null,
+          "tier": null,
+          "extra": {
+            "champion": "Francia",
+            "champion_status": "pending",
+            "champion_eliminated_by_stage": null,
+            "third_place": "España",
+            "third_place_status": "pending",
+            "third_place_eliminated_by_stage": null,
+            "finalist1": "Francia",
+            "finalist1_status": "pending",
+            "finalist1_eliminated_by_stage": null,
+            "finalist2": "Portugal",
+            "finalist2_status": "pending",
+            "finalist2_eliminated_by_stage": null
+          }
+        }
+      }
+    },
+    {
+      "user_id": "4CA014CA5E",
+      "display_name": "Luigi R",
+      "metrics": {
+        "precision_general": {
+          "metric_id": "precision_general",
+          "value": 0,
+          "ranking": 48,
+          "percentile": 35.62,
+          "tier": null,
+          "extra": {
+            "best_category": "group",
+            "worst_category": "group",
+            "category_breakdown": {
+              "group": {
+                "correct": 0,
+                "possible": 0,
+                "accuracy": 0
+              },
+              "standings": {
+                "correct": 0,
+                "possible": 0,
+                "accuracy": 0
+              },
+              "knockout": {
+                "correct": 0,
+                "possible": 0,
+                "accuracy": 0
+              }
+            }
+          }
+        },
+        "precision_marcadores_exactos": {
+          "metric_id": "precision_marcadores_exactos",
+          "value": 0,
+          "ranking": 48,
+          "percentile": 35.62,
+          "tier": null,
+          "extra": {
+            "exact_scores": 0,
+            "matches": 0,
+            "home_goal_accuracy": 0,
+            "away_goal_accuracy": 0,
+            "combined_goal_accuracy": 0,
+            "exact_score_precision": 0
+          }
+        },
+        "precision_tabla": {
+          "metric_id": "precision_tabla",
+          "value": 0,
+          "ranking": 48,
+          "percentile": 35.62,
+          "tier": null,
+          "extra": {
+            "correct_positions": 0,
+            "incorrect_positions": 0,
+            "possible_positions": 0,
+            "perfect_groups": [],
+            "zero_points_groups": [],
+            "best_group_score": -1,
+            "best_groups": [],
+            "worst_group_score": 999,
+            "worst_groups": []
+          }
+        },
+        "eficiencia_de_puntos": {
+          "metric_id": "eficiencia_de_puntos",
+          "value": 0,
+          "ranking": 48,
+          "percentile": 35.62,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -5836,8 +5960,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 48,
-          "percentile": 35.62,
+          "ranking": 49,
+          "percentile": 34.25,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -5864,8 +5988,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 48,
-          "percentile": 35.62,
+          "ranking": 49,
+          "percentile": 34.25,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -5879,8 +6003,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 48,
-          "percentile": 35.62,
+          "ranking": 49,
+          "percentile": 34.25,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -5897,8 +6021,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 48,
-          "percentile": 35.62,
+          "ranking": 49,
+          "percentile": 34.25,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -5960,8 +6084,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 49,
-          "percentile": 34.25,
+          "ranking": 50,
+          "percentile": 32.88,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -5988,8 +6112,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 49,
-          "percentile": 34.25,
+          "ranking": 50,
+          "percentile": 32.88,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6003,8 +6127,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 49,
-          "percentile": 34.25,
+          "ranking": 50,
+          "percentile": 32.88,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6021,8 +6145,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 49,
-          "percentile": 34.25,
+          "ranking": 50,
+          "percentile": 32.88,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6084,8 +6208,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 50,
-          "percentile": 32.88,
+          "ranking": 51,
+          "percentile": 31.51,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6112,8 +6236,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 50,
-          "percentile": 32.88,
+          "ranking": 51,
+          "percentile": 31.51,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6127,8 +6251,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 50,
-          "percentile": 32.88,
+          "ranking": 51,
+          "percentile": 31.51,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6145,8 +6269,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 50,
-          "percentile": 32.88,
+          "ranking": 51,
+          "percentile": 31.51,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6208,8 +6332,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 51,
-          "percentile": 31.51,
+          "ranking": 52,
+          "percentile": 30.14,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6236,8 +6360,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 51,
-          "percentile": 31.51,
+          "ranking": 52,
+          "percentile": 30.14,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6251,8 +6375,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 51,
-          "percentile": 31.51,
+          "ranking": 52,
+          "percentile": 30.14,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6269,8 +6393,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 51,
-          "percentile": 31.51,
+          "ranking": 52,
+          "percentile": 30.14,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6332,8 +6456,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 52,
-          "percentile": 30.14,
+          "ranking": 53,
+          "percentile": 28.77,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6360,8 +6484,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 52,
-          "percentile": 30.14,
+          "ranking": 53,
+          "percentile": 28.77,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6375,8 +6499,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 52,
-          "percentile": 30.14,
+          "ranking": 53,
+          "percentile": 28.77,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6393,8 +6517,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 52,
-          "percentile": 30.14,
+          "ranking": 53,
+          "percentile": 28.77,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6456,8 +6580,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 53,
-          "percentile": 28.77,
+          "ranking": 54,
+          "percentile": 27.4,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6484,8 +6608,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 53,
-          "percentile": 28.77,
+          "ranking": 54,
+          "percentile": 27.4,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6499,8 +6623,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 53,
-          "percentile": 28.77,
+          "ranking": 54,
+          "percentile": 27.4,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6517,8 +6641,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 53,
-          "percentile": 28.77,
+          "ranking": 54,
+          "percentile": 27.4,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6580,8 +6704,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 54,
-          "percentile": 27.4,
+          "ranking": 55,
+          "percentile": 26.03,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6608,8 +6732,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 54,
-          "percentile": 27.4,
+          "ranking": 55,
+          "percentile": 26.03,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6623,8 +6747,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 54,
-          "percentile": 27.4,
+          "ranking": 55,
+          "percentile": 26.03,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6641,8 +6765,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 54,
-          "percentile": 27.4,
+          "ranking": 55,
+          "percentile": 26.03,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6704,8 +6828,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 55,
-          "percentile": 26.03,
+          "ranking": 56,
+          "percentile": 24.66,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6732,8 +6856,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 55,
-          "percentile": 26.03,
+          "ranking": 56,
+          "percentile": 24.66,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6747,8 +6871,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 55,
-          "percentile": 26.03,
+          "ranking": 56,
+          "percentile": 24.66,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6765,8 +6889,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 55,
-          "percentile": 26.03,
+          "ranking": 56,
+          "percentile": 24.66,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6828,8 +6952,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 56,
-          "percentile": 24.66,
+          "ranking": 57,
+          "percentile": 23.29,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6856,8 +6980,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 56,
-          "percentile": 24.66,
+          "ranking": 57,
+          "percentile": 23.29,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6871,8 +6995,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 56,
-          "percentile": 24.66,
+          "ranking": 57,
+          "percentile": 23.29,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -6889,8 +7013,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 56,
-          "percentile": 24.66,
+          "ranking": 57,
+          "percentile": 23.29,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -6952,8 +7076,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 57,
-          "percentile": 23.29,
+          "ranking": 58,
+          "percentile": 21.92,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -6980,8 +7104,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 57,
-          "percentile": 23.29,
+          "ranking": 58,
+          "percentile": 21.92,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -6995,8 +7119,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 57,
-          "percentile": 23.29,
+          "ranking": 58,
+          "percentile": 21.92,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7013,8 +7137,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 57,
-          "percentile": 23.29,
+          "ranking": 58,
+          "percentile": 21.92,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7076,8 +7200,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 58,
-          "percentile": 21.92,
+          "ranking": 59,
+          "percentile": 20.55,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7104,8 +7228,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 58,
-          "percentile": 21.92,
+          "ranking": 59,
+          "percentile": 20.55,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7119,8 +7243,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 58,
-          "percentile": 21.92,
+          "ranking": 59,
+          "percentile": 20.55,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7137,8 +7261,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 58,
-          "percentile": 21.92,
+          "ranking": 59,
+          "percentile": 20.55,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7200,8 +7324,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 59,
-          "percentile": 20.55,
+          "ranking": 60,
+          "percentile": 19.18,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7228,8 +7352,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 59,
-          "percentile": 20.55,
+          "ranking": 60,
+          "percentile": 19.18,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7243,8 +7367,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 59,
-          "percentile": 20.55,
+          "ranking": 60,
+          "percentile": 19.18,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7261,8 +7385,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 59,
-          "percentile": 20.55,
+          "ranking": 60,
+          "percentile": 19.18,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7324,8 +7448,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 60,
-          "percentile": 19.18,
+          "ranking": 61,
+          "percentile": 17.81,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7352,8 +7476,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 60,
-          "percentile": 19.18,
+          "ranking": 61,
+          "percentile": 17.81,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7367,8 +7491,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 60,
-          "percentile": 19.18,
+          "ranking": 61,
+          "percentile": 17.81,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7385,8 +7509,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 60,
-          "percentile": 19.18,
+          "ranking": 61,
+          "percentile": 17.81,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7448,8 +7572,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 61,
-          "percentile": 17.81,
+          "ranking": 62,
+          "percentile": 16.44,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7476,8 +7600,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 61,
-          "percentile": 17.81,
+          "ranking": 62,
+          "percentile": 16.44,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7491,8 +7615,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 61,
-          "percentile": 17.81,
+          "ranking": 62,
+          "percentile": 16.44,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7509,8 +7633,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 61,
-          "percentile": 17.81,
+          "ranking": 62,
+          "percentile": 16.44,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7572,8 +7696,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 62,
-          "percentile": 16.44,
+          "ranking": 63,
+          "percentile": 15.07,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7600,8 +7724,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 62,
-          "percentile": 16.44,
+          "ranking": 63,
+          "percentile": 15.07,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7615,8 +7739,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 62,
-          "percentile": 16.44,
+          "ranking": 63,
+          "percentile": 15.07,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7633,8 +7757,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 62,
-          "percentile": 16.44,
+          "ranking": 63,
+          "percentile": 15.07,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7696,8 +7820,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 63,
-          "percentile": 15.07,
+          "ranking": 64,
+          "percentile": 13.7,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7724,8 +7848,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 63,
-          "percentile": 15.07,
+          "ranking": 64,
+          "percentile": 13.7,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7739,8 +7863,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 63,
-          "percentile": 15.07,
+          "ranking": 64,
+          "percentile": 13.7,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7757,8 +7881,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 63,
-          "percentile": 15.07,
+          "ranking": 64,
+          "percentile": 13.7,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7820,8 +7944,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 64,
-          "percentile": 13.7,
+          "ranking": 65,
+          "percentile": 12.33,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7848,8 +7972,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 64,
-          "percentile": 13.7,
+          "ranking": 65,
+          "percentile": 12.33,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7863,8 +7987,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 64,
-          "percentile": 13.7,
+          "ranking": 65,
+          "percentile": 12.33,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -7881,8 +8005,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 64,
-          "percentile": 13.7,
+          "ranking": 65,
+          "percentile": 12.33,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -7944,8 +8068,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 65,
-          "percentile": 12.33,
+          "ranking": 66,
+          "percentile": 10.96,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -7972,8 +8096,8 @@
         "precision_marcadores_exactos": {
           "metric_id": "precision_marcadores_exactos",
           "value": 0,
-          "ranking": 65,
-          "percentile": 12.33,
+          "ranking": 66,
+          "percentile": 10.96,
           "tier": null,
           "extra": {
             "exact_scores": 0,
@@ -7987,8 +8111,8 @@
         "precision_tabla": {
           "metric_id": "precision_tabla",
           "value": 0,
-          "ranking": 65,
-          "percentile": 12.33,
+          "ranking": 66,
+          "percentile": 10.96,
           "tier": null,
           "extra": {
             "correct_positions": 0,
@@ -8005,8 +8129,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 65,
-          "percentile": 12.33,
+          "ranking": 66,
+          "percentile": 10.96,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -8055,130 +8179,6 @@
             "finalist1_status": "pending",
             "finalist1_eliminated_by_stage": null,
             "finalist2": "Inglaterra",
-            "finalist2_status": "pending",
-            "finalist2_eliminated_by_stage": null
-          }
-        }
-      }
-    },
-    {
-      "user_id": "ACA9D258D8",
-      "display_name": "RWN",
-      "metrics": {
-        "precision_general": {
-          "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 66,
-          "percentile": 10.96,
-          "tier": null,
-          "extra": {
-            "best_category": "group",
-            "worst_category": "group",
-            "category_breakdown": {
-              "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
-              },
-              "standings": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
-              },
-              "knockout": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
-              }
-            }
-          }
-        },
-        "precision_marcadores_exactos": {
-          "metric_id": "precision_marcadores_exactos",
-          "value": 0,
-          "ranking": 66,
-          "percentile": 10.96,
-          "tier": null,
-          "extra": {
-            "exact_scores": 0,
-            "matches": 0,
-            "home_goal_accuracy": 0,
-            "away_goal_accuracy": 0,
-            "combined_goal_accuracy": 0,
-            "exact_score_precision": 0
-          }
-        },
-        "precision_tabla": {
-          "metric_id": "precision_tabla",
-          "value": 0,
-          "ranking": 66,
-          "percentile": 10.96,
-          "tier": null,
-          "extra": {
-            "correct_positions": 0,
-            "incorrect_positions": 0,
-            "possible_positions": 0,
-            "perfect_groups": [],
-            "zero_points_groups": [],
-            "best_group_score": -1,
-            "best_groups": [],
-            "worst_group_score": 999,
-            "worst_groups": []
-          }
-        },
-        "eficiencia_de_puntos": {
-          "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 66,
-          "percentile": 10.96,
-          "tier": null,
-          "extra": {
-            "earned_points": 0,
-            "available_points": 0,
-            "earned_group_points": 0,
-            "available_group_points": 0,
-            "earned_standings_points": 0,
-            "available_standings_points": 0,
-            "earned_knockout_points": 0,
-            "available_knockout_points": 0,
-            "best_stage": "group",
-            "worst_stage": "group",
-            "stage_breakdown": {
-              "group": {
-                "earned": 0,
-                "available": 0,
-                "efficiency": 0
-              },
-              "standings": {
-                "earned": 0,
-                "available": 0,
-                "efficiency": 0
-              },
-              "knockout": {
-                "earned": 0,
-                "available": 0,
-                "efficiency": 0
-              }
-            }
-          }
-        },
-        "campeon_vivo": {
-          "metric_id": "campeon_vivo",
-          "value": true,
-          "ranking": null,
-          "percentile": null,
-          "tier": null,
-          "extra": {
-            "champion": "Alemania",
-            "champion_status": "pending",
-            "champion_eliminated_by_stage": null,
-            "third_place": "España",
-            "third_place_status": "pending",
-            "third_place_eliminated_by_stage": null,
-            "finalist1": "Alemania",
-            "finalist1_status": "pending",
-            "finalist1_eliminated_by_stage": null,
-            "finalist2": "Brasil",
             "finalist2_status": "pending",
             "finalist2_eliminated_by_stage": null
           }

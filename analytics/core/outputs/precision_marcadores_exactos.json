@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T18:00:34.358Z",
+  "generated_at": "2026-06-10T17:01:59.145Z",
   "metric": "precision_marcadores_exactos",
   "users": [
     {
@@ -601,6 +601,19 @@
       }
     },
     {
+      "user_id": "3DE522E965",
+      "display_name": "LUD",
+      "value": 0,
+      "extra": {
+        "exact_scores": 0,
+        "matches": 0,
+        "home_goal_accuracy": 0,
+        "away_goal_accuracy": 0,
+        "combined_goal_accuracy": 0,
+        "exact_score_precision": 0
+      }
+    },
+    {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
       "value": 0,
@@ -837,19 +850,6 @@
     {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
-      "value": 0,
-      "extra": {
-        "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
-        "exact_score_precision": 0
-      }
-    },
-    {
-      "user_id": "ACA9D258D8",
-      "display_name": "RWN",
       "value": 0,
       "extra": {
         "exact_scores": 0,

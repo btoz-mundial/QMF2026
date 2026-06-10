@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T18:00:34.363Z",
+  "generated_at": "2026-06-10T17:01:59.165Z",
   "metric": "precision_tabla",
   "users": [
     {
@@ -739,6 +739,22 @@
       }
     },
     {
+      "user_id": "3DE522E965",
+      "display_name": "LUD",
+      "value": 0,
+      "extra": {
+        "correct_positions": 0,
+        "incorrect_positions": 0,
+        "possible_positions": 0,
+        "perfect_groups": [],
+        "zero_points_groups": [],
+        "best_group_score": -1,
+        "best_groups": [],
+        "worst_group_score": 999,
+        "worst_groups": []
+      }
+    },
+    {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
       "value": 0,
@@ -1029,22 +1045,6 @@
     {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
-      "value": 0,
-      "extra": {
-        "correct_positions": 0,
-        "incorrect_positions": 0,
-        "possible_positions": 0,
-        "perfect_groups": [],
-        "zero_points_groups": [],
-        "best_group_score": -1,
-        "best_groups": [],
-        "worst_group_score": 999,
-        "worst_groups": []
-      }
-    },
-    {
-      "user_id": "ACA9D258D8",
-      "display_name": "RWN",
       "value": 0,
       "extra": {
         "correct_positions": 0,

@@ -1,8 +1,8 @@
 {
-  "user_id": "ACA9D258D8",
-  "display_name": "RWN",
-  "source_file": "RWN.xlsx",
-  "processed_at": "2026-06-02T16:19:54.489Z",
+  "user_id": "3DE522E965",
+  "display_name": "LUD",
+  "source_file": "LUD.xlsx",
+  "processed_at": "2026-06-10T17:01:47.629Z",
   "group_stage": [
     {
       "match_id": 1,
@@ -34,7 +34,7 @@
     },
     {
       "match_id": 8,
-      "prediction": "L"
+      "prediction": "V"
     },
     {
       "match_id": 9,
@@ -46,7 +46,7 @@
     },
     {
       "match_id": 11,
-      "prediction": "L"
+      "prediction": "V"
     },
     {
       "match_id": 12,
@@ -66,7 +66,7 @@
     },
     {
       "match_id": 16,
-      "prediction": "V"
+      "prediction": "L"
     },
     {
       "match_id": 17,
@@ -94,11 +94,11 @@
     },
     {
       "match_id": 23,
-      "prediction": "E"
+      "prediction": "L"
     },
     {
       "match_id": 24,
-      "prediction": "E"
+      "prediction": "V"
     },
     {
       "match_id": 25,
@@ -122,7 +122,7 @@
     },
     {
       "match_id": 30,
-      "prediction": "L"
+      "prediction": "V"
     },
     {
       "match_id": 31,
@@ -130,7 +130,7 @@
     },
     {
       "match_id": 32,
-      "prediction": "E"
+      "prediction": "L"
     },
     {
       "match_id": 33,
@@ -142,7 +142,7 @@
     },
     {
       "match_id": 35,
-      "prediction": "E"
+      "prediction": "L"
     },
     {
       "match_id": 36,
@@ -162,7 +162,7 @@
     },
     {
       "match_id": 40,
-      "prediction": "L"
+      "prediction": "V"
     },
     {
       "match_id": 41,
@@ -174,7 +174,7 @@
     },
     {
       "match_id": 43,
-      "prediction": "L"
+      "prediction": "V"
     },
     {
       "match_id": 44,
@@ -190,19 +190,19 @@
     },
     {
       "match_id": 47,
-      "prediction": "E"
+      "prediction": "V"
     },
     {
       "match_id": 48,
-      "prediction": "E"
+      "prediction": "L"
     },
     {
       "match_id": 49,
-      "prediction": "E"
+      "prediction": "V"
     },
     {
       "match_id": 50,
-      "prediction": "V"
+      "prediction": "L"
     },
     {
       "match_id": 51,
@@ -222,7 +222,7 @@
     },
     {
       "match_id": 55,
-      "prediction": "E"
+      "prediction": "V"
     },
     {
       "match_id": 56,
@@ -238,11 +238,11 @@
     },
     {
       "match_id": 59,
-      "prediction": "V"
+      "prediction": "L"
     },
     {
       "match_id": 60,
-      "prediction": "V"
+      "prediction": "L"
     },
     {
       "match_id": 61,
@@ -250,19 +250,19 @@
     },
     {
       "match_id": 62,
-      "prediction": "E"
+      "prediction": "L"
     },
     {
       "match_id": 63,
-      "prediction": "V"
+      "prediction": "E"
     },
     {
       "match_id": 64,
-      "prediction": "V"
+      "prediction": "E"
     },
     {
       "match_id": 65,
-      "prediction": "E"
+      "prediction": "L"
     },
     {
       "match_id": 66,
@@ -278,7 +278,7 @@
     },
     {
       "match_id": 69,
-      "prediction": "V"
+      "prediction": "E"
     },
     {
       "match_id": 70,
@@ -298,54 +298,54 @@
       "match_id": 73,
       "home_team": "Korea",
       "away_team": "Suiza",
-      "home_goals": 1,
-      "away_goals": 2,
-      "advance_team": "Suiza"
+      "home_goals": 2,
+      "away_goals": 0,
+      "advance_team": "Korea"
     },
     {
       "match_id": 74,
       "home_team": "Alemania",
-      "away_team": "Japon",
-      "home_goals": 3,
+      "away_team": "Paraguay",
+      "home_goals": 2,
       "away_goals": 0,
       "advance_team": "Alemania"
     },
     {
       "match_id": 75,
       "home_team": "P Bajos",
-      "away_team": "Escocia",
+      "away_team": "Marruecos",
       "home_goals": 2,
-      "away_goals": 0,
+      "away_goals": 1,
       "advance_team": "P Bajos"
     },
     {
       "match_id": 76,
       "home_team": "Brasil",
       "away_team": "Suecia",
-      "home_goals": 4,
-      "away_goals": 2,
+      "home_goals": 3,
+      "away_goals": 0,
       "advance_team": "Brasil"
     },
     {
       "match_id": 77,
       "home_team": "Francia",
-      "away_team": "Marruecos",
+      "away_team": "Japon",
       "home_goals": 3,
       "away_goals": 1,
       "advance_team": "Francia"
     },
     {
       "match_id": 78,
-      "home_team": "Costa de M",
-      "away_team": "Noruega",
-      "home_goals": 1,
-      "away_goals": 2,
-      "advance_team": "Noruega"
+      "home_team": "Ecuador",
+      "away_team": "Senegal",
+      "home_goals": 2,
+      "away_goals": 0,
+      "advance_team": "Ecuador"
     },
     {
       "match_id": 79,
       "home_team": "Mexico",
-      "away_team": "Arabia S",
+      "away_team": "Escocia",
       "home_goals": 2,
       "away_goals": 1,
       "advance_team": "Mexico"
@@ -353,96 +353,96 @@
     {
       "match_id": 80,
       "home_team": "Inglaterra",
-      "away_team": "Colombia",
+      "away_team": "Noruega",
       "home_goals": 3,
       "away_goals": 1,
       "advance_team": "Inglaterra"
     },
     {
       "match_id": 81,
-      "home_team": "USA",
-      "away_team": "Qatar",
-      "home_goals": 4,
+      "home_team": "Turquia",
+      "away_team": "Costa de M",
+      "home_goals": 1,
       "away_goals": 0,
-      "advance_team": "USA"
+      "advance_team": "Turquia"
     },
     {
       "match_id": 82,
       "home_team": "Belgica",
-      "away_team": "Argelia",
-      "home_goals": 2,
+      "away_team": "Czechia",
+      "home_goals": 3,
       "away_goals": 0,
       "advance_team": "Belgica"
     },
     {
       "match_id": 83,
-      "home_team": "R Congo",
+      "home_team": "Colombia",
       "away_team": "Croacia",
-      "home_goals": 0,
-      "away_goals": 2,
-      "advance_team": "Croacia"
+      "home_goals": 2,
+      "away_goals": 0,
+      "advance_team": "Colombia"
     },
     {
       "match_id": 84,
       "home_team": "España",
       "away_team": "Austria",
-      "home_goals": 3,
-      "away_goals": 1,
+      "home_goals": 2,
+      "away_goals": 0,
       "advance_team": "España"
     },
     {
       "match_id": 85,
       "home_team": "Canada",
-      "away_team": "Senegal",
-      "home_goals": 4,
-      "away_goals": 2,
+      "away_team": "Argelia",
+      "home_goals": 3,
+      "away_goals": 0,
       "advance_team": "Canada"
     },
     {
       "match_id": 86,
       "home_team": "Argentina",
       "away_team": "Uruguay",
-      "home_goals": 4,
-      "away_goals": 2,
+      "home_goals": 2,
+      "away_goals": 0,
       "advance_team": "Argentina"
     },
     {
       "match_id": 87,
       "home_team": "Portugal",
-      "away_team": "Paraguay",
-      "home_goals": 2,
+      "away_team": "Ghana",
+      "home_goals": 3,
       "away_goals": 0,
       "advance_team": "Portugal"
     },
     {
       "match_id": 88,
-      "home_team": "Australia",
-      "away_team": "N Zelandia",
-      "home_goals": 1,
-      "away_goals": 1,
-      "advance_team": "Australia"
+      "home_team": "USA",
+      "away_team": "Egipto",
+      "home_goals": 2,
+      "away_goals": 0,
+      "advance_team": "USA"
     },
     {
       "match_id": 89,
       "home_team": "Alemania",
       "away_team": "Francia",
-      "home_goals": 3,
+      "home_goals": 1,
       "away_goals": 2,
-      "advance_team": "Alemania"
+      "advance_team": "Francia"
     },
     {
       "match_id": 90,
-      "home_team": "Suiza",
+      "home_team": "Korea",
       "away_team": "P Bajos",
-      "home_goals": 1,
+      "home_goals": 0,
       "away_goals": 2,
       "advance_team": "P Bajos"
     },
     {
       "match_id": 91,
       "home_team": "Brasil",
-      "away_team": "Noruega",
-      "home_goals": 3,
+      "away_team": "Ecuador",
+      "home_goals": 2,
       "away_goals": 1,
       "advance_team": "Brasil"
     },
@@ -456,49 +456,49 @@
     },
     {
       "match_id": 93,
-      "home_team": "Croacia",
+      "home_team": "Colombia",
       "away_team": "España",
       "home_goals": 1,
-      "away_goals": 3,
+      "away_goals": 2,
       "advance_team": "España"
     },
     {
       "match_id": 94,
-      "home_team": "USA",
+      "home_team": "Turquia",
       "away_team": "Belgica",
-      "home_goals": 3,
+      "home_goals": 1,
       "away_goals": 2,
-      "advance_team": "USA"
+      "advance_team": "Belgica"
     },
     {
       "match_id": 95,
       "home_team": "Argentina",
-      "away_team": "Australia",
-      "home_goals": 3,
-      "away_goals": 0,
+      "away_team": "USA",
+      "home_goals": 2,
+      "away_goals": 1,
       "advance_team": "Argentina"
     },
     {
       "match_id": 96,
       "home_team": "Canada",
       "away_team": "Portugal",
-      "home_goals": 2,
+      "home_goals": 0,
       "away_goals": 2,
       "advance_team": "Portugal"
     },
     {
       "match_id": 97,
-      "home_team": "Alemania",
+      "home_team": "Francia",
       "away_team": "P Bajos",
       "home_goals": 2,
       "away_goals": 1,
-      "advance_team": "Alemania"
+      "advance_team": "Francia"
     },
     {
       "match_id": 98,
       "home_team": "España",
-      "away_team": "USA",
-      "home_goals": 3,
+      "away_team": "Belgica",
+      "home_goals": 2,
       "away_goals": 1,
       "advance_team": "España"
     },
@@ -506,49 +506,49 @@
       "match_id": 99,
       "home_team": "Brasil",
       "away_team": "Inglaterra",
-      "home_goals": 3,
-      "away_goals": 2,
+      "home_goals": 2,
+      "away_goals": 0,
       "advance_team": "Brasil"
     },
     {
       "match_id": 100,
       "home_team": "Argentina",
       "away_team": "Portugal",
-      "home_goals": 2,
-      "away_goals": 1,
-      "advance_team": "Argentina"
+      "home_goals": 1,
+      "away_goals": 2,
+      "advance_team": "Portugal"
     },
     {
       "match_id": 101,
-      "home_team": "Alemania",
+      "home_team": "Francia",
       "away_team": "España",
       "home_goals": 2,
       "away_goals": 1,
-      "advance_team": "Alemania"
+      "advance_team": "Francia"
     },
     {
       "match_id": 102,
       "home_team": "Brasil",
-      "away_team": "Argentina",
-      "home_goals": 2,
-      "away_goals": 1,
-      "advance_team": "Brasil"
+      "away_team": "Portugal",
+      "home_goals": 1,
+      "away_goals": 2,
+      "advance_team": "Portugal"
     },
     {
       "match_id": 103,
       "home_team": "España",
-      "away_team": "Argentina",
-      "home_goals": 3,
+      "away_team": "Brasil",
+      "home_goals": 2,
       "away_goals": 1,
       "advance_team": "España"
     },
     {
       "match_id": 104,
-      "home_team": "Alemania",
-      "away_team": "Brasil",
+      "home_team": "Francia",
+      "away_team": "Portugal",
       "home_goals": 2,
-      "away_goals": 0,
-      "advance_team": "Alemania"
+      "away_goals": 1,
+      "advance_team": "Francia"
     }
   ],
   "standings": [
@@ -566,35 +566,35 @@
       "positions": [
         "Canada",
         "Suiza",
-        "Qatar",
-        "Bosnia H"
+        "Bosnia H",
+        "Qatar"
       ]
     },
     {
       "group": "C",
       "positions": [
         "Brasil",
-        "Escocia",
         "Marruecos",
+        "Escocia",
         "Haiti"
       ]
     },
     {
       "group": "D",
       "positions": [
+        "Turquia",
         "USA",
-        "Australia",
         "Paraguay",
-        "Turquia"
+        "Australia"
       ]
     },
     {
       "group": "E",
       "positions": [
         "Alemania",
+        "Ecuador",
         "Costa de M",
-        "Curazao",
-        "Ecuador"
+        "Curazao"
       ]
     },
     {
@@ -610,9 +610,9 @@
       "group": "G",
       "positions": [
         "Belgica",
-        "N Zelandia",
         "Egipto",
-        "Iran"
+        "Iran",
+        "N Zelandia"
       ]
     },
     {
@@ -620,16 +620,16 @@
       "positions": [
         "España",
         "Uruguay",
-        "Arabia S",
-        "Cabo Verde"
+        "Cabo Verde",
+        "Arabia S"
       ]
     },
     {
       "group": "I",
       "positions": [
         "Francia",
-        "Noruega",
         "Senegal",
+        "Noruega",
         "Irak"
       ]
     },
@@ -646,8 +646,8 @@
       "group": "K",
       "positions": [
         "Portugal",
-        "R Congo",
         "Colombia",
+        "R Congo",
         "Uzbequistan"
       ]
     },
@@ -656,8 +656,8 @@
       "positions": [
         "Inglaterra",
         "Croacia",
-        "Panama",
-        "Ghana"
+        "Ghana",
+        "Panama"
       ]
     }
   ]

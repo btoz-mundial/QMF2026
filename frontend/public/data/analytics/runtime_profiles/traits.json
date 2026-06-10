@@ -1518,6 +1518,39 @@
     }
   },
   {
+    "user_id": "3DE522E965",
+    "display_name": "LUD",
+    "traits": [],
+    "metrics": {
+      "advance_accuracy": {
+        "accuracy": 0,
+        "correct": 0,
+        "total_matches": 0
+      },
+      "volatility": {
+        "best_rank": null,
+        "worst_rank": null,
+        "rank_swing": 0,
+        "volatility_score": 0
+      },
+      "momentum": {
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
+        "recent_ranks": []
+      },
+      "phase_strength": {
+        "strongest_phase": "balanced",
+        "confidence": "low",
+        "strength_delta": 0,
+        "group_accuracy": 0,
+        "knockout_accuracy": 0,
+        "group_matches": 0,
+        "knockout_matches": 0
+      }
+    }
+  },
+  {
     "user_id": "4CA014CA5E",
     "display_name": "Luigi R",
     "traits": [],
@@ -2114,39 +2147,6 @@
   {
     "user_id": "CC94195BEB",
     "display_name": "RSP",
-    "traits": [],
-    "metrics": {
-      "advance_accuracy": {
-        "accuracy": 0,
-        "correct": 0,
-        "total_matches": 0
-      },
-      "volatility": {
-        "best_rank": null,
-        "worst_rank": null,
-        "rank_swing": 0,
-        "volatility_score": 0
-      },
-      "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
-        "recent_ranks": []
-      },
-      "phase_strength": {
-        "strongest_phase": "balanced",
-        "confidence": "low",
-        "strength_delta": 0,
-        "group_accuracy": 0,
-        "knockout_accuracy": 0,
-        "group_matches": 0,
-        "knockout_matches": 0
-      }
-    }
-  },
-  {
-    "user_id": "ACA9D258D8",
-    "display_name": "RWN",
     "traits": [],
     "metrics": {
       "advance_accuracy": {
