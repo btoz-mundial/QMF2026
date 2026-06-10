@@ -85,3 +85,12 @@ body {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
+
+/* Logo del header como acceso rápido a la Tabla General */
+.qmf-home-link {
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+  border-radius: 4px;
+}
+.qmf-home-link:hover { opacity: 0.82; }
+.qmf-home-link:focus-visible { outline-offset: 3px; }

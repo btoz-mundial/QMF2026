@@ -1,4 +1,4 @@
-import { Outlet, NavLink, useLocation } from 'react-router-dom'
+import { Outlet, NavLink, Link, useLocation } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { Sun, Moon, Menu, X } from 'lucide-react'
 import { DATA_URLS } from '@/config/urls'
@@ -144,17 +144,25 @@ export default function MainLayout() {
         top: 0,
         zIndex: 100,
       }}>
-        {/* Logo */}
-        <span style={{
-          fontFamily: 'var(--font-display)',
-          fontSize: '1.4rem',
-          color: 'var(--color-primary)',
-          letterSpacing: '0.05em',
-          whiteSpace: 'nowrap',
-          flex: isMobile ? 1 : 'none',
-        }}>
+        {/* Logo — acceso rápido a la Tabla General */}
+        <Link
+          id="home-logo"
+          to="/leaderboard"
+          className="qmf-home-link"
+          aria-label="Ir a la Tabla General"
+          style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: '1.4rem',
+            color: 'var(--color-primary)',
+            letterSpacing: '0.05em',
+            whiteSpace: 'nowrap',
+            flex: isMobile ? 1 : 'none',
+            textDecoration: 'none',
+            cursor: 'pointer',
+          }}
+        >
           QMF 26
-        </span>
+        </Link>
 
         {/* Links — solo desktop */}
         {!isMobile && (
@@ -182,6 +190,7 @@ export default function MainLayout() {
 
         {/* Theme toggle */}
         <button
+          id="theme-toggle"
           onClick={toggle}
           aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
           style={{
@@ -206,6 +215,7 @@ export default function MainLayout() {
         {/* Hamburger — solo mobile */}
         {isMobile && (
           <button
+            id="mobile-menu-toggle"
             onClick={() => setMenuOpen(o => !o)}
             aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
             style={{
