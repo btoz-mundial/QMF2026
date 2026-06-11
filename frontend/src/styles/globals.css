@@ -94,3 +94,13 @@ body {
 }
 .qmf-home-link:hover { opacity: 0.82; }
 .qmf-home-link:focus-visible { outline-offset: 3px; }
+
+/* Punto "en vivo" de la barra de estado del torneo — pulso sutil */
+@keyframes qmf-live-pulse {
+  0%, 100% { opacity: 1;    box-shadow: 0 0 0 0 color-mix(in srgb, var(--color-success) 45%, transparent); }
+  50%      { opacity: 0.65; box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-success) 0%, transparent); }
+}
+.qmf-live-dot { animation: qmf-live-pulse 2s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .qmf-live-dot { animation: none; }
+}

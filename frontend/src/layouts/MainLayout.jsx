@@ -45,7 +45,7 @@ function TournamentSubBar({ status }) {
       scrollbarWidth: 'none',
     }}>
       {/* Live dot */}
-      <span style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-success)', flexShrink: 0 }} />
+      <span className="qmf-live-dot" style={{ width: 6, height: 6, borderRadius: '50%', background: 'var(--color-success)', flexShrink: 0 }} />
 
       {/* Stage chip */}
       {stage && (
@@ -75,7 +75,7 @@ function TournamentSubBar({ status }) {
       {genDate && (
         <>
           <span style={{ color: 'var(--color-border)', fontSize: '0.6rem', flexShrink: 0 }}>·</span>
-          <span style={{ fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', flexShrink: 0 }}>
+          <span style={{ fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-2)', flexShrink: 0 }}>
             Actualizado {genDate}
           </span>
         </>
