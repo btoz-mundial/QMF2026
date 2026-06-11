@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T21:04:42.751Z",
+  "generated_at": "2026-06-11T21:08:26.619Z",
   "users": [
     {
       "user_id": "4EE3A0CA82",
@@ -8,8 +8,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 1,
-          "percentile": 100,
+          "ranking": 71,
+          "percentile": 4.11,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -17,7 +17,7 @@
             "category_breakdown": {
               "group": {
                 "correct": 0,
-                "possible": 0,
+                "possible": 1,
                 "accuracy": 0
               },
               "standings": {
@@ -69,8 +69,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 1,
-          "percentile": 100,
+          "ranking": 71,
+          "percentile": 4.11,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -100,6 +100,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 71,
+          "percentile": 4.11,
+          "tier": null,
+          "extra": {
+            "best_rank": 71,
+            "worst_rank": 71,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 71,
+            "consecutive_payout_snapshots": 0,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -131,18 +152,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 2,
-          "percentile": 98.63,
+          "value": 1,
+          "ranking": 1,
+          "percentile": 100,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -192,26 +213,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 2,
-          "percentile": 98.63,
+          "value": 100,
+          "ranking": 1,
+          "percentile": 100,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -224,6 +245,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 1,
+          "percentile": 100,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -255,18 +297,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 3,
-          "percentile": 97.26,
+          "value": 1,
+          "ranking": 2,
+          "percentile": 98.63,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -316,26 +358,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 3,
-          "percentile": 97.26,
+          "value": 100,
+          "ranking": 2,
+          "percentile": 98.63,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -348,6 +390,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 2,
+          "percentile": 98.63,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -379,18 +442,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 4,
-          "percentile": 95.89,
+          "value": 1,
+          "ranking": 3,
+          "percentile": 97.26,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -440,26 +503,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 4,
-          "percentile": 95.89,
+          "value": 100,
+          "ranking": 3,
+          "percentile": 97.26,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -472,6 +535,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 3,
+          "percentile": 97.26,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -503,18 +587,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 5,
-          "percentile": 94.52,
+          "value": 1,
+          "ranking": 4,
+          "percentile": 95.89,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -564,26 +648,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 5,
-          "percentile": 94.52,
+          "value": 100,
+          "ranking": 4,
+          "percentile": 95.89,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -596,6 +680,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 4,
+          "percentile": 95.89,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -628,8 +733,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 6,
-          "percentile": 93.15,
+          "ranking": 72,
+          "percentile": 2.74,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -637,7 +742,7 @@
             "category_breakdown": {
               "group": {
                 "correct": 0,
-                "possible": 0,
+                "possible": 1,
                 "accuracy": 0
               },
               "standings": {
@@ -689,8 +794,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 6,
-          "percentile": 93.15,
+          "ranking": 72,
+          "percentile": 2.74,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -720,6 +825,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 72,
+          "percentile": 2.74,
+          "tier": null,
+          "extra": {
+            "best_rank": 71,
+            "worst_rank": 71,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 71,
+            "consecutive_payout_snapshots": 0,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -751,18 +877,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 7,
-          "percentile": 91.78,
+          "value": 1,
+          "ranking": 5,
+          "percentile": 94.52,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -812,26 +938,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 7,
-          "percentile": 91.78,
+          "value": 100,
+          "ranking": 5,
+          "percentile": 94.52,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -844,6 +970,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 5,
+          "percentile": 94.52,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -875,18 +1022,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 8,
-          "percentile": 90.41,
+          "value": 1,
+          "ranking": 6,
+          "percentile": 93.15,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -936,26 +1083,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 8,
-          "percentile": 90.41,
+          "value": 100,
+          "ranking": 6,
+          "percentile": 93.15,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -968,6 +1115,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 6,
+          "percentile": 93.15,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -999,18 +1167,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 9,
-          "percentile": 89.04,
+          "value": 1,
+          "ranking": 7,
+          "percentile": 91.78,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1060,26 +1228,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 9,
-          "percentile": 89.04,
+          "value": 100,
+          "ranking": 7,
+          "percentile": 91.78,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1092,6 +1260,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 7,
+          "percentile": 91.78,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1123,18 +1312,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 10,
-          "percentile": 87.67,
+          "value": 1,
+          "ranking": 8,
+          "percentile": 90.41,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1184,26 +1373,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 10,
-          "percentile": 87.67,
+          "value": 100,
+          "ranking": 8,
+          "percentile": 90.41,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1216,6 +1405,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 8,
+          "percentile": 90.41,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1247,18 +1457,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 11,
-          "percentile": 86.3,
+          "value": 1,
+          "ranking": 9,
+          "percentile": 89.04,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1308,26 +1518,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 11,
-          "percentile": 86.3,
+          "value": 100,
+          "ranking": 9,
+          "percentile": 89.04,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1340,6 +1550,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 9,
+          "percentile": 89.04,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1371,18 +1602,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 12,
-          "percentile": 84.93,
+          "value": 1,
+          "ranking": 10,
+          "percentile": 87.67,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1432,26 +1663,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 12,
-          "percentile": 84.93,
+          "value": 100,
+          "ranking": 10,
+          "percentile": 87.67,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1464,6 +1695,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 10,
+          "percentile": 87.67,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1495,18 +1747,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 13,
-          "percentile": 83.56,
+          "value": 1,
+          "ranking": 11,
+          "percentile": 86.3,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1556,26 +1808,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 13,
-          "percentile": 83.56,
+          "value": 100,
+          "ranking": 11,
+          "percentile": 86.3,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1588,6 +1840,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 11,
+          "percentile": 86.3,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1619,18 +1892,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 14,
-          "percentile": 82.19,
+          "value": 1,
+          "ranking": 12,
+          "percentile": 84.93,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1680,26 +1953,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 14,
-          "percentile": 82.19,
+          "value": 100,
+          "ranking": 12,
+          "percentile": 84.93,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1712,6 +1985,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 12,
+          "percentile": 84.93,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1743,18 +2037,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 15,
-          "percentile": 80.82,
+          "value": 1,
+          "ranking": 13,
+          "percentile": 83.56,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1804,26 +2098,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 15,
-          "percentile": 80.82,
+          "value": 100,
+          "ranking": 13,
+          "percentile": 83.56,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1836,6 +2130,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 13,
+          "percentile": 83.56,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1867,18 +2182,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 16,
-          "percentile": 79.45,
+          "value": 1,
+          "ranking": 14,
+          "percentile": 82.19,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -1928,26 +2243,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 16,
-          "percentile": 79.45,
+          "value": 100,
+          "ranking": 14,
+          "percentile": 82.19,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -1960,6 +2275,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 14,
+          "percentile": 82.19,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -1991,18 +2327,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 17,
-          "percentile": 78.08,
+          "value": 1,
+          "ranking": 15,
+          "percentile": 80.82,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2052,26 +2388,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 17,
-          "percentile": 78.08,
+          "value": 100,
+          "ranking": 15,
+          "percentile": 80.82,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2084,6 +2420,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 15,
+          "percentile": 80.82,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2115,18 +2472,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 18,
-          "percentile": 76.71,
+          "value": 1,
+          "ranking": 16,
+          "percentile": 79.45,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2176,26 +2533,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 18,
-          "percentile": 76.71,
+          "value": 100,
+          "ranking": 16,
+          "percentile": 79.45,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2208,6 +2565,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 16,
+          "percentile": 79.45,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2239,18 +2617,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 19,
-          "percentile": 75.34,
+          "value": 1,
+          "ranking": 17,
+          "percentile": 78.08,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2300,26 +2678,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 19,
-          "percentile": 75.34,
+          "value": 100,
+          "ranking": 17,
+          "percentile": 78.08,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2332,6 +2710,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 17,
+          "percentile": 78.08,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2363,18 +2762,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 20,
-          "percentile": 73.97,
+          "value": 1,
+          "ranking": 18,
+          "percentile": 76.71,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2424,26 +2823,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 20,
-          "percentile": 73.97,
+          "value": 100,
+          "ranking": 18,
+          "percentile": 76.71,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2456,6 +2855,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 18,
+          "percentile": 76.71,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2487,18 +2907,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 21,
-          "percentile": 72.6,
+          "value": 1,
+          "ranking": 19,
+          "percentile": 75.34,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2548,26 +2968,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 21,
-          "percentile": 72.6,
+          "value": 100,
+          "ranking": 19,
+          "percentile": 75.34,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2580,6 +3000,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 19,
+          "percentile": 75.34,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2611,18 +3052,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 22,
-          "percentile": 71.23,
+          "value": 1,
+          "ranking": 20,
+          "percentile": 73.97,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2672,26 +3113,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 22,
-          "percentile": 71.23,
+          "value": 100,
+          "ranking": 20,
+          "percentile": 73.97,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2704,6 +3145,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 20,
+          "percentile": 73.97,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2735,18 +3197,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 23,
-          "percentile": 69.86,
+          "value": 1,
+          "ranking": 21,
+          "percentile": 72.6,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2796,26 +3258,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 23,
-          "percentile": 69.86,
+          "value": 100,
+          "ranking": 21,
+          "percentile": 72.6,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2828,6 +3290,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 21,
+          "percentile": 72.6,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2859,18 +3342,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 24,
-          "percentile": 68.49,
+          "value": 1,
+          "ranking": 22,
+          "percentile": 71.23,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -2920,26 +3403,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 24,
-          "percentile": 68.49,
+          "value": 100,
+          "ranking": 22,
+          "percentile": 71.23,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -2952,6 +3435,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 22,
+          "percentile": 71.23,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -2983,18 +3487,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 25,
-          "percentile": 67.12,
+          "value": 1,
+          "ranking": 23,
+          "percentile": 69.86,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3044,26 +3548,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 25,
-          "percentile": 67.12,
+          "value": 100,
+          "ranking": 23,
+          "percentile": 69.86,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3076,6 +3580,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 23,
+          "percentile": 69.86,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3107,18 +3632,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 26,
-          "percentile": 65.75,
+          "value": 1,
+          "ranking": 24,
+          "percentile": 68.49,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3168,26 +3693,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 26,
-          "percentile": 65.75,
+          "value": 100,
+          "ranking": 24,
+          "percentile": 68.49,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3200,6 +3725,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 24,
+          "percentile": 68.49,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3231,18 +3777,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 27,
-          "percentile": 64.38,
+          "value": 1,
+          "ranking": 25,
+          "percentile": 67.12,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3292,26 +3838,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 27,
-          "percentile": 64.38,
+          "value": 100,
+          "ranking": 25,
+          "percentile": 67.12,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3324,6 +3870,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 25,
+          "percentile": 67.12,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3355,18 +3922,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 28,
-          "percentile": 63.01,
+          "value": 1,
+          "ranking": 26,
+          "percentile": 65.75,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3416,26 +3983,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 28,
-          "percentile": 63.01,
+          "value": 100,
+          "ranking": 26,
+          "percentile": 65.75,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3448,6 +4015,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 26,
+          "percentile": 65.75,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3479,18 +4067,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 29,
-          "percentile": 61.64,
+          "value": 1,
+          "ranking": 27,
+          "percentile": 64.38,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3540,26 +4128,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 29,
-          "percentile": 61.64,
+          "value": 100,
+          "ranking": 27,
+          "percentile": 64.38,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3572,6 +4160,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 27,
+          "percentile": 64.38,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3603,18 +4212,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 30,
-          "percentile": 60.27,
+          "value": 1,
+          "ranking": 28,
+          "percentile": 63.01,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3664,26 +4273,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 30,
-          "percentile": 60.27,
+          "value": 100,
+          "ranking": 28,
+          "percentile": 63.01,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3696,6 +4305,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 28,
+          "percentile": 63.01,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3727,18 +4357,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 31,
-          "percentile": 58.9,
+          "value": 1,
+          "ranking": 29,
+          "percentile": 61.64,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3788,26 +4418,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 31,
-          "percentile": 58.9,
+          "value": 100,
+          "ranking": 29,
+          "percentile": 61.64,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3820,6 +4450,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 29,
+          "percentile": 61.64,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3851,18 +4502,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 32,
-          "percentile": 57.53,
+          "value": 1,
+          "ranking": 30,
+          "percentile": 60.27,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -3912,26 +4563,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 32,
-          "percentile": 57.53,
+          "value": 100,
+          "ranking": 30,
+          "percentile": 60.27,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -3944,6 +4595,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 30,
+          "percentile": 60.27,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -3975,18 +4647,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 33,
-          "percentile": 56.16,
+          "value": 1,
+          "ranking": 31,
+          "percentile": 58.9,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4036,26 +4708,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 33,
-          "percentile": 56.16,
+          "value": 100,
+          "ranking": 31,
+          "percentile": 58.9,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4068,6 +4740,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 31,
+          "percentile": 58.9,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4099,18 +4792,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 34,
-          "percentile": 54.79,
+          "value": 1,
+          "ranking": 32,
+          "percentile": 57.53,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4160,26 +4853,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 34,
-          "percentile": 54.79,
+          "value": 100,
+          "ranking": 32,
+          "percentile": 57.53,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4192,6 +4885,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 32,
+          "percentile": 57.53,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4223,18 +4937,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 35,
-          "percentile": 53.42,
+          "value": 1,
+          "ranking": 33,
+          "percentile": 56.16,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4284,26 +4998,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 35,
-          "percentile": 53.42,
+          "value": 100,
+          "ranking": 33,
+          "percentile": 56.16,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4316,6 +5030,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 33,
+          "percentile": 56.16,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4347,18 +5082,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 36,
-          "percentile": 52.05,
+          "value": 1,
+          "ranking": 34,
+          "percentile": 54.79,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4408,26 +5143,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 36,
-          "percentile": 52.05,
+          "value": 100,
+          "ranking": 34,
+          "percentile": 54.79,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4440,6 +5175,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 34,
+          "percentile": 54.79,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4471,18 +5227,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 37,
-          "percentile": 50.68,
+          "value": 1,
+          "ranking": 35,
+          "percentile": 53.42,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4532,26 +5288,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 37,
-          "percentile": 50.68,
+          "value": 100,
+          "ranking": 35,
+          "percentile": 53.42,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4564,6 +5320,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 35,
+          "percentile": 53.42,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4595,18 +5372,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 38,
-          "percentile": 49.32,
+          "value": 1,
+          "ranking": 36,
+          "percentile": 52.05,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4656,26 +5433,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 38,
-          "percentile": 49.32,
+          "value": 100,
+          "ranking": 36,
+          "percentile": 52.05,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4688,6 +5465,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 36,
+          "percentile": 52.05,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4719,18 +5517,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 39,
-          "percentile": 47.95,
+          "value": 1,
+          "ranking": 37,
+          "percentile": 50.68,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4780,26 +5578,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 39,
-          "percentile": 47.95,
+          "value": 100,
+          "ranking": 37,
+          "percentile": 50.68,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4812,6 +5610,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 37,
+          "percentile": 50.68,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4843,18 +5662,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 40,
-          "percentile": 46.58,
+          "value": 1,
+          "ranking": 38,
+          "percentile": 49.32,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -4904,26 +5723,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 40,
-          "percentile": 46.58,
+          "value": 100,
+          "ranking": 38,
+          "percentile": 49.32,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -4936,6 +5755,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 38,
+          "percentile": 49.32,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -4967,18 +5807,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 41,
-          "percentile": 45.21,
+          "value": 1,
+          "ranking": 39,
+          "percentile": 47.95,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5028,26 +5868,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 41,
-          "percentile": 45.21,
+          "value": 100,
+          "ranking": 39,
+          "percentile": 47.95,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5060,6 +5900,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 39,
+          "percentile": 47.95,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5091,18 +5952,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 42,
-          "percentile": 43.84,
+          "value": 1,
+          "ranking": 40,
+          "percentile": 46.58,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5152,26 +6013,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 42,
-          "percentile": 43.84,
+          "value": 100,
+          "ranking": 40,
+          "percentile": 46.58,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5184,6 +6045,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 40,
+          "percentile": 46.58,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5215,18 +6097,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 43,
-          "percentile": 42.47,
+          "value": 1,
+          "ranking": 41,
+          "percentile": 45.21,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5276,26 +6158,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 43,
-          "percentile": 42.47,
+          "value": 100,
+          "ranking": 41,
+          "percentile": 45.21,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5308,6 +6190,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 41,
+          "percentile": 45.21,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5339,18 +6242,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 44,
-          "percentile": 41.1,
+          "value": 1,
+          "ranking": 42,
+          "percentile": 43.84,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5400,26 +6303,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 44,
-          "percentile": 41.1,
+          "value": 100,
+          "ranking": 42,
+          "percentile": 43.84,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5432,6 +6335,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 42,
+          "percentile": 43.84,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5463,18 +6387,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 45,
-          "percentile": 39.73,
+          "value": 1,
+          "ranking": 43,
+          "percentile": 42.47,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5524,26 +6448,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 45,
-          "percentile": 39.73,
+          "value": 100,
+          "ranking": 43,
+          "percentile": 42.47,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5556,6 +6480,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 43,
+          "percentile": 42.47,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5587,18 +6532,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 46,
-          "percentile": 38.36,
+          "value": 1,
+          "ranking": 44,
+          "percentile": 41.1,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5648,26 +6593,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 46,
-          "percentile": 38.36,
+          "value": 100,
+          "ranking": 44,
+          "percentile": 41.1,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5680,6 +6625,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 44,
+          "percentile": 41.1,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5711,18 +6677,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 47,
-          "percentile": 36.99,
+          "value": 1,
+          "ranking": 45,
+          "percentile": 39.73,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5772,26 +6738,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 47,
-          "percentile": 36.99,
+          "value": 100,
+          "ranking": 45,
+          "percentile": 39.73,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5804,6 +6770,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 45,
+          "percentile": 39.73,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5835,18 +6822,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 48,
-          "percentile": 35.62,
+          "value": 1,
+          "ranking": 46,
+          "percentile": 38.36,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -5896,26 +6883,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 48,
-          "percentile": 35.62,
+          "value": 100,
+          "ranking": 46,
+          "percentile": 38.36,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -5928,6 +6915,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 46,
+          "percentile": 38.36,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -5959,18 +6967,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 49,
-          "percentile": 34.25,
+          "value": 1,
+          "ranking": 47,
+          "percentile": 36.99,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6020,26 +7028,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 49,
-          "percentile": 34.25,
+          "value": 100,
+          "ranking": 47,
+          "percentile": 36.99,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6052,6 +7060,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 47,
+          "percentile": 36.99,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6083,18 +7112,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 50,
-          "percentile": 32.88,
+          "value": 1,
+          "ranking": 48,
+          "percentile": 35.62,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6144,26 +7173,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 50,
-          "percentile": 32.88,
+          "value": 100,
+          "ranking": 48,
+          "percentile": 35.62,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6176,6 +7205,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 48,
+          "percentile": 35.62,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6207,18 +7257,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 51,
-          "percentile": 31.51,
+          "value": 1,
+          "ranking": 49,
+          "percentile": 34.25,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6268,26 +7318,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 51,
-          "percentile": 31.51,
+          "value": 100,
+          "ranking": 49,
+          "percentile": 34.25,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6300,6 +7350,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 49,
+          "percentile": 34.25,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6331,18 +7402,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 52,
-          "percentile": 30.14,
+          "value": 1,
+          "ranking": 50,
+          "percentile": 32.88,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6392,26 +7463,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 52,
-          "percentile": 30.14,
+          "value": 100,
+          "ranking": 50,
+          "percentile": 32.88,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6424,6 +7495,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 50,
+          "percentile": 32.88,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6455,18 +7547,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 53,
-          "percentile": 28.77,
+          "value": 1,
+          "ranking": 51,
+          "percentile": 31.51,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6516,26 +7608,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 53,
-          "percentile": 28.77,
+          "value": 100,
+          "ranking": 51,
+          "percentile": 31.51,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6548,6 +7640,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 51,
+          "percentile": 31.51,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6579,18 +7692,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 54,
-          "percentile": 27.4,
+          "value": 1,
+          "ranking": 52,
+          "percentile": 30.14,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6640,26 +7753,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 54,
-          "percentile": 27.4,
+          "value": 100,
+          "ranking": 52,
+          "percentile": 30.14,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6672,6 +7785,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 52,
+          "percentile": 30.14,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6703,18 +7837,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 55,
-          "percentile": 26.03,
+          "value": 1,
+          "ranking": 53,
+          "percentile": 28.77,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6764,26 +7898,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 55,
-          "percentile": 26.03,
+          "value": 100,
+          "ranking": 53,
+          "percentile": 28.77,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6796,6 +7930,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 53,
+          "percentile": 28.77,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6827,18 +7982,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 56,
-          "percentile": 24.66,
+          "value": 1,
+          "ranking": 54,
+          "percentile": 27.4,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -6888,26 +8043,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 56,
-          "percentile": 24.66,
+          "value": 100,
+          "ranking": 54,
+          "percentile": 27.4,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -6920,6 +8075,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 54,
+          "percentile": 27.4,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -6951,18 +8127,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 57,
-          "percentile": 23.29,
+          "value": 1,
+          "ranking": 55,
+          "percentile": 26.03,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7012,26 +8188,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 57,
-          "percentile": 23.29,
+          "value": 100,
+          "ranking": 55,
+          "percentile": 26.03,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7044,6 +8220,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 55,
+          "percentile": 26.03,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7075,18 +8272,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 58,
-          "percentile": 21.92,
+          "value": 1,
+          "ranking": 56,
+          "percentile": 24.66,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7136,26 +8333,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 58,
-          "percentile": 21.92,
+          "value": 100,
+          "ranking": 56,
+          "percentile": 24.66,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7168,6 +8365,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 56,
+          "percentile": 24.66,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7199,18 +8417,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 59,
-          "percentile": 20.55,
+          "value": 1,
+          "ranking": 57,
+          "percentile": 23.29,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7260,26 +8478,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 59,
-          "percentile": 20.55,
+          "value": 100,
+          "ranking": 57,
+          "percentile": 23.29,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7292,6 +8510,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 57,
+          "percentile": 23.29,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7323,18 +8562,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 60,
-          "percentile": 19.18,
+          "value": 1,
+          "ranking": 58,
+          "percentile": 21.92,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7384,26 +8623,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 60,
-          "percentile": 19.18,
+          "value": 100,
+          "ranking": 58,
+          "percentile": 21.92,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7416,6 +8655,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 58,
+          "percentile": 21.92,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7447,18 +8707,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 61,
-          "percentile": 17.81,
+          "value": 1,
+          "ranking": 59,
+          "percentile": 20.55,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7508,26 +8768,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 61,
-          "percentile": 17.81,
+          "value": 100,
+          "ranking": 59,
+          "percentile": 20.55,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7540,6 +8800,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 59,
+          "percentile": 20.55,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7571,18 +8852,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 62,
-          "percentile": 16.44,
+          "value": 1,
+          "ranking": 60,
+          "percentile": 19.18,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7632,26 +8913,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 62,
-          "percentile": 16.44,
+          "value": 100,
+          "ranking": 60,
+          "percentile": 19.18,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7664,6 +8945,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 60,
+          "percentile": 19.18,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7695,18 +8997,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 63,
-          "percentile": 15.07,
+          "value": 1,
+          "ranking": 61,
+          "percentile": 17.81,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7756,26 +9058,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 63,
-          "percentile": 15.07,
+          "value": 100,
+          "ranking": 61,
+          "percentile": 17.81,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7788,6 +9090,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 61,
+          "percentile": 17.81,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7819,18 +9142,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 64,
-          "percentile": 13.7,
+          "value": 1,
+          "ranking": 62,
+          "percentile": 16.44,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -7880,26 +9203,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 64,
-          "percentile": 13.7,
+          "value": 100,
+          "ranking": 62,
+          "percentile": 16.44,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -7912,6 +9235,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 62,
+          "percentile": 16.44,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -7943,18 +9287,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 65,
-          "percentile": 12.33,
+          "value": 1,
+          "ranking": 63,
+          "percentile": 15.07,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8004,26 +9348,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 65,
-          "percentile": 12.33,
+          "value": 100,
+          "ranking": 63,
+          "percentile": 15.07,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8036,6 +9380,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 63,
+          "percentile": 15.07,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8068,8 +9433,8 @@
         "precision_general": {
           "metric_id": "precision_general",
           "value": 0,
-          "ranking": 66,
-          "percentile": 10.96,
+          "ranking": 73,
+          "percentile": 1.37,
           "tier": null,
           "extra": {
             "best_category": "group",
@@ -8077,7 +9442,7 @@
             "category_breakdown": {
               "group": {
                 "correct": 0,
-                "possible": 0,
+                "possible": 1,
                 "accuracy": 0
               },
               "standings": {
@@ -8129,8 +9494,8 @@
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
           "value": 0,
-          "ranking": 66,
-          "percentile": 10.96,
+          "ranking": 73,
+          "percentile": 1.37,
           "tier": null,
           "extra": {
             "earned_points": 0,
@@ -8160,6 +9525,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 73,
+          "percentile": 1.37,
+          "tier": null,
+          "extra": {
+            "best_rank": 71,
+            "worst_rank": 71,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 71,
+            "consecutive_payout_snapshots": 0,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8191,18 +9577,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 67,
-          "percentile": 9.59,
+          "value": 1,
+          "ranking": 64,
+          "percentile": 13.7,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8252,26 +9638,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 67,
-          "percentile": 9.59,
+          "value": 100,
+          "ranking": 64,
+          "percentile": 13.7,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8284,6 +9670,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 64,
+          "percentile": 13.7,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8315,18 +9722,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 68,
-          "percentile": 8.22,
+          "value": 1,
+          "ranking": 65,
+          "percentile": 12.33,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8376,26 +9783,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 68,
-          "percentile": 8.22,
+          "value": 100,
+          "ranking": 65,
+          "percentile": 12.33,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8408,6 +9815,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 65,
+          "percentile": 12.33,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8439,18 +9867,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 69,
-          "percentile": 6.85,
+          "value": 1,
+          "ranking": 66,
+          "percentile": 10.96,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8500,26 +9928,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 69,
-          "percentile": 6.85,
+          "value": 100,
+          "ranking": 66,
+          "percentile": 10.96,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8532,6 +9960,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 66,
+          "percentile": 10.96,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8563,18 +10012,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 70,
-          "percentile": 5.48,
+          "value": 1,
+          "ranking": 67,
+          "percentile": 9.59,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8624,26 +10073,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 70,
-          "percentile": 5.48,
+          "value": 100,
+          "ranking": 67,
+          "percentile": 9.59,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8656,6 +10105,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 67,
+          "percentile": 9.59,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8687,18 +10157,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 71,
-          "percentile": 4.11,
+          "value": 1,
+          "ranking": 68,
+          "percentile": 8.22,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8748,26 +10218,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 71,
-          "percentile": 4.11,
+          "value": 100,
+          "ranking": 68,
+          "percentile": 8.22,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8780,6 +10250,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 68,
+          "percentile": 8.22,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8811,18 +10302,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 72,
-          "percentile": 2.74,
+          "value": 1,
+          "ranking": 69,
+          "percentile": 6.85,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8872,26 +10363,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 72,
-          "percentile": 2.74,
+          "value": 100,
+          "ranking": 69,
+          "percentile": 6.85,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -8904,6 +10395,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 69,
+          "percentile": 6.85,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
@@ -8935,18 +10447,18 @@
       "metrics": {
         "precision_general": {
           "metric_id": "precision_general",
-          "value": 0,
-          "ranking": 73,
-          "percentile": 1.37,
+          "value": 1,
+          "ranking": 70,
+          "percentile": 5.48,
           "tier": null,
           "extra": {
             "best_category": "group",
-            "worst_category": "group",
+            "worst_category": "standings",
             "category_breakdown": {
               "group": {
-                "correct": 0,
-                "possible": 0,
-                "accuracy": 0
+                "correct": 1,
+                "possible": 1,
+                "accuracy": 100
               },
               "standings": {
                 "correct": 0,
@@ -8996,26 +10508,26 @@
         },
         "eficiencia_de_puntos": {
           "metric_id": "eficiencia_de_puntos",
-          "value": 0,
-          "ranking": 73,
-          "percentile": 1.37,
+          "value": 100,
+          "ranking": 70,
+          "percentile": 5.48,
           "tier": null,
           "extra": {
-            "earned_points": 0,
+            "earned_points": 1,
             "available_points": 1,
-            "earned_group_points": 0,
+            "earned_group_points": 1,
             "available_group_points": 1,
             "earned_standings_points": 0,
             "available_standings_points": 0,
             "earned_knockout_points": 0,
             "available_knockout_points": 0,
             "best_stage": "group",
-            "worst_stage": "group",
+            "worst_stage": "standings",
             "stage_breakdown": {
               "group": {
-                "earned": 0,
+                "earned": 1,
                 "available": 1,
-                "efficiency": 0
+                "efficiency": 100
               },
               "standings": {
                 "earned": 0,
@@ -9028,6 +10540,27 @@
                 "efficiency": 0
               }
             }
+          }
+        },
+        "consistencia_ranking": {
+          "metric_id": "consistencia_ranking",
+          "value": 0,
+          "ranking": 70,
+          "percentile": 5.48,
+          "tier": null,
+          "extra": {
+            "best_rank": 1,
+            "worst_rank": 1,
+            "best_rank_match_id": 1,
+            "best_rank_stage": "group",
+            "worst_rank_match_id": 1,
+            "worst_rank_stage": "group",
+            "rank_range": 0,
+            "rank_changes": 0,
+            "consistency_score": 0,
+            "most_common_rank": 1,
+            "consecutive_payout_snapshots": 1,
+            "snapshots": 1
           }
         },
         "campeon_vivo": {
