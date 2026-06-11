@@ -27,7 +27,7 @@ git add .
 
 echo.
 echo [5/6] Procediendo con la carga...
-git commit -m "Resultados actualizados"
+git commit -m "Carga de Resultados Oficiales"
 
 echo.
 echo [6/6] Publicando en GitHub...
