@@ -1701,6 +1701,7 @@ function TimelineTab({ data, userId }) {
   const allLines   = mode === 'compare' ? tlBuildAllLines(snapshots) : {}
   const avgLine    = mode === 'compare' && ctx === 'average' ? tlBuildAverageLine(snapshots) : []
   const leaderData = mode === 'compare' && ctx === 'leader'  ? tlBuildLeaderLine(snapshots)  : { line: [], uid: null }
+  const leaderEnd  = leaderData.line && leaderData.line.length ? leaderData.line[leaderData.line.length - 1] : null
   const { packMemberNames, packIds } = (() => {
     const lastSnap = snapshots.filter(s => s.snapshot_match_id !== '+').slice(-1)[0]
     if (!lastSnap) return { packMemberNames: [], packIds: [] }
@@ -2130,9 +2131,21 @@ function TimelineTab({ data, userId }) {
               stroke="#64748B" strokeWidth={1} strokeOpacity={0.28} strokeDasharray="4 5" />
           )}
           {leaderData.line.length > 0 && leaderData.uid !== userId && (
-            <path d={tlPath(leaderData.line, tlXS, ys)} fill="none"
-              stroke="var(--color-accent)" strokeWidth={1.2}
-              strokeOpacity={0.28} strokeDasharray="4 4" />
+            <g>
+              <path d={tlPath(leaderData.line, tlXS, ys)} fill="none"
+                stroke="var(--color-accent)" strokeWidth={1.5}
+                strokeOpacity={0.5} strokeDasharray="4 4" />
+              {leaderEnd && (
+                <>
+                  <circle cx={tlXS(leaderEnd.idx)} cy={ys(leaderEnd.rank)} r={2.6}
+                    fill="var(--color-accent)" fillOpacity={0.9} />
+                  <text x={tlXS(leaderEnd.idx) + 6} y={ys(leaderEnd.rank) + 3}
+                    fill="var(--color-accent)" fontSize="7.5" fontFamily="var(--font-mono)" fillOpacity={0.85}>
+                    #{leaderEnd.rank} · LÍDER
+                  </text>
+                </>
+              )}
+            </g>
           )}
           {packLines && packIds.map((uid, ki) => (
             <path key={uid} d={tlPath(packLines[uid] || [], tlXS, ys)} fill="none"
