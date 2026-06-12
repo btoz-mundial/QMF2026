@@ -186,12 +186,15 @@ function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile, notStarted })
   const leader = lb[0]
   const second = lb[1]
   const gap = (leader?.total_points ?? 0) - (second?.total_points ?? 0)
+  // Empate en la cima: cuántos comparten el puntaje más alto (evita coronar a uno solo por orden alfabético)
+  const leaderPts   = leader?.total_points ?? 0
+  const tiedLeaders = lb.filter(u => (u?.total_points ?? 0) === leaderPts).length
   const cards = [
     {
       icon:   <Trophy size={15} color={notStarted ? 'var(--color-text-3)' : '#FFB800'} />,
       label:  'Líder',
-      value:  notStarted ? 'Por definir' : (leader?.display_name ?? '—'),
-      sub:    notStarted ? 'al iniciar el torneo' : `${leader?.total_points ?? 0} pts`,
+      value:  notStarted ? 'Por definir' : (tiedLeaders > 1 ? `${tiedLeaders} empatados` : (leader?.display_name ?? '—')),
+      sub:    notStarted ? 'al iniciar el torneo' : `${leaderPts} pts`,
       accent: notStarted ? 'var(--color-text-2)' : '#FFB800',
     },
     {
