@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T21:08:25.311Z",
-  "snapshot_match_id": 1,
+  "generated_at": "2026-06-12T04:00:15.595Z",
+  "snapshot_match_id": 2,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -30,30 +30,34 @@
           ]
         },
         {
-          "team": "Czechia",
-          "pts": 0,
-          "pj": 0,
-          "pg": 0,
+          "team": "Korea",
+          "pts": 3,
+          "pj": 1,
+          "pg": 1,
           "pe": 0,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "gf": 2,
+          "gc": 1,
+          "dg": 1,
           "position": 2,
-          "form": []
+          "form": [
+            "W"
+          ]
         },
         {
-          "team": "Korea",
+          "team": "Czechia",
           "pts": 0,
-          "pj": 0,
+          "pj": 1,
           "pg": 0,
           "pe": 0,
-          "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "pp": 1,
+          "gf": 1,
+          "gc": 2,
+          "dg": -1,
           "position": 3,
-          "form": []
+          "form": [
+            "L"
+          ]
         },
         {
           "team": "Sudafrica",
