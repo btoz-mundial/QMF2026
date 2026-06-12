@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-12T04:00:16.060Z",
+  "generated_at": "2026-06-12T20:59:15.689Z",
   "metric": "timeline_race",
   "snapshots": [
     {
       "snapshot_index": 0,
       "snapshot_match_id": 1,
       "stage": "group",
-      "generated_at": "2026-06-12T04:00:15.422Z",
+      "generated_at": "2026-06-12T20:59:14.851Z",
       "users": [
         {
           "user_id": "7178DB5D04",
@@ -744,7 +744,7 @@
       "snapshot_index": 1,
       "snapshot_match_id": 2,
       "stage": "group",
-      "generated_at": "2026-06-12T04:00:15.428Z",
+      "generated_at": "2026-06-12T20:59:14.857Z",
       "users": [
         {
           "user_id": "7178DB5D04",
@@ -1474,6 +1474,744 @@
           "rank_delta": -2,
           "movement": "down",
           "total_points": 0,
+          "is_leader": false
+        }
+      ]
+    },
+    {
+      "snapshot_index": 2,
+      "snapshot_match_id": 3,
+      "stage": "group",
+      "generated_at": "2026-06-12T20:59:14.860Z",
+      "users": [
+        {
+          "user_id": "A8FD28D6BA",
+          "display_name": "CEGM",
+          "rank": 1,
+          "previous_rank": 1,
+          "rank_delta": 0,
+          "movement": "same",
+          "total_points": 3,
+          "is_leader": true
+        },
+        {
+          "user_id": "72A9ED8F20",
+          "display_name": "Pipo",
+          "rank": 1,
+          "previous_rank": 1,
+          "rank_delta": 0,
+          "movement": "same",
+          "total_points": 3,
+          "is_leader": true
+        },
+        {
+          "user_id": "A44F6A82DF",
+          "display_name": "RRR",
+          "rank": 1,
+          "previous_rank": 1,
+          "rank_delta": 0,
+          "movement": "same",
+          "total_points": 3,
+          "is_leader": true
+        },
+        {
+          "user_id": "91F0A88C8D",
+          "display_name": "Steve Gerald",
+          "rank": 1,
+          "previous_rank": 1,
+          "rank_delta": 0,
+          "movement": "same",
+          "total_points": 3,
+          "is_leader": true
+        },
+        {
+          "user_id": "7178DB5D04",
+          "display_name": "AleXtremo",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "502D453FF5",
+          "display_name": "Andresn",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "9011183686",
+          "display_name": "Badillo",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "5283E0D056",
+          "display_name": "Beth",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "8DF4EEAC63",
+          "display_name": "CAZU",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "23C4468823",
+          "display_name": "David Magaña",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "AE26D11B16",
+          "display_name": "ExiliadosFC",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "E201266422",
+          "display_name": "Felix Varela",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "6172891E3A",
+          "display_name": "FMV",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "732633D10E",
+          "display_name": "GABO",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "16310FEBE5",
+          "display_name": "GilGzz",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "0933C88879",
+          "display_name": "Golden Eagle",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "3C3D690EE4",
+          "display_name": "GSG",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "3855CBD142",
+          "display_name": "Heisenberg FIFAS 26",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "278ECC1B7A",
+          "display_name": "Hernangzz",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "1AC2FE7AF5",
+          "display_name": "HZE",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "B13A945BF8",
+          "display_name": "IFCR",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "198CA6C5CB",
+          "display_name": "JAGOL",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "FAC51CF2CF",
+          "display_name": "Javi Villareal",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "31A6CB0C21",
+          "display_name": "Jerry",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "80920F584F",
+          "display_name": "Jesus Edilberto",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "E0B28E3E04",
+          "display_name": "JLSuriano",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "5EC15D0CF2",
+          "display_name": "JMtzCelis",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "D053A979C1",
+          "display_name": "Jose J Silva",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "9C75772EA0",
+          "display_name": "JuanPI",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "8A01EA47FC",
+          "display_name": "Juan T",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "E9831BEEE3",
+          "display_name": "LCV",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "CAA8D66DAA",
+          "display_name": "LRMS",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "3DE522E965",
+          "display_name": "LUD",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "4CA014CA5E",
+          "display_name": "Luigi R",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "8E0D4A705C",
+          "display_name": "LWCP",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "E1B3B9BFCB",
+          "display_name": "Nestor",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "7667C7B572",
+          "display_name": "O Gomez",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "C19435FB3E",
+          "display_name": "RO11",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "CB1163524F",
+          "display_name": "RRT",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "EC8976134D",
+          "display_name": "Salux",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "A3C25D9D42",
+          "display_name": "Santiago Gutierrez",
+          "rank": 5,
+          "previous_rank": 32,
+          "rank_delta": 27,
+          "movement": "up",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "C9CE9AF477",
+          "display_name": "Shadai LL",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "E5DF64F6CC",
+          "display_name": "Tom",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "B97C49CA8A",
+          "display_name": "YP",
+          "rank": 5,
+          "previous_rank": 1,
+          "rank_delta": -4,
+          "movement": "down",
+          "total_points": 2,
+          "is_leader": false
+        },
+        {
+          "user_id": "4EE3A0CA82",
+          "display_name": "AJV",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "1D12144F35",
+          "display_name": "Andres9711",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "6665E150B0",
+          "display_name": "ARLO",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "F07429A0E3",
+          "display_name": "ARR",
+          "rank": 45,
+          "previous_rank": 73,
+          "rank_delta": 28,
+          "movement": "up",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "C1EFD7520A",
+          "display_name": "AR",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "B3B92F46ED",
+          "display_name": "BODI",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "2BC645A052",
+          "display_name": "BtoZ",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "EF919C72F7",
+          "display_name": "ChuyGallegos",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "B8964AAF79",
+          "display_name": "DiegoMagaña",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "8F205AE989",
+          "display_name": "Enrique el Chief",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "D351395C7E",
+          "display_name": "FJGA",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "DB48897D9E",
+          "display_name": "IPM",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "F6E2313B1B",
+          "display_name": "JCAV",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "432BF50FA9",
+          "display_name": "Jose Treviño",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "2383A882D9",
+          "display_name": "JPGR",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "6B1DBB716C",
+          "display_name": "JPRR",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "E4FC183EB7",
+          "display_name": "LJMV",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "1829AF0B20",
+          "display_name": "Memo Garcia",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "F4DAEB067A",
+          "display_name": "MEMR",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "CC6B00FB62",
+          "display_name": "Miri",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "0C09D57C3D",
+          "display_name": "Nacho Luna",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "349A5D07D9",
+          "display_name": "Pacotrevi",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "2EF31BF1A6",
+          "display_name": "Paco T",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "224DC707ED",
+          "display_name": "Pepe Sanchez",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "9EB553DA57",
+          "display_name": "Poncho",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "726607D90E",
+          "display_name": "Potro",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "1D2C13E050",
+          "display_name": "RCHL",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "CC94195BEB",
+          "display_name": "RSP",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
+          "is_leader": false
+        },
+        {
+          "user_id": "18734EA2D1",
+          "display_name": "Skywalker",
+          "rank": 45,
+          "previous_rank": 32,
+          "rank_delta": -13,
+          "movement": "down",
+          "total_points": 1,
           "is_leader": false
         }
       ]

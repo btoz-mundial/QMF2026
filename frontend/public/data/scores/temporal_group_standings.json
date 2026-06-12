@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-12T04:00:15.595Z",
-  "snapshot_match_id": 2,
+  "generated_at": "2026-06-12T20:59:15.054Z",
+  "snapshot_match_id": 3,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -81,29 +81,33 @@
       "table": [
         {
           "team": "Bosnia H",
-          "pts": 0,
-          "pj": 0,
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 1,
+          "gc": 1,
           "dg": 0,
           "position": 1,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "Canada",
-          "pts": 0,
-          "pj": 0,
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 1,
+          "gc": 1,
           "dg": 0,
           "position": 2,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "Qatar",
