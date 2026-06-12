@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
+import { Search, X } from 'lucide-react'
 import { DATA_URLS } from '../../config/urls'
 
 const BASE = import.meta.env.BASE_URL
@@ -1283,7 +1284,7 @@ function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 })
 }
 
 // ── Lens toggle (Predicciones / Resultados) — governs the two cards below ──────
-function LensToggle({ lens, onChange, completedCount }) {
+function LensToggle({ lens, onChange, completedCount, query, onQueryChange, isMobile }) {
   const opts = [
     { key: 'predicciones', label: 'Predicciones' },
     { key: 'resultados',   label: 'Resultados', count: completedCount },
@@ -1291,35 +1292,63 @@ function LensToggle({ lens, onChange, completedCount }) {
   const caption = lens === 'predicciones'
     ? 'Cómo votó la comunidad en todos los partidos del torneo.'
     : `Cómo le fue a la comunidad en ${completedCount} ${completedCount === 1 ? 'partido ya jugado' : 'partidos ya jugados'}.`
+  const searching = (query ?? '').length > 0
   return (
-    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '0.75rem', flexWrap: 'wrap' }}>
-      <div style={{ display: 'flex', gap: 4, background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', borderRadius: 9, padding: 4 }}>
-        {opts.map(o => {
-          const active = lens === o.key
-          return (
-            <button
-              key={o.key}
-              onClick={() => onChange(o.key)}
-              style={{ position: 'relative', border: 'none', background: 'transparent', cursor: 'pointer', padding: '0.4rem 0.9rem', borderRadius: 6 }}
-            >
-              {active && (
-                <motion.div
-                  layoutId="lensPill"
-                  transition={{ type: 'spring', stiffness: 380, damping: 30 }}
-                  style={{ position: 'absolute', inset: 0, borderRadius: 6, background: 'color-mix(in srgb, var(--color-primary) 15%, transparent)', border: '1px solid color-mix(in srgb, var(--color-primary) 40%, transparent)' }}
-                />
-              )}
-              <span style={{ position: 'relative', zIndex: 1, fontSize: '0.66rem', fontFamily: 'var(--font-mono)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: active ? 'var(--color-primary)' : 'var(--color-text-3)', whiteSpace: 'nowrap' }}>
-                {o.label}
-                {o.key === 'resultados' && <span style={{ marginLeft: 6, opacity: 0.85 }}>· {o.count}</span>}
-              </span>
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '0.625rem', flexWrap: 'wrap' }}>
+        {/* Toggle */}
+        <div style={{ display: 'flex', gap: 4, background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', borderRadius: 9, padding: 4 }}>
+          {opts.map(o => {
+            const active = lens === o.key
+            return (
+              <button
+                key={o.key}
+                onClick={() => onChange(o.key)}
+                style={{ position: 'relative', border: 'none', background: 'transparent', cursor: 'pointer', padding: '0.4rem 0.9rem', borderRadius: 6 }}
+              >
+                {active && (
+                  <motion.div
+                    layoutId="lensPill"
+                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
+                    style={{ position: 'absolute', inset: 0, borderRadius: 6, background: 'color-mix(in srgb, var(--color-primary) 15%, transparent)', border: '1px solid color-mix(in srgb, var(--color-primary) 40%, transparent)' }}
+                  />
+                )}
+                <span style={{ position: 'relative', zIndex: 1, fontSize: '0.66rem', fontFamily: 'var(--font-mono)', fontWeight: 700, letterSpacing: '0.06em', textTransform: 'uppercase', color: active ? 'var(--color-primary)' : 'var(--color-text-3)', whiteSpace: 'nowrap' }}>
+                  {o.label}
+                  {o.key === 'resultados' && <span style={{ marginLeft: 6, opacity: 0.85 }}>· {o.count}</span>}
+                </span>
+              </button>
+            )
+          })}
+        </div>
+
+        {/* Buscador de partidos */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: 'var(--color-surface-2)', border: `1px solid ${searching ? 'var(--color-primary)' : 'var(--color-border)'}`, borderRadius: 8, padding: '0.4rem 0.6rem', flex: isMobile ? '1 1 100%' : '0 0 auto', minWidth: isMobile ? 0 : 220, transition: 'border-color 0.15s' }}>
+          <Search size={13} color={searching ? 'var(--color-primary)' : 'var(--color-text-3)'} style={{ flexShrink: 0 }} />
+          <input
+            id="mente-colectiva-search"
+            data-event="mente_colectiva_buscar"
+            type="text"
+            value={query ?? ''}
+            onChange={e => onQueryChange(e.target.value)}
+            placeholder="Buscar equipo o # de partido…"
+            aria-label="Buscar partido en Mente Colectiva"
+            style={{ flex: 1, minWidth: 0, border: 'none', outline: 'none', background: 'transparent', color: 'var(--color-text-1)', fontFamily: 'var(--font-mono)', fontSize: '0.72rem' }}
+          />
+          {searching && (
+            <button onClick={() => onQueryChange('')} aria-label="Limpiar búsqueda" style={{ border: 'none', background: 'transparent', cursor: 'pointer', color: 'var(--color-text-3)', display: 'flex', padding: 0, flexShrink: 0 }}>
+              <X size={13} />
             </button>
-          )
-        })}
+          )}
+        </div>
       </div>
-      <div style={{ fontSize: '0.6rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-1)', flex: '1 1 auto', textAlign: 'right', minWidth: 0 }}>
-        {caption}
-      </div>
+
+      {/* Caption — solo cuando no se está buscando */}
+      {!searching && (
+        <div style={{ fontSize: '0.6rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', textAlign: isMobile ? 'left' : 'right' }}>
+          {caption}
+        </div>
+      )}
     </div>
   )
 }
@@ -1339,8 +1368,79 @@ function ResultadosEmptyState() {
   )
 }
 
+// Lista plana de resultados de búsqueda — reemplaza las 2 tarjetas mientras se busca.
+function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2 }) {
+  return (
+    <motion.div
+      key="search" initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}
+      style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 12, padding: '1.25rem 1.5rem', display: 'flex', flexDirection: 'column', gap: '0.75rem' }}
+    >
+      <div style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '0.5rem' }}>
+        <div style={{ fontSize: '0.72rem', fontWeight: 800, color: 'var(--color-text-1)', letterSpacing: '0.04em' }}>
+          Resultados de búsqueda · <span style={{ color: 'var(--color-primary)' }}>“{query}”</span>
+        </div>
+        <span style={{ fontSize: '0.58rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', flexShrink: 0 }}>
+          {matches.length} {matches.length === 1 ? 'partido' : 'partidos'}
+        </span>
+      </div>
+
+      {matches.length === 0 ? (
+        <div style={{ padding: '1.75rem 1rem', textAlign: 'center', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', fontSize: '0.72rem', lineHeight: 1.6 }}>
+          {hadInOtherLens
+            ? <>“{query}” aún no tiene partidos concluidos. Míralo en <span style={{ color: 'var(--color-primary)', fontWeight: 700 }}>Predicciones</span>.</>
+            : <>No se encontró “{query}”. Prueba con un equipo o el número de partido (ej. #3).</>}
+        </div>
+      ) : (
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          {matches.map((m, idx) => {
+            const phase = PHASE_CHIP[m.phase] ?? PHASE_CHIP.standings
+            const chip  = strengthChip(m.consensus_strength ?? 0)
+            return (
+              <div key={m.match_id} style={{ display: 'grid', gridTemplateColumns: '34px 1fr auto', gap: '0.5rem', alignItems: 'center', padding: '0.55rem 0', borderBottom: idx < matches.length - 1 ? '1px solid rgba(255,255,255,0.04)' : 'none' }}>
+                <div style={{ fontSize: '0.52rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', textAlign: 'center' }}>#{m.match_id}</div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', minWidth: 0 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', minWidth: 0, overflow: 'hidden' }}>
+                    <span style={{ fontSize: '0.45rem', fontWeight: 700, fontFamily: 'var(--font-mono)', padding: '1px 4px', borderRadius: 3, color: phase.color, background: phase.bg, border: `1px solid ${phase.border}`, flexShrink: 0, letterSpacing: '0.05em' }}>{phase.label}</span>
+                    <FlagImg iso2={teamIso2?.[m.home_team]} size={12} />
+                    <span style={{ fontSize: '0.68rem', fontWeight: 600, color: 'var(--color-text-1)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{m.home_team ?? '?'}</span>
+                    <span style={{ fontSize: '0.5rem', color: 'var(--color-text-3)', flexShrink: 0 }}>vs</span>
+                    <span style={{ fontSize: '0.68rem', fontWeight: 600, color: 'var(--color-text-1)', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{m.away_team ?? '?'}</span>
+                    <FlagImg iso2={teamIso2?.[m.away_team]} size={12} />
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                    <div style={{ flex: 1, height: 4, background: 'rgba(255,255,255,0.05)', borderRadius: 2, overflow: 'hidden', display: 'flex' }}>
+                      {['L', 'E', 'V'].map(k => {
+                        const pct = m.distribution?.[k]?.percentage ?? 0
+                        if (!pct) return null
+                        return <div key={k} style={{ width: `${pct}%`, height: '100%', background: PICK_COLORS[k], opacity: 0.85 }} />
+                      })}
+                    </div>
+                    <div style={{ display: 'flex', gap: '0.35rem', flexShrink: 0 }}>
+                      {['L', 'E', 'V'].map(k => {
+                        const pct = m.distribution?.[k]?.percentage ?? 0
+                        if (!pct) return null
+                        const isCons = k === m.consensus_pick
+                        return <span key={k} style={{ fontSize: '0.5rem', fontFamily: 'var(--font-mono)', color: isCons ? PICK_COLORS[k] : 'var(--color-text-3)', fontWeight: isCons ? 700 : 400 }}>{k}{pct.toFixed(0)}%</span>
+                      })}
+                    </div>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 4, alignItems: 'flex-end', flexShrink: 0 }}>
+                  <span style={{ fontSize: '0.5rem', fontWeight: 700, fontFamily: 'var(--font-mono)', padding: '2px 6px', borderRadius: 4, letterSpacing: '0.05em', color: chip.color, background: chip.bg, border: `1px solid ${chip.border}`, whiteSpace: 'nowrap' }}>{chip.label}</span>
+                  <HitChip hit={m.consensus_hit} />
+                </div>
+              </div>
+            )
+          })}
+        </div>
+      )}
+    </motion.div>
+  )
+}
+
 function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile }) {
   const [lens, setLens] = useState('predicciones')
+  const [query, setQuery] = useState('')
   if (!enrichedMatches || enrichedMatches.length === 0) {
     return (
       <div style={{ background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 12, padding: '1.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.75rem', textAlign: 'center' }}>
@@ -1373,6 +1473,19 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
   let byUnanimous  = sortedByStrength.slice(mid).reverse()       // top 50% — most unanimous first
   // Scarce-data guard: never leave a card empty when results are few (e.g. N=1)
   if (byUnanimous.length === 0 && byDivided.length) byUnanimous = [...byDivided].reverse()
+
+  // ── Búsqueda — lista plana que reemplaza las 2 tarjetas mientras hay query ──────
+  // Compone con el toggle: busca dentro del lente activo (Predicciones = todos, Resultados = concluidos).
+  const q = query.trim().toLowerCase()
+  const searchActive = q.length > 0
+  const numId = /^#?\d+$/.test(q) ? parseInt(q.replace('#', ''), 10) : null
+  const matchFilter = m => numId != null
+    ? m.match_id === numId
+    : ((m.home_team ?? '').toLowerCase().includes(q) || (m.away_team ?? '').toLowerCase().includes(q))
+  const searchAll   = searchActive ? withTeams.filter(matchFilter).sort((a, b) => a.match_id - b.match_id) : []
+  const searchShown = lens === 'resultados' ? searchAll.filter(m => m.actual_result != null) : searchAll
+  // Caso borde: el equipo existe pero en Resultados no tiene partidos concluidos aún
+  const hadInOtherLens = searchActive && lens === 'resultados' && searchShown.length === 0 && searchAll.length > 0
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
@@ -1425,11 +1538,13 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
         </div>
       )}
 
-      {/* ── Batallas del Pueblo | Voz Unánime — gobernadas por el toggle ──────── */}
+      {/* ── Batallas del Pueblo | Voz Unánime — gobernadas por el toggle + buscador ── */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-        <LensToggle lens={lens} onChange={setLens} completedCount={completed.length} />
+        <LensToggle lens={lens} onChange={setLens} completedCount={completed.length} query={query} onQueryChange={setQuery} isMobile={isMobile} />
 
-        {lens === 'resultados' && completed.length === 0 ? (
+        {searchActive ? (
+          <SearchResultsBlock query={query.trim()} matches={searchShown} hadInOtherLens={hadInOtherLens} teamIso2={teamIso2} />
+        ) : lens === 'resultados' && completed.length === 0 ? (
           <ResultadosEmptyState />
         ) : (
           <motion.div
