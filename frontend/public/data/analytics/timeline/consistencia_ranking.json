@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T03:08:06.459Z",
+  "generated_at": "2026-06-13T21:05:41.754Z",
   "metric": "consistencia_ranking",
   "users": [
     {
@@ -14,11 +14,11 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_changes": 3,
+        "consistency_score": 7,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -33,49 +33,49 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "502D453FF5",
       "display_name": "Andresn",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "6665E150B0",
       "display_name": "ARLO",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -90,11 +90,11 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -109,87 +109,87 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "5283E0D056",
       "display_name": "Beth",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "B3B92F46ED",
       "display_name": "BODI",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "2BC645A052",
       "display_name": "BtoZ",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "8DF4EEAC63",
       "display_name": "CAZU",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -207,8 +207,8 @@
         "rank_changes": 0,
         "consistency_score": 0,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -223,11 +223,11 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -242,30 +242,30 @@
         "worst_rank_match_id": 4,
         "worst_rank_stage": "group",
         "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_changes": 3,
+        "consistency_score": 30,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "B8964AAF79",
       "display_name": "DiegoMagaña",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -280,49 +280,49 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "AE26D11B16",
       "display_name": "ExiliadosFC",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "E201266422",
       "display_name": "Felix Varela",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -337,49 +337,49 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "6172891E3A",
       "display_name": "FMV",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "732633D10E",
       "display_name": "GABO",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -394,49 +394,49 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 2,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 3,
+        "snapshots": 5
       }
     },
     {
       "user_id": "0933C88879",
       "display_name": "Golden Eagle",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "3C3D690EE4",
       "display_name": "GSG",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -451,30 +451,30 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "278ECC1B7A",
       "display_name": "Hernangzz",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -489,30 +489,30 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 2,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 3,
+        "snapshots": 5
       }
     },
     {
       "user_id": "B13A945BF8",
       "display_name": "IFCR",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -527,87 +527,87 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "198CA6C5CB",
       "display_name": "JAGOL",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "FAC51CF2CF",
       "display_name": "Javi Villareal",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "F6E2313B1B",
       "display_name": "JCAV",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "31A6CB0C21",
       "display_name": "Jerry",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -622,11 +622,11 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -641,11 +641,11 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -660,11 +660,11 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -679,30 +679,30 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 2,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 3,
+        "snapshots": 5
       }
     },
     {
       "user_id": "432BF50FA9",
       "display_name": "Jose Treviño",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -717,30 +717,30 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "6B1DBB716C",
       "display_name": "JPRR",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -755,49 +755,49 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "8A01EA47FC",
       "display_name": "Juan T",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "E9831BEEE3",
       "display_name": "LCV",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -812,68 +812,68 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "CAA8D66DAA",
       "display_name": "LRMS",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "3DE522E965",
       "display_name": "LUD",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -888,30 +888,30 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 2,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 3,
+        "snapshots": 5
       }
     },
     {
       "user_id": "1829AF0B20",
       "display_name": "Memo Garcia",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -926,30 +926,30 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "CC6B00FB62",
       "display_name": "Miri",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -964,49 +964,49 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "E1B3B9BFCB",
       "display_name": "Nestor",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "7667C7B572",
       "display_name": "O Gomez",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1021,30 +1021,30 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "2EF31BF1A6",
       "display_name": "Paco T",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1059,30 +1059,30 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "72A9ED8F20",
       "display_name": "Pipo",
-      "value": 2,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 3,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 2,
-        "rank_changes": 1,
-        "consistency_score": 3,
+        "rank_range": 5,
+        "rank_changes": 2,
+        "consistency_score": 7,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -1097,30 +1097,30 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "726607D90E",
       "display_name": "Potro",
-      "value": 59,
+      "value": 60,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 60,
+        "worst_rank": 61,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_range": 60,
+        "rank_changes": 4,
+        "consistency_score": 64,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1135,30 +1135,30 @@
         "worst_rank_match_id": 3,
         "worst_rank_stage": "group",
         "rank_range": 44,
-        "rank_changes": 3,
-        "consistency_score": 47,
+        "rank_changes": 4,
+        "consistency_score": 48,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "C19435FB3E",
       "display_name": "RO11",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1176,8 +1176,8 @@
         "rank_changes": 0,
         "consistency_score": 0,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
@@ -1192,11 +1192,11 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 2,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 3,
+        "snapshots": 5
       }
     },
     {
@@ -1211,11 +1211,11 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1230,30 +1230,30 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 31,
-        "rank_changes": 3,
-        "consistency_score": 34,
+        "rank_changes": 4,
+        "consistency_score": 35,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 2,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 3,
+        "snapshots": 5
       }
     },
     {
       "user_id": "C9CE9AF477",
       "display_name": "Shadai LL",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1268,87 +1268,87 @@
         "worst_rank_match_id": 4,
         "worst_rank_stage": "group",
         "rank_range": 59,
-        "rank_changes": 3,
-        "consistency_score": 62,
+        "rank_changes": 4,
+        "consistency_score": 63,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 1,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "91F0A88C8D",
       "display_name": "Steve Gerald",
-      "value": 2,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 3,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 2,
-        "rank_changes": 1,
-        "consistency_score": 3,
+        "rank_range": 5,
+        "rank_changes": 2,
+        "consistency_score": 7,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "E5DF64F6CC",
       "display_name": "Tom",
-      "value": 27,
+      "value": 30,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 28,
+        "worst_rank": 31,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 4,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 27,
-        "rank_changes": 2,
-        "consistency_score": 29,
+        "rank_range": 30,
+        "rank_changes": 3,
+        "consistency_score": 33,
         "most_common_rank": 1,
         "consecutive_payout_snapshots": 3,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
       "user_id": "B97C49CA8A",
       "display_name": "YP",
-      "value": 4,
+      "value": 5,
       "extra": {
         "best_rank": 1,
-        "worst_rank": 5,
+        "worst_rank": 6,
         "best_rank_match_id": 1,
         "best_rank_stage": "group",
-        "worst_rank_match_id": 3,
+        "worst_rank_match_id": 5,
         "worst_rank_stage": "group",
-        "rank_range": 4,
-        "rank_changes": 2,
-        "consistency_score": 6,
+        "rank_range": 5,
+        "rank_changes": 3,
+        "consistency_score": 8,
         "most_common_rank": 1,
-        "consecutive_payout_snapshots": 4,
-        "snapshots": 4
+        "consecutive_payout_snapshots": 5,
+        "snapshots": 5
       }
     },
     {
       "user_id": "4EE3A0CA82",
       "display_name": "AJV",
-      "value": 43,
+      "value": 65,
       "extra": {
-        "best_rank": 28,
+        "best_rank": 6,
         "worst_rank": 71,
-        "best_rank_match_id": 4,
+        "best_rank_match_id": 5,
         "best_rank_stage": "group",
         "worst_rank_match_id": 1,
         "worst_rank_stage": "group",
-        "rank_range": 43,
-        "rank_changes": 3,
-        "consistency_score": 46,
-        "most_common_rank": 28,
-        "consecutive_payout_snapshots": 0,
-        "snapshots": 4
+        "rank_range": 65,
+        "rank_changes": 4,
+        "consistency_score": 69,
+        "most_common_rank": 6,
+        "consecutive_payout_snapshots": 1,
+        "snapshots": 5
       }
     },
     {
@@ -1363,11 +1363,11 @@
         "worst_rank_match_id": 2,
         "worst_rank_stage": "group",
         "rank_range": 28,
-        "rank_changes": 3,
-        "consistency_score": 31,
+        "rank_changes": 4,
+        "consistency_score": 32,
         "most_common_rank": 45,
         "consecutive_payout_snapshots": 0,
-        "snapshots": 4
+        "snapshots": 5
       }
     },
     {
@@ -1382,11 +1382,11 @@
         "worst_rank_match_id": 1,
         "worst_rank_stage": "group",
         "rank_range": 39,
-        "rank_changes": 3,
-        "consistency_score": 42,
+        "rank_changes": 4,
+        "consistency_score": 43,
         "most_common_rank": 32,
         "consecutive_payout_snapshots": 0,
-        "snapshots": 4
+        "snapshots": 5
       }
     }
   ]

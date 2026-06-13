@@ -26,8 +26,12 @@ echo [4/6] Preparando para subir...
 git add .
 
 echo.
-echo [5/6] Procediendo con la carga...
-git commit -m "Carga de Resultados Oficiales"
+set /p MATCH_ID=Ultimo partido con resultado oficial:
+
+echo.
+[5/6] Procediendo con la carga...
+git commit -m "Resultados Oficiales actualizados hasta el partido #%MATCH_ID%"
+
 
 echo.
 echo [6/6] Publicando en GitHub...

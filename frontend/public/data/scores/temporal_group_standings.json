@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-13T03:08:05.907Z",
-  "snapshot_match_id": 4,
+  "generated_at": "2026-06-13T21:05:40.514Z",
+  "snapshot_match_id": 5,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -111,29 +111,33 @@
         },
         {
           "team": "Qatar",
-          "pts": 0,
-          "pj": 0,
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 1,
+          "gc": 1,
           "dg": 0,
           "position": 3,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "Suiza",
-          "pts": 0,
-          "pj": 0,
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 1,
+          "gc": 1,
           "dg": 0,
           "position": 4,
-          "form": []
+          "form": [
+            "D"
+          ]
         }
       ]
     },
