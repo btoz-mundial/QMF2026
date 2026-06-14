@@ -132,6 +132,32 @@ function GroupTabs({ selected, onChange }) {
   )
 }
 
+// ─── View Toggle (Grupos / Cronológico) ────────────────────────────────────────
+
+function ViewToggle({ view, onChange }) {
+  const opts = [{ k: 'grupos', label: 'Grupos' }, { k: 'cronologico', label: 'Cronológico' }]
+  return (
+    <div style={{ display: 'flex', gap: 3, background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 8, padding: 3 }}>
+      {opts.map(o => {
+        const on = view === o.k
+        return (
+          <button
+            key={o.k}
+            onClick={() => onChange(o.k)}
+            style={{
+              border: on ? '1px solid color-mix(in srgb, var(--color-primary) 40%, transparent)' : '1px solid transparent',
+              cursor: 'pointer', borderRadius: 6, padding: '5px 12px', fontSize: '0.7rem', fontWeight: 700,
+              letterSpacing: '0.05em', textTransform: 'uppercase', fontFamily: 'var(--font-mono)',
+              background: on ? 'color-mix(in srgb, var(--color-primary) 15%, transparent)' : 'transparent',
+              color: on ? 'var(--color-primary)' : 'var(--color-text-3)',
+            }}
+          >{o.label}</button>
+        )
+      })}
+    </div>
+  )
+}
+
 // ─── Form Dot ─────────────────────────────────────────────────────────────────
 
 function FormDot({ result }) {
@@ -473,6 +499,7 @@ function MatchCard({ match, userPick, teamMap, meta }) {
 export default function Groups() {
   const isMobile = useIsMobile()
 
+  const [view, setView]                   = useState('grupos')
   const [selectedGroup, setSelectedGroup] = useState('A')
   const [selectedUser, setSelectedUser]   = useState(null)
 
@@ -555,6 +582,10 @@ export default function Groups() {
 
   const userName = users.find(u => u.user_id === selectedUser)?.display_name
 
+  // Vista cronológica: los 72 partidos por match_id + acumulado de fase del usuario
+  const allMatches   = (groupResults ?? []).slice().sort((a, b) => a.match_id - b.match_id)
+  const userPhasePts = Object.values(userMatchPicks).reduce((s, p) => s + (p.points ?? 0), 0)
+
   return (
     <div style={{ padding: isMobile ? '1rem' : '1.5rem', maxWidth: 1500, margin: '0 auto' }}>
 
@@ -565,11 +596,12 @@ export default function Groups() {
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', flexWrap: 'wrap' }}>
           <h1 style={{ fontSize: '1.1rem', fontWeight: 800, letterSpacing: '0.08em', color: 'var(--color-text-1)', textTransform: 'uppercase', margin: 0 }}>
-            Grupos
+            Fase de Grupos
           </h1>
+          <ViewToggle view={view} onChange={setView} />
           <span style={{ width: 1, height: 18, background: 'var(--color-border)', flexShrink: 0 }} />
           <span style={{ fontSize: '0.78rem', color: 'var(--color-text-3)' }}>
-            72 partidos · Fase de grupos
+            {view === 'cronologico' ? '72 partidos · orden cronológico' : '72 partidos · Fase de grupos'}
           </span>
           {selectedUser && (
             <>
@@ -607,11 +639,15 @@ export default function Groups() {
         )}
       </div>
 
-      {/* Group selector */}
-      <div style={{ marginBottom: '1.25rem' }}>
-        <GroupTabs selected={selectedGroup} onChange={setSelectedGroup} />
-      </div>
+      {/* Group selector — solo vista GRUPOS */}
+      {view === 'grupos' && (
+        <div style={{ marginBottom: '1.25rem' }}>
+          <GroupTabs selected={selectedGroup} onChange={setSelectedGroup} />
+        </div>
+      )}
 
+      {/* ── Vista GRUPOS ── */}
+      {view === 'grupos' && (<>
       {/* User group summary */}
       {selectedUser && (
         <motion.div
@@ -712,6 +748,47 @@ export default function Groups() {
           </div>
         </motion.div>
       </AnimatePresence>
+      </>)}
+
+      {/* ── Vista CRONOLÓGICO ── */}
+      {view === 'cronologico' && (
+        <>
+          {selectedUser && (
+            <motion.div
+              key={`phase-${selectedUser}`}
+              initial={{ opacity: 0, y: -6 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.2 }}
+              style={{
+                display: 'flex', alignItems: 'center', gap: '1rem',
+                padding: '0.625rem 1rem', borderRadius: 8,
+                background: 'var(--color-surface)', border: '1px solid var(--color-border)',
+                marginBottom: '1rem', flexWrap: 'wrap',
+              }}
+            >
+              <span style={{ fontSize: '0.78rem', color: 'var(--color-text-2)', fontWeight: 600 }}>Fase de grupos</span>
+              <span style={{ width: 1, height: 14, background: 'var(--color-border)' }} />
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                <span style={{ fontSize: '0.72rem', color: 'var(--color-text-3)' }}>Resultados acertados</span>
+                <span style={{ fontSize: '1.2rem', fontFamily: 'var(--font-mono)', fontWeight: 800, color: userPhasePts > 0 ? 'var(--color-success)' : 'var(--color-text-3)' }}>
+                  {userPhasePts > 0 ? `+${userPhasePts}` : '0'}
+                </span>
+              </div>
+            </motion.div>
+          )}
+          <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr 1fr' : 'repeat(auto-fill, minmax(230px, 1fr))', gap: '0.5rem', alignItems: 'start' }}>
+            {allMatches.map(match => (
+              <MatchCard
+                key={match.match_id}
+                match={match}
+                userPick={userMatchPicks[match.match_id] ?? null}
+                teamMap={teamMap}
+                meta={metaMap[match.match_id] ?? null}
+              />
+            ))}
+          </div>
+        </>
+      )}
 
       {/* Disclaimer */}
       <div style={{ marginTop: '2rem', padding: '0.625rem 0', borderTop: '1px solid var(--color-border)' }}>
