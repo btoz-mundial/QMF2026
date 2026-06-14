@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T18:55:43.542Z",
-  "snapshot_match_id": 8,
+  "generated_at": "2026-06-14T18:59:42.900Z",
+  "snapshot_match_id": 9,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -276,16 +276,18 @@
       "table": [
         {
           "team": "Alemania",
-          "pts": 0,
-          "pj": 0,
-          "pg": 0,
+          "pts": 3,
+          "pj": 1,
+          "pg": 1,
           "pe": 0,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "gf": 7,
+          "gc": 1,
+          "dg": 6,
           "position": 1,
-          "form": []
+          "form": [
+            "W"
+          ]
         },
         {
           "team": "Costa de M",
@@ -301,7 +303,7 @@
           "form": []
         },
         {
-          "team": "Curazao",
+          "team": "Ecuador",
           "pts": 0,
           "pj": 0,
           "pg": 0,
@@ -314,17 +316,19 @@
           "form": []
         },
         {
-          "team": "Ecuador",
+          "team": "Curazao",
           "pts": 0,
-          "pj": 0,
+          "pj": 1,
           "pg": 0,
           "pe": 0,
-          "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "pp": 1,
+          "gf": 1,
+          "gc": 7,
+          "dg": -6,
           "position": 4,
-          "form": []
+          "form": [
+            "L"
+          ]
         }
       ]
     },
