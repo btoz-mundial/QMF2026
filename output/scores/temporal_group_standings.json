@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T18:59:42.900Z",
-  "snapshot_match_id": 9,
+  "generated_at": "2026-06-14T21:55:42.703Z",
+  "snapshot_match_id": 10,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -337,29 +337,33 @@
       "table": [
         {
           "team": "Japon",
-          "pts": 0,
-          "pj": 0,
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 2,
+          "gc": 2,
           "dg": 0,
           "position": 1,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "P Bajos",
-          "pts": 0,
-          "pj": 0,
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 2,
+          "gc": 2,
           "dg": 0,
           "position": 2,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "Suecia",
