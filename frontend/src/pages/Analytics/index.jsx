@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { Search, X } from 'lucide-react'
+import { Search, X, User, Users, ChevronDown } from 'lucide-react'
 import { DATA_URLS } from '../../config/urls'
 
 const BASE = import.meta.env.BASE_URL
@@ -1195,8 +1196,104 @@ const PHASE_CHIP = {
   standings:{ label: 'TABLA',  color: '#94A3B8', bg: 'rgba(148,163,184,0.08)',border: 'rgba(148,163,184,0.25)' },
 }
 
-function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 }) {
+// Hint reutilizable — comunica que las opciones son clickeables
+function VotersHint() {
+  return (
+    <div style={{ display: 'inline-flex', alignItems: 'center', gap: 5, fontSize: '0.56rem', fontFamily: 'var(--font-mono)', color: 'var(--color-primary)', background: 'color-mix(in srgb, var(--color-primary) 7%, transparent)', border: '1px solid color-mix(in srgb, var(--color-primary) 18%, transparent)', borderRadius: 6, padding: '3px 8px', alignSelf: 'flex-start' }}>
+      <Users size={11} style={{ flexShrink: 0 }} /> Toca una opción o la barra para ver quién la eligió
+    </div>
+  )
+}
+
+// Barra de colores clickeable — mismo comportamiento que los chips
+function PickBar({ m, onToggle }) {
+  return (
+    <div style={{ flex: 1, height: 6, background: 'rgba(255,255,255,0.05)', borderRadius: 3, overflow: 'hidden', display: 'flex', minWidth: 0 }}>
+      {['L', 'E', 'V'].map(k => {
+        const pct = m.distribution?.[k]?.percentage ?? 0
+        if (!pct) return null
+        return (
+          <div key={k} onClick={() => onToggle(k)} title="Ver quiénes eligieron"
+            style={{ width: `${pct}%`, height: '100%', background: PICK_COLORS[k], opacity: 0.85, cursor: 'pointer' }} />
+        )
+      })}
+    </div>
+  )
+}
+
+// Opciones L/E/V clickeables de un partido (abren "¿quiénes eligieron?")
+function PickTokens({ m, openPick, onToggle }) {
+  return (
+    <div style={{ display: 'flex', gap: '0.3rem', flexShrink: 0 }}>
+      {['L', 'E', 'V'].map(k => {
+        const pct = m.distribution?.[k]?.percentage ?? 0
+        if (!pct) return null
+        const isCons = k === m.consensus_pick
+        const active = openPick === k
+        return (
+          <button
+            key={k}
+            onClick={() => onToggle(k)}
+            title="Ver quiénes eligieron"
+            style={{
+              cursor: 'pointer', borderRadius: 4, padding: '2px 5px', fontSize: '0.5rem',
+              fontFamily: 'var(--font-mono)', fontWeight: isCons ? 700 : 400,
+              color: isCons ? PICK_COLORS[k] : 'var(--color-text-3)',
+              border: active ? '1px solid color-mix(in srgb, var(--color-primary) 50%, transparent)' : '1px solid color-mix(in srgb, var(--color-primary) 22%, transparent)',
+              background: active ? 'color-mix(in srgb, var(--color-primary) 14%, transparent)' : 'transparent',
+              lineHeight: 1, whiteSpace: 'nowrap', display: 'inline-flex', alignItems: 'center', gap: 2,
+            }}
+          >
+            {k}{pct.toFixed(0)}%
+            <ChevronDown size={9} style={{ transform: active ? 'rotate(180deg)' : 'none', transition: 'transform 0.15s', opacity: 0.7 }} />
+          </button>
+        )
+      })}
+    </div>
+  )
+}
+
+// Acordeón: lista de participantes que eligieron una opción, ordenados por ranking, enlazados al perfil
+function VotersAccordion({ match, pick, votersByMatch, userMap }) {
+  const ids   = votersByMatch?.[match.match_id]?.[pick] ?? []
+  const label = pick === 'L' ? (match.home_team ?? 'Local') : pick === 'V' ? (match.away_team ?? 'Visitante') : 'Empate'
+  const color = PICK_COLORS[pick]
+  const voters = ids
+    .map(id => ({ id, name: userMap?.[id]?.name ?? id, rank: userMap?.[id]?.rank }))
+    .sort((a, b) => (a.rank ?? 1e9) - (b.rank ?? 1e9))
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: -4 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.15 }}
+      style={{ marginTop: '0.45rem', borderTop: '1px solid rgba(255,255,255,0.06)', paddingTop: '0.5rem' }}
+    >
+      <div style={{ fontSize: '0.56rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', letterSpacing: '0.04em', marginBottom: '0.45rem' }}>
+        Eligieron <span style={{ color, fontWeight: 700 }}>{label}</span> · {voters.length} {voters.length === 1 ? 'participante' : 'participantes'}
+        <span style={{ marginLeft: 6, opacity: 0.7 }}>· toca un nombre para ver su perfil</span>
+      </div>
+      {voters.length === 0 ? (
+        <div style={{ fontSize: '0.62rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', fontStyle: 'italic' }}>Nadie eligió esta opción.</div>
+      ) : (
+        <div style={{ maxHeight: 150, overflowY: 'auto', display: 'flex', flexWrap: 'wrap', gap: '0.4rem 0.85rem', paddingRight: '0.3rem' }}>
+          {voters.map(v => (
+            <Link
+              key={v.id}
+              to={`/player/${v.id}`}
+              style={{ display: 'inline-flex', alignItems: 'center', gap: 4, fontSize: '0.66rem', fontFamily: 'var(--font-mono)', color: 'var(--color-primary)', textDecoration: 'none', borderBottom: '1px solid color-mix(in srgb, var(--color-primary) 35%, transparent)', paddingBottom: 1, lineHeight: 1.3 }}
+            >
+              <User size={10} style={{ flexShrink: 0 }} />{v.name}
+            </Link>
+          ))}
+        </div>
+      )}
+    </motion.div>
+  )
+}
+
+function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2, votersByMatch, userMap }) {
   const [showAll, setShowAll] = useState(false)
+  const [openPick, setOpenPick] = useState(null)
+  const toggle = (mid, k) => setOpenPick(o => (o && o.mid === mid && o.k === k) ? null : { mid, k })
+  const hasVoters = votersByMatch && Object.keys(votersByMatch).length > 0
   const displayed = showAll ? matches : matches.slice(0, 5)
   const remaining = matches.length - 5
 
@@ -1207,19 +1304,20 @@ function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 })
         <div style={{ fontSize: '0.72rem', fontWeight: 800, color: accentColor, letterSpacing: '0.08em', textTransform: 'uppercase' }}>{title}</div>
         <div style={{ fontSize: '0.58rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: 3 }}>{subtitle} · {matches.length} partidos</div>
       </div>
+      {hasVoters && <VotersHint />}
 
       {/* Match rows */}
       <div style={{ display: 'flex', flexDirection: 'column' }}>
         {displayed.map((m, idx) => {
           const phase = PHASE_CHIP[m.phase] ?? PHASE_CHIP.standings
+          const isOpen = openPick && openPick.mid === m.match_id
           return (
+            <div key={m.match_id} style={{ borderBottom: idx < displayed.length - 1 ? '1px solid rgba(255,255,255,0.04)' : 'none' }}>
             <div
-              key={m.match_id}
               style={{
                 display: 'grid', gridTemplateColumns: '22px 1fr auto',
                 gap: '0.5rem', alignItems: 'center',
                 padding: '0.55rem 0',
-                borderBottom: idx < displayed.length - 1 ? '1px solid rgba(255,255,255,0.04)' : 'none',
               }}
             >
               {/* Rank */}
@@ -1237,23 +1335,8 @@ function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 })
                   <FlagImg iso2={teamIso2?.[m.away_team]} size={12} />
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                  <div style={{ flex: 1, height: 4, background: 'rgba(255,255,255,0.05)', borderRadius: 2, overflow: 'hidden', display: 'flex' }}>
-                    {['L', 'E', 'V'].map(k => {
-                      const pct = m.distribution?.[k]?.percentage ?? 0
-                      if (!pct) return null
-                      return <div key={k} style={{ width: `${pct}%`, height: '100%', background: PICK_COLORS[k], opacity: 0.85 }} />
-                    })}
-                  </div>
-                  <div style={{ display: 'flex', gap: '0.35rem', flexShrink: 0 }}>
-                    {['L', 'E', 'V'].map(k => {
-                      const pct = m.distribution?.[k]?.percentage ?? 0
-                      if (!pct) return null
-                      const isCons = k === m.consensus_pick
-                      return (
-                        <span key={k} style={{ fontSize: '0.5rem', fontFamily: 'var(--font-mono)', color: isCons ? PICK_COLORS[k] : 'var(--color-text-3)', fontWeight: isCons ? 700 : 400 }}>{k}{pct.toFixed(0)}%</span>
-                      )
-                    })}
-                  </div>
+                  <PickBar m={m} onToggle={k => toggle(m.match_id, k)} />
+                  <PickTokens m={m} openPick={isOpen ? openPick.k : null} onToggle={k => toggle(m.match_id, k)} />
                 </div>
               </div>
 
@@ -1261,6 +1344,8 @@ function MatchExplorerBlock({ title, subtitle, accentColor, matches, teamIso2 })
               <div style={{ display: 'flex', flexDirection: 'column', gap: 3, alignItems: 'flex-end', flexShrink: 0 }}>
                 <HitChip hit={m.consensus_hit} />
               </div>
+            </div>
+            {isOpen && <VotersAccordion match={m} pick={openPick.k} votersByMatch={votersByMatch} userMap={userMap} />}
             </div>
           )
         })}
@@ -1369,7 +1454,10 @@ function ResultadosEmptyState() {
 }
 
 // Lista plana de resultados de búsqueda — reemplaza las 2 tarjetas mientras se busca.
-function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2 }) {
+function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2, votersByMatch, userMap }) {
+  const [openPick, setOpenPick] = useState(null)
+  const toggle = (mid, k) => setOpenPick(o => (o && o.mid === mid && o.k === k) ? null : { mid, k })
+  const hasVoters = votersByMatch && Object.keys(votersByMatch).length > 0
   return (
     <motion.div
       key="search" initial={{ opacity: 0, y: 6 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2 }}
@@ -1384,6 +1472,8 @@ function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2 }) {
         </span>
       </div>
 
+      {matches.length > 0 && hasVoters && <VotersHint />}
+
       {matches.length === 0 ? (
         <div style={{ padding: '1.75rem 1rem', textAlign: 'center', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', fontSize: '0.72rem', lineHeight: 1.6 }}>
           {hadInOtherLens
@@ -1395,8 +1485,10 @@ function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2 }) {
           {matches.map((m, idx) => {
             const phase = PHASE_CHIP[m.phase] ?? PHASE_CHIP.standings
             const chip  = strengthChip(m.consensus_strength ?? 0)
+            const isOpen = openPick && openPick.mid === m.match_id
             return (
-              <div key={m.match_id} style={{ display: 'grid', gridTemplateColumns: '34px 1fr auto', gap: '0.5rem', alignItems: 'center', padding: '0.55rem 0', borderBottom: idx < matches.length - 1 ? '1px solid rgba(255,255,255,0.04)' : 'none' }}>
+              <div key={m.match_id} style={{ borderBottom: idx < matches.length - 1 ? '1px solid rgba(255,255,255,0.04)' : 'none' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '34px 1fr auto', gap: '0.5rem', alignItems: 'center', padding: '0.55rem 0' }}>
                 <div style={{ fontSize: '0.52rem', fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', textAlign: 'center' }}>#{m.match_id}</div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem', minWidth: 0 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', minWidth: 0, overflow: 'hidden' }}>
@@ -1408,27 +1500,16 @@ function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2 }) {
                     <FlagImg iso2={teamIso2?.[m.away_team]} size={12} />
                   </div>
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                    <div style={{ flex: 1, height: 4, background: 'rgba(255,255,255,0.05)', borderRadius: 2, overflow: 'hidden', display: 'flex' }}>
-                      {['L', 'E', 'V'].map(k => {
-                        const pct = m.distribution?.[k]?.percentage ?? 0
-                        if (!pct) return null
-                        return <div key={k} style={{ width: `${pct}%`, height: '100%', background: PICK_COLORS[k], opacity: 0.85 }} />
-                      })}
-                    </div>
-                    <div style={{ display: 'flex', gap: '0.35rem', flexShrink: 0 }}>
-                      {['L', 'E', 'V'].map(k => {
-                        const pct = m.distribution?.[k]?.percentage ?? 0
-                        if (!pct) return null
-                        const isCons = k === m.consensus_pick
-                        return <span key={k} style={{ fontSize: '0.5rem', fontFamily: 'var(--font-mono)', color: isCons ? PICK_COLORS[k] : 'var(--color-text-3)', fontWeight: isCons ? 700 : 400 }}>{k}{pct.toFixed(0)}%</span>
-                      })}
-                    </div>
+                    <PickBar m={m} onToggle={k => toggle(m.match_id, k)} />
+                    <PickTokens m={m} openPick={isOpen ? openPick.k : null} onToggle={k => toggle(m.match_id, k)} />
                   </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 4, alignItems: 'flex-end', flexShrink: 0 }}>
                   <span style={{ fontSize: '0.5rem', fontWeight: 700, fontFamily: 'var(--font-mono)', padding: '2px 6px', borderRadius: 4, letterSpacing: '0.05em', color: chip.color, background: chip.bg, border: `1px solid ${chip.border}`, whiteSpace: 'nowrap' }}>{chip.label}</span>
                   <HitChip hit={m.consensus_hit} />
                 </div>
+              </div>
+              {isOpen && <VotersAccordion match={m} pick={openPick.k} votersByMatch={votersByMatch} userMap={userMap} />}
               </div>
             )
           })}
@@ -1438,7 +1519,7 @@ function SearchResultsBlock({ query, matches, hadInOtherLens, teamIso2 }) {
   )
 }
 
-function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile }) {
+function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, votersByMatch, userMap, isMobile }) {
   const [lens, setLens] = useState('predicciones')
   const [query, setQuery] = useState('')
   if (!enrichedMatches || enrichedMatches.length === 0) {
@@ -1543,7 +1624,7 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
         <LensToggle lens={lens} onChange={setLens} completedCount={completed.length} query={query} onQueryChange={setQuery} isMobile={isMobile} />
 
         {searchActive ? (
-          <SearchResultsBlock query={query.trim()} matches={searchShown} hadInOtherLens={hadInOtherLens} teamIso2={teamIso2} />
+          <SearchResultsBlock query={query.trim()} matches={searchShown} hadInOtherLens={hadInOtherLens} teamIso2={teamIso2} votersByMatch={votersByMatch} userMap={userMap} />
         ) : lens === 'resultados' && completed.length === 0 ? (
           <ResultadosEmptyState />
         ) : (
@@ -1558,6 +1639,8 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
               accentColor="#FBBF24"
               matches={byDivided}
               teamIso2={teamIso2}
+              votersByMatch={votersByMatch}
+              userMap={userMap}
             />
             <MatchExplorerBlock
               title="📢 Voz Unánime"
@@ -1565,6 +1648,8 @@ function MenteColectivaTab({ enrichedMatches, teamIso2, consensoStats, isMobile 
               accentColor="#34D399"
               matches={byUnanimous}
               teamIso2={teamIso2}
+              votersByMatch={votersByMatch}
+              userMap={userMap}
             />
           </motion.div>
         )}
@@ -1594,7 +1679,7 @@ export default function Analytics() {
 
   useEffect(() => {
     async function load() {
-      const [lb, ef, pg, marcadores, avance, campeon, arch, registry, teams, koResults, groupResults, consenso, matchesMeta] = await Promise.all([
+      const [lb, ef, pg, marcadores, avance, campeon, arch, registry, teams, koResults, groupResults, consenso, matchesMeta, votantes] = await Promise.all([
         fetchOptional(DATA_URLS.leaderboard),
         fetchRobust(DATA_URLS.eficienciaDePuntos),
         fetchRobust(DATA_URLS.precisionGeneral),
@@ -1608,7 +1693,14 @@ export default function Analytics() {
         fetchOptional(DATA_URLS.groupResults),
         fetchOptional(DATA_URLS.consensoPartidos),
         fetchOptional(DATA_URLS.matchesMetadata),
+        fetchOptional(DATA_URLS.consensoVotantes),
       ])
+
+      // Índice de votantes por partido/opción + mapa de usuario (nombre + ranking)
+      const votersByMatch = {}
+      ;(votantes?.matches ?? []).forEach(m => { votersByMatch[m.match_id] = m.voters || {} })
+      const userMap = {}
+      ;(lb ?? []).forEach(u => { userMap[u.user_id] = { name: u.display_name, rank: u.rank } })
 
       if (!lb) return
 
@@ -1730,6 +1822,7 @@ export default function Analytics() {
         totalUsers: lb.length,
         matchToShow, isUpcoming, matchToShowMeta,
         consensoStats, hasResults, upcomingMatches, enrichedMatches,
+        votersByMatch, userMap,
       })
     }
     load()
@@ -1744,6 +1837,7 @@ export default function Analytics() {
     champList, archetypeCounts, archRegistry, totalUsers,
     matchToShow, isUpcoming, matchToShowMeta,
     consensoStats, hasResults, upcomingMatches, enrichedMatches,
+    votersByMatch, userMap,
   } = data
 
   return (
@@ -1806,7 +1900,7 @@ export default function Analytics() {
       )}
 
       {activeTab === 'Mente Colectiva' && (
-        <MenteColectivaTab enrichedMatches={enrichedMatches} teamIso2={teamIso2} consensoStats={consensoStats} isMobile={isMobile} />
+        <MenteColectivaTab enrichedMatches={enrichedMatches} teamIso2={teamIso2} consensoStats={consensoStats} votersByMatch={votersByMatch} userMap={userMap} isMobile={isMobile} />
       )}
 
     </motion.div>

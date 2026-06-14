@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-14T00:07:39.378Z",
-  "snapshot_match_id": 6,
+  "generated_at": "2026-06-14T03:04:41.538Z",
+  "snapshot_match_id": 7,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -206,22 +206,22 @@
       "group": "C",
       "table": [
         {
-          "team": "Brasil",
-          "pts": 1,
+          "team": "Escocia",
+          "pts": 3,
           "pj": 1,
-          "pg": 0,
-          "pe": 1,
+          "pg": 1,
+          "pe": 0,
           "pp": 0,
           "gf": 1,
-          "gc": 1,
-          "dg": 0,
+          "gc": 0,
+          "dg": 1,
           "position": 1,
           "form": [
-            "D"
+            "W"
           ]
         },
         {
-          "team": "Marruecos",
+          "team": "Brasil",
           "pts": 1,
           "pj": 1,
           "pg": 0,
@@ -236,30 +236,34 @@
           ]
         },
         {
-          "team": "Escocia",
-          "pts": 0,
-          "pj": 0,
+          "team": "Marruecos",
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 1,
+          "gc": 1,
           "dg": 0,
           "position": 3,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "Haiti",
           "pts": 0,
-          "pj": 0,
+          "pj": 1,
           "pg": 0,
           "pe": 0,
-          "pp": 0,
+          "pp": 1,
           "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "gc": 1,
+          "dg": -1,
           "position": 4,
-          "form": []
+          "form": [
+            "L"
+          ]
         }
       ]
     },

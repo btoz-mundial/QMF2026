@@ -88,17 +88,14 @@ users.forEach(user => {
       else if (match.home_goals < match.away_goals)  result = 'V';
       else                                            result = 'E';
 
+      if (!['L','E','V'].includes(result)) return;
       matchesMap[match.match_id].total_picks += 1;
       matchesMap[match.match_id].distribution[result] += 1;
-      if (!['L','E','V'].includes(result)) return;
       votersMap[match.match_id].voters[result].push(
         user.user_id
       );
-
     });
-
 });
-
 
 // =====================================
 // BUILD OUTPUT
