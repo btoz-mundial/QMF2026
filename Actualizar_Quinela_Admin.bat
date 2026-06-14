@@ -7,34 +7,29 @@ echo      QMF2026 - ACTUALIZACION ADMIN
 echo ==========================================
 echo.
 
-echo [1/6] Actualizando repositorio...
+echo [1/5] Actualizando repositorio...
 git pull
 if errorlevel 1 goto ERROR
 
 echo.
-echo [2/6] Procesando Resultados Oficiales...
-node scripts\ingest_fixture_master.js
-if errorlevel 1 goto ERROR
-
-echo.
-echo [3/6] Ejecutando calculos...
+echo [2/5] Ejecutando calculos...
 node run_pipeline.js
 if errorlevel 1 goto ERROR
 
 echo.
-echo [4/6] Preparando para subir...
+echo [3/5] Preparando para subir...
 git add .
 
 echo.
 set /p MATCH_ID=Ultimo partido con resultado oficial:
 
 echo.
-[5/6] Procediendo con la carga...
+[4/5] Procediendo con la carga...
 git commit -m "Resultados Oficiales actualizados hasta el partido #%MATCH_ID%"
 
 
 echo.
-echo [6/6] Publicando en GitHub...
+echo [5/5] Publicando en GitHub...
 git push
 if errorlevel 1 goto ERROR
 
