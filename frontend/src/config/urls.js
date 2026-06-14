@@ -47,6 +47,7 @@ export const DATA_URLS = {
 
   // --- Analytics -- engagement ---
   consensoPartidos: `${BASE}data/analytics/engagement/consenso_partidos.json`,
+  consensoVotantes: `${BASE}data/analytics/engagement/consenso_votantes.json`,
 
   // --- Analytics -- intelligence ---
   campeonVivo:      `${BASE}data/analytics/intelligence/campeon_vivo.json`,

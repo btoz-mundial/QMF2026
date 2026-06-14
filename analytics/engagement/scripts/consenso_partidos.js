@@ -20,7 +20,7 @@ const users = loadUsers();
 // =====================================
 
 const matchesMap = {};
-
+const votersMap = {};
 
 // =====================================
 // BUILD CONSENSUS
@@ -33,16 +33,30 @@ users.forEach(user => {
     .forEach(match => {
 
       if (!matchesMap[match.match_id]) {
+
         matchesMap[match.match_id] = {
           match_id: match.match_id,
           total_picks: 0,
           distribution: { L: 0, E: 0, V: 0 }
         };
       }
-
+      
+      if (!votersMap[match.match_id]) {
+        votersMap[match.match_id] = {
+        match_id: match.match_id,
+        voters: {
+          L: [],
+          E: [],
+          V: []
+         }
+       };
+      }
       const result = match.prediction;
       matchesMap[match.match_id].total_picks += 1;
       matchesMap[match.match_id].distribution[result] += 1;
+      votersMap[match.match_id].voters[result].push(
+        user.user_id
+        );
 
     });
 
@@ -59,7 +73,16 @@ users.forEach(user => {
           distribution: { L: 0, E: 0, V: 0 }
         };
       }
-
+      if (!votersMap[match.match_id]) {
+        votersMap[match.match_id] = {
+          match_id: match.match_id,
+          voters: {
+              L: [],
+              E: [],
+              V: []
+            }
+          };
+        }
       let result = null;
       if (match.home_goals > match.away_goals)       result = 'L';
       else if (match.home_goals < match.away_goals)  result = 'V';
@@ -67,6 +90,10 @@ users.forEach(user => {
 
       matchesMap[match.match_id].total_picks += 1;
       matchesMap[match.match_id].distribution[result] += 1;
+      if (!['L','E','V'].includes(result)) return;
+      votersMap[match.match_id].voters[result].push(
+        user.user_id
+      );
 
     });
 
@@ -126,7 +153,14 @@ const matches = Object.values(matchesMap)
   })
   .sort((a, b) => a.match_id - b.match_id);
 
+  const voterMatches = Object.values(votersMap)
+  .sort((a, b) => a.match_id - b.match_id);
 
+  const votersOutput = {
+  generated_at: new Date().toISOString(),
+  metric: 'consenso_votantes',
+  matches: voterMatches,
+};
 // =====================================
 // SAVE
 // =====================================
@@ -138,7 +172,9 @@ const output = {
 };
 
 const outputPath = path.join(__dirname, '..', 'outputs', 'consenso_partidos.json');
+const votersOutputPath = path.join( __dirname, '..', 'outputs', 'consenso_votantes.json');
 
 saveOutput(outputPath, output);
+saveOutput(votersOutputPath, votersOutput);
 
 console.log('✅ consenso_partidos.json generado —', matches.length, 'partidos');
