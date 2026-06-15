@@ -14,14 +14,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -38,22 +52,22 @@
         "volatility_score": 0.89
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -68,9 +82,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -92,17 +106,17 @@
         "momentum_strength": 1,
         "recent_ranks": [
           1,
-          1,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -127,9 +141,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -147,21 +161,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 7,
-        "momentum_strength": 7,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -186,9 +200,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -206,21 +220,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 7,
-        "momentum_strength": 7,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -235,8 +249,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 66,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
         }
       },
       {
@@ -245,9 +273,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -259,27 +287,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 67,
+        "rank_swing": 66,
+        "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -299,14 +327,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -323,22 +365,22 @@
         "volatility_score": 0.47
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -353,8 +395,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -363,9 +419,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -377,27 +433,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -412,8 +468,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -422,9 +492,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -436,27 +506,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -466,14 +536,28 @@
     "display_name": "Beth",
     "traits": [
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            5,
+            9,
+            14
+          ],
+          "momentum_strength": 9
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -485,27 +569,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 9,
-        "rank_swing": 8,
-        "volatility_score": 0.11
+        "worst_rank": 14,
+        "rank_swing": 13,
+        "volatility_score": 0.18
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "trend": "down",
+        "recent_delta": -9,
+        "momentum_strength": 9,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -530,9 +614,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -550,21 +634,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 19,
-        "momentum_strength": 19,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           61,
-          61,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -589,9 +673,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -609,21 +693,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 19,
-        "momentum_strength": 19,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           61,
-          61,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -648,9 +732,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -668,21 +752,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 17,
-        "momentum_strength": 17,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           39,
-          39,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -697,9 +781,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.8,
+          "group_accuracy": 0.73,
           "knockout_accuracy": 0,
-          "strength_delta": 0.8
+          "strength_delta": 0.73
         }
       }
     ],
@@ -728,10 +812,10 @@
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.8,
-        "group_accuracy": 0.8,
+        "strength_delta": 0.73,
+        "group_accuracy": 0.73,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -746,8 +830,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -756,9 +854,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -770,27 +868,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -805,8 +903,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -815,9 +927,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -829,27 +941,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -874,9 +986,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.36
         }
       }
     ],
@@ -894,21 +1006,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -923,8 +1035,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -933,9 +1059,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -947,27 +1073,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -982,9 +1108,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -1006,17 +1132,17 @@
         "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1026,14 +1152,28 @@
     "display_name": "Felix Varela",
     "traits": [
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            5,
+            9,
+            14
+          ],
+          "momentum_strength": 9
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -1045,27 +1185,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 11,
-        "rank_swing": 10,
-        "volatility_score": 0.14
+        "worst_rank": 14,
+        "rank_swing": 13,
+        "volatility_score": 0.18
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "trend": "down",
+        "recent_delta": -9,
+        "momentum_strength": 9,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1080,8 +1220,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -1090,9 +1244,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -1104,27 +1258,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1137,10 +1291,24 @@
         "id": "high_volatility",
         "label": "Alta volatilidad",
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 23,
+          "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
         "confidence": "medium",
         "metrics": {
-          "rank_swing": 21,
-          "volatility_threshold": 15
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
         }
       },
       {
@@ -1149,9 +1317,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1163,27 +1331,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 22,
-        "rank_swing": 21,
-        "volatility_score": 0.29
+        "worst_rank": 24,
+        "rank_swing": 23,
+        "volatility_score": 0.32
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1193,14 +1361,28 @@
     "display_name": "GABO",
     "traits": [
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            5,
+            9,
+            14
+          ],
+          "momentum_strength": 9
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -1212,27 +1394,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 9,
-        "rank_swing": 8,
-        "volatility_score": 0.11
+        "worst_rank": 14,
+        "rank_swing": 13,
+        "volatility_score": 0.18
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "trend": "down",
+        "recent_delta": -9,
+        "momentum_strength": 9,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1252,14 +1434,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1276,22 +1472,22 @@
         "volatility_score": 0.42
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1306,9 +1502,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.64
         }
       }
     ],
@@ -1326,21 +1522,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1353,10 +1549,24 @@
         "id": "high_volatility",
         "label": "Alta volatilidad",
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 23,
+          "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
         "confidence": "medium",
         "metrics": {
-          "rank_swing": 21,
-          "volatility_threshold": 15
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
         }
       },
       {
@@ -1365,9 +1575,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1379,27 +1589,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 22,
-        "rank_swing": 21,
-        "volatility_score": 0.29
+        "worst_rank": 24,
+        "rank_swing": 23,
+        "volatility_score": 0.32
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1419,14 +1629,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1443,22 +1667,22 @@
         "volatility_score": 0.42
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1483,9 +1707,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -1503,21 +1727,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 7,
-        "momentum_strength": 7,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1542,9 +1766,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -1566,17 +1790,17 @@
         "momentum_strength": 1,
         "recent_ranks": [
           1,
-          1,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1589,10 +1813,24 @@
         "id": "high_volatility",
         "label": "Alta volatilidad",
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 23,
+          "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
         "confidence": "medium",
         "metrics": {
-          "rank_swing": 21,
-          "volatility_threshold": 15
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
         }
       },
       {
@@ -1601,9 +1839,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1615,27 +1853,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 22,
-        "rank_swing": 21,
-        "volatility_score": 0.29
+        "worst_rank": 24,
+        "rank_swing": 23,
+        "volatility_score": 0.32
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1660,9 +1898,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -1680,21 +1918,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 7,
-        "momentum_strength": 7,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1709,9 +1947,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -1733,17 +1971,17 @@
         "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1758,9 +1996,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.64
         }
       }
     ],
@@ -1778,21 +2016,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1807,8 +2045,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 66,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
         }
       },
       {
@@ -1817,9 +2069,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -1831,27 +2083,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 67,
+        "rank_swing": 66,
+        "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1871,14 +2123,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1895,22 +2161,22 @@
         "volatility_score": 0.41
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1935,9 +2201,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.45
         }
       }
     ],
@@ -1955,21 +2221,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -1989,14 +2255,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2013,22 +2293,22 @@
         "volatility_score": 0.42
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2053,9 +2333,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2073,21 +2353,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 17,
-        "momentum_strength": 17,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           39,
-          39,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2107,14 +2387,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2131,22 +2425,22 @@
         "volatility_score": 0.42
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2161,8 +2455,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 66,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
         }
       },
       {
@@ -2171,9 +2479,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -2185,27 +2493,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 67,
+        "rank_swing": 66,
+        "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2225,14 +2533,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2249,22 +2571,22 @@
         "volatility_score": 0.6
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2284,14 +2606,28 @@
         }
       },
       {
+        "id": "rising",
+        "label": "En ascenso",
+        "description": "Ha mejorado consistentemente en los últimos partidos.",
+        "confidence": "high",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            42,
+            24
+          ],
+          "momentum_strength": 37
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2308,22 +2644,22 @@
         "volatility_score": 0.82
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 19,
-        "momentum_strength": 19,
+        "trend": "up",
+        "recent_delta": 37,
+        "momentum_strength": 37,
         "recent_ranks": [
           61,
-          61,
-          42
+          42,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2348,9 +2684,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2368,21 +2704,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2395,10 +2731,24 @@
         "id": "high_volatility",
         "label": "Alta volatilidad",
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 23,
+          "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
         "confidence": "medium",
         "metrics": {
-          "rank_swing": 21,
-          "volatility_threshold": 15
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
         }
       },
       {
@@ -2407,9 +2757,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2421,27 +2771,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 22,
-        "rank_swing": 21,
-        "volatility_score": 0.29
+        "worst_rank": 24,
+        "rank_swing": 23,
+        "volatility_score": 0.32
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2456,9 +2806,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -2480,17 +2830,17 @@
         "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2510,14 +2860,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2534,22 +2898,22 @@
         "volatility_score": 0.6
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2562,10 +2926,24 @@
         "id": "high_volatility",
         "label": "Alta volatilidad",
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 23,
+          "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
         "confidence": "medium",
         "metrics": {
-          "rank_swing": 21,
-          "volatility_threshold": 15
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
         }
       },
       {
@@ -2574,9 +2952,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2588,27 +2966,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 22,
-        "rank_swing": 21,
-        "volatility_score": 0.29
+        "worst_rank": 24,
+        "rank_swing": 23,
+        "volatility_score": 0.32
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2621,10 +2999,24 @@
         "id": "high_volatility",
         "label": "Alta volatilidad",
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
+        "confidence": "high",
+        "metrics": {
+          "rank_swing": 23,
+          "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
         "confidence": "medium",
         "metrics": {
-          "rank_swing": 21,
-          "volatility_threshold": 15
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
         }
       },
       {
@@ -2633,9 +3025,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -2647,27 +3039,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 22,
-        "rank_swing": 21,
-        "volatility_score": 0.29
+        "worst_rank": 24,
+        "rank_swing": 23,
+        "volatility_score": 0.32
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2682,8 +3074,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -2692,9 +3098,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -2706,27 +3112,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2751,9 +3157,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -2775,17 +3181,17 @@
         "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2810,9 +3216,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -2830,21 +3236,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 19,
-        "momentum_strength": 19,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           61,
-          61,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2859,8 +3265,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -2869,9 +3289,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -2883,27 +3303,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2923,14 +3343,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -2947,22 +3381,22 @@
         "volatility_score": 0.82
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -2977,8 +3411,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -2987,9 +3435,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -3001,27 +3449,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3046,9 +3494,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.55
         }
       }
     ],
@@ -3066,21 +3514,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 7,
-        "momentum_strength": 7,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          9
+          9,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3105,9 +3553,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -3125,21 +3573,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 17,
-        "momentum_strength": 17,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           39,
-          39,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3164,9 +3612,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.55
         }
       }
     ],
@@ -3184,21 +3632,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3213,8 +3661,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 66,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
         }
       },
       {
@@ -3223,9 +3685,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -3237,27 +3699,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 67,
+        "rank_swing": 66,
+        "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3272,8 +3734,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 44,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -3282,9 +3758,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -3296,27 +3772,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 45,
-        "rank_swing": 44,
-        "volatility_score": 0.6
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3341,9 +3817,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.55,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.55
         }
       }
     ],
@@ -3361,21 +3837,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          14
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.55,
+        "group_accuracy": 0.55,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3390,8 +3866,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 66,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
         }
       },
       {
@@ -3400,9 +3890,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -3414,27 +3904,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 67,
+        "rank_swing": 66,
+        "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3449,8 +3939,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 66,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
         }
       },
       {
@@ -3459,9 +3963,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -3473,27 +3977,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 67,
+        "rank_swing": 66,
+        "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3513,14 +4017,28 @@
         }
       },
       {
+        "id": "rising",
+        "label": "En ascenso",
+        "description": "Ha mejorado consistentemente en los últimos partidos.",
+        "confidence": "high",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            9,
+            2
+          ],
+          "momentum_strength": 14
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.64
         }
       }
     ],
@@ -3537,22 +4055,22 @@
         "volatility_score": 0.6
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 7,
-        "momentum_strength": 7,
+        "trend": "up",
+        "recent_delta": 14,
+        "momentum_strength": 14,
         "recent_ranks": [
           16,
-          16,
-          9
+          9,
+          2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3577,9 +4095,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -3597,21 +4115,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 19,
-        "momentum_strength": 19,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           61,
-          61,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3626,9 +4144,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.64
         }
       }
     ],
@@ -3646,21 +4164,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3685,9 +4203,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.7,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.7
+          "strength_delta": 0.64
         }
       }
     ],
@@ -3709,17 +4227,17 @@
         "momentum_strength": 1,
         "recent_ranks": [
           1,
-          1,
+          2,
           2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.7,
-        "group_accuracy": 0.7,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3739,14 +4257,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            61,
+            66,
+            67
+          ],
+          "momentum_strength": 6
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.3,
+          "group_accuracy": 0.27,
           "knockout_accuracy": 0,
-          "strength_delta": 0.3
+          "strength_delta": 0.27
         }
       }
     ],
@@ -3763,22 +4295,22 @@
         "volatility_score": 0.53
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
           61,
-          61,
-          66
+          66,
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
-        "group_accuracy": 0.3,
+        "strength_delta": 0.27,
+        "group_accuracy": 0.27,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3793,8 +4325,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -3803,9 +4349,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -3817,27 +4363,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3857,14 +4403,28 @@
         }
       },
       {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            16,
+            22,
+            24
+          ],
+          "momentum_strength": 8
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Especialista de grupos",
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.5,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.5
+          "strength_delta": 0.45
         }
       }
     ],
@@ -3881,22 +4441,22 @@
         "volatility_score": 0.42
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -6,
-        "momentum_strength": 6,
+        "trend": "down",
+        "recent_delta": -8,
+        "momentum_strength": 8,
         "recent_ranks": [
           16,
-          16,
-          22
+          22,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.5,
-        "group_accuracy": 0.5,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3911,8 +4471,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -3921,9 +4495,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -3935,27 +4509,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -3980,9 +4554,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.45,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.45
         }
       }
     ],
@@ -4000,21 +4574,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "recent_delta": 15,
+        "momentum_strength": 15,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          24
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.45,
+        "group_accuracy": 0.45,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -4029,9 +4603,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.6,
+          "group_accuracy": 0.64,
           "knockout_accuracy": 0,
-          "strength_delta": 0.6
+          "strength_delta": 0.64
         }
       }
     ],
@@ -4049,21 +4623,21 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
           5,
-          5,
-          9
+          9,
+          2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.6,
-        "group_accuracy": 0.6,
+        "strength_delta": 0.64,
+        "group_accuracy": 0.64,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -4078,8 +4652,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -4088,9 +4676,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -4102,27 +4690,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
@@ -4137,8 +4725,22 @@
         "description": "Usuario con cambios fuertes de posición durante el torneo.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 41,
+          "rank_swing": 45,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "Se desinfló",
+        "description": "Ha perdido posiciones recientemente.",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            39,
+            42,
+            46
+          ],
+          "momentum_strength": 7
         }
       },
       {
@@ -4147,9 +4749,9 @@
         "description": "Destaca especialmente en la fase de grupos.",
         "confidence": "high",
         "metrics": {
-          "group_accuracy": 0.4,
+          "group_accuracy": 0.36,
           "knockout_accuracy": 0,
-          "strength_delta": 0.4
+          "strength_delta": 0.36
         }
       }
     ],
@@ -4161,27 +4763,27 @@
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 42,
-        "rank_swing": 41,
-        "volatility_score": 0.56
+        "worst_rank": 46,
+        "rank_swing": 45,
+        "volatility_score": 0.62
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "down",
+        "recent_delta": -7,
+        "momentum_strength": 7,
         "recent_ranks": [
           39,
-          39,
-          42
+          42,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
-        "group_accuracy": 0.4,
+        "strength_delta": 0.36,
+        "group_accuracy": 0.36,
         "knockout_accuracy": 0,
-        "group_matches": 10,
+        "group_matches": 11,
         "knockout_matches": 0
       }
     }
