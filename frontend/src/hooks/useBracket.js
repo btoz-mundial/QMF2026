@@ -113,8 +113,9 @@ export function useBracket(userId = null) {
       fetchJSON(DATA_URLS.userIndex),
       loadTeamMap(DATA_URLS.teams),
       fetchJSON(DATA_URLS.r32RenderOrder),
+      fetchOptional(DATA_URLS.leaderboard),
     ])
-      .then(([knockoutResults, bracketGraph, matchesMeta, scoreDetails, userIndex, teamMap, r32RenderOrder]) => {
+      .then(([knockoutResults, bracketGraph, matchesMeta, scoreDetails, userIndex, teamMap, r32RenderOrder, leaderboard]) => {
         const resultsMap = {}
         if (Array.isArray(knockoutResults)) knockoutResults.forEach(m => { resultsMap[m.match_id] = m })
 
@@ -132,9 +133,14 @@ export function useBracket(userId = null) {
         const championPath = buildChampionPath(champion, bracketGraph, resultsMap)
         const layout = buildLayout(r32RenderOrder, bracketGraph)
 
+        // Fusiona el ranking del leaderboard en userIndex (para mostrar "#N" junto al nombre)
+        const rankMap = {}
+        if (Array.isArray(leaderboard)) leaderboard.forEach(u => { rankMap[u.user_id] = u.rank })
+        const userIndexRanked = (userIndex ?? []).map(u => ({ ...u, rank: rankMap[u.user_id] }))
+
         setData({
           bracketGraph, resultsMap, metaMap, userPicksMap,
-          userIndex: userIndex ?? [], teamMap, champion, championPath,
+          userIndex: userIndexRanked, teamMap, champion, championPath,
           layout, r32RenderOrder,
         })
       })

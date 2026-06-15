@@ -436,7 +436,7 @@ export default function BracketPage() {
           <UserSelector userIndex={userIndex} selectedId={selectedUser} onSelect={setSelectedUser}/>
         </div>
         <p style={{ fontSize:'0.72rem',color:'var(--color-text-3)',fontFamily:'var(--font-mono)' }}>
-          32 partidos · Fase eliminatoria · {selectedUser&&userIndex.find(u=>u.user_id===selectedUser)&&<span style={{ color:'var(--color-primary)' }}>Puntos de {userIndex.find(u=>u.user_id===selectedUser)?.display_name}</span>}
+          32 partidos · Fase eliminatoria · {(() => { const su = selectedUser && userIndex.find(u=>u.user_id===selectedUser); return su ? <span style={{ color:'var(--color-primary)' }}>Puntos de {su.display_name}{su.rank != null ? ` · #${su.rank}` : ''}</span> : null })()}
         </p>
         <Legend hasUser={!!selectedUser&&Object.keys(userPicksMap).length>0}/>
       </motion.div>

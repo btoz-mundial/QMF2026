@@ -511,6 +511,8 @@ export default function Groups() {
   const [teamMap, setTeamMap]                     = useState(null)
   const [loading, setLoading]                     = useState(true)
   const [matchesMeta, setMatchesMeta]             = useState(null)
+  const [userIndex, setUserIndex]                 = useState(null)
+  const [userPredMap, setUserPredMap]             = useState({})
 
   useEffect(() => {
     Promise.all([
@@ -521,7 +523,8 @@ export default function Groups() {
       loadTeamMap(DATA_URLS.teams),
       fetchJSON(DATA_URLS.matchesMetadata).catch(() => null),
       fetchJSON(DATA_URLS.standingsResults).catch(() => null),
-    ]).then(([lb, sd, gr, ts, tm, mm, sr]) => {
+      fetchJSON(DATA_URLS.userIndex).catch(() => null),
+    ]).then(([lb, sd, gr, ts, tm, mm, sr, ui]) => {
       setLeaderboard(lb)
       setScoreDetails(sd)
       setGroupResults(gr)
@@ -529,12 +532,30 @@ export default function Groups() {
       setTeamMap(tm)
       setMatchesMeta(mm)
       setStandingsResults(sr)
+      setUserIndex(ui)
       setLoading(false)
     }).catch(err => {
       console.error('Groups load error:', err)
       setLoading(false)
     })
   }, [])
+
+  // Predicciones completas del usuario (incluye partidos futuros) desde su perfil
+  useEffect(() => {
+    if (!selectedUser || !userIndex) { setUserPredMap({}); return }
+    const entry = userIndex.find(u => u.user_id === selectedUser)
+    if (!entry?.profile_file) { setUserPredMap({}); return }
+    let cancelled = false
+    fetchJSON(DATA_URLS.userProfile(entry.profile_file))
+      .then(p => {
+        if (cancelled) return
+        const map = {}
+        ;(p?.group_stage ?? []).forEach(g => { if (g.prediction != null) map[g.match_id] = g.prediction })
+        setUserPredMap(map)
+      })
+      .catch(() => { if (!cancelled) setUserPredMap({}) })
+    return () => { cancelled = true }
+  }, [selectedUser, userIndex])
 
   if (loading) {
     return (
@@ -554,6 +575,10 @@ export default function Groups() {
   if (userScoreDetail?.group) {
     userScoreDetail.group.forEach(pick => { userMatchPicks[pick.match_id] = pick })
   }
+
+  // Pick a mostrar por partido: jugado = entrada de scoring (con puntos/veredicto);
+  // futuro = solo la predicción del perfil (sin puntos, sin veredicto).
+  const pickFor = (id) => userMatchPicks[id] ?? (userPredMap[id] != null ? { prediction: userPredMap[id] } : null)
 
   const metaMap = matchesMeta ?? {}
 
@@ -580,7 +605,9 @@ export default function Groups() {
   const userGroupStandingPts = userStandings?.find(s => s.group === selectedGroup)?.total_points ?? 0
   const userTotalGroupPts    = userGroupMatchPts + userGroupStandingPts
 
-  const userName = users.find(u => u.user_id === selectedUser)?.display_name
+  const selUserRow = users.find(u => u.user_id === selectedUser)
+  const userName = selUserRow?.display_name
+  const userRank = selUserRow?.rank
 
   // Vista cronológica: los 72 partidos por match_id + acumulado de fase del usuario
   const allMatches   = (groupResults ?? []).slice().sort((a, b) => a.match_id - b.match_id)
@@ -607,7 +634,7 @@ export default function Groups() {
             <>
               <span style={{ width: 1, height: 18, background: 'var(--color-border)', flexShrink: 0 }} />
               <span style={{ fontSize: '0.78rem', color: 'var(--color-accent)', fontWeight: 600 }}>
-                Puntos de {userName}
+                Puntos de {userName}{userRank != null ? ` · #${userRank}` : ''}
               </span>
             </>
           )}
@@ -739,7 +766,7 @@ export default function Groups() {
                 <MatchCard
                   key={match.match_id}
                   match={match}
-                  userPick={userMatchPicks[match.match_id] ?? null}
+                  userPick={pickFor(match.match_id)}
                   teamMap={teamMap}
                   meta={metaMap[match.match_id] ?? null}
                 />
@@ -781,7 +808,7 @@ export default function Groups() {
               <MatchCard
                 key={match.match_id}
                 match={match}
-                userPick={userMatchPicks[match.match_id] ?? null}
+                userPick={pickFor(match.match_id)}
                 teamMap={teamMap}
                 meta={metaMap[match.match_id] ?? null}
               />
