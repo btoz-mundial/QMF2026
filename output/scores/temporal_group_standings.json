@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-15T01:04:50.077Z",
-  "snapshot_match_id": 11,
+  "generated_at": "2026-06-15T03:58:33.684Z",
+  "snapshot_match_id": 12,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -340,22 +340,22 @@
       "group": "F",
       "table": [
         {
-          "team": "Japon",
-          "pts": 1,
+          "team": "Suecia",
+          "pts": 3,
           "pj": 1,
-          "pg": 0,
-          "pe": 1,
+          "pg": 1,
+          "pe": 0,
           "pp": 0,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
+          "gf": 5,
+          "gc": 1,
+          "dg": 4,
           "position": 1,
           "form": [
-            "D"
+            "W"
           ]
         },
         {
-          "team": "P Bajos",
+          "team": "Japon",
           "pts": 1,
           "pj": 1,
           "pg": 0,
@@ -370,30 +370,34 @@
           ]
         },
         {
-          "team": "Suecia",
-          "pts": 0,
-          "pj": 0,
+          "team": "P Bajos",
+          "pts": 1,
+          "pj": 1,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
+          "gf": 2,
+          "gc": 2,
           "dg": 0,
           "position": 3,
-          "form": []
+          "form": [
+            "D"
+          ]
         },
         {
           "team": "Tunez",
           "pts": 0,
-          "pj": 0,
+          "pj": 1,
           "pg": 0,
           "pe": 0,
-          "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "pp": 1,
+          "gf": 1,
+          "gc": 5,
+          "dg": -4,
           "position": 4,
-          "form": []
+          "form": [
+            "L"
+          ]
         }
       ]
     },
