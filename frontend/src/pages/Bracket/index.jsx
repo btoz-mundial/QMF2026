@@ -157,8 +157,8 @@ function ChampionBox({ result, pick, teamMap }) {
   const td    = getTeam(champ, teamMap)
   const flag  = flagUrl(td?.iso2)
   return (
-    <div style={{ border:`2px solid ${champ?'#D4A017':'rgba(212,160,23,0.3)'}`,borderRadius:10,padding:'4px 10px',textAlign:'center',background:'var(--color-surface)',boxShadow:champ?'0 0 24px rgba(212,160,23,0.35)':'none',width:'100%',minHeight:120,display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center' }}>
-      <div style={{ fontFamily:'var(--font-display)',fontSize:'20px',color:'#D4A017',letterSpacing:'1px',marginBottom:6 }}>CAMPEÓN</div>
+    <div style={{ border:`2px solid ${champ?'#D4A017':'rgba(212,160,23,0.3)'}`,borderRadius:10,padding:champ?'8px 10px':'10px 10px',textAlign:'center',background:'var(--color-surface)',boxShadow:champ?'0 0 24px rgba(212,160,23,0.35)':'none',width:'100%',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center' }}>
+      <div style={{ fontFamily:'var(--font-display)',fontSize:'18px',color:'#D4A017',letterSpacing:'1px',marginBottom:champ?4:2 }}>CAMPEÓN</div>
       {champ?(
         <>
           {flag&&<img src={flag} alt="" style={{ width:60,height:40,objectFit:'cover',borderRadius:2,marginBottom:2,display:'block',margin:'0 auto 2px' }}/>}
@@ -197,6 +197,8 @@ function BracketColumn({ label, matches, pos, CARD_H, totalHeight, resultsMap, u
 
 function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMap, metaMap }) {
   const { left, right, finalId, thirdId, pos, totalHeight, CARD_H } = layout
+  // centerY real de las SF = centro donde debe ir la final (no totalHeight/2)
+  const finalCenterY = left?.[3]?.[0]?.centerY ?? totalHeight / 2
   const totalCols = 9
   const minW = totalCols * COL_W + (totalCols - 1) * COL_GAP + 24
 
@@ -214,25 +216,38 @@ function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMa
           {/* #07111F como texto es intencional: texto oscuro sobre fondo dorado */}
           <div style={{ background:'#D4A017',borderRadius:'5px 5px 0 0',padding:'6px 4px',textAlign:'center',fontSize:'11px',fontWeight:700,color:'#07111F',fontFamily:'var(--font-mono)',marginBottom:4 }}>FINAL</div>
           <div style={{ position:'relative', height:totalHeight }}>
-            <div style={{ position:'absolute', top:totalHeight*0.51 - CARD_H, left:0, right:0 }}>
-              <ChampionBox result={finalId?resultsMap[finalId]:null} pick={finalId?userPicksMap[finalId]:null} teamMap={teamMap}/>
-            </div>
-            {thirdId && (
-              <div style={{ position:'absolute', top:totalHeight*0.72, left:0, right:0 }}>
-                <div style={{ fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)',textAlign:'center',marginBottom:4,letterSpacing:'0.5px' }}>3ER LUGAR</div>
-                <MatchCard matchId={thirdId} result={resultsMap[thirdId]} pick={userPicksMap[thirdId]} isChampPath={false} teamMap={teamMap} meta={metaMap?.[thirdId]}/>
-                {(()=>{
-                  const r3=resultsMap[thirdId]; const p3=userPicksMap[thirdId]
-                  if(!p3) return null
-                  const adv3=r3?.advance_team??null
-                  const pAdv3=p3?.prediction?.advance_team??p3?.prediction?.advance??p3?.advance_team??p3?.advance??null
-                  if(!pAdv3) return null
-                  const ok3=adv3&&pAdv3===adv3
-                  if(adv3===null) return <div style={{ textAlign:'center',marginTop:3,fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)' }}>+5 si acierta 3°</div>
-                  return <div style={{ textAlign:'center',marginTop:3,fontSize:'9px',fontFamily:'var(--font-mono)',fontWeight:700,color:ok3?'#D4A017':'var(--color-text-3)' }}>{ok3?'+5 BONO 🥉':'+0 BONO'}</div>
-                })()}
+            {/* Partido de la final — el CONTENEDOR alineado con las SF; el label flota arriba sin empujar */}
+            {finalId && (
+              <div style={{ position:'absolute', left:0, right:0, top: finalCenterY - CARD_H/2 }}>
+                <div style={{ position:'absolute', bottom:'100%', left:0, right:0, marginBottom:4, fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)',textAlign:'center',letterSpacing:'0.5px' }}>PARTIDO FINAL</div>
+                <MatchCard matchId={finalId} result={resultsMap[finalId]} pick={userPicksMap[finalId]} isChampPath={championPath.has(finalId)} teamMap={teamMap} meta={metaMap?.[finalId]}/>
               </div>
             )}
+            {/* Campeón — apex, anclado por su borde inferior bien arriba de la final (crece hacia arriba) */}
+            <div style={{ position:'absolute', left:0, right:0, bottom: totalHeight - (finalCenterY - CARD_H/2) + 90 }}>
+              <ChampionBox result={finalId?resultsMap[finalId]:null} pick={finalId?userPicksMap[finalId]:null} teamMap={teamMap}/>
+            </div>
+            {/* Tercer lugar — huérfano abajo, CONTENEDOR a la altura del QF inferior */}
+            {thirdId && (() => {
+              const lowerQF  = (left[2] ?? []).reduce((a, b) => (b.centerY > (a?.centerY ?? -1) ? b : a), null)
+              const thirdTop = (lowerQF ? lowerQF.centerY : totalHeight * 0.72) - CARD_H / 2
+              return (
+              <div style={{ position:'absolute', left:0, right:0, top: thirdTop }}>
+                  <div style={{ position:'absolute', bottom:'100%', left:0, right:0, marginBottom:4, fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)',textAlign:'center',letterSpacing:'0.5px' }}>3ER LUGAR</div>
+                  <MatchCard matchId={thirdId} result={resultsMap[thirdId]} pick={userPicksMap[thirdId]} isChampPath={false} teamMap={teamMap} meta={metaMap?.[thirdId]}/>
+                  {(()=>{
+                    const r3=resultsMap[thirdId]; const p3=userPicksMap[thirdId]
+                    if(!p3) return null
+                    const adv3=r3?.advance_team??null
+                    const pAdv3=p3?.prediction?.advance_team??p3?.prediction?.advance??p3?.advance_team??p3?.advance??null
+                    if(!pAdv3) return null
+                    const ok3=adv3&&pAdv3===adv3
+                    if(adv3===null) return <div style={{ textAlign:'center',marginTop:3,fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)' }}>+5 si acierta 3°</div>
+                    return <div style={{ textAlign:'center',marginTop:3,fontSize:'9px',fontFamily:'var(--font-mono)',fontWeight:700,color:ok3?'#D4A017':'var(--color-text-3)' }}>{ok3?'+5 BONO 🥉':'+0 BONO'}</div>
+                  })()}
+                </div>
+              )
+            })()}
           </div>
         </div>
 
