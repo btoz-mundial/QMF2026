@@ -1193,7 +1193,7 @@ function ApuestaRow({ label, team, status, stage, teamMap, pointsBadge, large = 
               style={{
                 width: large ? 30 : 22, height: large ? 20 : 14,
                 objectFit: 'cover', borderRadius: 2, flexShrink: 0,
-                opacity: isAlive ? 1 : 0.35,
+                opacity: isEliminated ? 0.35 : 1,
               }}
             />
           )}
@@ -1201,7 +1201,7 @@ function ApuestaRow({ label, team, status, stage, teamMap, pointsBadge, large = 
             fontFamily:    'var(--font-display)',
             fontSize:      large ? '1.6rem' : '1.1rem',
             lineHeight:    1,
-            color:         isAlive ? 'var(--color-text-1)' : 'var(--color-text-3)',
+            color:         isEliminated ? 'var(--color-text-3)' : 'var(--color-text-1)',
             letterSpacing: '0.02em',
             overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
           }}>
@@ -1233,7 +1233,14 @@ function ApuestaRow({ label, team, status, stage, teamMap, pointsBadge, large = 
               </span>
             )}
           </>
-        ) : null}
+        ) : (
+          <span style={{
+            fontSize: '0.6rem', fontFamily: 'var(--font-mono)', fontWeight: 600,
+            color: 'var(--color-text-3)', textTransform: 'uppercase', letterSpacing: '0.05em',
+          }}>
+            Pendiente
+          </span>
+        )}
       </div>
 
     </div>
@@ -1260,7 +1267,7 @@ function FinalMatchup({ finalist1, finalist1Status, finalist1Stage, finalist2, f
           )}
           <span style={{
             fontSize: '0.82rem', fontFamily: 'var(--font-display)',
-            color: isAlive ? 'var(--color-text-2)' : 'var(--color-text-3)',
+            color: isEliminated ? 'var(--color-text-3)' : 'var(--color-text-2)',
             lineHeight: 1,
           }}>
             {name}
