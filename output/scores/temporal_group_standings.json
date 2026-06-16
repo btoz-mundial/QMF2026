@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-16T03:41:06.877Z",
-  "snapshot_match_id": 16,
+  "generated_at": "2026-06-16T21:10:22.453Z",
+  "snapshot_match_id": 17,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -536,16 +536,18 @@
       "table": [
         {
           "team": "Francia",
-          "pts": 0,
-          "pj": 0,
-          "pg": 0,
+          "pts": 3,
+          "pj": 1,
+          "pg": 1,
           "pe": 0,
           "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "gf": 3,
+          "gc": 1,
+          "dg": 2,
           "position": 1,
-          "form": []
+          "form": [
+            "W"
+          ]
         },
         {
           "team": "Irak",
@@ -576,15 +578,17 @@
         {
           "team": "Senegal",
           "pts": 0,
-          "pj": 0,
+          "pj": 1,
           "pg": 0,
           "pe": 0,
-          "pp": 0,
-          "gf": 0,
-          "gc": 0,
-          "dg": 0,
+          "pp": 1,
+          "gf": 1,
+          "gc": 3,
+          "dg": -2,
           "position": 4,
-          "form": []
+          "form": [
+            "L"
+          ]
         }
       ]
     },
