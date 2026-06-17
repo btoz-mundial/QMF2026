@@ -348,15 +348,18 @@ function BracketTab({ token, notify }) {
   async function save(m) {
     const h = parseInt(draft.h, 10), a = parseInt(draft.a, 10)
     if (Number.isNaN(h) || Number.isNaN(a) || h < 0 || a < 0) { notify('Marcador inválido', 'err'); return }
-    const tie = h === a
+    const wt = draft.wt || 'REGULAR_TIME'
+    // Campo extra (home/away_penalties): se captura en Tiempo Extra y en Penales (enteros >= 0).
+    // En Tiempo Regular va NULL.
     let hp = null, ap = null
-    if (tie) {
+    if (wt === 'EXTRA_TIME' || wt === 'PENALTIES') {
       hp = parseInt(draft.hp, 10); ap = parseInt(draft.ap, 10)
-      if (Number.isNaN(hp) || Number.isNaN(ap)) { notify('Empate: captura los penales', 'err'); return }
+      if (Number.isNaN(hp) || Number.isNaN(ap) || hp < 0 || ap < 0) {
+        notify((wt === 'PENALTIES' ? 'Penales' : 'Tiempo extra') + ': captura enteros ≥ 0', 'err'); return
+      }
     }
     const adv = (draft.adv || '').trim()
     if (!adv) { notify('Indica quién avanza', 'err'); return }
-    const wt = draft.wt || 'REGULAR_TIME'
     setSaving(true)
     try {
       await saveWithRetry(PATHS.knockout, json => {
@@ -375,7 +378,6 @@ function BracketTab({ token, notify }) {
   }
 
   const pendCount = matches.filter(isPending).length
-  const tie = draft.h !== '' && draft.a !== '' && parseInt(draft.h, 10) === parseInt(draft.a, 10)
 
   return (
     <div>
@@ -414,9 +416,15 @@ function BracketTab({ token, notify }) {
                     <input type="number" min="0" inputMode="numeric" value={draft.a} onChange={e => setDraft(d => ({ ...d, a: e.target.value }))} style={inputStyle} />
                     <span style={{ fontSize: '0.8rem', color: 'var(--color-text-2)', minWidth: 80 }}>{m.away_team || 'Visitante'}</span>
                   </div>
-                  {tie && (
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
+                    <span style={{ fontSize: '0.75rem', color: 'var(--color-text-2)', minWidth: 80 }}>Definición</span>
+                    {WINNER_TYPES.map(w => (
+                      <Pill key={w} active={draft.wt === w} onClick={() => setDraft(d => ({ ...d, wt: w }))}>{WT_LABEL[w]}</Pill>
+                    ))}
+                  </div>
+                  {(draft.wt === 'EXTRA_TIME' || draft.wt === 'PENALTIES') && (
                     <div style={{ display: 'flex', alignItems: 'center', gap: 10, flexWrap: 'wrap' }}>
-                      <span style={{ fontSize: '0.75rem', color: 'var(--color-accent)', minWidth: 80 }}>Penales</span>
+                      <span style={{ fontSize: '0.75rem', color: 'var(--color-accent)', minWidth: 80 }}>{draft.wt === 'PENALTIES' ? 'Penales' : 'Goles t. extra'}</span>
                       <input type="number" min="0" inputMode="numeric" value={draft.hp} onChange={e => setDraft(d => ({ ...d, hp: e.target.value }))} style={inputStyle} />
                       <span style={{ color: 'var(--color-text-3)' }}>–</span>
                       <input type="number" min="0" inputMode="numeric" value={draft.ap} onChange={e => setDraft(d => ({ ...d, ap: e.target.value }))} style={inputStyle} />
@@ -434,12 +442,6 @@ function BracketTab({ token, notify }) {
                     ) : (
                       <input value={draft.adv} onChange={e => setDraft(d => ({ ...d, adv: e.target.value }))} placeholder="equipo" style={{ ...inputStyle, width: 140, textAlign: 'left' }} />
                     )}
-                  </div>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexWrap: 'wrap' }}>
-                    <span style={{ fontSize: '0.75rem', color: 'var(--color-text-2)', minWidth: 80 }}>Definición</span>
-                    {WINNER_TYPES.map(w => (
-                      <Pill key={w} active={draft.wt === w} onClick={() => setDraft(d => ({ ...d, wt: w }))}>{WT_LABEL[w]}</Pill>
-                    ))}
                   </div>
                   <div style={{ display: 'flex', gap: 8 }}>
                     <button disabled={saving} onClick={() => save(m)} style={{ ...btn('var(--color-primary)', '#07111F'), opacity: saving ? 0.6 : 1 }}>{saving ? 'Guardando…' : 'Guardar'}</button>
