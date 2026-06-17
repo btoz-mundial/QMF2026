@@ -1,6 +1,10 @@
 const BASE = import.meta.env.BASE_URL
 
-export const DATA_URLS = {
+// Cache-busting por versión de deploy: cambia solo cuando hay nueva publicación (commit SHA).
+const BUILD_ID = import.meta.env.VITE_BUILD_ID || 'dev'
+function withVersion(url) { return url + (url.includes('?') ? '&' : '?') + 'v=' + BUILD_ID }
+
+const RAW = {
   // --- Scoring (oficial) ---
   tournamentStatus:         `${BASE}data/scores/tournament_status.json`,
   leaderboard:              `${BASE}data/scores/leaderboard.json`,
@@ -60,3 +64,13 @@ export const DATA_URLS = {
   // --- Payouts ---
   payouts:          `${BASE}data/payout/payouts.json`,
 }
+
+// Aplica ?v=BUILD_ID a todas las URLs (strings y funciones) de forma centralizada.
+export const DATA_URLS = Object.fromEntries(
+  Object.entries(RAW).map(([k, val]) => [
+    k,
+    typeof val === 'function' ? (...args) => withVersion(val(...args)) : withVersion(val),
+  ])
+)
+
+export { BUILD_ID }
