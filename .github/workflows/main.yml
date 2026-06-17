@@ -31,6 +31,12 @@ jobs:
         working-directory: frontend
         run: npm install
 
+      - name: Install root dependencies
+        run: npm install
+
+      - name: Regenerar datos (sin ingest)
+        run: node run_pipeline.js --skip-ingest
+
       - name: Validate Repository
         run: node scripts/validate_repository.js
 

@@ -10,6 +10,7 @@ const Timeline      = lazy(() => import('@/pages/Timeline'))
 const Analytics     = lazy(() => import('@/pages/Analytics'))
 const Groups        = lazy(() => import('@/pages/Groups'))
 const HallOfFame    = lazy(() => import('@/pages/HallOfFame'))
+const Admin         = lazy(() => import('@/pages/Admin'))
 const NotFound      = lazy(() => import('@/pages/NotFound'))
 
 function PageLoader() {
@@ -45,6 +46,7 @@ function App() {
             <Route path="timeline"       element={<Timeline />} />
             <Route path="analytics"      element={<Analytics />} />
             <Route path="halloffame"     element={<HallOfFame />} />
+            <Route path="admin-qm2026"   element={<Admin />} />
             <Route path="*"              element={<NotFound />} />
           </Route>
         </Routes>
