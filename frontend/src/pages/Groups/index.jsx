@@ -609,8 +609,21 @@ export default function Groups() {
   const userName = selUserRow?.display_name
   const userRank = selUserRow?.rank
 
-  // Vista cronológica: los 72 partidos por match_id + acumulado de fase del usuario
-  const allMatches   = (groupResults ?? []).slice().sort((a, b) => a.match_id - b.match_id)
+  // Vista cronológica: ordena por calendario real (día/hora del metadata),
+  // con match_id como desempate. El horario se cambia en el metadata sin tocar
+  // match_id, así pronósticos y analytics (que apuntan al match_id) quedan intactos.
+  const MONTHS = { Jan: 0, Feb: 1, Mar: 2, Apr: 3, May: 4, Jun: 5, Jul: 6, Aug: 7, Sep: 8, Oct: 9, Nov: 10, Dec: 11 }
+  const chronoKey = (m) => {
+    const meta = metaMap[m.match_id]
+    const date = meta?.match_date          // "18-Jun"
+    const time = meta?.kickoff_utc          // "10:00"
+    if (!date) return 9e15 + m.match_id     // sin fecha → al final, estable por match_id
+    const [day, mon] = String(date).split('-')
+    const mi = MONTHS[mon] ?? 11
+    const [hh, mm] = String(time ?? '00:00').split(':').map(Number)
+    return ((((mi * 31 + Number(day)) * 24 + (hh || 0)) * 60 + (mm || 0)) * 1000) + m.match_id
+  }
+  const allMatches   = (groupResults ?? []).slice().sort((a, b) => chronoKey(a) - chronoKey(b))
   const userPhasePts = Object.values(userMatchPicks).reduce((s, p) => s + (p.points ?? 0), 0)
 
   return (
