@@ -13,6 +13,7 @@ import { useState, useEffect, useCallback, useMemo } from 'react'
 import { loadConsensoPartidos, loadConsensoVotantes } from '@/data/loaders'
 import { useNextMatch } from './useNextMatch'
 import { projectLeaderboard } from '@/scoring/groupRule'
+import { trackClarityEvent } from '@/utils/clarity'
 
 export function useSimulation(officialLb) {
   const { nextMatch, isLastGroupMatch, loading: matchLoading } = useNextMatch()
@@ -55,7 +56,12 @@ export function useSimulation(officialLb) {
     if (o == null) { setOutcomeState(null); return }
     await ensureVoters()
     setOutcomeState(o)
-  }, [ensureVoters, isLastGroupMatch])
+    // Analytics (Clarity): qué escenario simuló el usuario. Defensivo y sin PII.
+    trackClarityEvent('simular_partido', {
+      sim_resultado: o,
+      sim_partido: nextMatch ? `${nextMatch.home_team} vs ${nextMatch.away_team}` : undefined,
+    })
+  }, [ensureVoters, isLastGroupMatch, nextMatch])
 
   const reset = useCallback(() => setOutcomeState(null), [])
 
