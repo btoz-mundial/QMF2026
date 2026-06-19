@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T16:53:37.434Z",
-  "snapshot_match_id": 24,
+  "generated_at": "2026-06-19T00:04:02.204Z",
+  "snapshot_match_id": 28,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -46,32 +46,34 @@
         },
         {
           "team": "Czechia",
-          "pts": 0,
-          "pj": 1,
+          "pts": 1,
+          "pj": 2,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 1,
-          "gc": 2,
+          "gf": 2,
+          "gc": 3,
           "dg": -1,
           "position": 3,
           "form": [
-            "L"
+            "L",
+            "D"
           ]
         },
         {
           "team": "Sudafrica",
-          "pts": 0,
-          "pj": 1,
+          "pts": 1,
+          "pj": 2,
           "pg": 0,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 0,
-          "gc": 2,
+          "gf": 1,
+          "gc": 3,
           "dg": -2,
           "position": 4,
           "form": [
-            "L"
+            "L",
+            "D"
           ]
         }
       ]
@@ -80,63 +82,67 @@
       "group": "B",
       "table": [
         {
-          "team": "Bosnia H",
-          "pts": 1,
-          "pj": 1,
-          "pg": 0,
+          "team": "Canada",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
           "pe": 1,
           "pp": 0,
-          "gf": 1,
+          "gf": 7,
           "gc": 1,
-          "dg": 0,
+          "dg": 6,
           "position": 1,
           "form": [
-            "D"
+            "D",
+            "W"
           ]
         },
         {
-          "team": "Canada",
-          "pts": 1,
-          "pj": 1,
-          "pg": 0,
+          "team": "Suiza",
+          "pts": 4,
+          "pj": 2,
+          "pg": 1,
           "pe": 1,
           "pp": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
+          "gf": 5,
+          "gc": 2,
+          "dg": 3,
           "position": 2,
           "form": [
-            "D"
+            "D",
+            "W"
+          ]
+        },
+        {
+          "team": "Bosnia H",
+          "pts": 1,
+          "pj": 2,
+          "pg": 0,
+          "pe": 1,
+          "pp": 1,
+          "gf": 2,
+          "gc": 5,
+          "dg": -3,
+          "position": 3,
+          "form": [
+            "D",
+            "L"
           ]
         },
         {
           "team": "Qatar",
           "pts": 1,
-          "pj": 1,
+          "pj": 2,
           "pg": 0,
           "pe": 1,
-          "pp": 0,
+          "pp": 1,
           "gf": 1,
-          "gc": 1,
-          "dg": 0,
-          "position": 3,
-          "form": [
-            "D"
-          ]
-        },
-        {
-          "team": "Suiza",
-          "pts": 1,
-          "pj": 1,
-          "pg": 0,
-          "pe": 1,
-          "pp": 0,
-          "gf": 1,
-          "gc": 1,
-          "dg": 0,
+          "gc": 7,
+          "dg": -6,
           "position": 4,
           "form": [
-            "D"
+            "D",
+            "L"
           ]
         }
       ]

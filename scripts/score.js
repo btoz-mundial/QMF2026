@@ -136,7 +136,11 @@ function buildSnapshotResults(results, currentMatchId) {
 function buildLeaderboard(users, results, currentMatchId) {
 
   const snapshotResults = buildSnapshotResults(results, currentMatchId);
-  const includeStandings = currentMatchId >= 72;
+  // Standings cuenta solo cuando la fase de grupos está completa EN ESTE punto del
+  // tiempo: todos los partidos de grupo con id <= corte y en 'final'. Derivado, no
+  // depende del número 72 fijo, e inmune a reprogramar el último partido de grupos.
+  const includeStandings =
+    results.group.every(m => m.match_id <= currentMatchId && m.status === 'final');
   const scoreDetails = [];
 
   const leaderboard = users.map(user => {
@@ -233,6 +237,22 @@ function main() {
   const completedMatches = getCompletedMatches(results);
 
   // =====================================
+  // FASE DE GRUPOS (derivado)
+  // =====================================
+  // Último ID de la fase de grupos y si ya terminó. Reemplaza al "72" hard-codeado:
+  // si la FIFA reprograma partidos, esto sigue disparando el snapshot de standings
+  // cuando de verdad cierran TODOS los grupos, no cuando se finaliza un id concreto.
+  const lastGroupMatchId =
+    results.group.reduce((mx, m) => Math.max(mx, m.match_id), 0);
+
+  const groupStageComplete =
+    results.group.every(m => m.status === 'final');
+
+  // Etiqueta fija del snapshot de standings (contrato con el frontend y con
+  // standings_results.json). No cambiar.
+  const STANDINGS_SNAPSHOT_ID = 72.5;
+
+  // =====================================
   // TOURNAMENT STATUS
   // =====================================
 
@@ -245,9 +265,9 @@ function main() {
     const snapshot = buildLeaderboard(users, results, match.match_id);
     saveSnapshot(match, snapshot.leaderboard);
 
-    if (match.match_id === 72) {
-      const standingsSnapshot = buildLeaderboard(users, results, 72.5);
-      saveSnapshot({ match_id: 72.5, stage: 'standings' }, standingsSnapshot.leaderboard);
+    if (groupStageComplete && match.match_id === lastGroupMatchId) {
+      const standingsSnapshot = buildLeaderboard(users, results, STANDINGS_SNAPSHOT_ID);
+      saveSnapshot({ match_id: STANDINGS_SNAPSHOT_ID, stage: 'standings' }, standingsSnapshot.leaderboard);
     }
   });
 
@@ -265,8 +285,8 @@ if (completedMatches.length > 0) {
     ];
 
   currentMatchId =
-    latestMatch.match_id === 72
-      ? 72.5
+    groupStageComplete && latestMatch.match_id === lastGroupMatchId
+      ? STANDINGS_SNAPSHOT_ID
       : latestMatch.match_id;
 
 }
