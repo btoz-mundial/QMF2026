@@ -3,6 +3,10 @@ import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Trophy, Search, Medal, TrendingUp, Shield, Users, DollarSign } from 'lucide-react'
 import { DATA_URLS } from '@/config/urls'
+import { useSimulation } from '@/hooks/useSimulation'
+import SimulationCard from './SimulationCard'
+import SimulationBanner from './SimulationBanner'
+import { scenarioLabel } from './simLabels'
 
 // ── Fetch helpers ──────────────────────────────────────────────────────────────
 async function fetchOptional(url) {
@@ -358,7 +362,7 @@ function TableHeader({ isMobile }) {
 }
 
 // ── TableRow ──────────────────────────────────────────────────────────────────
-function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enrich, archDisplayMap, paidPositions, total, hasAnyMovement, prevPts, lastZonePts, onClick, isMobile }) {
+function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enrich, archDisplayMap, paidPositions, hasAnyMovement, prevPts, lastZonePts, onClick, isMobile, sim }) {
   const isPodium = !notStarted && entry.rank <= 3
   const isInZone = !notStarted && !isPodium && paidPositions > 0 && entry.rank <= paidPositions
   const avatarColor = avatarBg((listNum ?? index + 1) - 1)
@@ -439,6 +443,11 @@ function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enric
               <span style={{ fontSize: '0.5rem', color: 'var(--color-text-3)' }}>·</span>
               <span style={{ fontSize: '0.55rem', fontFamily: 'var(--font-mono)', color: '#A78BFA' }}>+{bonusPts}</span>
             </>}
+            {sim && (sim.ptsGain > 0 || sim.rankDelta !== 0) && (
+              <span style={{ fontSize: '0.55rem', fontFamily: 'var(--font-mono)', fontWeight: 700, color: sim.rankDelta >= 0 ? '#34D399' : '#F87171' }}>
+                {sim.rankDelta > 0 ? `↑${sim.rankDelta}` : sim.rankDelta < 0 ? `↓${Math.abs(sim.rankDelta)}` : ''}{sim.ptsGain > 0 ? ' +' + sim.ptsGain : ''}
+              </span>
+            )}
           </div>
         )}
       </div>
@@ -448,7 +457,10 @@ function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enric
         <div style={{ fontFamily: 'var(--font-display)', fontSize: isMobile ? '1.25rem' : ptsSz, lineHeight: 1, color: ptsColor }}>
           {entry.total_points}
         </div>
-        <div style={{ fontSize: '0.52rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>pts</div>
+        {sim && sim.ptsGain > 0
+          ? <div style={{ fontSize: '0.6rem', color: '#34D399', fontFamily: 'var(--font-mono)', fontWeight: 700 }}>+{sim.ptsGain}</div>
+          : <div style={{ fontSize: '0.52rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>pts</div>
+        }
       </div>
 
       {/* Desktop-only columns */}
@@ -458,11 +470,13 @@ function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enric
           {difAnterior != null ? `-${difAnterior}` : '—'}
         </div>
 
-        {/* Position delta */}
+        {/* Position delta — en simulación muestra el cambio proyectado vs oficial */}
         <div>
-          {hasAnyMovement
-            ? <DeltaBadge delta={enrich?.lastDelta ?? 0} movement={enrich?.lastMovement ?? 'same'} />
-            : <span style={{ display: 'block', textAlign: 'center', fontSize: '0.65rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>—</span>
+          {sim
+            ? <DeltaBadge delta={sim.rankDelta} movement={sim.rankDelta > 0 ? 'up' : sim.rankDelta < 0 ? 'down' : 'same'} />
+            : hasAnyMovement
+              ? <DeltaBadge delta={enrich?.lastDelta ?? 0} movement={enrich?.lastMovement ?? 'same'} />
+              : <span style={{ display: 'block', textAlign: 'center', fontSize: '0.65rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>—</span>
           }
         </div>
 
@@ -507,6 +521,7 @@ export default function Leaderboard() {
   const [search, setSearch]     = useState('')
   const navigate  = useNavigate()
   const isMobile  = useIsMobile(680)
+  const sim       = useSimulation(pageData?.lb)
 
   useEffect(() => {
     async function load() {
@@ -552,9 +567,17 @@ export default function Leaderboard() {
   if (!pageData) return <ErrorState />
 
   const { lb, userEnrich, hasAnyMovement, archDisplayMap, paidPositions, payoutsTotal, rachaMap, scoreMap, snapshotLabel, notStarted } = pageData
-  let safeData      = lb.filter(x => x?.user_id)
+
+  // Simulación activa: la MISMA tabla se alimenta del leaderboard proyectado (en memoria).
+  const simActive = sim.active && !!sim.projected
+  const baseLb    = simActive ? sim.projected : lb
+  // En simulación mostramos un ranking proyectado real (con rank/posiciones), nunca el
+  // estado neutral pre-torneo: el banner deja claro que es hipotético.
+  const showNeutral = notStarted && !simActive
+
+  let safeData = baseLb.filter(x => x?.user_id)
   // Pre-tournament: present everyone in neutral alphabetical order (no real ranking exists yet)
-  if (notStarted) {
+  if (showNeutral) {
     safeData = [...safeData].sort((a, b) =>
       (a.display_name ?? '').localeCompare(b.display_name ?? '', 'es', { sensitivity: 'base' })
     )
@@ -579,7 +602,7 @@ export default function Leaderboard() {
         </div>
         <p style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)' }}>
           {total} participantes
-          {notStarted
+          {showNeutral
             ? ' · Torneo sin iniciar'
             : <>
                 {paidPositions > 0 && ` · Top ${paidPositions} en zona de premios`}
@@ -589,10 +612,23 @@ export default function Leaderboard() {
       </motion.div>
 
       {/* ── Pre-tournament banner ── */}
-      {notStarted && <PreparationBanner />}
+      {showNeutral && <PreparationBanner />}
+
+      {/* ── Simulación: tarjeta (entrada) + banner (modo activo) ── */}
+      <SimulationCard
+        nextMatch={sim.nextMatch}
+        consensus={sim.consensus}
+        outcome={sim.outcome}
+        onSelect={sim.setOutcome}
+        isLastGroupMatch={sim.isLastGroupMatch}
+        fetching={sim.fetching}
+      />
+      {simActive && (
+        <SimulationBanner scenario={scenarioLabel(sim.outcome, sim.nextMatch)} onReset={sim.reset} />
+      )}
 
       {/* ── Summary cards ── */}
-      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} notStarted={notStarted} />
+      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} notStarted={showNeutral} />
 
       {/* ── Search ── */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}
@@ -624,13 +660,10 @@ export default function Leaderboard() {
                   </div>
                 ) : (
                   filtered.map((entry, index) => {
-                    const isPodium = entry.rank <= 3
-                    const isInZone = !isPodium && paidPositions > 0 && entry.rank <= paidPositions
-                    const isLastPodium = entry.rank === 3
-                    const isLastZone   = entry.rank === paidPositions
+                    const isLastZone = entry.rank === paidPositions
 
                     // Divider shown only after the last prize position — never pre-tournament
-                    const showPremiosLabel = !notStarted && !search && isLastZone && paidPositions < total
+                    const showPremiosLabel = !showNeutral && !search && isLastZone && paidPositions < total
 
                     // Stable alphabetical list number (independent of search filter)
                     const listNum = safeData.findIndex(u => u.user_id === entry.user_id) + 1
@@ -638,19 +671,26 @@ export default function Leaderboard() {
                     // Points of person ranked immediately above (rank-1, 0-indexed: rank-2)
                     const prevPts = entry.rank > 1 ? (safeData[entry.rank - 2]?.total_points ?? null) : null
 
+                    // Racha: en simulación, anexa la ganancia proyectada como casilla más
+                    // reciente (ventana de 6); fuera de simulación, la racha oficial.
+                    const baseRacha = rachaMap[entry.user_id]
+                    const rachaForRow = simActive
+                      ? [...(baseRacha ?? []), sim.deltas?.[entry.user_id]?.ptsGain ?? 0].slice(-6)
+                      : baseRacha
+
                     return (
                       <div key={entry.user_id}>
                         <TableRow
                           entry={entry}
                           index={index}
                           listNum={listNum}
-                          notStarted={notStarted}
+                          notStarted={showNeutral}
+                          sim={simActive ? sim.deltas?.[entry.user_id] : null}
                           scoreDetail={scoreMap[entry.user_id]}
-                          racha={rachaMap[entry.user_id]}
+                          racha={rachaForRow}
                           enrich={userEnrich[entry.user_id]}
                           archDisplayMap={archDisplayMap}
                           paidPositions={paidPositions}
-                          total={total}
                           hasAnyMovement={hasAnyMovement}
                           prevPts={prevPts}
                           lastZonePts={lastZonePts}

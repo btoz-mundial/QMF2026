@@ -54,6 +54,7 @@ export const loadEficienciaDePuntos         = () => fetchJSON(DATA_URLS.eficienc
 
 // ─── Analytics — engagement ──────────────────────────────────────────────────
 export const loadConsensoPartidos = () => fetchJSON(DATA_URLS.consensoPartidos)
+export const loadConsensoVotantes = () => fetchJSON(DATA_URLS.consensoVotantes)
 
 // ─── Analytics — intelligence ────────────────────────────────────────────────
 export const loadCampeonVivo      = () => fetchJSON(DATA_URLS.campeonVivo)
