@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   ArrowLeft, ChevronUp, ChevronDown, Minus,
-  Trophy, Check, X, Target, GitMerge, Crown,
+  Target, GitMerge, Crown,
 } from 'lucide-react'
 import { usePlayerProfile } from '@/hooks/usePlayerProfile'
 import { flagUrl, getTeam } from '@/utils/teams'
@@ -22,12 +22,6 @@ const RARITY_LABELS = {
   elite:         'ÉLITE',
   rare:          'DESTACADO',
   uncommon_rare: 'DESTACADO',
-}
-
-const PHASE_LABELS = {
-  group:     'Grupos',
-  standings: 'Tabla',
-  knockout:  'Knockout',
 }
 
 function classificationCutoff(total) { return Math.round(total / 5) }
@@ -836,7 +830,6 @@ function buildWavePoints(count, efficiency, volatility, seed, svgW, svgH) {
 }
 
 const PHASE_COLORS = { group: '#3B82F6', standings: '#F59E0B', knockout: '#10B981' }
-const PHASE_VOL    = { group: 0.65, standings: 0, knockout: 0.42 }
 
 const PHASE_IDENTITY = {
   group: {
@@ -981,7 +974,6 @@ function PhasePerformanceCard({ metrics, snapshots, userId, totalParticipants })
     : [{ x: K_START, y: rankToY(effToRank(cumEffAll)) }, { x: SVG_W, y: rankToY(effToRank(cumEffAll)) }]
 
   const gFirst = gPts[0]
-  const gLast  = gPts[gPts.length - 1]
   const kFirst = kPts[0]
 
   // ── Fill paths ─────────────────────────────────────────────────
@@ -1545,7 +1537,7 @@ function tlComputeVerdict(userLine, eliteCutoff = 3, startRank = null) {
 }
 
 // Direction-coded segments: each segment gets color + width based on movement + territory
-function tlBuildSegments(userLine, N, eliteCutoff = 3) {
+function tlBuildSegments(userLine, N) {
   if (userLine.length < 2) return []
   const danger = Math.ceil(N * 0.65)
   return userLine.slice(1).map((b, i) => {
@@ -1736,7 +1728,7 @@ function TimelineTab({ data, userId }) {
     ? Math.round(md12Pts.reduce((s, p) => s + p.rank, 0) / md12Pts.length)
     : (userLine[0]?.rank ?? 1)
   const verdict     = mode === 'story' ? tlComputeVerdict(userLine, eliteCutoff, startRank) : null
-  const segments    = mode === 'story' ? tlBuildSegments(userLine, N, eliteCutoff)  : []
+  const segments    = mode === 'story' ? tlBuildSegments(userLine, N)  : []
 
   // Phase boundaries
   const gSnaps = snapshots.filter(s => s.stage === 'group' && s.snapshot_match_id !== '+')
@@ -2410,7 +2402,7 @@ function TimelineTab({ data, userId }) {
 
               // 3. Pack context — fixed members from last snapshot
               if (ctx === 'pack' && packLines) {
-                packIds.forEach((uid, ki) => {
+                packIds.forEach((uid) => {
                   const lbEntry = allLB.find(x => x.user_id === uid) || {}
                   const line    = packLines[uid] || []
                   const pt      = line.find(p => p.idx === activeIdx)

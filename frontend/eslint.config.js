@@ -18,4 +18,13 @@ export default defineConfig([
       parserOptions: { ecmaFeatures: { jsx: true } },
     },
   },
+  // Archivos Node (config + scripts de tooling, CommonJS): globals de Node y
+  // require/__dirname permitidos. No son código de navegador/React.
+  {
+    files: ['**/*.config.js', 'analytics/**/*.js', 'public/**/*.js'],
+    languageOptions: {
+      globals: globals.node,
+      sourceType: 'commonjs',
+    },
+  },
 ])

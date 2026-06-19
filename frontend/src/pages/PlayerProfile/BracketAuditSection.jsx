@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Crown, ChevronDown, ChevronUp, ChevronRight, Check, X, Minus } from 'lucide-react'
+import { Crown, ChevronDown, ChevronUp, Check, X, Minus } from 'lucide-react'
 import { flagUrl, getTeam } from '@/utils/teams'
 
 // ─── Responsive hook ─────────────────────────────────────────────────────────
@@ -26,15 +26,6 @@ const STAGE_LABEL = {
   SEMI_FINAL:    'Semifinal',
   THIRD_PLACE:   'Tercer Lugar',
   FINAL:         'Final',
-}
-
-const STAGE_SHORT = {
-  ROUND_OF_32:   'R32',
-  ROUND_OF_16:   'R16',
-  QUARTER_FINAL: 'QF',
-  SEMI_FINAL:    'SF',
-  THIRD_PLACE:   '3P',
-  FINAL:         'FIN',
 }
 
 const BD_FIELDS = [
@@ -160,7 +151,7 @@ function DonutChart({ value, total, color = 'var(--color-primary)', size = 68, s
   )
 }
 
-function StatsHeader({ knockoutDetail, matchMap, teamMap, finalMatch, predictedChamp, bonus, isMobile }) {
+function StatsHeader({ knockoutDetail, teamMap, finalMatch, predictedChamp, bonus, isMobile }) {
   const played    = knockoutDetail.filter(m => !matchIsPending(m.result))
   const exactHits = played.filter(m => m.breakdown?.exact_goals).length
   const matchPts  = knockoutDetail.reduce((s, m) => s + (m.points ?? 0), 0)
@@ -385,7 +376,7 @@ function MatchRow({ m, teamMap, predictedChamp, bonusDetail }) {
 
 // ─── Mobile Match Card ────────────────────────────────────────────────────────
 
-function MobileMatchCard({ m, teamMap, predictedChamp, bonusDetail }) {
+function MobileMatchCard({ m, bonusDetail }) {
   const [expanded, setExpanded] = useState(false)
   const pending      = matchIsPending(m.result)
   const pred         = m.prediction ?? {}

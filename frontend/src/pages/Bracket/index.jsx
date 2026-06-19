@@ -99,7 +99,7 @@ function TeamRow({ team, goals, penalties, isWinner, isLoser, isChampPath, break
 
 // ─── Match Card (desktop) ─────────────────────────────────────────────────────
 
-function MatchCard({ matchId, result, pick, isChampPath, teamMap, meta }) {
+function MatchCard({ result, pick, isChampPath, teamMap, meta }) {
   const [showMeta, setShowMeta] = useState(false)
   const [tipRect, setTipRect] = useState(null)
   const wrapRef = React.useRef(null)
@@ -180,7 +180,7 @@ function ChampionBox({ result, pick, teamMap }) {
 
 // ─── Desktop Bracket ──────────────────────────────────────────────────────────
 
-function BracketColumn({ label, matches, pos, CARD_H, totalHeight, resultsMap, userPicksMap, championPath, teamMap, metaMap }) {
+function BracketColumn({ label, matches, CARD_H, totalHeight, resultsMap, userPicksMap, championPath, teamMap, metaMap }) {
   return (
     <div style={{ width:COL_W, flexShrink:0 }}>
       <div style={{ background:'var(--color-surface-2)',borderRadius:'5px 5px 0 0',padding:'6px 4px',textAlign:'center',fontSize:'11px',fontWeight:700,letterSpacing:'0.5px',color:'#D4A017',fontFamily:'var(--font-mono)',marginBottom:4 }}>{label}</div>

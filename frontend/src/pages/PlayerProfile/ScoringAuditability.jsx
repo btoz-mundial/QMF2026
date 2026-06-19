@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 
 function useIsMobile(bp = 680) {
   const [m, setM] = useState(() => window.innerWidth < bp)
@@ -283,7 +283,7 @@ function MetricsStrip({ section, ms }) {
 }
 
 // ─── Scoring Block ─────────────────────────────────────────────────────────────
-function ScoringBlock({ section, ms }) {
+function ScoringBlock({ section }) {
   const isFeatured = section.style === 'featured-card'
   return (
     <div style={{
@@ -461,7 +461,6 @@ function InfoStrip({ section, ms }) {
 
 // ─── Financial Example (Golf Split) — terminal-line when visual.row_style set ──
 function FinancialExample({ section, ms }) {
-  const isTerminalLine = ms.rowStyle === 'terminal-line'
   const numAlign = ms.numberAlign ?? 'left'
   return (
     <div style={{ marginBottom: ms.sectionGap }}>

@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
-import { BASE_TITLE, ROUTE_TITLES, setPageTitle } from '@/utils/pageTitle'
+import { ROUTE_TITLES, setPageTitle } from '@/utils/pageTitle'
 
 export default function TitleManager() {
   const { pathname } = useLocation()

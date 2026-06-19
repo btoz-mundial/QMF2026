@@ -23,7 +23,7 @@ export default function SimulationBanner({ scenario, onReset }) {
           🧪 Modo simulación
         </div>
         <div style={{ fontSize: '0.72rem', color: 'var(--color-text-2)', fontFamily: 'var(--font-mono)', marginTop: 2 }}>
-          Escenario: {scenario}. Los resultados mostrados son hipotéticos y no afectan el leaderboard oficial.
+          Tu predicción: {scenario}. Los resultados mostrados son hipotéticos y no afectan el leaderboard oficial.
         </div>
       </div>
       <button

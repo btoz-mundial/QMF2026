@@ -34,7 +34,7 @@ export default function SimulationCard({ nextMatch, consensus, outcome, onSelect
       {/* Encabezado */}
       <div style={{ display: 'flex', alignItems: 'baseline', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '0.5rem' }}>
         <span style={{ fontFamily: 'var(--font-display)', fontSize: '0.95rem', color: 'var(--color-primary)', letterSpacing: '0.05em' }}>
-          🔮 Simular próximo partido
+          🔮 Predice el próximo partido
         </span>
         {showNew && (
           <span style={{
