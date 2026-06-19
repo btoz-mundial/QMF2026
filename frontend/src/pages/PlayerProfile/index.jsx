@@ -1647,7 +1647,7 @@ function TLPulseStrip({ userLine }) {
         if (d === 0) return null
         const x = tlXS(p.idx)
         const h = Math.max(2.5, (Math.abs(d) / maxDelta) * maxH)
-        const isUp = d < 0                          // rank# down = improved position
+        const isUp = d > 0                          // rank_delta > 0 = subió de posición (mejoró) → verde arriba
         const col  = isUp ? '#34D399' : '#F87171'
         const py   = isUp ? base - h : base + h
         return (
