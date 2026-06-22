@@ -37,10 +37,10 @@ function assignTraits({
         'precise_advancements',
 
       label:
-        'Preciso en avances',
+        'Bola de Cristal',
 
       description:
-        'Alta precisión prediciendo equipos clasificados.',
+        'Adivina quién avanza con precisión sospechosa.',
 
       confidence:
         advanceAccuracy >= 0.85
@@ -88,10 +88,10 @@ function assignTraits({
         'high_volatility',
 
       label:
-        'Alta volatilidad',
+        'Montaña Rusa',
 
       description:
-        'Usuario con cambios fuertes de posición durante el torneo.',
+        'Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.',
 
       confidence:
         rankSwing >= volatilityThreshold * 1.5
@@ -134,7 +134,7 @@ function assignTraits({
         'Contendiente',
 
       description:
-        'Se mantiene constantemente en zona competitiva.',
+        'No se baja de la zona alta. Candidato peligroso.',
 
       confidence:
         worstRankPercentile <= 0.25
@@ -176,10 +176,10 @@ function assignTraits({
         'rising',
 
       label:
-        'En ascenso',
+        'Enrachado',
 
       description:
-        'Ha mejorado consistentemente en los últimos partidos.',
+        'Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?',
 
       confidence:
         momentumStrength >= 10
@@ -216,10 +216,10 @@ function assignTraits({
         'falling',
 
       label:
-        'Se desinfló',
+        'En Caída',
 
       description:
-        'Ha perdido posiciones recientemente.',
+        'Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?',
 
       confidence:
         momentumStrength >= 10
@@ -262,10 +262,10 @@ function assignTraits({
         'group_specialist',
 
       label:
-        'Especialista de grupos',
+        'Amo de Grupos',
 
       description:
-        'Destaca especialmente en la fase de grupos.',
+        'La fase de grupos es su territorio. Las eliminatorias dirán el resto.',
 
       confidence:
         strengthConfidence,
@@ -303,10 +303,10 @@ function assignTraits({
         'knockout_specialist',
 
       label:
-        'Especialista knockout',
+        'Bestia KO',
 
       description:
-        'Se fortalece conforme avanza el torneo.',
+        'Crece en eliminatorias, cuando el torneo se pone serio.',
 
       confidence:
         strengthConfidence,

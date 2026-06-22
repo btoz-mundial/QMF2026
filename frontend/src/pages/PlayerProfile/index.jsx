@@ -383,6 +383,24 @@ function HeroIdentitySection({ leaderboard, payoutEntry, totalParticipants, snap
               )}
             </div>
           </>
+        ) : visibleTraits.length > 0 ? (
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.625rem' }}>
+            <div style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', lineHeight: 1.5 }}>
+              Aún sin arquetipo, pero el torneo ya dejó señales:
+            </div>
+            {visibleTraits.map(t => (
+              <div key={t.id} style={{ display: 'flex', flexDirection: 'column', gap: '0.1rem' }}>
+                <span style={{ fontSize: '0.78rem', fontWeight: 700, fontFamily: 'var(--font-display)', color: 'var(--color-text-1)', letterSpacing: '0.02em' }}>
+                  {t.label}
+                </span>
+                {t.description && (
+                  <span style={{ fontSize: '0.68rem', color: 'var(--color-text-3)', lineHeight: 1.5 }}>
+                    {t.description}
+                  </span>
+                )}
+              </div>
+            ))}
+          </div>
         ) : (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.875rem', opacity: 0.50 }}>
             <svg viewBox="0 0 72 72" width="54" height="54" style={{ display: 'block', overflow: 'visible' }}>

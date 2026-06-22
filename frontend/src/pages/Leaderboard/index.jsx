@@ -102,7 +102,10 @@ function computeStreak(recentSnaps, userId) {
   return { direction: last.movement, count }
 }
 
-function buildEnrichment(timeline, archetypes, archRegistry) {
+// Traits "negativos" que no se muestran como reconocimiento público.
+const NEGATIVE_TRAITS = new Set(['falling'])
+
+function buildEnrichment(timeline, archetypes, archRegistry, traits) {
   const snaps    = timeline?.snapshots ?? []
   const lastSnap = snaps[snaps.length - 1]
   const recentSnaps = snaps.slice(-8)
@@ -119,6 +122,20 @@ function buildEnrichment(timeline, archetypes, archRegistry) {
   const archMap = {}
   ;(archetypes?.users ?? []).forEach(u => { archMap[u.user_id] = u.active_archetype })
 
+  // Trait más distintivo (positivo) por usuario: el de MENOR población global,
+  // excluyendo negativos. Se usa solo como fallback cuando no hay arquetipo.
+  const traitsArr = Array.isArray(traits) ? traits : (traits?.users ?? [])
+  const traitPop = {}
+  traitsArr.forEach(u => (u.traits ?? []).forEach(t => { traitPop[t.id] = (traitPop[t.id] ?? 0) + 1 }))
+  const traitMap = {}
+  traitsArr.forEach(u => {
+    const cands = (u.traits ?? []).filter(t => !NEGATIVE_TRAITS.has(t.id))
+    if (!cands.length) return
+    let best = cands[0]
+    for (const t of cands) if ((traitPop[t.id] ?? Infinity) < (traitPop[best.id] ?? Infinity)) best = t
+    traitMap[u.user_id] = { id: best.id, label: best.label }
+  })
+
   const userEnrich = {}
   for (const u of (lastSnap?.users ?? [])) {
     userEnrich[u.user_id] = {
@@ -126,7 +143,13 @@ function buildEnrichment(timeline, archetypes, archRegistry) {
       lastMovement: u.movement,
       streak:       computeStreak(recentSnaps, u.user_id),
       archetype:    archMap[u.user_id] ?? null,
+      trait:        traitMap[u.user_id] ?? null,
     }
+  }
+  // Asegura el trait aun para usuarios fuera del último snapshot.
+  for (const uid of Object.keys(traitMap)) {
+    if (!userEnrich[uid]) userEnrich[uid] = { lastDelta: 0, lastMovement: 'same', streak: null, archetype: archMap[uid] ?? null }
+    userEnrich[uid].trait = traitMap[uid]
   }
   return { userEnrich, hasAnyMovement, archDisplayMap }
 }
@@ -369,6 +392,8 @@ function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enric
 
   const archId = enrich?.archetype
   const arch   = archId ? (archDisplayMap?.[archId] ?? { label: archId, color: '#94A3B8' }) : null
+  // Sin arquetipo: chip de trait (reconocimiento más discreto, no "elite")
+  const trait  = !arch ? (enrich?.trait ?? null) : null
 
   const bonusPts = scoreDetail?.bonusPts ?? 0
 
@@ -430,6 +455,11 @@ function TableRow({ entry, index, listNum, notStarted, scoreDetail, racha, enric
         {arch && (
           <span style={{ fontSize: '0.48rem', fontWeight: 800, fontFamily: 'var(--font-mono)', color: arch.color, background: arch.color + '14', border: `1px solid ${arch.color}30`, padding: '1px 4px', borderRadius: 3, letterSpacing: '0.07em', display: 'inline-block', marginTop: 1 }}>
             {arch.label.toUpperCase()}
+          </span>
+        )}
+        {trait && (
+          <span title="Toca para ver su perfil" style={{ fontSize: '0.46rem', fontWeight: 700, fontFamily: 'var(--font-mono)', color: 'var(--color-text-3)', background: 'var(--color-surface-2)', border: '1px solid var(--color-border)', padding: '1px 4px', borderRadius: 3, letterSpacing: '0.06em', display: 'inline-block', marginTop: 1, opacity: 0.9 }}>
+            {trait.label.toUpperCase()}
           </span>
         )}
         {isMobile && (
@@ -525,7 +555,7 @@ export default function Leaderboard() {
 
   useEffect(() => {
     async function load() {
-      const [lb, timeline, archetypes, archRegistry, payouts, scoreDetails, status] = await Promise.all([
+      const [lb, timeline, archetypes, archRegistry, payouts, scoreDetails, status, traits] = await Promise.all([
         fetchOptional(DATA_URLS.leaderboard),
         fetchRobust(DATA_URLS.timelineRace),
         fetchOptional(DATA_URLS.archetypes),
@@ -533,6 +563,7 @@ export default function Leaderboard() {
         fetchOptional(DATA_URLS.payouts),
         fetchRobust(DATA_URLS.scoreDetails),
         fetchOptional(DATA_URLS.tournamentStatus),
+        fetchOptional(DATA_URLS.traits),
       ])
       if (!lb) { setLoading(false); return }
 
@@ -541,7 +572,7 @@ export default function Leaderboard() {
       const notStarted = (status?.completed_matches ?? 0) === 0
         && (lb.every(u => (u?.total_points ?? 0) === 0))
 
-      const { userEnrich, hasAnyMovement, archDisplayMap } = buildEnrichment(timeline, archetypes, archRegistry)
+      const { userEnrich, hasAnyMovement, archDisplayMap } = buildEnrichment(timeline, archetypes, archRegistry, traits)
       const rachaMap   = buildRachaBoxes(timeline)
       const scoreMap   = buildScoreMap(scoreDetails)
 
@@ -629,6 +660,29 @@ export default function Leaderboard() {
 
       {/* ── Summary cards ── */}
       <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} notStarted={showNeutral} />
+
+      {/* ── Aviso: Rasgos del Jugador desbloqueados (se oculta tras 6-jul-2026) ── */}
+      {!search && !simActive && new Date() < new Date(2026, 6, 6) && (
+        <motion.div
+          initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }}
+          style={{
+            display: 'flex', alignItems: 'center', gap: '0.75rem',
+            background: 'color-mix(in srgb, var(--color-accent) 7%, var(--color-surface))',
+            border: '1px solid color-mix(in srgb, var(--color-accent) 28%, var(--color-border))',
+            borderRadius: 10, padding: '0.7rem 1rem', marginBottom: '0.75rem',
+          }}
+        >
+          <span style={{ fontSize: '1.05rem', flexShrink: 0 }}>🎖️</span>
+          <div style={{ minWidth: 0 }}>
+            <div style={{ fontFamily: 'var(--font-display)', fontSize: '0.85rem', color: 'var(--color-accent)', letterSpacing: '0.06em', textTransform: 'uppercase', lineHeight: 1.3 }}>
+              Rasgos del Jugador desbloqueados
+            </div>
+            <div style={{ fontSize: '0.72rem', color: 'var(--color-text-3)', fontFamily: 'var(--font-mono)', marginTop: 2 }}>
+              La madurez del torneo ha desbloqueado los rasgos de cada jugador. Selecciona el renglón de un jugador para descubrirlos.
+            </div>
+          </div>
+        </motion.div>
+      )}
 
       {/* ── Search ── */}
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.1 }}
