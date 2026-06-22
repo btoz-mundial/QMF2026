@@ -2,7 +2,7 @@
 // GET PHASE STRENGTH
 // ======================================
 
-function getPhaseStrength(userDetails = {}) {
+function getPhaseStrength(userDetails = {}, groupCutoff = 0.25) {
 
   // ======================================
   // GROUP
@@ -102,35 +102,56 @@ const knockoutAccuracy =
   let strongestPhase =
     'balanced';
 
-  // ======================================
-  // GROUP SPECIALIST
-  // ======================================
+  // ¿Ya existen partidos de eliminatorias en el detalle del usuario?
+  const hasKnockout =
+    knockoutMatches > 0;
 
-  if (
+  if (!hasKnockout) {
 
-    groupAccuracy >=
-    knockoutAccuracy + 0.25
+    // ======================================
+    // SIN ELIMINATORIAS (estado actual del torneo)
+    // El especialista de grupos depende SOLO de su acierto en grupos,
+    // contra un corte relativo del campo (top N%) que pasa el generador.
+    // ======================================
 
-  ) {
+    if (groupAccuracy >= groupCutoff) {
 
-    strongestPhase =
-      'group';
+      strongestPhase =
+        'group';
 
-  }
+    }
 
-  // ======================================
-  // KNOCKOUT SPECIALIST
-  // ======================================
+  } else {
 
-  if (
+    // ======================================
+    // CON ELIMINATORIAS — regla comparativa original
+    // ======================================
 
-    knockoutAccuracy >=
-    groupAccuracy + 0.25
+    // GROUP SPECIALIST
+    if (
 
-  ) {
+      groupAccuracy >=
+      knockoutAccuracy + 0.25
 
-    strongestPhase =
-      'knockout';
+    ) {
+
+      strongestPhase =
+        'group';
+
+    }
+
+    // KNOCKOUT SPECIALIST
+    if (
+
+      knockoutAccuracy >=
+      groupAccuracy + 0.25
+
+    ) {
+
+      strongestPhase =
+        'knockout';
+
+    }
 
   }
 

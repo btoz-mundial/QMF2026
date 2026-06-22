@@ -61,6 +61,31 @@ const OUTPUT_PATH =
 
 
 // ======================================
+// GROUP SPECIALIST — CORTE RELATIVO
+// ======================================
+// "Amo de Grupos" no es un umbral fijo: es el top 35% del campo en acierto de
+// grupos (se auto-calibra cada corrida). Mismo cálculo de acierto que getPhaseStrength.
+
+const GROUP_SPECIALIST_TOP = 0.35;
+
+function groupAccuracyOf(details) {
+  const g = details?.group || [];
+  if (!g.length) return 0;
+  const ok = g.filter(m => m?.breakdown?.correct === true).length;
+  return ok / g.length;
+}
+
+function computeGroupCutoff(users, topFraction) {
+  const accs = users
+    .map(u => groupAccuracyOf(u))
+    .sort((a, b) => b - a);
+  if (!accs.length) return 0.25;
+  const idx = Math.min(accs.length - 1, Math.floor(accs.length * topFraction));
+  return accs[idx];
+}
+
+
+// ======================================
 // LOAD JSON
 // ======================================
 
@@ -111,7 +136,8 @@ function buildUserTraits({
   user,
   userDetails,
   snapshots,
-  totalUsers
+  totalUsers,
+  groupCutoff
 
 }) {
 
@@ -147,7 +173,8 @@ function buildUserTraits({
 
   const phaseStrength =
     getPhaseStrength(
-      userDetails || {}
+      userDetails || {},
+      groupCutoff
     );
 
   // ======================================
@@ -223,6 +250,14 @@ function main() {
   const snapshots =
     loadSnapshots();
 
+  // Corte relativo de "Amo de Grupos": top 35% del campo en acierto de grupos.
+  const groupCutoff =
+    computeGroupCutoff(users, GROUP_SPECIALIST_TOP);
+
+  console.log(
+    `   Amo de Grupos: corte top ${Math.round(GROUP_SPECIALIST_TOP * 100)}% → acierto >= ${Math.round(groupCutoff * 100)}%`
+  );
+
   // ======================================
   // BUILD
   // ======================================
@@ -253,7 +288,9 @@ function main() {
       snapshots,
 
       totalUsers:
-        users.length
+        users.length,
+
+      groupCutoff
 
     });
 
