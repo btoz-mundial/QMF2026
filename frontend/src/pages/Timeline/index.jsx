@@ -295,7 +295,7 @@ function MovementFeed({ snapshot, allUsers }) {
 
 // ─── Ranking Timeline Chart ───────────────────────────────────────────────────
 
-function RankingTimeline({ rankingData, allUsers, currentIndex }) {
+function RankingTimeline({ rankingData, allUsers }) {
   const [selectedUsers, setSelectedUsers] = useState([])
   const [search, setSearch] = useState('')
   const [dropdownOpen, setDropdownOpen] = useState(false)

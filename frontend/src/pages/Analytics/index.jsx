@@ -578,7 +578,7 @@ function MatchRow({ match, teamIso2 }) {
   )
 }
 
-function MenteColectiva({ consensoStats, teamIso2, isMobile }) {
+function MenteColectiva({ consensoStats, isMobile }) {
   if (!consensoStats) return null
   if (consensoStats.empty) {
     return (
@@ -739,7 +739,7 @@ function CompetitiveIdentityCard({ archetypeCounts, archRegistry, totalUsers, is
               onMouseLeave={() => setHoveredTile(null)}
             >
               {tooltip && isHovered && (
-                <div style={{ position: 'absolute', bottom: 'calc(100% + 6px)', left: '10%', transform: 'translateX(-10%)', zIndex: 50, background: 'var(--color-surface)', border: `1px solid ${s.border}`, borderRadius: 7, padding: '5px 9px', fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: active ? s.color : 'var(--color-text-2)', whiteSpace: 'nowrap', pointerEvents: 'none', boxShadow: '0 4px 16px rgba(0,0,0,0.4)', maxWidth: 200, whiteSpace: 'normal', textAlign: 'center', lineHeight: 1.4 }}>
+                <div style={{ position: 'absolute', bottom: 'calc(100% + 6px)', left: '10%', transform: 'translateX(-10%)', zIndex: 50, background: 'var(--color-surface)', border: `1px solid ${s.border}`, borderRadius: 7, padding: '5px 9px', fontSize: '0.58rem', fontFamily: 'var(--font-mono)', color: active ? s.color : 'var(--color-text-2)', pointerEvents: 'none', boxShadow: '0 4px 16px rgba(0,0,0,0.4)', maxWidth: 200, whiteSpace: 'normal', textAlign: 'center', lineHeight: 1.4 }}>
                   {tooltip}
                 </div>
               )}
@@ -1093,9 +1093,8 @@ function CommunityTraitsCard({ enrichedMatches, lb, archetypeCounts, totalUsers,
     ARCH_ORDER.forEach(id => { const c = archetypeCounts?.[id] ?? 0; if (c > domCount) { domCount = c; domId = id } })
     const domPct   = revealed > 0 ? domCount / revealed * 100 : 0
     const domName  = domId ? (ARCH_DISPLAY_NAMES[domId] ?? domId) : '—'
-    const domColor = domId ? ARCH_STYLE[domId]?.color : '#A78BFA'
     if (domPct > 40) {
-      t5Title = `ADN: ${domName}`; t5Sub = `${Math.round(domPct)}% de revelados · ${revealed} de ${totalUsers} participantes`; t5Color = '#c059f7' ?? '#A78BFA'
+      t5Title = `ADN: ${domName}`; t5Sub = `${Math.round(domPct)}% de revelados · ${revealed} de ${totalUsers} participantes`; t5Color = '#c059f7'
     } else {
       t5Title = 'Identidades diversas'; t5Sub = `Sin arquetipo dominante · ${revealed} de ${totalUsers} revelados`; t5Color = '#A78BFA'
     }
@@ -1836,7 +1835,7 @@ export default function Analytics() {
     avgPhaseAccuracy,
     champList, archetypeCounts, archRegistry, totalUsers,
     matchToShow, isUpcoming, matchToShowMeta,
-    consensoStats, hasResults, upcomingMatches, enrichedMatches,
+    consensoStats, hasResults, enrichedMatches,
     votersByMatch, userMap,
   } = data
 

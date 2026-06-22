@@ -586,12 +586,6 @@ export default function Groups() {
     .filter(m => m.group === selectedGroup)
     .sort((a, b) => a.match_id - b.match_id)
 
-  const jornadas = [
-    groupMatches.slice(0, 2),
-    groupMatches.slice(2, 4),
-    groupMatches.slice(4, 6),
-  ]
-
   const temporalGroup  = temporalStandings?.groups?.find(g => g.group === selectedGroup)
   // isOfficial solo si status=final Y al menos un equipo tiene real_team no-nulo
   const hasRealTeams   = standingsResults?.groups?.some(g => g.positions?.some(p => p.real_team != null))
