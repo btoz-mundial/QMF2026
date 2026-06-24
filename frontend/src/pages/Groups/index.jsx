@@ -587,9 +587,13 @@ export default function Groups() {
     .sort((a, b) => a.match_id - b.match_id)
 
   const temporalGroup  = temporalStandings?.groups?.find(g => g.group === selectedGroup)
-  // isOfficial solo si status=final Y al menos un equipo tiene real_team no-nulo
-  const hasRealTeams   = standingsResults?.groups?.some(g => g.positions?.some(p => p.real_team != null))
-  const isOfficial     = standingsResults?.status === 'final' && hasRealTeams
+  // Standings oficiales SOLO cuando la fase de grupos está completa: mismo disparador
+  // que el snapshot 72.5 y el scoring (todos los partidos de grupo en 'final').
+  // No usar status (el ingest lo hardcodea 'final') ni real_team (no lo emite el ingest).
+  const groupStageComplete =
+    Array.isArray(groupResults) && groupResults.length > 0 &&
+    groupResults.every(m => m.status === 'final')
+  const isOfficial     = groupStageComplete && !!standingsResults?.groups
   const officialGroup  = isOfficial
     ? standingsResults.groups?.find(g => g.group === selectedGroup)
     : null
