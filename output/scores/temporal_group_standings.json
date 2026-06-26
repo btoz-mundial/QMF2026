@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26T00:58:49.265Z",
-  "snapshot_match_id": 58,
+  "generated_at": "2026-06-26T21:06:12.135Z",
+  "snapshot_match_id": 62,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -163,25 +163,26 @@
         {
           "team": "USA",
           "pts": 6,
-          "pj": 2,
+          "pj": 3,
           "pg": 2,
           "pe": 0,
-          "pp": 0,
-          "gf": 6,
-          "gc": 1,
-          "dg": 5,
+          "pp": 1,
+          "gf": 8,
+          "gc": 4,
+          "dg": 4,
           "position": 1,
           "form": [
             "W",
-            "W"
+            "W",
+            "L"
           ]
         },
         {
           "team": "Australia",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
           "gf": 2,
           "gc": 2,
@@ -189,15 +190,16 @@
           "position": 2,
           "form": [
             "W",
-            "L"
+            "L",
+            "D"
           ]
         },
         {
           "team": "Paraguay",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
           "gf": 2,
           "gc": 4,
@@ -205,23 +207,25 @@
           "position": 3,
           "form": [
             "L",
-            "W"
+            "W",
+            "D"
           ]
         },
         {
           "team": "Turquia",
-          "pts": 0,
-          "pj": 2,
-          "pg": 0,
+          "pts": 3,
+          "pj": 3,
+          "pg": 1,
           "pe": 0,
           "pp": 2,
-          "gf": 0,
-          "gc": 3,
-          "dg": -3,
+          "gf": 3,
+          "gc": 5,
+          "dg": -2,
           "position": 4,
           "form": [
             "L",
-            "L"
+            "L",
+            "W"
           ]
         }
       ]
@@ -588,16 +592,17 @@
       "table": [
         {
           "team": "Francia",
-          "pts": 6,
-          "pj": 2,
-          "pg": 2,
+          "pts": 9,
+          "pj": 3,
+          "pg": 3,
           "pe": 0,
           "pp": 0,
-          "gf": 6,
-          "gc": 1,
-          "dg": 5,
+          "gf": 10,
+          "gc": 2,
+          "dg": 8,
           "position": 1,
           "form": [
+            "W",
             "W",
             "W"
           ]
@@ -605,47 +610,50 @@
         {
           "team": "Noruega",
           "pts": 6,
-          "pj": 2,
+          "pj": 3,
           "pg": 2,
           "pe": 0,
-          "pp": 0,
-          "gf": 7,
-          "gc": 3,
-          "dg": 4,
+          "pp": 1,
+          "gf": 8,
+          "gc": 7,
+          "dg": 1,
           "position": 2,
           "form": [
             "W",
-            "W"
+            "W",
+            "L"
           ]
         },
         {
           "team": "Senegal",
-          "pts": 0,
-          "pj": 2,
-          "pg": 0,
+          "pts": 3,
+          "pj": 3,
+          "pg": 1,
           "pe": 0,
           "pp": 2,
-          "gf": 3,
+          "gf": 8,
           "gc": 6,
-          "dg": -3,
+          "dg": 2,
           "position": 3,
           "form": [
             "L",
-            "L"
+            "L",
+            "W"
           ]
         },
         {
           "team": "Irak",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
+          "pp": 3,
           "gf": 1,
-          "gc": 7,
-          "dg": -6,
+          "gc": 12,
+          "dg": -11,
           "position": 4,
           "form": [
+            "L",
             "L",
             "L"
           ]

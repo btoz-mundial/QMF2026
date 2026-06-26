@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T00:58:50.189Z",
+  "generated_at": "2026-06-26T21:06:13.817Z",
   "system": "runtime_archetypes",
   "version": "v1",
   "users": [
@@ -32,19 +32,8 @@
       "change_type": null
     },
     {
-      "user_id": "6172891E3A",
-      "display_name": "FMV",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "3C3D690EE4",
-      "display_name": "GSG",
+      "user_id": "CAA8D66DAA",
+      "display_name": "LRMS",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -76,8 +65,8 @@
       "change_type": null
     },
     {
-      "user_id": "CAA8D66DAA",
-      "display_name": "LRMS",
+      "user_id": "6172891E3A",
+      "display_name": "FMV",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -87,8 +76,8 @@
       "change_type": null
     },
     {
-      "user_id": "349A5D07D9",
-      "display_name": "Pacotrevi",
+      "user_id": "3C3D690EE4",
+      "display_name": "GSG",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -100,28 +89,6 @@
     {
       "user_id": "DB48897D9E",
       "display_name": "IPM",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "80920F584F",
-      "display_name": "Jesus Edilberto",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "2383A882D9",
-      "display_name": "JPGR",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -164,6 +131,17 @@
       "change_type": null
     },
     {
+      "user_id": "349A5D07D9",
+      "display_name": "Pacotrevi",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
       "user_id": "B97C49CA8A",
       "display_name": "YP",
       "active_archetype": null,
@@ -175,8 +153,30 @@
       "change_type": null
     },
     {
-      "user_id": "7178DB5D04",
-      "display_name": "AleXtremo",
+      "user_id": "80920F584F",
+      "display_name": "Jesus Edilberto",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "0C09D57C3D",
+      "display_name": "Nacho Luna",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "C9CE9AF477",
+      "display_name": "Shadai LL",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -195,17 +195,6 @@
       "previous_archetype": null,
       "archetype_changed": false,
       "change_type": null
-    },
-    {
-      "user_id": "A8FD28D6BA",
-      "display_name": "CEGM",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": "front_runner",
-      "archetype_changed": true,
-      "change_type": "demoted"
     },
     {
       "user_id": "EF919C72F7",
@@ -230,8 +219,8 @@
       "change_type": null
     },
     {
-      "user_id": "B13A945BF8",
-      "display_name": "IFCR",
+      "user_id": "2383A882D9",
+      "display_name": "JPGR",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -243,17 +232,6 @@
     {
       "user_id": "E9831BEEE3",
       "display_name": "LCV",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "0C09D57C3D",
-      "display_name": "Nacho Luna",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -329,52 +307,8 @@
       "change_type": null
     },
     {
-      "user_id": "C9CE9AF477",
-      "display_name": "Shadai LL",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "6665E150B0",
-      "display_name": "ARLO",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "D351395C7E",
-      "display_name": "FJGA",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "E0B28E3E04",
-      "display_name": "JLSuriano",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "72A9ED8F20",
-      "display_name": "Pipo",
+      "user_id": "7178DB5D04",
+      "display_name": "AleXtremo",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -395,8 +329,8 @@
       "change_type": null
     },
     {
-      "user_id": "5283E0D056",
-      "display_name": "Beth",
+      "user_id": "A8FD28D6BA",
+      "display_name": "CEGM",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -417,6 +351,72 @@
       "change_type": null
     },
     {
+      "user_id": "D351395C7E",
+      "display_name": "FJGA",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "B13A945BF8",
+      "display_name": "IFCR",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "72A9ED8F20",
+      "display_name": "Pipo",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "6665E150B0",
+      "display_name": "ARLO",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "5283E0D056",
+      "display_name": "Beth",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "23C4468823",
+      "display_name": "David Magaña",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
       "user_id": "E201266422",
       "display_name": "Felix Varela",
       "active_archetype": null,
@@ -428,19 +428,8 @@
       "change_type": null
     },
     {
-      "user_id": "16310FEBE5",
-      "display_name": "GilGzz",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "1AC2FE7AF5",
-      "display_name": "HZE",
+      "user_id": "278ECC1B7A",
+      "display_name": "Hernangzz",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -472,107 +461,8 @@
       "change_type": null
     },
     {
-      "user_id": "CB1163524F",
-      "display_name": "RRT",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "91F0A88C8D",
-      "display_name": "Steve Gerald",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "B3B92F46ED",
-      "display_name": "BODI",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "23C4468823",
-      "display_name": "David Magaña",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "AE26D11B16",
-      "display_name": "ExiliadosFC",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "0933C88879",
-      "display_name": "Golden Eagle",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "278ECC1B7A",
-      "display_name": "Hernangzz",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "198CA6C5CB",
-      "display_name": "JAGOL",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "5EC15D0CF2",
-      "display_name": "JMtzCelis",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "9C75772EA0",
-      "display_name": "JuanPI",
+      "user_id": "E0B28E3E04",
+      "display_name": "JLSuriano",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -593,8 +483,118 @@
       "change_type": null
     },
     {
+      "user_id": "91F0A88C8D",
+      "display_name": "Steve Gerald",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "AE26D11B16",
+      "display_name": "ExiliadosFC",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "16310FEBE5",
+      "display_name": "GilGzz",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "1AC2FE7AF5",
+      "display_name": "HZE",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "198CA6C5CB",
+      "display_name": "JAGOL",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "31A6CB0C21",
+      "display_name": "Jerry",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "432BF50FA9",
+      "display_name": "Jose Treviño",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "9C75772EA0",
+      "display_name": "JuanPI",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "4CA014CA5E",
+      "display_name": "Luigi R",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
       "user_id": "1829AF0B20",
       "display_name": "Memo Garcia",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "F4DAEB067A",
+      "display_name": "MEMR",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -626,8 +626,8 @@
       "change_type": null
     },
     {
-      "user_id": "F07429A0E3",
-      "display_name": "ARR",
+      "user_id": "CB1163524F",
+      "display_name": "RRT",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -637,8 +637,41 @@
       "change_type": null
     },
     {
-      "user_id": "31A6CB0C21",
-      "display_name": "Jerry",
+      "user_id": "B3B92F46ED",
+      "display_name": "BODI",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "B8964AAF79",
+      "display_name": "DiegoMagaña",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "0933C88879",
+      "display_name": "Golden Eagle",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "5EC15D0CF2",
+      "display_name": "JMtzCelis",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -659,41 +692,19 @@
       "change_type": null
     },
     {
-      "user_id": "432BF50FA9",
-      "display_name": "Jose Treviño",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "4CA014CA5E",
-      "display_name": "Luigi R",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "F4DAEB067A",
-      "display_name": "MEMR",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
       "user_id": "A3C25D9D42",
       "display_name": "Santiago Gutierrez",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "F07429A0E3",
+      "display_name": "ARR",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -725,41 +736,19 @@
       "change_type": null
     },
     {
-      "user_id": "B8964AAF79",
-      "display_name": "DiegoMagaña",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "4EE3A0CA82",
-      "display_name": "AJV",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
-      "user_id": "C19435FB3E",
-      "display_name": "RO11",
-      "active_archetype": null,
-      "eligible_archetypes": [],
-      "rejected_by_precedence": [],
-      "activation_reasons": [],
-      "previous_archetype": null,
-      "archetype_changed": false,
-      "change_type": null
-    },
-    {
       "user_id": "2BC645A052",
       "display_name": "BtoZ",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
+      "user_id": "E4FC183EB7",
+      "display_name": "LJMV",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],
@@ -780,6 +769,17 @@
       "change_type": null
     },
     {
+      "user_id": "C19435FB3E",
+      "display_name": "RO11",
+      "active_archetype": null,
+      "eligible_archetypes": [],
+      "rejected_by_precedence": [],
+      "activation_reasons": [],
+      "previous_archetype": null,
+      "archetype_changed": false,
+      "change_type": null
+    },
+    {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
       "active_archetype": null,
@@ -791,8 +791,8 @@
       "change_type": null
     },
     {
-      "user_id": "E4FC183EB7",
-      "display_name": "LJMV",
+      "user_id": "4EE3A0CA82",
+      "display_name": "AJV",
       "active_archetype": null,
       "eligible_archetypes": [],
       "rejected_by_precedence": [],

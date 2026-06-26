@@ -21,6 +21,26 @@ function buildChampionPath(champion, bracketGraph, resultsMap) {
 }
 
 /**
+ * Build a map of slot → feeder match.
+ * For every match that feeds_into {match_id, slot}, record which match fills that slot.
+ * Lets empty downstream slots show "Gan. M##" instead of a bare TBD.
+ * R32 slots fed from the group stage are not in feeds_into, so they remain unlabeled.
+ */
+function buildOriginMap(bracketGraph) {
+  const origin = {}
+  const add = (target, feederId, type) => {
+    if (!target?.match_id || !target.slot) return
+    if (!origin[target.match_id]) origin[target.match_id] = {}
+    origin[target.match_id][target.slot] = { matchId: parseInt(feederId), type }
+  }
+  Object.entries(bracketGraph).forEach(([feederId, info]) => {
+    add(info.feeds_into, feederId, 'winner')
+    add(info.loser_feeds_into, feederId, 'loser')
+  })
+  return origin
+}
+
+/**
  * Build the full visual layout from r32_render_order.
  * Returns: { left: { col1:[], col2:[], col3:[], col4:[] }, right: { col1:[], col2:[], col3:[], col4:[] }, center: { final, third } }
  * Each array is ordered top-to-bottom with { matchId, centerY }.
@@ -132,6 +152,7 @@ export function useBracket(userId = null) {
         const champion   = finalEntry ? resultsMap[parseInt(finalEntry[0])]?.advance_team ?? null : null
         const championPath = buildChampionPath(champion, bracketGraph, resultsMap)
         const layout = buildLayout(r32RenderOrder, bracketGraph)
+        const originMap = buildOriginMap(bracketGraph)
 
         // Fusiona el ranking del leaderboard en userIndex (para mostrar "#N" junto al nombre)
         const rankMap = {}
@@ -141,7 +162,7 @@ export function useBracket(userId = null) {
         setData({
           bracketGraph, resultsMap, metaMap, userPicksMap,
           userIndex: userIndexRanked, teamMap, champion, championPath,
-          layout, r32RenderOrder,
+          layout, r32RenderOrder, originMap,
         })
       })
       .catch(setError)

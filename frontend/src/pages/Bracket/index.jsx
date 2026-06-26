@@ -68,7 +68,8 @@ function BdChip({ label, earned }) {
 
 // ─── Team Row (desktop) ───────────────────────────────────────────────────────
 
-function TeamRow({ team, goals, penalties, isWinner, isLoser, isChampPath, breakdown, slot, teamMap }) {
+function TeamRow({ team, goals, penalties, isWinner, isLoser, isChampPath, breakdown, slot, teamMap, originId }) {
+  const isTBD   = !team || team === 'TBD'
   const td      = getTeam(team, teamMap)
   const flag    = flagUrl(td?.iso2)
   const goalKey = slot==='home'?'home_goals':'away_goals'
@@ -83,7 +84,9 @@ function TeamRow({ team, goals, penalties, isWinner, isLoser, isChampPath, break
     <div style={{ display:'flex',alignItems:'center',gap:4,padding:'4px 7px',minHeight:30,borderBottom:'1px solid var(--color-border)',background:isWinner&&isChampPath?'rgba(212,160,23,0.08)':isWinner?'color-mix(in srgb, var(--color-success) 5%, transparent)':'transparent' }}>
       <div style={{ width:3,minHeight:22,borderRadius:1,flexShrink:0,background:accent }}/>
       {flag&&<img src={flag} alt="" style={{ width:18,height:12,objectFit:'cover',borderRadius:1,flexShrink:0,opacity:isLoser?0.4:1 }}/>}
-      <span style={{ flex:1,fontSize:'11px',fontWeight:isWinner?700:500,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap',color:nameClr }}>{team??'TBD'}</span>
+      {isTBD&&originId
+        ? <span style={{ flex:1,fontSize:'10px',fontFamily:'var(--font-mono)',fontWeight:600,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap',color:'var(--color-text-3)',letterSpacing:'0.3px' }}>{originId.type==='loser'?'Perd.':'Gan.'} M{originId.matchId}</span>
+        : <span style={{ flex:1,fontSize:'11px',fontWeight:isWinner?700:500,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap',color:nameClr }}>{team??'TBD'}</span>}
       {goals!==null&&goals!==undefined?(
         <div style={{ display:'flex',alignItems:'center',gap:2,flexShrink:0 }}>
           {goalPt&&<span style={{ fontSize:'9px',color:goalClr,fontFamily:'var(--font-mono)',fontWeight:700 }}>{goalPt}</span>}
@@ -99,7 +102,7 @@ function TeamRow({ team, goals, penalties, isWinner, isLoser, isChampPath, break
 
 // ─── Match Card (desktop) ─────────────────────────────────────────────────────
 
-function MatchCard({ result, pick, isChampPath, teamMap, meta }) {
+function MatchCard({ result, pick, isChampPath, teamMap, meta, origins }) {
   const [showMeta, setShowMeta] = useState(false)
   const [tipRect, setTipRect] = useState(null)
   const wrapRef = React.useRef(null)
@@ -119,10 +122,11 @@ function MatchCard({ result, pick, isChampPath, teamMap, meta }) {
       }}
       onMouseLeave={()=>{ setShowMeta(false); setTipRect(null) }}>
       <div style={{ background:'var(--color-surface)',border:`1px solid ${border}`,borderRadius:5,overflow:'hidden',boxShadow:isChampPath&&!pending?'0 0 10px rgba(212,160,23,0.2)':'none',width:'100%' }}>
-        <TeamRow team={home} goals={result?.home_goals} penalties={result?.home_penalties} isWinner={adv===home} isLoser={!pending&&adv!==null&&adv!==home} isChampPath={isChampPath} breakdown={pick?.breakdown} slot="home" teamMap={teamMap}/>
-        <TeamRow team={away} goals={result?.away_goals} penalties={result?.away_penalties} isWinner={adv===away} isLoser={!pending&&adv!==null&&adv!==away} isChampPath={isChampPath} breakdown={pick?.breakdown} slot="away" teamMap={teamMap}/>
+        <TeamRow team={home} goals={result?.home_goals} penalties={result?.home_penalties} isWinner={adv===home} isLoser={!pending&&adv!==null&&adv!==home} isChampPath={isChampPath} breakdown={pick?.breakdown} slot="home" teamMap={teamMap} originId={origins?.home}/>
+        <TeamRow team={away} goals={result?.away_goals} penalties={result?.away_penalties} isWinner={adv===away} isLoser={!pending&&adv!==null&&adv!==away} isChampPath={isChampPath} breakdown={pick?.breakdown} slot="away" teamMap={teamMap} originId={origins?.away}/>
         <div style={{ display:'flex',alignItems:'center',justifyContent:'space-between',padding:'3px 7px',background:'color-mix(in srgb, var(--color-bg) 50%, transparent)',borderTop:'1px solid var(--color-border)',minHeight:18,gap:3 }}>
           <div style={{ display:'flex',alignItems:'center',gap:3,flexWrap:'nowrap' }}>
+            {meta&&(meta.match_date||meta.kickoff_utc)?<span style={{ fontSize:'8px',fontFamily:'var(--font-mono)',fontWeight:600,color:'var(--color-text-3)',flexShrink:0,letterSpacing:'0.2px' }}>{meta.match_date}{meta.match_date&&meta.kickoff_utc?' · ':''}{meta.kickoff_utc}</span>:null}
             {wt?<span style={{ fontSize:'8px',fontFamily:'var(--font-mono)',fontWeight:700,color:'var(--color-text-1)',background:'rgba(226,232,240,0.10)',border:'1px solid rgba(226,232,240,0.22)',padding:'1px 4px',borderRadius:3,flexShrink:0 }}>{wt}</span>:null}
             {meta&&<span style={{ display:'inline-flex',alignItems:'center',cursor:'help',color:showMeta?'var(--color-primary)':'var(--color-text-3)',opacity:showMeta?1:0.5,transition:'color 0.15s,opacity 0.15s',flexShrink:0 }}><Info size={9} strokeWidth={2}/></span>}
             {bd&&!pending&&<>
@@ -180,14 +184,14 @@ function ChampionBox({ result, pick, teamMap }) {
 
 // ─── Desktop Bracket ──────────────────────────────────────────────────────────
 
-function BracketColumn({ label, matches, CARD_H, totalHeight, resultsMap, userPicksMap, championPath, teamMap, metaMap }) {
+function BracketColumn({ label, matches, CARD_H, totalHeight, resultsMap, userPicksMap, championPath, teamMap, metaMap, originMap }) {
   return (
     <div style={{ width:COL_W, flexShrink:0 }}>
       <div style={{ background:'var(--color-surface-2)',borderRadius:'5px 5px 0 0',padding:'6px 4px',textAlign:'center',fontSize:'11px',fontWeight:700,letterSpacing:'0.5px',color:'#D4A017',fontFamily:'var(--font-mono)',marginBottom:4 }}>{label}</div>
       <div style={{ position:'relative', height:totalHeight }}>
         {matches.map(({ matchId, centerY }) => (
           <div key={matchId} style={{ position:'absolute', top: centerY - CARD_H/2, left:0, right:0 }}>
-            <MatchCard matchId={matchId} result={resultsMap[matchId]} pick={userPicksMap[matchId]} isChampPath={championPath.has(matchId)} teamMap={teamMap} meta={metaMap?.[matchId]}/>
+            <MatchCard matchId={matchId} result={resultsMap[matchId]} pick={userPicksMap[matchId]} isChampPath={championPath.has(matchId)} teamMap={teamMap} meta={metaMap?.[matchId]} origins={originMap?.[matchId]}/>
           </div>
         ))}
       </div>
@@ -195,7 +199,7 @@ function BracketColumn({ label, matches, CARD_H, totalHeight, resultsMap, userPi
   )
 }
 
-function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMap, metaMap }) {
+function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMap, metaMap, originMap }) {
   const { left, right, finalId, thirdId, pos, totalHeight, CARD_H } = layout
   // centerY real de las SF = centro donde debe ir la final (no totalHeight/2)
   const finalCenterY = left?.[3]?.[0]?.centerY ?? totalHeight / 2
@@ -208,7 +212,7 @@ function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMa
 
         {/* Left side: R32 → R16 → QF → SF */}
         {[0,1,2,3].map(depth => (
-          <BracketColumn key={`L${depth}`} label={DEPTH_LABEL[depth]} matches={left[depth]} pos={pos} CARD_H={CARD_H} totalHeight={totalHeight} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap}/>
+          <BracketColumn key={`L${depth}`} label={DEPTH_LABEL[depth]} matches={left[depth]} pos={pos} CARD_H={CARD_H} totalHeight={totalHeight} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} originMap={originMap}/>
         ))}
 
         {/* Center: Final + 3rd */}
@@ -220,7 +224,7 @@ function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMa
             {finalId && (
               <div style={{ position:'absolute', left:0, right:0, top: finalCenterY - CARD_H/2 }}>
                 <div style={{ position:'absolute', bottom:'100%', left:0, right:0, marginBottom:4, fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)',textAlign:'center',letterSpacing:'0.5px' }}>PARTIDO FINAL</div>
-                <MatchCard matchId={finalId} result={resultsMap[finalId]} pick={userPicksMap[finalId]} isChampPath={championPath.has(finalId)} teamMap={teamMap} meta={metaMap?.[finalId]}/>
+                <MatchCard matchId={finalId} result={resultsMap[finalId]} pick={userPicksMap[finalId]} isChampPath={championPath.has(finalId)} teamMap={teamMap} meta={metaMap?.[finalId]} origins={originMap?.[finalId]}/>
               </div>
             )}
             {/* Campeón — apex, anclado por su borde inferior bien arriba de la final (crece hacia arriba) */}
@@ -234,7 +238,7 @@ function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMa
               return (
               <div style={{ position:'absolute', left:0, right:0, top: thirdTop }}>
                   <div style={{ position:'absolute', bottom:'100%', left:0, right:0, marginBottom:4, fontSize:'9px',fontFamily:'var(--font-mono)',color:'var(--color-text-3)',textAlign:'center',letterSpacing:'0.5px' }}>3ER LUGAR</div>
-                  <MatchCard matchId={thirdId} result={resultsMap[thirdId]} pick={userPicksMap[thirdId]} isChampPath={false} teamMap={teamMap} meta={metaMap?.[thirdId]}/>
+                  <MatchCard matchId={thirdId} result={resultsMap[thirdId]} pick={userPicksMap[thirdId]} isChampPath={false} teamMap={teamMap} meta={metaMap?.[thirdId]} origins={originMap?.[thirdId]}/>
                   {(()=>{
                     const r3=resultsMap[thirdId]; const p3=userPicksMap[thirdId]
                     if(!p3) return null
@@ -253,7 +257,7 @@ function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMa
 
         {/* Right side: SF → QF → R16 → R32 */}
         {[3,2,1,0].map(depth => (
-          <BracketColumn key={`R${depth}`} label={DEPTH_LABEL[depth]} matches={right[depth]} pos={pos} CARD_H={CARD_H} totalHeight={totalHeight} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap}/>
+          <BracketColumn key={`R${depth}`} label={DEPTH_LABEL[depth]} matches={right[depth]} pos={pos} CARD_H={CARD_H} totalHeight={totalHeight} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} originMap={originMap}/>
         ))}
 
       </div>
@@ -263,7 +267,7 @@ function DesktopBracket({ layout, resultsMap, userPicksMap, championPath, teamMa
 
 // ─── Mobile ───────────────────────────────────────────────────────────────────
 
-function MobileMatchCard({ matchId, result, pick, isChampPath, bracketGraph, teamMap, meta }) {
+function MobileMatchCard({ matchId, result, pick, isChampPath, bracketGraph, teamMap, meta, origins }) {
   const pending = isPending(result)
   const gi      = bracketGraph[matchId.toString()]
   const is3rd   = gi?.stage==='THIRD_PLACE'
@@ -281,6 +285,7 @@ function MobileMatchCard({ matchId, result, pick, isChampPath, bracketGraph, tea
           <span style={{ fontSize:'0.62rem',fontFamily:'var(--font-mono)',color:'var(--color-text-3)' }}>#{matchId}</span>
           {isChampPath&&!pending&&<span style={{ fontSize:'0.6rem',color:'#D4A017',fontFamily:'var(--font-mono)' }}>★ Ruta Campeón</span>}
           {is3rd&&<span style={{ fontSize:'0.6rem',color:'#A78BFA',fontFamily:'var(--font-mono)' }}>3er Lugar</span>}
+          {meta&&(meta.match_date||meta.kickoff_utc)&&<span style={{ fontSize:'0.58rem',color:'var(--color-text-2)',fontFamily:'var(--font-mono)' }}>· {meta.match_date}{meta.match_date&&meta.kickoff_utc?' ':''}{meta.kickoff_utc}</span>}
           {meta&&<span style={{ fontSize:'0.58rem',color:'var(--color-text-3)',fontFamily:'var(--font-mono)' }}>· {meta.venue}, {meta.city}</span>}
         </div>
         <div style={{ display:'flex',alignItems:'center',gap:6 }}>
@@ -299,11 +304,15 @@ function MobileMatchCard({ matchId, result, pick, isChampPath, bracketGraph, tea
           const mScoreClr= isL?'var(--color-text-3)':'#111'
           const mNameClr = isW&&isChampPath?'#F5C518':isW?'var(--color-success)':isL?'var(--color-text-3)':'var(--color-text-2)'
           const mBarClr  = isW&&isChampPath?'#D4A017':isW?'var(--color-success)':isL?'rgba(148,163,184,0.15)':'var(--color-border-light)'
+          const mIsTBD   = !team || team==='TBD'
+          const mOrigin  = origins?.[slot]
           return (
             <div key={i} style={{ display:'flex',alignItems:'center',gap:'0.5rem',padding:'7px 0',borderBottom:i===0?'1px solid var(--color-border)':'none' }}>
               <div style={{ width:4,height:34,borderRadius:2,flexShrink:0,background:mBarClr }}/>
               {flag&&<img src={flag} alt="" style={{ width:22,height:15,objectFit:'cover',borderRadius:2,flexShrink:0,opacity:isL?0.4:1 }}/>}
-              <span style={{ flex:1,fontSize:'0.88rem',fontWeight:isW?700:500,color:mNameClr,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap' }}>{team??'TBD'}</span>
+              {mIsTBD&&mOrigin
+                ? <span style={{ flex:1,fontSize:'0.74rem',fontFamily:'var(--font-mono)',fontWeight:600,color:'var(--color-text-3)',overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap' }}>{mOrigin.type==='loser'?'Perd.':'Gan.'} M{mOrigin.matchId}</span>
+                : <span style={{ flex:1,fontSize:'0.88rem',fontWeight:isW?700:500,color:mNameClr,overflow:'hidden',textOverflow:'ellipsis',whiteSpace:'nowrap' }}>{team??'TBD'}</span>}
               <div style={{ display:'flex',alignItems:'center',gap:3,flexShrink:0 }}>
                 {isPick&&!pending&&<span style={{fontSize:'0.65rem',fontFamily:'var(--font-mono)',padding:'2px 6px',borderRadius:4,background:isW?'color-mix(in srgb, var(--color-success) 15%, transparent)':'color-mix(in srgb, var(--color-error) 10%, transparent)',color:isW?'var(--color-success)':'var(--color-error)',border:`1px solid ${isW?'color-mix(in srgb, var(--color-success) 30%, transparent)':'color-mix(in srgb, var(--color-error) 20%, transparent)'}`,flexShrink:0}}>{isW?'✓':'✗'}</span>}
                 {isPick&&pending&&<span style={{fontSize:'0.62rem',color:'var(--color-primary)',padding:'2px 6px',borderRadius:4,background:'color-mix(in srgb, var(--color-primary) 8%, transparent)',border:'1px solid color-mix(in srgb, var(--color-primary) 15%, transparent)',flexShrink:0}}>pick</span>}
@@ -338,7 +347,7 @@ function MobileMatchCard({ matchId, result, pick, isChampPath, bracketGraph, tea
   )
 }
 
-function MobileBracket({ bracketGraph, resultsMap, userPicksMap, championPath, teamMap, metaMap }) {
+function MobileBracket({ bracketGraph, resultsMap, userPicksMap, championPath, teamMap, metaMap, originMap }) {
   const stages = STAGE_ORDER.filter(s=>Object.values(bracketGraph).some(m=>m.stage===s))
   const [active, setActive] = useState(stages[0])
   const matches = Object.entries(bracketGraph).filter(([,i])=>i.stage===active).sort(([,a],[,b])=>a.bracket_position-b.bracket_position).map(([id])=>parseInt(id))
@@ -359,7 +368,7 @@ function MobileBracket({ bracketGraph, resultsMap, userPicksMap, championPath, t
         </div>
         <AnimatePresence mode="wait">
           <motion.div key={active} initial={{opacity:0,x:10}} animate={{opacity:1,x:0}} exit={{opacity:0,x:-10}} transition={{duration:0.18}}>
-            {matches.map(id=>(<MobileMatchCard key={id} matchId={id} result={resultsMap[id]} pick={userPicksMap[id]} isChampPath={championPath.has(id)} bracketGraph={bracketGraph} teamMap={teamMap} meta={metaMap?.[id]}/>))}
+            {matches.map(id=>(<MobileMatchCard key={id} matchId={id} result={resultsMap[id]} pick={userPicksMap[id]} isChampPath={championPath.has(id)} bracketGraph={bracketGraph} teamMap={teamMap} meta={metaMap?.[id]} origins={originMap?.[id]}/>))}
           </motion.div>
         </AnimatePresence>
       </div>
@@ -437,7 +446,7 @@ export default function BracketPage() {
   if (loading) return <LoadingState/>
   if (error || !data?.layout) return <ErrorState/>
 
-  const { bracketGraph, resultsMap, userPicksMap, userIndex, teamMap, champion, championPath, layout } = data
+  const { bracketGraph, resultsMap, userPicksMap, userIndex, teamMap, champion, championPath, layout, originMap } = data
 
   return (
     <div style={{ maxWidth:isMobile?600:'93%', margin:'0 auto' }}>
@@ -457,8 +466,8 @@ export default function BracketPage() {
       </motion.div>
       <div style={{ overflowX:'auto', paddingBottom:'1rem' }}>
         {isMobile
-          ? <MobileBracket bracketGraph={bracketGraph} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} />
-          : <DesktopBracket layout={layout} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} />}
+          ? <MobileBracket bracketGraph={bracketGraph} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} originMap={originMap} />
+          : <DesktopBracket layout={layout} resultsMap={resultsMap} userPicksMap={userPicksMap} championPath={championPath} teamMap={teamMap} metaMap={metaMap} originMap={originMap} />}
       </div>
     </div>
   )
