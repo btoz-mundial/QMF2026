@@ -70,19 +70,19 @@
       "group": "D",
       "positions": [
         {
-          "position": null,
+          "position": 1,
           "team": "USA"
         },
         {
-          "position": null,
-          "team": "Paraguay"
-        },
-        {
-          "position": null,
+          "position": 2,
           "team": "Australia"
         },
         {
-          "position": null,
+          "position": 3,
+          "team": "Paraguay"
+        },
+        {
+          "position": 4,
           "team": "Turquia"
         }
       ]
@@ -92,15 +92,15 @@
       "positions": [
         {
           "position": 1,
-          "team": "Ecuador"
-        },
-        {
-          "position": 2,
           "team": "Alemania"
         },
         {
-          "position": 3,
+          "position": 2,
           "team": "Costa de M"
+        },
+        {
+          "position": 3,
+          "team": "Ecuador"
         },
         {
           "position": 4,
@@ -112,19 +112,19 @@
       "group": "F",
       "positions": [
         {
-          "position": null,
+          "position": 1,
           "team": "P Bajos"
         },
         {
-          "position": null,
+          "position": 2,
           "team": "Japon"
         },
         {
-          "position": null,
+          "position": 3,
           "team": "Suecia"
         },
         {
-          "position": null,
+          "position": 4,
           "team": "Tunez"
         }
       ]
@@ -197,10 +197,6 @@
       "positions": [
         {
           "position": null,
-          "team": "Argentina"
-        },
-        {
-          "position": null,
           "team": "Argelia"
         },
         {
@@ -210,6 +206,10 @@
         {
           "position": null,
           "team": "Jordania"
+        },
+        {
+          "position": 1,
+          "team": "Argentina"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-25T22:04:35.097Z",
-  "snapshot_match_id": 56,
+  "generated_at": "2026-06-26T00:58:49.265Z",
+  "snapshot_match_id": 58,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -377,64 +377,68 @@
       "table": [
         {
           "team": "P Bajos",
-          "pts": 4,
-          "pj": 2,
-          "pg": 1,
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
           "pe": 1,
           "pp": 0,
-          "gf": 7,
-          "gc": 3,
-          "dg": 4,
+          "gf": 10,
+          "gc": 4,
+          "dg": 6,
           "position": 1,
           "form": [
             "D",
+            "W",
             "W"
           ]
         },
         {
           "team": "Japon",
-          "pts": 4,
-          "pj": 2,
+          "pts": 5,
+          "pj": 3,
           "pg": 1,
-          "pe": 1,
+          "pe": 2,
           "pp": 0,
-          "gf": 6,
-          "gc": 2,
+          "gf": 7,
+          "gc": 3,
           "dg": 4,
           "position": 2,
           "form": [
             "D",
-            "W"
+            "W",
+            "D"
           ]
         },
         {
           "team": "Suecia",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 6,
-          "gc": 6,
+          "gf": 7,
+          "gc": 7,
           "dg": 0,
           "position": 3,
           "form": [
             "W",
-            "L"
+            "L",
+            "D"
           ]
         },
         {
           "team": "Tunez",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
-          "gf": 1,
-          "gc": 9,
-          "dg": -8,
+          "pp": 3,
+          "gf": 2,
+          "gc": 12,
+          "dg": -10,
           "position": 4,
           "form": [
+            "L",
             "L",
             "L"
           ]
