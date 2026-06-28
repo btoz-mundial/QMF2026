@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-28T18:41:31.869Z",
+  "generated_at": "2026-06-28T21:00:34.214Z",
   "metric": "precision_marcadores_exactos",
   "users": [
     {
       "user_id": "4EE3A0CA82",
       "display_name": "AJV",
-      "value": 0,
+      "value": 1,
       "extra": {
-        "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
-        "exact_score_precision": 0
+        "exact_scores": 1,
+        "matches": 1,
+        "home_goal_accuracy": 1,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 1,
+        "exact_score_precision": 1
       }
     },
     {
@@ -21,10 +21,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -34,7 +34,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -47,10 +47,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -60,10 +60,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -73,10 +73,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
+        "matches": 1,
+        "home_goal_accuracy": 1,
         "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -86,7 +86,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -99,10 +99,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -112,10 +112,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -125,10 +125,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -138,10 +138,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -151,10 +151,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -164,7 +164,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -177,7 +177,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -190,10 +190,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -203,10 +203,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -216,7 +216,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -229,10 +229,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -242,7 +242,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -255,10 +255,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -268,7 +268,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -281,10 +281,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -294,10 +294,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -307,7 +307,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -320,10 +320,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -333,10 +333,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
+        "matches": 1,
+        "home_goal_accuracy": 1,
         "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -346,7 +346,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -359,10 +359,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
+        "matches": 1,
+        "home_goal_accuracy": 1,
         "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -372,7 +372,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -385,7 +385,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -398,7 +398,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -411,7 +411,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -424,7 +424,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -437,7 +437,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -450,10 +450,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -463,10 +463,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -476,7 +476,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -489,10 +489,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -502,7 +502,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -515,10 +515,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -528,7 +528,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -541,10 +541,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -554,24 +554,24 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "E9831BEEE3",
       "display_name": "LCV",
-      "value": 0,
+      "value": 1,
       "extra": {
-        "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
-        "exact_score_precision": 0
+        "exact_scores": 1,
+        "matches": 1,
+        "home_goal_accuracy": 1,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 1,
+        "exact_score_precision": 1
       }
     },
     {
@@ -580,10 +580,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -593,7 +593,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -606,7 +606,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -619,7 +619,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -632,10 +632,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -645,10 +645,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -658,10 +658,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -671,7 +671,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -684,10 +684,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -697,10 +697,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -710,7 +710,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -723,7 +723,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -736,7 +736,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -749,7 +749,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -762,7 +762,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -775,10 +775,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -788,10 +788,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -801,7 +801,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -814,7 +814,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -827,7 +827,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -840,10 +840,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
+        "matches": 1,
+        "home_goal_accuracy": 1,
         "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -853,7 +853,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -866,7 +866,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,
@@ -879,10 +879,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -892,24 +892,24 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "18734EA2D1",
       "display_name": "Skywalker",
-      "value": 0,
+      "value": 1,
       "extra": {
-        "exact_scores": 0,
-        "matches": 0,
-        "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
-        "exact_score_precision": 0
+        "exact_scores": 1,
+        "matches": 1,
+        "home_goal_accuracy": 1,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 1,
+        "exact_score_precision": 1
       }
     },
     {
@@ -918,10 +918,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -931,10 +931,10 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
-        "away_goal_accuracy": 0,
-        "combined_goal_accuracy": 0,
+        "away_goal_accuracy": 1,
+        "combined_goal_accuracy": 0.5,
         "exact_score_precision": 0
       }
     },
@@ -944,7 +944,7 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 0,
+        "matches": 1,
         "home_goal_accuracy": 0,
         "away_goal_accuracy": 0,
         "combined_goal_accuracy": 0,

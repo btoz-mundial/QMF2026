@@ -1062,7 +1062,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -2141,7 +2168,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -3220,7 +3274,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -4299,7 +4380,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Brasil",
@@ -5378,7 +5486,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -6457,7 +6592,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Qatar",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -7536,7 +7698,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -8615,7 +8804,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Brasil",
@@ -9694,7 +9910,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -10773,7 +11016,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -11852,7 +12122,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -12931,7 +13228,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -14010,7 +14334,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Mexico"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -15089,7 +15440,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -16168,7 +16546,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Inglaterra",
@@ -17247,7 +17652,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Suiza",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Mexico"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Inglaterra",
@@ -18326,7 +18758,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Argentina",
@@ -19405,7 +19864,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Mexico"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -20484,7 +20970,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -21563,7 +22076,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Argentina",
@@ -22642,7 +23182,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -23721,7 +24288,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -24800,7 +25394,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -25879,7 +26500,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Alemania",
@@ -26958,7 +27606,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -28037,7 +28712,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Bosnia H",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -29116,7 +29818,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -30195,7 +30924,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -31274,7 +32030,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -32353,7 +33136,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -33432,7 +34242,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Argentina",
@@ -34511,7 +35348,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Mexico"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -35590,7 +36454,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Bosnia H"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -36669,7 +37560,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -37748,7 +38666,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -38827,7 +39772,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -39906,7 +40878,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -40985,7 +41984,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -42064,7 +43090,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Alemania",
@@ -43143,7 +44196,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -44222,7 +45302,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Bosnia H",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Argentina",
@@ -45301,7 +46408,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -46380,7 +47514,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -47459,7 +48620,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Argentina",
@@ -48538,7 +49726,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -49617,7 +50832,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -50696,7 +51938,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -51775,7 +53044,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Bosnia H",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Mexico"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -52854,7 +54150,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -53933,7 +55256,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -55012,7 +56362,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -56091,7 +57468,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -57170,7 +58574,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Inglaterra",
@@ -58249,7 +59680,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -59328,7 +60786,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -60407,7 +61892,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Argentina",
@@ -61486,7 +62998,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 3,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -62565,7 +64104,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Inglaterra",
@@ -63644,7 +65210,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Mexico",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Mexico"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -64723,7 +66316,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Sudafrica",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Sudafrica"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Brasil",
@@ -65802,7 +67422,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Czechia"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -66881,7 +68528,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Suiza",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -67960,7 +69634,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -69039,7 +70740,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Bosnia H",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "P Bajos",
@@ -70118,7 +71846,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -71197,7 +72952,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -72276,7 +74058,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Czechia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 3,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
@@ -73355,7 +75164,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -74434,7 +76270,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "España",
@@ -75513,7 +77376,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Sudafrica",
+          "away_team": "Suiza",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Portugal",
@@ -76592,7 +78482,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Brasil",
@@ -77671,7 +79588,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Mexico",
@@ -78750,7 +80694,34 @@
         ]
       }
     ],
-    "knockout": [],
+    "knockout": [
+      {
+        "match_id": 73,
+        "prediction": {
+          "home_team": "Korea",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Korea"
+        },
+        "result": {
+          "home_team": "Sudafrica",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      }
+    ],
     "bonus": {
       "champion": {
         "predicted": "Francia",
