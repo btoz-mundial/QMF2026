@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-26T21:06:12.135Z",
-  "snapshot_match_id": 62,
+  "generated_at": "2026-06-28T18:41:31.228Z",
+  "snapshot_match_id": 72,
   "stage": "group_temporal",
   "deterministic": true,
   "disclaimer": "Standings temporales utilizados exclusivamente para visualización competitiva.",
@@ -454,58 +454,61 @@
       "table": [
         {
           "team": "España",
-          "pts": 4,
-          "pj": 2,
-          "pg": 1,
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
           "pe": 1,
           "pp": 0,
-          "gf": 4,
+          "gf": 5,
           "gc": 0,
-          "dg": 4,
+          "dg": 5,
           "position": 1,
           "form": [
             "D",
+            "W",
             "W"
+          ]
+        },
+        {
+          "team": "Cabo Verde",
+          "pts": 3,
+          "pj": 3,
+          "pg": 0,
+          "pe": 3,
+          "pp": 0,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
+          "position": 2,
+          "form": [
+            "D",
+            "D",
+            "D"
           ]
         },
         {
           "team": "Uruguay",
           "pts": 2,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 2,
-          "pp": 0,
+          "pp": 1,
           "gf": 3,
-          "gc": 3,
-          "dg": 0,
-          "position": 2,
-          "form": [
-            "D",
-            "D"
-          ]
-        },
-        {
-          "team": "Cabo Verde",
-          "pts": 2,
-          "pj": 2,
-          "pg": 0,
-          "pe": 2,
-          "pp": 0,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
+          "gc": 4,
+          "dg": -1,
           "position": 3,
           "form": [
             "D",
-            "D"
+            "D",
+            "L"
           ]
         },
         {
           "team": "Arabia S",
-          "pts": 1,
-          "pj": 2,
+          "pts": 2,
+          "pj": 3,
           "pg": 0,
-          "pe": 1,
+          "pe": 2,
           "pp": 1,
           "gf": 1,
           "gc": 5,
@@ -513,7 +516,8 @@
           "position": 4,
           "form": [
             "D",
-            "L"
+            "L",
+            "D"
           ]
         }
       ]
@@ -522,49 +526,52 @@
       "group": "G",
       "table": [
         {
-          "team": "Egipto",
-          "pts": 4,
-          "pj": 2,
+          "team": "Belgica",
+          "pts": 5,
+          "pj": 3,
           "pg": 1,
-          "pe": 1,
+          "pe": 2,
           "pp": 0,
-          "gf": 4,
+          "gf": 6,
           "gc": 2,
-          "dg": 2,
+          "dg": 4,
           "position": 1,
           "form": [
+            "D",
             "D",
             "W"
           ]
         },
         {
-          "team": "Iran",
-          "pts": 2,
-          "pj": 2,
-          "pg": 0,
+          "team": "Egipto",
+          "pts": 5,
+          "pj": 3,
+          "pg": 1,
           "pe": 2,
           "pp": 0,
-          "gf": 2,
-          "gc": 2,
-          "dg": 0,
+          "gf": 5,
+          "gc": 3,
+          "dg": 2,
           "position": 2,
           "form": [
             "D",
+            "W",
             "D"
           ]
         },
         {
-          "team": "Belgica",
-          "pts": 2,
-          "pj": 2,
+          "team": "Iran",
+          "pts": 3,
+          "pj": 3,
           "pg": 0,
-          "pe": 2,
+          "pe": 3,
           "pp": 0,
-          "gf": 1,
-          "gc": 1,
+          "gf": 3,
+          "gc": 3,
           "dg": 0,
           "position": 3,
           "form": [
+            "D",
             "D",
             "D"
           ]
@@ -572,16 +579,17 @@
         {
           "team": "N Zelandia",
           "pts": 1,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 1,
-          "pp": 1,
-          "gf": 3,
-          "gc": 5,
-          "dg": -2,
+          "pp": 2,
+          "gf": 4,
+          "gc": 10,
+          "dg": -6,
           "position": 4,
           "form": [
             "D",
+            "L",
             "L"
           ]
         }
@@ -665,64 +673,68 @@
       "table": [
         {
           "team": "Argentina",
-          "pts": 6,
-          "pj": 2,
-          "pg": 2,
+          "pts": 9,
+          "pj": 3,
+          "pg": 3,
           "pe": 0,
           "pp": 0,
-          "gf": 5,
-          "gc": 0,
-          "dg": 5,
+          "gf": 8,
+          "gc": 1,
+          "dg": 7,
           "position": 1,
           "form": [
+            "W",
             "W",
             "W"
           ]
         },
         {
           "team": "Austria",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 3,
-          "gc": 3,
+          "gf": 6,
+          "gc": 6,
           "dg": 0,
           "position": 2,
           "form": [
             "W",
-            "L"
+            "L",
+            "D"
           ]
         },
         {
           "team": "Argelia",
-          "pts": 3,
-          "pj": 2,
+          "pts": 4,
+          "pj": 3,
           "pg": 1,
-          "pe": 0,
+          "pe": 1,
           "pp": 1,
-          "gf": 2,
-          "gc": 4,
+          "gf": 5,
+          "gc": 7,
           "dg": -2,
           "position": 3,
           "form": [
             "L",
-            "W"
+            "W",
+            "D"
           ]
         },
         {
           "team": "Jordania",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
-          "gf": 2,
-          "gc": 5,
-          "dg": -3,
+          "pp": 3,
+          "gf": 3,
+          "gc": 8,
+          "dg": -5,
           "position": 4,
           "form": [
+            "L",
             "L",
             "L"
           ]
@@ -734,10 +746,10 @@
       "table": [
         {
           "team": "Colombia",
-          "pts": 6,
-          "pj": 2,
+          "pts": 7,
+          "pj": 3,
           "pg": 2,
-          "pe": 0,
+          "pe": 1,
           "pp": 0,
           "gf": 4,
           "gc": 1,
@@ -745,15 +757,16 @@
           "position": 1,
           "form": [
             "W",
-            "W"
+            "W",
+            "D"
           ]
         },
         {
           "team": "Portugal",
-          "pts": 4,
-          "pj": 2,
+          "pts": 5,
+          "pj": 3,
           "pg": 1,
-          "pe": 1,
+          "pe": 2,
           "pp": 0,
           "gf": 6,
           "gc": 1,
@@ -761,37 +774,40 @@
           "position": 2,
           "form": [
             "D",
-            "W"
+            "W",
+            "D"
           ]
         },
         {
           "team": "R Congo",
-          "pts": 1,
-          "pj": 2,
-          "pg": 0,
+          "pts": 4,
+          "pj": 3,
+          "pg": 1,
           "pe": 1,
           "pp": 1,
-          "gf": 1,
-          "gc": 2,
-          "dg": -1,
+          "gf": 4,
+          "gc": 3,
+          "dg": 1,
           "position": 3,
           "form": [
             "D",
-            "L"
+            "L",
+            "W"
           ]
         },
         {
           "team": "Uzbequistan",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
-          "gf": 1,
-          "gc": 8,
-          "dg": -7,
+          "pp": 3,
+          "gf": 2,
+          "gc": 11,
+          "dg": -9,
           "position": 4,
           "form": [
+            "L",
             "L",
             "L"
           ]
@@ -803,64 +819,68 @@
       "table": [
         {
           "team": "Inglaterra",
-          "pts": 4,
-          "pj": 2,
-          "pg": 1,
+          "pts": 7,
+          "pj": 3,
+          "pg": 2,
           "pe": 1,
           "pp": 0,
-          "gf": 4,
+          "gf": 6,
           "gc": 2,
-          "dg": 2,
+          "dg": 4,
           "position": 1,
           "form": [
             "W",
-            "D"
+            "D",
+            "W"
+          ]
+        },
+        {
+          "team": "Croacia",
+          "pts": 6,
+          "pj": 3,
+          "pg": 2,
+          "pe": 0,
+          "pp": 1,
+          "gf": 5,
+          "gc": 5,
+          "dg": 0,
+          "position": 2,
+          "form": [
+            "L",
+            "W",
+            "W"
           ]
         },
         {
           "team": "Ghana",
           "pts": 4,
-          "pj": 2,
+          "pj": 3,
           "pg": 1,
           "pe": 1,
-          "pp": 0,
-          "gf": 1,
-          "gc": 0,
-          "dg": 1,
-          "position": 2,
-          "form": [
-            "W",
-            "D"
-          ]
-        },
-        {
-          "team": "Croacia",
-          "pts": 3,
-          "pj": 2,
-          "pg": 1,
-          "pe": 0,
           "pp": 1,
-          "gf": 3,
-          "gc": 4,
-          "dg": -1,
+          "gf": 2,
+          "gc": 2,
+          "dg": 0,
           "position": 3,
           "form": [
-            "L",
-            "W"
+            "W",
+            "D",
+            "L"
           ]
         },
         {
           "team": "Panama",
           "pts": 0,
-          "pj": 2,
+          "pj": 3,
           "pg": 0,
           "pe": 0,
-          "pp": 2,
+          "pp": 3,
           "gf": 0,
-          "gc": 2,
-          "dg": -2,
+          "gc": 4,
+          "dg": -4,
           "position": 4,
           "form": [
+            "L",
             "L",
             "L"
           ]
