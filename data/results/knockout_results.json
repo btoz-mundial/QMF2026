@@ -19,15 +19,15 @@
     "stage": "R32",
     "slot": 2,
     "round_order": 1,
-    "status": "scheduled",
+    "status": "final",
     "home_team": "Alemania",
     "away_team": "Paraguay",
-    "home_goals": null,
-    "away_goals": null,
-    "home_penalties": null,
-    "away_penalties": null,
-    "advance_team": null,
-    "winner_type": null
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_penalties": 3,
+    "away_penalties": 4,
+    "advance_team": "Paraguay",
+    "winner_type": "PENALTIES"
   },
   {
     "match_id": 75,
