@@ -1090,6 +1090,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Mexico",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -1113,6 +1165,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -2222,6 +2300,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -2245,6 +2375,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -3354,6 +3510,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -3377,6 +3585,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -4486,6 +4720,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -4509,6 +4795,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -5618,6 +5930,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -5641,6 +6005,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Irak",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -6750,6 +7140,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -6771,6 +7213,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -7882,6 +8350,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -7900,6 +8420,32 @@
         "points": 3,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
@@ -9014,6 +9560,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -9032,6 +9630,32 @@
         "points": 3,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": true,
           "away_goals": false,
@@ -10146,6 +10770,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -10167,6 +10843,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -11278,6 +11980,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -11300,6 +12054,32 @@
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -12410,6 +13190,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "USA",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -12433,6 +13265,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -13542,6 +14400,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -13565,6 +14475,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -14674,6 +15610,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -14697,6 +15685,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -15806,6 +16820,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -15828,6 +16894,32 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -16938,6 +18030,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "USA",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Costa de M"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Brasil"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Marruecos",
@@ -16960,6 +18104,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Senegal",
+          "home_goals": 4,
+          "away_goals": 2,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": false
         }
       }
@@ -18070,6 +19240,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -18090,6 +19312,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -19202,6 +20450,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -19225,6 +20525,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -20334,6 +21660,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -20357,6 +21735,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -21466,6 +22870,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Sudafrica",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -21484,6 +22940,32 @@
         "points": 3,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
@@ -22598,6 +24080,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -22621,6 +24155,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -23730,6 +25290,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -23753,6 +25365,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -24862,6 +26500,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -24880,6 +26570,32 @@
         "points": 5,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": true,
           "away_goals": true,
@@ -25994,6 +27710,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -26015,6 +27783,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -27126,6 +28920,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -27148,6 +28994,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -28258,6 +30130,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -28280,6 +30204,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -29390,6 +31340,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -29408,6 +31410,32 @@
         "points": 5,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": true,
           "away_goals": true,
@@ -30522,6 +32550,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Suecia",
+          "away_team": "Escocia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suecia"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -30541,6 +32621,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
@@ -31654,6 +33760,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -31675,6 +33833,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -32786,6 +34970,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -32808,6 +35044,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -33918,6 +36180,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -33936,6 +36250,32 @@
         "points": 5,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": true,
           "away_goals": true,
@@ -35050,6 +37390,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Qatar",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -35073,6 +37465,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -36182,6 +38600,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -36205,6 +38675,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Senegal",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -37314,6 +39810,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "USA",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -37335,6 +39883,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -38446,6 +41020,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -38469,6 +41095,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Francia",
+          "home_goals": 0,
+          "away_goals": 3,
+          "advance_team": "Francia"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -39578,6 +42230,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -39592,6 +42296,32 @@
           "home_goals": 2,
           "away_goals": 1,
           "advance_team": "Brasil"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
         },
         "points": 5,
         "breakdown": {
@@ -40710,6 +43440,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -40733,6 +43515,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -41842,6 +44650,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -41860,6 +44720,32 @@
         "points": 5,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": true,
           "away_goals": true,
@@ -42974,6 +45860,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -42997,6 +45935,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -44106,6 +47070,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "USA",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -44129,6 +47145,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -45238,6 +48280,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -45258,6 +48352,32 @@
           "home_team": true,
           "away_team": true,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
@@ -46370,6 +49490,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -46393,6 +49565,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Francia",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Francia"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -47502,6 +50700,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Brasil",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Marruecos",
@@ -47523,6 +50773,32 @@
           "away_team": true,
           "home_goals": true,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": false
         }
@@ -48634,6 +51910,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -48657,6 +51985,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -49766,6 +53120,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -49789,6 +53195,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -50898,6 +54330,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Australia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -50921,6 +54405,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -52030,6 +55540,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -52052,6 +55614,32 @@
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -53162,6 +56750,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -53185,6 +56825,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -54294,6 +57960,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Marruecos",
@@ -54315,6 +58033,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": false
         }
@@ -55426,6 +59170,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -55449,6 +59245,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -56558,6 +60380,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -56581,6 +60455,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -57690,6 +61590,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 3,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -57709,6 +61661,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
@@ -58822,6 +62800,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -58845,6 +62875,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -59954,6 +64010,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -59976,6 +64084,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -61086,6 +65220,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Czechia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -61109,6 +65295,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -62218,6 +66430,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -62236,6 +66500,32 @@
         "points": 3,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
@@ -63350,6 +67640,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -63372,6 +67714,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -64482,6 +68850,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -64505,6 +68925,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -65614,6 +70060,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -65635,6 +70133,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 3,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -66746,6 +71270,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Canada",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -66768,6 +71344,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -67878,6 +72480,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Haiti",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -67901,6 +72555,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -69010,6 +73690,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -69033,6 +73765,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -70142,6 +74900,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Sudafrica",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Marruecos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -70165,6 +74975,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -71274,6 +76110,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Sudafrica",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -71297,6 +76185,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -72406,6 +77320,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -72429,6 +77395,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -73538,6 +78530,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Bosnia H",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -73560,6 +78604,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -74670,6 +79740,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -74689,6 +79811,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
@@ -75802,6 +80950,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suecia",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -75825,6 +81025,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -76934,6 +82160,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Suecia",
+          "away_team": "Escocia",
+          "home_goals": 3,
+          "away_goals": 3,
+          "advance_team": "Suecia"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -76954,6 +82232,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 3,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -78066,6 +83370,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "USA",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -78089,6 +83445,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -79198,6 +84580,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Korea",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "Japon",
+          "away_team": "Escocia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -79220,6 +84654,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -80330,6 +85790,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Suiza",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 3,
+          "away_goals": 3,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -80353,6 +85865,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Costa de M",
+          "away_team": "Senegal",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -81462,6 +87000,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Japon",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -81485,6 +87075,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Ecuador"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -82594,6 +88210,58 @@
         }
       },
       {
+        "match_id": 74,
+        "prediction": {
+          "home_team": "Alemania",
+          "away_team": "Czechia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Alemania"
+        },
+        "result": {
+          "home_team": "Alemania",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 75,
+        "prediction": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "P Bajos"
+        },
+        "result": {
+          "home_team": "P Bajos",
+          "away_team": "Marruecos",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Marruecos"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 76,
         "prediction": {
           "home_team": "Brasil",
@@ -82612,6 +88280,32 @@
         "points": 3,
         "breakdown": {
           "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 78,
+        "prediction": {
+          "home_team": "Ecuador",
+          "away_team": "Noruega",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "result": {
+          "home_team": "Costa de M",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Noruega"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
