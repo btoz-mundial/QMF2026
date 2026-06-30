@@ -34,15 +34,15 @@
     "stage": "R32",
     "slot": 3,
     "round_order": 1,
-    "status": "scheduled",
+    "status": "final",
     "home_team": "P Bajos",
     "away_team": "Marruecos",
-    "home_goals": null,
-    "away_goals": null,
-    "home_penalties": null,
-    "away_penalties": null,
-    "advance_team": null,
-    "winner_type": null
+    "home_goals": 1,
+    "away_goals": 1,
+    "home_penalties": 2,
+    "away_penalties": 3,
+    "advance_team": "Marruecos",
+    "winner_type": "PENALTIES"
   },
   {
     "match_id": 76,
