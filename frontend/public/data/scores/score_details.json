@@ -1244,6 +1244,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Arabia S",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -2503,6 +2529,32 @@
           "away_team": false,
           "home_goals": true,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -3768,6 +3820,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -5020,6 +5098,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -6292,6 +6396,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Arabia S",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -7550,6 +7680,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -8816,6 +8972,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -10078,6 +10260,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -11337,6 +11545,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -12602,6 +12836,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -13861,6 +14121,32 @@
           "away_team": false,
           "home_goals": true,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": false
         }
@@ -15126,6 +15412,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Austria",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -16387,6 +16699,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": false
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -17650,6 +17988,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -18908,6 +19272,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Noruega",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -20174,6 +20564,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Ecuador",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -21432,6 +21848,32 @@
           "home_team": true,
           "away_team": true,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Noruega",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -22698,6 +23140,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Arabia S",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -23960,6 +24428,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Arabia S",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -25212,6 +25706,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -26484,6 +27004,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -27746,6 +28292,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -29005,6 +29577,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -30270,6 +30868,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Colombia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -31529,6 +32153,32 @@
           "away_team": false,
           "home_goals": true,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Irak",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -32794,6 +33444,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -34056,6 +34732,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -35314,6 +36016,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -36580,6 +37308,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -37832,6 +38586,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -39104,6 +39884,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Noruega",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -40366,6 +41172,32 @@
           "exact_goals": true,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Ecuador",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -41626,6 +42458,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -42890,6 +43748,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Noruega",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -44149,6 +45033,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -45414,6 +46324,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Arabia S",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -46672,6 +47608,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -47938,6 +48900,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -49200,6 +50188,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -50452,6 +51466,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -51724,6 +52764,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -52986,6 +54052,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -54238,6 +55330,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -55510,6 +56628,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -56772,6 +57916,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -58031,6 +59201,32 @@
           "away_team": false,
           "home_goals": true,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -59296,6 +60492,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Noruega",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -60558,6 +61780,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -61817,6 +63065,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 4,
+          "away_goals": 3,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -63082,6 +64356,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -64341,6 +65641,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -65606,6 +66932,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -66865,6 +68217,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -68130,6 +69508,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -69390,6 +70794,32 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Arabia S",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -70654,6 +72084,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -71916,6 +73372,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -73168,6 +74650,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -74440,6 +75948,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -75692,6 +77226,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -76964,6 +78524,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Ecuador",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -78224,6 +79810,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Uzbequistan",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -79488,6 +81100,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Arabia S",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -80740,6 +82378,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Ecuador",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
@@ -82012,6 +83676,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -83269,6 +84959,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
@@ -84536,6 +86252,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -85797,6 +87539,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Irak",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -87060,6 +88828,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Noruega",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -88318,6 +90112,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -89584,6 +91404,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Croacia",
+          "away_team": "Ecuador",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -90846,6 +92692,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Arabia S",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -92098,6 +93970,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Mexico"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 80,
+        "prediction": {
+          "home_team": "Inglaterra",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Inglaterra",
+          "away_team": "R Congo",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Inglaterra"
         },
         "points": 2,
         "breakdown": {
