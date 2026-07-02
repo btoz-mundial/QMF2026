@@ -16,9 +16,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.22,
-        "correct": 2,
-        "total_matches": 9
+        "accuracy": 0.36,
+        "correct": 4,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 6,
@@ -39,11 +39,11 @@
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.1,
+        "strength_delta": 0.03,
         "group_accuracy": 0.47,
-        "knockout_accuracy": 0.37,
+        "knockout_accuracy": 0.44,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -51,6 +51,16 @@
     "user_id": "7178DB5D04",
     "display_name": "AleXtremo",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -62,22 +72,25 @@
         }
       },
       {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
         "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.26,
-          "strength_delta": 0.31
+          "recent_ranks": [
+            35,
+            38,
+            40
+          ],
+          "momentum_strength": 5
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -86,23 +99,23 @@
         "volatility_score": 0.55
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -5,
+        "momentum_strength": 5,
         "recent_ranks": [
-          41,
-          41,
-          41
+          35,
+          38,
+          40
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.31,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.26,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -127,16 +140,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.64,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.38,
+          "strength_delta": 0.26
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -146,22 +159,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          19,
-          19,
-          18
+          17,
+          18,
+          17
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.26,
         "group_accuracy": 0.64,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -178,27 +191,13 @@
           "rank_swing": 47,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            15,
-            14,
-            13
-          ],
-          "momentum_strength": 2
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -207,23 +206,23 @@
         "volatility_score": 0.64
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 2,
-        "momentum_strength": 2,
+        "trend": "stable",
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          15,
           14,
-          13
+          14,
+          11
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.16,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.42,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -248,16 +247,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.57,
-          "knockout_accuracy": 0.26,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -267,22 +266,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          64,
           61,
-          61
+          62,
+          62
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.27,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.26,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -290,6 +289,16 @@
     "user_id": "F07429A0E3",
     "display_name": "ARR",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -299,13 +308,27 @@
           "rank_swing": 58,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            67,
+            66,
+            64
+          ],
+          "momentum_strength": 3
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 15,
@@ -314,23 +337,23 @@
         "volatility_score": 0.79
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "up",
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          64,
           67,
-          66
+          66,
+          64
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.2,
         "group_accuracy": 0.51,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -338,6 +361,16 @@
     "user_id": "C1EFD7520A",
     "display_name": "AR",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.82,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -347,24 +380,13 @@
           "rank_swing": 48,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.63,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.29
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.82,
+        "correct": 9,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -374,22 +396,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           3,
           3,
-          4
+          3
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.29,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.25,
         "group_accuracy": 0.63,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -421,9 +443,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -436,9 +458,9 @@
         "recent_delta": 1,
         "momentum_strength": 1,
         "recent_ranks": [
-          9,
-          8,
-          8
+          10,
+          10,
+          9
         ]
       },
       "phase_strength": {
@@ -448,7 +470,7 @@
         "group_accuracy": 0.65,
         "knockout_accuracy": 0.39,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -457,12 +479,22 @@
     "display_name": "Beth",
     "traits": [
       {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
+      {
         "id": "high_volatility",
         "label": "Montaña Rusa",
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 57,
+          "rank_swing": 59,
           "volatility_threshold": 15
         }
       },
@@ -473,41 +505,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.27
+          "knockout_accuracy": 0.29,
+          "strength_delta": 0.3
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 58,
-        "rank_swing": 57,
-        "volatility_score": 0.78
+        "worst_rank": 60,
+        "rank_swing": 59,
+        "volatility_score": 0.81
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
+          59,
           57,
-          58,
-          54
+          60
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.27,
+        "strength_delta": 0.3,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.29,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -521,8 +553,8 @@
         "description": "Adivina quién avanza con precisión sospechosa.",
         "confidence": "medium",
         "metrics": {
-          "advance_accuracy": 0.78,
-          "knockout_matches": 9
+          "advance_accuracy": 0.82,
+          "knockout_matches": 11
         }
       },
       {
@@ -534,27 +566,13 @@
           "rank_swing": 60,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            7,
-            4,
-            3
-          ],
-          "momentum_strength": 4
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.78,
-        "correct": 7,
-        "total_matches": 9
+        "accuracy": 0.82,
+        "correct": 9,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -563,23 +581,23 @@
         "volatility_score": 0.82
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 4,
-        "momentum_strength": 4,
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          7,
           4,
-          3
+          3,
+          4
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.07,
+        "strength_delta": 0.1,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.48,
+        "knockout_accuracy": 0.45,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -600,9 +618,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.22,
-        "correct": 2,
-        "total_matches": 9
+        "accuracy": 0.27,
+        "correct": 3,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -623,11 +641,11 @@
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.18,
+        "strength_delta": 0.15,
         "group_accuracy": 0.47,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -644,13 +662,27 @@
           "rank_swing": 41,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            17,
+            16,
+            15
+          ],
+          "momentum_strength": 2
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -659,23 +691,23 @@
         "volatility_score": 0.56
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -2,
+        "trend": "up",
+        "recent_delta": 2,
         "momentum_strength": 2,
         "recent_ranks": [
-          11,
-          14,
-          13
+          17,
+          16,
+          15
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.18,
+        "strength_delta": 0.17,
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -692,13 +724,27 @@
           "rank_swing": 41,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            30,
+            31,
+            32
+          ],
+          "momentum_strength": 2
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -707,23 +753,23 @@
         "volatility_score": 0.56
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 2,
+        "trend": "down",
+        "recent_delta": -2,
         "momentum_strength": 2,
         "recent_ranks": [
-          35,
-          32,
-          33
+          30,
+          31,
+          32
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.24,
+        "strength_delta": 0.22,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -731,6 +777,16 @@
     "user_id": "EF919C72F7",
     "display_name": "ChuyGallegos",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.82,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -744,9 +800,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.82,
+        "correct": 9,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -759,19 +815,19 @@
         "recent_delta": 1,
         "momentum_strength": 1,
         "recent_ranks": [
-          11,
-          11,
-          10
+          14,
+          12,
+          13
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.18,
+        "strength_delta": 0.19,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -796,19 +852,30 @@
         "confidence": "medium",
         "metrics": {
           "recent_ranks": [
-            61,
-            63,
-            64
+            65,
+            66,
+            67
           ],
-          "momentum_strength": 3
+          "momentum_strength": 2
+        }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Amo de Grupos",
+        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.56,
+          "knockout_accuracy": 0.29,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.36,
+        "correct": 4,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -818,22 +885,22 @@
       },
       "momentum": {
         "trend": "down",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          61,
-          63,
-          64
+          65,
+          66,
+          67
         ]
       },
       "phase_strength": {
-        "strongest_phase": "balanced",
-        "confidence": "medium",
-        "strength_delta": 0.24,
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.27,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.29,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -847,7 +914,7 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 68,
+          "rank_swing": 67,
           "volatility_threshold": 15
         }
       },
@@ -858,41 +925,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.51,
-          "knockout_accuracy": 0.22,
-          "strength_delta": 0.29
+          "knockout_accuracy": 0.24,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 69,
-        "rank_swing": 68,
-        "volatility_score": 0.93
+        "worst_rank": 68,
+        "rank_swing": 67,
+        "volatility_score": 0.92
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           68,
           68,
-          69
+          68
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.29,
+        "strength_delta": 0.27,
         "group_accuracy": 0.51,
-        "knockout_accuracy": 0.22,
+        "knockout_accuracy": 0.24,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -909,24 +976,13 @@
           "rank_swing": 48,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.6,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.28
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -936,22 +992,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          27,
-          29,
-          29
+          25,
+          24,
+          26
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.28,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.23,
         "group_accuracy": 0.6,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.36,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -968,13 +1024,27 @@
           "rank_swing": 57,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            50,
+            53,
+            55
+          ],
+          "momentum_strength": 5
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -983,23 +1053,23 @@
         "volatility_score": 0.78
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -5,
+        "momentum_strength": 5,
         "recent_ranks": [
-          54,
-          52,
-          54
+          50,
+          53,
+          55
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.21,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1016,27 +1086,13 @@
           "rank_swing": 61,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            54,
-            56,
-            58
-          ],
-          "momentum_strength": 4
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1045,23 +1101,23 @@
         "volatility_score": 0.84
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          54,
           56,
-          58
+          57,
+          57
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.24,
+        "strength_delta": 0.22,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1082,9 +1138,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1097,19 +1153,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          29,
-          29,
-          29
+          32,
+          34,
+          32
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.2,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1128,36 +1184,22 @@
         }
       },
       {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            22,
-            23,
-            25
-          ],
-          "momentum_strength": 3
-        }
-      },
-      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.64,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.36
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.34
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1166,11 +1208,11 @@
         "volatility_score": 0.36
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          22,
+          23,
           23,
           25
         ]
@@ -1178,23 +1220,34 @@
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.36,
+        "strength_delta": 0.34,
         "group_accuracy": 0.64,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
   {
     "user_id": "732633D10E",
     "display_name": "GABO",
-    "traits": [],
+    "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      }
+    ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1204,10 +1257,10 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          2,
+          1,
           1,
           1
         ]
@@ -1215,11 +1268,11 @@
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.23,
         "group_accuracy": 0.68,
-        "knockout_accuracy": 0.46,
+        "knockout_accuracy": 0.45,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1227,6 +1280,16 @@
     "user_id": "16310FEBE5",
     "display_name": "GilGzz",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.82,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1240,9 +1303,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.82,
+        "correct": 9,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1252,22 +1315,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          16,
-          17,
-          16
+          12,
+          12,
+          13
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.2,
+        "strength_delta": 0.16,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.37,
+        "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1275,6 +1338,16 @@
     "user_id": "0933C88879",
     "display_name": "Golden Eagle",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1284,24 +1357,13 @@
           "rank_swing": 65,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.56,
-          "knockout_accuracy": 0.3,
-          "strength_delta": 0.26
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1311,22 +1373,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          60,
+          61,
           60,
           60
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.26,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1334,6 +1396,16 @@
     "user_id": "3C3D690EE4",
     "display_name": "GSG",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1343,24 +1415,13 @@
           "rank_swing": 33,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.61,
-          "knockout_accuracy": 0.35,
-          "strength_delta": 0.26
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1370,22 +1431,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          29,
-          29,
-          29
+          25,
+          24,
+          26
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.26,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.22,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.39,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1402,27 +1463,13 @@
           "rank_swing": 54,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            45,
-            46,
-            47
-          ],
-          "momentum_strength": 2
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1431,23 +1478,23 @@
         "volatility_score": 0.74
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "stable",
+        "recent_delta": -3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          45,
-          46,
-          47
+          43,
+          43,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.18,
+        "strength_delta": 0.19,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.41,
+        "knockout_accuracy": 0.39,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1472,16 +1519,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.22,
-          "strength_delta": 0.36
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1494,19 +1541,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          61,
-          61,
-          61
+          59,
+          60,
+          59
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.36,
+        "strength_delta": 0.28,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.22,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1514,6 +1561,16 @@
     "user_id": "1AC2FE7AF5",
     "display_name": "HZE",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1527,9 +1584,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1542,19 +1599,19 @@
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          11,
-          11,
-          12
+          10,
+          10,
+          11
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.16,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1562,6 +1619,16 @@
     "user_id": "B13A945BF8",
     "display_name": "IFCR",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1573,22 +1640,36 @@
         }
       },
       {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            32,
+            34,
+            36
+          ],
+          "momentum_strength": 4
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.33,
+          "strength_delta": 0.25
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1597,23 +1678,23 @@
         "volatility_score": 0.73
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "down",
+        "recent_delta": -4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          35,
-          38,
-          37
+          32,
+          34,
+          36
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.25,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1621,6 +1702,16 @@
     "user_id": "DB48897D9E",
     "display_name": "IPM",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1630,13 +1721,27 @@
           "rank_swing": 44,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            7,
+            6,
+            5
+          ],
+          "momentum_strength": 2
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1645,23 +1750,23 @@
         "volatility_score": 0.6
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "up",
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          5,
-          5,
+          7,
+          6,
           5
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.25,
+        "strength_delta": 0.23,
         "group_accuracy": 0.65,
-        "knockout_accuracy": 0.41,
+        "knockout_accuracy": 0.42,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1669,6 +1774,16 @@
     "user_id": "198CA6C5CB",
     "display_name": "JAGOL",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1678,24 +1793,13 @@
           "rank_swing": 58,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.29
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1705,22 +1809,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          59,
-          59,
-          59
+          56,
+          56,
+          55
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.29,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1737,24 +1841,13 @@
           "rank_swing": 41,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.25
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1764,22 +1857,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          39,
+          35,
           38,
-          40
+          32
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.25,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.18,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.39,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1804,19 +1897,19 @@
         "confidence": "medium",
         "metrics": {
           "recent_ranks": [
-            29,
-            28,
+            32,
+            24,
             23
           ],
-          "momentum_strength": 6
+          "momentum_strength": 9
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
+        "accuracy": 0.55,
         "correct": 6,
-        "total_matches": 9
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1826,22 +1919,22 @@
       },
       "momentum": {
         "trend": "up",
-        "recent_delta": 6,
-        "momentum_strength": 6,
+        "recent_delta": 9,
+        "momentum_strength": 9,
         "recent_ranks": [
-          29,
-          28,
+          32,
+          24,
           23
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.18,
+        "strength_delta": 0.17,
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1862,9 +1955,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.45,
+        "correct": 5,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1874,22 +1967,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 5,
-        "momentum_strength": 5,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          48,
-          43,
+          44,
+          44,
           43
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.23,
+        "strength_delta": 0.19,
         "group_accuracy": 0.53,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1906,13 +1999,27 @@
           "rank_swing": 41,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            17,
+            19,
+            21
+          ],
+          "momentum_strength": 4
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1921,13 +2028,13 @@
         "volatility_score": 0.56
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "trend": "down",
+        "recent_delta": -4,
+        "momentum_strength": 4,
         "recent_ranks": [
           17,
-          18,
-          18
+          19,
+          21
         ]
       },
       "phase_strength": {
@@ -1937,7 +2044,7 @@
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.39,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1958,9 +2065,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -1973,19 +2080,19 @@
         "recent_delta": 3,
         "momentum_strength": 3,
         "recent_ranks": [
-          32,
           35,
-          29
+          31,
+          32
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.13,
+        "strength_delta": 0.15,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.43,
+        "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -1993,6 +2100,16 @@
     "user_id": "5EC15D0CF2",
     "display_name": "JMtzCelis",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.82,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -2002,13 +2119,27 @@
           "rank_swing": 60,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            4,
+            5,
+            6
+          ],
+          "momentum_strength": 2
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.82,
+        "correct": 9,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2017,23 +2148,23 @@
         "volatility_score": 0.82
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "trend": "down",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
           4,
           5,
-          5
+          6
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.18,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.37,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2058,16 +2189,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.57,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.29
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2077,22 +2208,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          51,
-          51,
+          50,
+          50,
           51
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.29,
+        "strength_delta": 0.27,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2109,13 +2240,24 @@
           "rank_swing": 68,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Amo de Grupos",
+        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.54,
+          "knockout_accuracy": 0.29,
+          "strength_delta": 0.25
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2125,22 +2267,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          68,
-          68,
+          69,
+          69,
           68
         ]
       },
       "phase_strength": {
-        "strongest_phase": "balanced",
-        "confidence": "medium",
+        "strongest_phase": "group",
+        "confidence": "high",
         "strength_delta": 0.25,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.29,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2157,38 +2299,13 @@
           "rank_swing": 44,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            35,
-            36,
-            37
-          ],
-          "momentum_strength": 2
-        }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.58,
-          "knockout_accuracy": 0.3,
-          "strength_delta": 0.29
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2197,23 +2314,23 @@
         "volatility_score": 0.6
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
           35,
-          36,
-          37
+          38,
+          36
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.29,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.23,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2234,9 +2351,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.45,
+        "correct": 5,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2246,12 +2363,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "recent_delta": -4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          27,
           25,
-          26
+          29,
+          29
         ]
       },
       "phase_strength": {
@@ -2261,7 +2378,7 @@
         "group_accuracy": 0.6,
         "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2278,24 +2395,13 @@
           "rank_swing": 54,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.58,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.25
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2305,22 +2411,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 2,
-        "momentum_strength": 2,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
           20,
-          21,
-          18
+          20,
+          17
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.25,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.2,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2337,24 +2443,13 @@
           "rank_swing": 45,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.25
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2367,19 +2462,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          41,
-          41,
-          41
+          42,
+          42,
+          42
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.25,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.22,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2400,9 +2495,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2416,7 +2511,7 @@
         "momentum_strength": 0,
         "recent_ranks": [
           22,
-          22,
+          21,
           22
         ]
       },
@@ -2427,7 +2522,7 @@
         "group_accuracy": 0.61,
         "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2448,9 +2543,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2460,22 +2555,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          41,
-          43,
+          44,
+          44,
           43
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.08,
+        "strength_delta": 0.07,
         "group_accuracy": 0.53,
-        "knockout_accuracy": 0.44,
+        "knockout_accuracy": 0.45,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2483,6 +2578,16 @@
     "user_id": "CAA8D66DAA",
     "display_name": "LRMS",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -2496,9 +2601,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2508,22 +2613,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          9,
-          10,
-          10
+          8,
+          8,
+          6
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.24,
+        "strength_delta": 0.17,
         "group_accuracy": 0.63,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.45,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2548,16 +2653,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.64,
-          "knockout_accuracy": 0.24,
-          "strength_delta": 0.4
+          "knockout_accuracy": 0.26,
+          "strength_delta": 0.38
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2567,22 +2672,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           46,
-          46,
-          47
+          47,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.4,
+        "strength_delta": 0.38,
         "group_accuracy": 0.64,
-        "knockout_accuracy": 0.24,
+        "knockout_accuracy": 0.26,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2601,36 +2706,22 @@
         }
       },
       {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            67,
-            65,
-            64
-          ],
-          "momentum_strength": 3
-        }
-      },
-      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.57,
-          "knockout_accuracy": 0.26,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.29,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.22,
-        "correct": 2,
-        "total_matches": 9
+        "accuracy": 0.36,
+        "correct": 4,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2639,23 +2730,23 @@
         "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          67,
-          65,
-          64
+          63,
+          63,
+          63
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.28,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.26,
+        "knockout_accuracy": 0.29,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2674,22 +2765,36 @@
         }
       },
       {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            25,
+            24,
+            23
+          ],
+          "momentum_strength": 2
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.65,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.38
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.35
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2698,23 +2803,23 @@
         "volatility_score": 0.42
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "trend": "up",
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          22,
-          23,
+          25,
+          24,
           23
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.38,
+        "strength_delta": 0.35,
         "group_accuracy": 0.65,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2731,24 +2836,13 @@
           "rank_swing": 64,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.25
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2758,22 +2852,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          51,
-          52,
-          51
+          50,
+          49,
+          49
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.25,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.22,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2781,6 +2875,16 @@
     "user_id": "F4DAEB067A",
     "display_name": "MEMR",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -2790,13 +2894,27 @@
           "rank_swing": 71,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            49,
+            50,
+            51
+          ],
+          "momentum_strength": 2
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2805,23 +2923,23 @@
         "volatility_score": 0.97
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
           49,
-          49,
-          49
+          50,
+          51
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.25,
+        "strength_delta": 0.24,
         "group_accuracy": 0.54,
         "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2838,38 +2956,13 @@
           "rank_swing": 63,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            57,
-            56,
-            54
-          ],
-          "momentum_strength": 3
-        }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.3,
-          "strength_delta": 0.27
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.45,
+        "correct": 5,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2878,23 +2971,23 @@
         "volatility_score": 0.86
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          57,
-          56,
+          54,
+          53,
           54
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.27,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2902,6 +2995,16 @@
     "user_id": "0C09D57C3D",
     "display_name": "Nacho Luna",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -2913,22 +3016,36 @@
         }
       },
       {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            14,
+            16,
+            17
+          ],
+          "momentum_strength": 3
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.63,
-          "knockout_accuracy": 0.35,
-          "strength_delta": 0.27
+          "knockout_accuracy": 0.33,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2937,23 +3054,23 @@
         "volatility_score": 0.66
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "down",
+        "recent_delta": -3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          11,
-          11,
-          13
+          14,
+          16,
+          17
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.27,
+        "strength_delta": 0.29,
         "group_accuracy": 0.63,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -2970,27 +3087,13 @@
           "rank_swing": 30,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            20,
-            19,
-            18
-          ],
-          "momentum_strength": 2
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -2999,23 +3102,23 @@
         "volatility_score": 0.41
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 2,
-        "momentum_strength": 2,
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           20,
-          19,
-          18
+          21,
+          20
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.14,
+        "strength_delta": 0.13,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.44,
+        "knockout_accuracy": 0.45,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3032,13 +3135,27 @@
           "rank_swing": 41,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            12,
+            14,
+            15
+          ],
+          "momentum_strength": 3
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3047,23 +3164,23 @@
         "volatility_score": 0.56
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "trend": "down",
+        "recent_delta": -3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          17,
+          12,
           14,
-          16
+          15
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.17,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.43,
+        "knockout_accuracy": 0.44,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3088,16 +3205,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.64,
-          "knockout_accuracy": 0.35,
-          "strength_delta": 0.29
+          "knockout_accuracy": 0.36,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3107,22 +3224,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          25,
-          25,
+          24,
+          24,
           26
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.29,
+        "strength_delta": 0.28,
         "group_accuracy": 0.64,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.36,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3130,6 +3247,16 @@
     "user_id": "2EF31BF1A6",
     "display_name": "Paco T",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3139,27 +3266,13 @@
           "rank_swing": 70,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            39,
-            38,
-            37
-          ],
-          "momentum_strength": 2
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3168,23 +3281,23 @@
         "volatility_score": 0.96
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 2,
-        "momentum_strength": 2,
+        "trend": "stable",
+        "recent_delta": 5,
+        "momentum_strength": 5,
         "recent_ranks": [
-          39,
-          38,
-          37
+          35,
+          36,
+          30
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
-        "confidence": "medium",
-        "strength_delta": 0.18,
+        "confidence": "low",
+        "strength_delta": 0.1,
         "group_accuracy": 0.51,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3192,6 +3305,16 @@
     "user_id": "224DC707ED",
     "display_name": "Pepe Sanchez",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.82,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3203,22 +3326,36 @@
         }
       },
       {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            4,
+            6,
+            8
+          ],
+          "momentum_strength": 4
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.61,
-          "knockout_accuracy": 0.3,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.32,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.82,
+        "correct": 9,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3227,23 +3364,23 @@
         "volatility_score": 0.66
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "down",
+        "recent_delta": -4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          5,
-          5,
-          7
+          4,
+          6,
+          8
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.29,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3275,9 +3412,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3287,12 +3424,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          54,
-          52,
-          54
+          56,
+          57,
+          57
         ]
       },
       "phase_strength": {
@@ -3302,7 +3439,7 @@
         "group_accuracy": 0.6,
         "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3323,9 +3460,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.45,
+        "correct": 5,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3346,11 +3483,11 @@
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.15,
+        "strength_delta": 0.18,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.36,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3371,9 +3508,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3383,10 +3520,10 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          1,
+          2,
           2,
           2
         ]
@@ -3398,7 +3535,7 @@
         "group_accuracy": 0.6,
         "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3406,6 +3543,16 @@
     "user_id": "1D2C13E050",
     "display_name": "RCHL",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3419,9 +3566,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3431,22 +3578,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          35,
-          36,
-          36
+          41,
+          38,
+          41
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.17,
+        "strength_delta": 0.19,
         "group_accuracy": 0.6,
-        "knockout_accuracy": 0.43,
+        "knockout_accuracy": 0.41,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3454,6 +3601,16 @@
     "user_id": "C19435FB3E",
     "display_name": "RO11",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3467,9 +3624,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3479,22 +3636,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          26,
-          27,
-          26
+          29,
+          29,
+          30
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
-        "confidence": "low",
-        "strength_delta": 0.14,
+        "confidence": "medium",
+        "strength_delta": 0.16,
         "group_accuracy": 0.53,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.36,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3515,9 +3672,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3527,22 +3684,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           46,
-          46,
-          43
+          44,
+          46
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.21,
+        "strength_delta": 0.23,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.37,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3550,6 +3707,16 @@
     "user_id": "CB1163524F",
     "display_name": "RRT",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3563,9 +3730,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3578,19 +3745,19 @@
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          8,
           9,
-          9
+          9,
+          10
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
-        "confidence": "medium",
+        "confidence": "low",
         "strength_delta": 0.15,
         "group_accuracy": 0.54,
         "knockout_accuracy": 0.39,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3598,6 +3765,16 @@
     "user_id": "CC94195BEB",
     "display_name": "RSP",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3607,27 +3784,13 @@
           "rank_swing": 39,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            64,
-            63,
-            61
-          ],
-          "momentum_strength": 3
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 6,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 32,
@@ -3636,23 +3799,23 @@
         "volatility_score": 0.53
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
+          65,
           64,
-          63,
-          61
+          64
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.09,
+        "strength_delta": 0.12,
         "group_accuracy": 0.5,
-        "knockout_accuracy": 0.41,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3660,6 +3823,16 @@
     "user_id": "EC8976134D",
     "display_name": "Salux",
     "traits": [
+      {
+        "id": "precise_advancements",
+        "label": "Bola de Cristal",
+        "description": "Adivina quién avanza con precisión sospechosa.",
+        "confidence": "medium",
+        "metrics": {
+          "advance_accuracy": 0.73,
+          "knockout_matches": 11
+        }
+      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -3673,9 +3846,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.73,
+        "correct": 8,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3685,22 +3858,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          49,
           50,
-          49
+          50,
+          51
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
-        "confidence": "low",
+        "confidence": "medium",
         "strength_delta": 0.15,
         "group_accuracy": 0.5,
         "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3725,16 +3898,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.54,
-          "knockout_accuracy": 0.22,
-          "strength_delta": 0.32
+          "knockout_accuracy": 0.21,
+          "strength_delta": 0.33
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.45,
+        "correct": 5,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3755,11 +3928,11 @@
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.32,
+        "strength_delta": 0.33,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.22,
+        "knockout_accuracy": 0.21,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3780,9 +3953,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3795,19 +3968,19 @@
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          32,
-          32,
-          33
+          35,
+          36,
+          36
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.23,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.39,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3828,9 +4001,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3840,22 +4013,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          41,
-          43,
-          43
+          46,
+          47,
+          45
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.2,
+        "strength_delta": 0.19,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.36,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3869,22 +4042,8 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 64,
           "volatility_threshold": 15
-        }
-      },
-      {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            61,
-            65,
-            66
-          ],
-          "momentum_strength": 5
         }
       },
       {
@@ -3894,41 +4053,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.24,
-          "strength_delta": 0.34
+          "knockout_accuracy": 0.27,
+          "strength_delta": 0.31
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 3,
-        "total_matches": 9
+        "accuracy": 0.45,
+        "correct": 5,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 65,
+        "rank_swing": 64,
+        "volatility_score": 0.88
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          61,
-          65,
-          66
+          63,
+          64,
+          64
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.34,
+        "strength_delta": 0.31,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.24,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -3947,36 +4106,25 @@
         }
       },
       {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
         "confidence": "medium",
         "metrics": {
           "recent_ranks": [
-            51,
-            52,
-            53
+            54,
+            53,
+            49
           ],
-          "momentum_strength": 2
-        }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.29
+          "momentum_strength": 5
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.44,
-        "correct": 4,
-        "total_matches": 9
+        "accuracy": 0.64,
+        "correct": 7,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -3985,23 +4133,23 @@
         "volatility_score": 0.93
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "up",
+        "recent_delta": 5,
+        "momentum_strength": 5,
         "recent_ranks": [
-          51,
-          52,
-          53
+          54,
+          53,
+          49
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.29,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   },
@@ -4018,13 +4166,27 @@
           "rank_swing": 48,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            30,
+            31,
+            36
+          ],
+          "momentum_strength": 6
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.56,
-        "correct": 5,
-        "total_matches": 9
+        "accuracy": 0.55,
+        "correct": 6,
+        "total_matches": 11
       },
       "volatility": {
         "best_rank": 1,
@@ -4033,23 +4195,23 @@
         "volatility_score": 0.66
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "trend": "down",
+        "recent_delta": -6,
+        "momentum_strength": 6,
         "recent_ranks": [
-          32,
-          32,
-          33
+          30,
+          31,
+          36
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.21,
+        "strength_delta": 0.22,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.37,
+        "knockout_accuracy": 0.36,
         "group_matches": 72,
-        "knockout_matches": 9
+        "knockout_matches": 11
       }
     }
   }

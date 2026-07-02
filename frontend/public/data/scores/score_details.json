@@ -1272,6 +1272,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -1285,7 +1311,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -1294,7 +1320,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -2586,6 +2638,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -2599,7 +2677,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -2608,7 +2686,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -3900,6 +4004,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -3913,7 +4043,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -3922,7 +4052,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -5214,6 +5370,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -5227,7 +5409,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -5236,7 +5418,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -6528,6 +6736,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -6541,7 +6775,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -6550,7 +6784,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -7842,6 +8102,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Canada",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -7855,7 +8141,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -7864,7 +8150,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -9156,6 +9468,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -9169,7 +9507,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -9178,7 +9516,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -10470,6 +10834,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Costa de M",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -10483,7 +10873,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -10492,7 +10882,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -11784,6 +12200,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Japon",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -11797,7 +12239,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 3,
         "breakdown": {
@@ -11806,7 +12248,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -13098,6 +13566,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -13111,7 +13605,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 4,
         "breakdown": {
@@ -13120,7 +13614,33 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -14412,6 +14932,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Iran",
@@ -14425,7 +14971,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 0,
         "breakdown": {
@@ -14435,6 +14981,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -15726,6 +16298,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Costa de M",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -15739,7 +16337,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -15748,7 +16346,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -17040,6 +17664,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -17053,7 +17703,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -17062,7 +17712,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -18354,6 +19030,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -18367,7 +19069,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 3,
         "breakdown": {
@@ -18376,7 +19078,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -19668,6 +20396,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Suecia",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Suecia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -19681,12 +20435,38 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "Uruguay",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Uruguay"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
@@ -20982,6 +21762,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -20995,7 +21801,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -21004,7 +21810,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -22296,6 +23128,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -22309,7 +23167,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -22318,7 +23176,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -23610,6 +24494,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -23623,7 +24533,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -23632,7 +24542,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -24924,6 +25860,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -24937,7 +25899,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -24946,7 +25908,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -26238,6 +27226,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Japon",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -26251,7 +27265,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -26260,7 +27274,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -27552,6 +28592,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -27565,7 +28631,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -27574,7 +28640,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -28866,6 +29958,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -28879,7 +29997,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -28888,7 +30006,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -30180,6 +31324,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -30193,7 +31363,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -30202,7 +31372,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -31494,6 +32690,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -31507,7 +32729,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -31516,7 +32738,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -32808,6 +34056,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Japon",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -32821,7 +34095,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -32830,7 +34104,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -34122,6 +35422,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Canada",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -34135,7 +35461,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -34144,7 +35470,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -35436,6 +36788,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -35449,7 +36827,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -35458,7 +36836,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -36750,6 +38154,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -36763,7 +38193,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -36772,7 +38202,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -38064,6 +39520,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -38077,7 +39559,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -38086,7 +39568,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -39378,6 +40886,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -39391,7 +40925,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -39400,7 +40934,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -40692,6 +42252,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -40705,7 +42291,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -40714,7 +42300,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -42006,6 +43618,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -42019,7 +43657,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -42028,7 +43666,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -43320,6 +44984,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -43333,7 +45023,33 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
         },
         "points": 5,
         "breakdown": {
@@ -44634,6 +46350,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -44647,7 +46389,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -44656,7 +46398,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -45948,6 +47716,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Egipto",
@@ -45961,7 +47755,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 0,
         "breakdown": {
@@ -45971,6 +47765,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -47262,6 +49082,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -47275,7 +49121,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 4,
         "breakdown": {
@@ -47284,7 +49130,33 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -48576,6 +50448,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -48589,7 +50487,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -48598,7 +50496,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -49890,6 +51814,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -49903,7 +51853,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -49912,7 +51862,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -51204,6 +53180,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Japon",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Japon"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -51217,7 +53219,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -51226,7 +53228,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -52518,6 +54546,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -52531,7 +54585,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -52540,7 +54594,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -53832,6 +55912,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -53845,7 +55951,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -53854,7 +55960,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -55146,6 +57278,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Ecuador",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -55159,7 +57317,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -55168,7 +57326,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -56460,6 +58644,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -56473,7 +58683,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -56482,7 +58692,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -57774,6 +60010,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -57787,7 +60049,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -57796,7 +60058,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -59088,6 +61376,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Costa de M",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -59101,7 +61415,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -59110,7 +61424,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -60402,6 +62742,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -60415,7 +62781,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -60424,7 +62790,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -61716,6 +64108,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Costa de M",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -61729,7 +64147,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -61738,7 +64156,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -63030,6 +65474,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -63043,7 +65513,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -63052,7 +65522,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -64344,6 +66840,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -64357,7 +66879,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -64366,7 +66888,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -65658,6 +68206,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -65671,7 +68245,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 3,
         "breakdown": {
@@ -65680,7 +68254,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -66972,6 +69572,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Bosnia H",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -66985,7 +69611,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -66994,7 +69620,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -68286,6 +70938,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -68299,7 +70977,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -68308,7 +70986,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -69600,6 +72304,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Japon",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -69613,7 +72343,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -69622,7 +72352,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -70914,6 +73670,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suecia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -70927,7 +73709,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -70936,7 +73718,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -72228,6 +75036,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -72241,7 +75075,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -72250,7 +75084,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -73542,6 +76402,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -73555,7 +76441,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -73565,6 +76451,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -74856,6 +77768,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -74869,7 +77807,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -74878,7 +77816,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -76170,6 +79134,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -76183,7 +79173,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -76192,7 +79182,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -77484,6 +80500,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Ecuador",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -77497,7 +80539,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -77506,7 +80548,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -78798,6 +81866,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Austria",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Austria"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -78811,7 +81905,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -78821,6 +81915,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -80112,6 +83232,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -80125,7 +83271,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -80134,7 +83280,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -81426,6 +84598,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -81439,7 +84637,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -81448,7 +84646,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -82740,6 +85964,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -82753,7 +86003,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -82762,7 +86012,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -84054,6 +87330,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Canada",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -84067,7 +87369,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -84076,7 +87378,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -85368,6 +88696,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Argelia",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -85381,7 +88735,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -85390,7 +88744,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -86682,6 +90062,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Qatar",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -86695,7 +90101,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -86704,7 +90110,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -87996,6 +91428,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Qatar",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -88009,7 +91467,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -88018,7 +91476,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -89310,6 +92794,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Qatar",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Qatar"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Egipto",
@@ -89323,7 +92833,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 3,
         "breakdown": {
@@ -89333,6 +92843,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": false
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Argentina",
+          "home_goals": 3,
+          "away_goals": 3,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -90624,6 +94160,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Qatar",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -90637,7 +94199,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -90646,7 +94208,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -91938,6 +95526,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Qatar",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -91951,7 +95565,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -91960,7 +95574,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -93252,6 +96892,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Suiza",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -93265,7 +96931,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 1,
         "breakdown": {
@@ -93274,7 +96940,33 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -94566,6 +98258,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Irak",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -94579,7 +98297,7 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
@@ -94588,7 +98306,33 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
-          "advance": false
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
@@ -95880,6 +99624,32 @@
         }
       },
       {
+        "match_id": 81,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "USA",
+          "away_team": "Bosnia H",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 82,
         "prediction": {
           "home_team": "Belgica",
@@ -95893,13 +99663,39 @@
           "away_team": "Senegal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Senegal"
+          "advance_team": "Belgica"
         },
         "points": 2,
         "breakdown": {
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 84,
+        "prediction": {
+          "home_team": "Uruguay",
+          "away_team": "Austria",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Uruguay"
+        },
+        "result": {
+          "home_team": "España",
+          "away_team": "Austria",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "España"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
