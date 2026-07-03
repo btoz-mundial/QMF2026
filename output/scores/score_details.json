@@ -1400,6 +1400,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -2817,6 +2843,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -4236,6 +4288,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -5654,6 +5732,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -7069,6 +7173,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -8490,6 +8620,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -9907,6 +10063,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -11326,6 +11508,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -12741,6 +12949,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": false
         }
@@ -14162,6 +14396,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -15576,6 +15836,32 @@
           "home_team": false,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Belgica",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Belgica"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
@@ -16998,6 +17284,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -18412,6 +18724,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Australia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
@@ -19834,6 +20172,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -21242,6 +21606,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Suiza"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
         },
         "points": 3,
         "breakdown": {
@@ -22670,6 +23060,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "N Zelandia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -24088,6 +24504,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -25496,6 +25938,32 @@
           "home_goals": 2,
           "away_goals": 0,
           "advance_team": "Suiza"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
         },
         "points": 0,
         "breakdown": {
@@ -26924,6 +27392,32 @@
           "exact_goals": true,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "N Zelandia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -28342,6 +28836,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -29755,6 +30275,32 @@
         "breakdown": {
           "home_team": false,
           "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
@@ -31178,6 +31724,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -32596,6 +33168,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -34012,6 +34610,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Australia",
+          "away_team": "N Zelandia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Australia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": false
         }
       }
@@ -35432,6 +36056,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -36849,6 +37499,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -38268,6 +38944,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -39685,6 +40387,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -41104,6 +41832,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "N Zelandia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "N Zelandia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -42521,6 +43275,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -43940,6 +44720,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "N Zelandia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -45357,6 +46163,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Australia",
+          "away_team": "N Zelandia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Australia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -46776,6 +47608,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -48193,6 +49051,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -49612,6 +50496,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Belgica",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Belgica"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -51026,6 +51936,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -52448,6 +53384,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -53866,6 +54828,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -55282,6 +56270,32 @@
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": false
         }
       }
@@ -56702,6 +57716,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -58119,6 +59159,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -59538,6 +60604,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -60956,6 +62048,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -62371,6 +63489,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": false
         }
@@ -63792,6 +64936,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -65210,6 +66380,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -66625,6 +67821,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": false
         }
@@ -68046,6 +69268,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -69464,6 +70712,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -70880,6 +72154,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": false
         }
       }
@@ -72300,6 +73600,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -73715,6 +75041,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": false
         }
@@ -75136,6 +76488,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -76553,6 +77931,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -77972,6 +79376,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Iran",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -79386,6 +80816,32 @@
           "home_team": false,
           "away_team": false,
           "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Australia",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Iran"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
@@ -80808,6 +82264,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -82225,6 +83707,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -83644,6 +85152,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -85062,6 +86596,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -86475,6 +88035,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
@@ -87898,6 +89484,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -89316,6 +90928,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -90730,6 +92368,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -92152,6 +93816,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
       }
     ],
     "bonus": {
@@ -93569,6 +95259,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Turquia"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -94988,6 +96704,32 @@
           "exact_goals": true,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -96406,6 +98148,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Belgica",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Belgica"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -97819,6 +99587,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Turquia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
@@ -99242,6 +101036,32 @@
           "exact_goals": false,
           "advance": false
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -100655,6 +102475,32 @@
         "breakdown": {
           "home_team": false,
           "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
@@ -102078,6 +103924,32 @@
           "exact_goals": false,
           "advance": true
         }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "Paraguay",
+          "away_team": "N Zelandia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Paraguay"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
       }
     ],
     "bonus": {
@@ -103495,6 +105367,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 88,
+        "prediction": {
+          "home_team": "USA",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "USA"
+        },
+        "result": {
+          "home_team": "Australia",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Egipto"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
