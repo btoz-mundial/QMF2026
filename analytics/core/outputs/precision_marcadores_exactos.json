@@ -1,70 +1,70 @@
 {
-  "generated_at": "2026-07-02T21:02:11.755Z",
+  "generated_at": "2026-07-03T13:25:23.123Z",
   "metric": "precision_marcadores_exactos",
   "users": [
     {
       "user_id": "4EE3A0CA82",
       "display_name": "AJV",
-      "value": 0.5454545454545454,
+      "value": 0.5384615384615384,
       "extra": {
-        "exact_scores": 6,
-        "matches": 11,
-        "home_goal_accuracy": 0.7272727272727273,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.6818181818181818,
-        "exact_score_precision": 0.5454545454545454
+        "exact_scores": 7,
+        "matches": 13,
+        "home_goal_accuracy": 0.6923076923076923,
+        "away_goal_accuracy": 0.6923076923076923,
+        "combined_goal_accuracy": 0.6923076923076923,
+        "exact_score_precision": 0.5384615384615384
       }
     },
     {
       "user_id": "7178DB5D04",
       "display_name": "AleXtremo",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "1D12144F35",
       "display_name": "Andres9711",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "502D453FF5",
       "display_name": "Andresn",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.6363636363636364,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.6153846153846154,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "6665E150B0",
       "display_name": "ARLO",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.23076923076923078,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
@@ -73,37 +73,37 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.36363636363636365,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.38461538461538464,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "C1EFD7520A",
       "display_name": "AR",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.15384615384615385,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "9011183686",
       "display_name": "Badillo",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.6363636363636364,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.6923076923076923,
+        "away_goal_accuracy": 0.23076923076923078,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
@@ -112,89 +112,89 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.3181818181818182,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.34615384615384615,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "B3B92F46ED",
       "display_name": "BODI",
-      "value": 0.36363636363636365,
+      "value": 0.3076923076923077,
       "extra": {
         "exact_scores": 4,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.7272727272727273,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.36363636363636365
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.7692307692307693,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
       "user_id": "2BC645A052",
       "display_name": "BtoZ",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "8DF4EEAC63",
       "display_name": "CAZU",
-      "value": 0.2727272727272727,
+      "value": 0.38461538461538464,
       "extra": {
-        "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.2727272727272727
+        "exact_scores": 5,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.38461538461538464
       }
     },
     {
       "user_id": "A8FD28D6BA",
       "display_name": "CEGM",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "EF919C72F7",
       "display_name": "ChuyGallegos",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "23C4468823",
       "display_name": "David Magaña",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
@@ -203,63 +203,63 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.22727272727272727,
+        "matches": 13,
+        "home_goal_accuracy": 0.15384615384615385,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.2692307692307692,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "8F205AE989",
       "display_name": "Enrique el Chief",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "AE26D11B16",
       "display_name": "ExiliadosFC",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "E201266422",
       "display_name": "Felix Varela",
-      "value": 0.09090909090909091,
+      "value": 0.15384615384615385,
       "extra": {
-        "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.7272727272727273,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.09090909090909091
+        "exact_scores": 2,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.6923076923076923,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "D351395C7E",
       "display_name": "FJGA",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
@@ -268,89 +268,89 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.3181818181818182,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.34615384615384615,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "732633D10E",
       "display_name": "GABO",
-      "value": 0.2727272727272727,
+      "value": 0.23076923076923078,
       "extra": {
         "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.2727272727272727
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "16310FEBE5",
       "display_name": "GilGzz",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "0933C88879",
       "display_name": "Golden Eagle",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.23076923076923078,
+        "combined_goal_accuracy": 0.3076923076923077,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "3C3D690EE4",
       "display_name": "GSG",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.5454545454545454,
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.5384615384615384,
         "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.18181818181818182
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "3855CBD142",
       "display_name": "Heisenberg FIFAS 26",
-      "value": 0.36363636363636365,
+      "value": 0.3076923076923077,
       "extra": {
         "exact_scores": 4,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.36363636363636365
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
       "user_id": "278ECC1B7A",
       "display_name": "Hernangzz",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
@@ -359,128 +359,128 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.36363636363636365,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.38461538461538464,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "B13A945BF8",
       "display_name": "IFCR",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.3181818181818182,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "DB48897D9E",
       "display_name": "IPM",
-      "value": 0.2727272727272727,
+      "value": 0.3076923076923077,
       "extra": {
-        "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.7272727272727273,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.2727272727272727
+        "exact_scores": 4,
+        "matches": 13,
+        "home_goal_accuracy": 0.6923076923076923,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
       "user_id": "198CA6C5CB",
       "display_name": "JAGOL",
-      "value": 0.18181818181818182,
+      "value": 0.3076923076923077,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 4,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
       "user_id": "FAC51CF2CF",
       "display_name": "Javi Villareal",
-      "value": 0.36363636363636365,
+      "value": 0.38461538461538464,
       "extra": {
-        "exact_scores": 4,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.36363636363636365
+        "exact_scores": 5,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.38461538461538464
       }
     },
     {
       "user_id": "F6E2313B1B",
       "display_name": "JCAV",
-      "value": 0.2727272727272727,
+      "value": 0.3076923076923077,
       "extra": {
-        "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.2727272727272727
+        "exact_scores": 4,
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
       "user_id": "31A6CB0C21",
       "display_name": "Jerry",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.2727272727272727,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.23076923076923078,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.3076923076923077,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "80920F584F",
       "display_name": "Jesus Edilberto",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "E0B28E3E04",
       "display_name": "JLSuriano",
-      "value": 0.2727272727272727,
+      "value": 0.23076923076923078,
       "extra": {
         "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.2727272727272727
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "5EC15D0CF2",
       "display_name": "JMtzCelis",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.23076923076923078,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
@@ -489,115 +489,115 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.4230769230769231,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "432BF50FA9",
       "display_name": "Jose Treviño",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "2383A882D9",
       "display_name": "JPGR",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.6363636363636364,
-        "away_goal_accuracy": 0.18181818181818182,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.6923076923076923,
+        "away_goal_accuracy": 0.15384615384615385,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "6B1DBB716C",
       "display_name": "JPRR",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.15384615384615385,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "9C75772EA0",
       "display_name": "JuanPI",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.23076923076923078,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "8A01EA47FC",
       "display_name": "Juan T",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "E9831BEEE3",
       "display_name": "LCV",
-      "value": 0.2727272727272727,
+      "value": 0.23076923076923078,
       "extra": {
         "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.6363636363636364,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.5909090909090909,
-        "exact_score_precision": 0.2727272727272727
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.5769230769230769,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "E4FC183EB7",
       "display_name": "LJMV",
-      "value": 0.45454545454545453,
+      "value": 0.38461538461538464,
       "extra": {
         "exact_scores": 5,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.7272727272727273,
-        "combined_goal_accuracy": 0.5909090909090909,
-        "exact_score_precision": 0.45454545454545453
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.6923076923076923,
+        "combined_goal_accuracy": 0.5769230769230769,
+        "exact_score_precision": 0.38461538461538464
       }
     },
     {
       "user_id": "CAA8D66DAA",
       "display_name": "LRMS",
-      "value": 0.36363636363636365,
+      "value": 0.3076923076923077,
       "extra": {
         "exact_scores": 4,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.36363636363636365
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
@@ -606,50 +606,50 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.2727272727272727,
+        "matches": 13,
+        "home_goal_accuracy": 0.23076923076923078,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.3076923076923077,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "8E0D4A705C",
       "display_name": "LWCP",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.3181818181818182,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "1829AF0B20",
       "display_name": "Memo Garcia",
-      "value": 0.18181818181818182,
+      "value": 0.3076923076923077,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 4,
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.3076923076923077
       }
     },
     {
@@ -658,297 +658,297 @@
       "value": 0,
       "extra": {
         "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.3181818181818182,
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.23076923076923078,
+        "combined_goal_accuracy": 0.3076923076923077,
         "exact_score_precision": 0
       }
     },
     {
       "user_id": "CC6B00FB62",
       "display_name": "Miri",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "0C09D57C3D",
       "display_name": "Nacho Luna",
-      "value": 0.09090909090909091,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.18181818181818182,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.09090909090909091
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.6153846153846154,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "E1B3B9BFCB",
       "display_name": "Nestor",
-      "value": 0.45454545454545453,
+      "value": 0.38461538461538464,
       "extra": {
         "exact_scores": 5,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.5909090909090909,
-        "exact_score_precision": 0.45454545454545453
+        "matches": 13,
+        "home_goal_accuracy": 0.6153846153846154,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.5769230769230769,
+        "exact_score_precision": 0.38461538461538464
       }
     },
     {
       "user_id": "7667C7B572",
       "display_name": "O Gomez",
-      "value": 0.2727272727272727,
+      "value": 0.23076923076923078,
       "extra": {
         "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.5454545454545454,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.2727272727272727
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "349A5D07D9",
       "display_name": "Pacotrevi",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "2EF31BF1A6",
       "display_name": "Paco T",
-      "value": 0.2727272727272727,
+      "value": 0.38461538461538464,
       "extra": {
-        "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.6363636363636364,
-        "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.2727272727272727
+        "exact_scores": 5,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.6923076923076923,
+        "combined_goal_accuracy": 0.5769230769230769,
+        "exact_score_precision": 0.38461538461538464
       }
     },
     {
       "user_id": "224DC707ED",
       "display_name": "Pepe Sanchez",
-      "value": 0,
+      "value": 0.07692307692307693,
       "extra": {
-        "exact_scores": 0,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.3181818181818182,
-        "exact_score_precision": 0
+        "exact_scores": 1,
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "72A9ED8F20",
       "display_name": "Pipo",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "9EB553DA57",
       "display_name": "Poncho",
-      "value": 0.18181818181818182,
+      "value": 0.23076923076923078,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 3,
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "726607D90E",
       "display_name": "Potro",
-      "value": 0.09090909090909091,
+      "value": 0.15384615384615385,
       "extra": {
-        "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.45454545454545453,
+        "exact_scores": 2,
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.46153846153846156,
         "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.09090909090909091
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "1D2C13E050",
       "display_name": "RCHL",
-      "value": 0.2727272727272727,
+      "value": 0.23076923076923078,
       "extra": {
         "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.6363636363636364,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.2727272727272727
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.46153846153846156,
+        "combined_goal_accuracy": 0.5,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "C19435FB3E",
       "display_name": "RO11",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.34615384615384615,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "A44F6A82DF",
       "display_name": "RRR",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "CB1163524F",
       "display_name": "RRT",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.38461538461538464,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.7272727272727273,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.5454545454545454,
-        "exact_score_precision": 0.18181818181818182
+        "matches": 13,
+        "home_goal_accuracy": 0.7692307692307693,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "EC8976134D",
       "display_name": "Salux",
-      "value": 0.09090909090909091,
+      "value": 0.15384615384615385,
       "extra": {
-        "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.36363636363636365,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.09090909090909091
+        "exact_scores": 2,
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.46153846153846156,
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "A3C25D9D42",
       "display_name": "Santiago Gutierrez",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.2727272727272727,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.3076923076923077,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.3076923076923077,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "C9CE9AF477",
       "display_name": "Shadai LL",
-      "value": 0.18181818181818182,
+      "value": 0.15384615384615385,
       "extra": {
         "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.5454545454545454,
-        "away_goal_accuracy": 0.45454545454545453,
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.46153846153846156,
         "combined_goal_accuracy": 0.5,
-        "exact_score_precision": 0.18181818181818182
+        "exact_score_precision": 0.15384615384615385
       }
     },
     {
       "user_id": "18734EA2D1",
       "display_name": "Skywalker",
-      "value": 0.2727272727272727,
+      "value": 0.23076923076923078,
       "extra": {
         "exact_scores": 3,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.36363636363636365,
-        "combined_goal_accuracy": 0.4090909090909091,
-        "exact_score_precision": 0.2727272727272727
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.4230769230769231,
+        "exact_score_precision": 0.23076923076923078
       }
     },
     {
       "user_id": "91F0A88C8D",
       "display_name": "Steve Gerald",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.2727272727272727,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.2727272727272727,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.38461538461538464,
+        "away_goal_accuracy": 0.23076923076923078,
+        "combined_goal_accuracy": 0.3076923076923077,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "E5DF64F6CC",
       "display_name": "Tom",
-      "value": 0.09090909090909091,
+      "value": 0.07692307692307693,
       "extra": {
         "exact_scores": 1,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.2727272727272727,
-        "combined_goal_accuracy": 0.36363636363636365,
-        "exact_score_precision": 0.09090909090909091
+        "matches": 13,
+        "home_goal_accuracy": 0.46153846153846156,
+        "away_goal_accuracy": 0.3076923076923077,
+        "combined_goal_accuracy": 0.38461538461538464,
+        "exact_score_precision": 0.07692307692307693
       }
     },
     {
       "user_id": "B97C49CA8A",
       "display_name": "YP",
-      "value": 0.18181818181818182,
+      "value": 0.3076923076923077,
       "extra": {
-        "exact_scores": 2,
-        "matches": 11,
-        "home_goal_accuracy": 0.45454545454545453,
-        "away_goal_accuracy": 0.45454545454545453,
-        "combined_goal_accuracy": 0.45454545454545453,
-        "exact_score_precision": 0.18181818181818182
+        "exact_scores": 4,
+        "matches": 13,
+        "home_goal_accuracy": 0.5384615384615384,
+        "away_goal_accuracy": 0.5384615384615384,
+        "combined_goal_accuracy": 0.5384615384615384,
+        "exact_score_precision": 0.3076923076923077
       }
     }
   ]

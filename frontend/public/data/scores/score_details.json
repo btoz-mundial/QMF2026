@@ -1324,6 +1324,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -1347,6 +1373,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Irak",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -2690,6 +2742,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -2713,6 +2791,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Costa de M",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -4056,6 +4160,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -4078,6 +4208,32 @@
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -5422,6 +5578,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -5444,6 +5626,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -6788,6 +6996,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -6807,6 +7041,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
@@ -8154,6 +8414,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -8177,6 +8463,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Bosnia H",
+          "away_team": "Senegal",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -9520,6 +9832,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -9542,6 +9880,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -10886,6 +11250,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -10908,6 +11298,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -12252,6 +12668,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -12275,6 +12717,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Austria",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -13618,6 +14086,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -13637,6 +14131,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
@@ -14984,6 +15504,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -15007,6 +15553,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -16350,6 +16922,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -16364,6 +16962,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 4,
         "breakdown": {
@@ -17716,6 +18340,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -17739,6 +18389,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -19082,6 +19758,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -19096,6 +19798,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 3,
         "breakdown": {
@@ -20448,6 +21176,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "Uruguay",
@@ -20471,6 +21225,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
         }
       }
     ],
@@ -21814,6 +22594,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -21837,6 +22643,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -23180,6 +24012,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -23203,6 +24061,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -24546,6 +25430,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -24569,6 +25479,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -25912,6 +26848,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -25935,6 +26897,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -27278,6 +28266,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -27297,6 +28311,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
@@ -28644,6 +29684,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -28667,6 +29733,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -30010,6 +31102,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -30030,6 +31148,32 @@
           "home_team": true,
           "away_team": true,
           "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -31376,6 +32520,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -31390,6 +32560,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 3,
         "breakdown": {
@@ -32742,6 +33938,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "R Congo",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -32765,6 +33987,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Senegal",
+          "home_goals": 4,
+          "away_goals": 2,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -34108,6 +35356,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -34130,6 +35404,32 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Japon",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -35474,6 +36774,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Ghana"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -35488,6 +36814,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Costa de M",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 1,
         "breakdown": {
@@ -36840,6 +38192,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -36862,6 +38240,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "N Zelandia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -38206,6 +39610,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -38229,6 +39659,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Senegal",
+          "home_goals": 0,
+          "away_goals": 0,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -39572,6 +41028,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -39594,6 +41076,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -40938,6 +42446,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -40960,6 +42494,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -42304,6 +43864,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -42326,6 +43912,32 @@
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -43670,6 +45282,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -43689,6 +45327,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
@@ -45036,6 +46700,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -45050,6 +46740,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 5,
         "breakdown": {
@@ -46402,6 +48118,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -46416,6 +48158,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 5,
         "breakdown": {
@@ -47768,6 +49536,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -47790,6 +49584,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -49134,6 +50954,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -49153,6 +50999,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Tunez",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
@@ -50500,6 +52372,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -50521,6 +52419,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Senegal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -51866,6 +53790,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -51887,6 +53837,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -53232,6 +55208,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -53255,6 +55257,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -54598,6 +56626,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -54620,6 +56674,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -55964,6 +58044,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -55983,6 +58089,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Ecuador",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
@@ -57330,6 +59462,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -57352,6 +59510,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -58696,6 +60880,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -58718,6 +60928,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -60062,6 +62298,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -60085,6 +62347,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -61428,6 +63716,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -61450,6 +63764,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -62794,6 +65134,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -62816,6 +65182,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -64160,6 +66552,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -64183,6 +66601,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -65526,6 +67970,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -65549,6 +68019,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Suecia"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -66892,6 +69388,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -66915,6 +69437,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -68258,6 +70806,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -68281,6 +70855,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "N Zelandia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
         }
       }
     ],
@@ -69624,6 +72224,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -69647,6 +72273,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Iran"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -70990,6 +73642,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -71013,6 +73691,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -72356,6 +75060,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -72378,6 +75108,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 5,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -73722,6 +76478,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -73744,6 +76526,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -75088,6 +77896,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -75107,6 +77941,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "N Zelandia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
@@ -76454,6 +79314,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -76477,6 +79363,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Egipto",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Egipto"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -77820,6 +80732,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -77839,6 +80777,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
@@ -79186,6 +82150,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -79208,6 +82198,32 @@
           "home_goals": false,
           "away_goals": true,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -80552,6 +83568,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -80572,6 +83614,32 @@
           "home_team": true,
           "away_team": true,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -81918,6 +84986,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -81941,6 +85035,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Iran",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Iran"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -83284,6 +86404,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -83304,6 +86450,32 @@
           "home_team": true,
           "away_team": true,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "N Zelandia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -84650,6 +87822,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -84673,6 +87871,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Suecia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -86016,6 +89240,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -86037,6 +89287,32 @@
           "away_team": true,
           "home_goals": false,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": true,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -87382,6 +90658,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -87402,6 +90704,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Austria",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": true
@@ -88748,6 +92076,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -88771,6 +92125,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Senegal",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Senegal"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -90114,6 +93494,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -90128,6 +93534,32 @@
           "home_goals": 3,
           "away_goals": 0,
           "advance_team": "España"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
         },
         "points": 2,
         "breakdown": {
@@ -91480,6 +94912,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Croacia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -91502,6 +94960,32 @@
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Curazao",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": true
         }
       }
@@ -92846,6 +96330,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -92867,6 +96377,32 @@
           "away_team": false,
           "home_goals": true,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Iran",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -94212,6 +97748,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -94231,6 +97793,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Suecia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
           "home_goals": true,
           "away_goals": false,
           "exact_goals": false,
@@ -95578,6 +99166,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -95601,6 +99215,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Canada",
+          "away_team": "Senegal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Canada"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -96944,6 +100584,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Inglaterra"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -96967,6 +100633,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Bosnia H",
+          "away_team": "Irak",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Bosnia H"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       }
     ],
@@ -98310,6 +102002,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "España",
@@ -98332,6 +102050,32 @@
           "home_goals": true,
           "away_goals": true,
           "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
           "advance": true
         }
       }
@@ -99676,6 +103420,32 @@
         }
       },
       {
+        "match_id": 83,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Portugal",
+          "away_team": "Croacia",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
+        }
+      },
+      {
         "match_id": 84,
         "prediction": {
           "home_team": "Uruguay",
@@ -99699,6 +103469,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": false
+        }
+      },
+      {
+        "match_id": 85,
+        "prediction": {
+          "home_team": "Suiza",
+          "away_team": "Egipto",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "result": {
+          "home_team": "Suiza",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Suiza"
+        },
+        "points": 4,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
+          "advance": true
         }
       }
     ],
