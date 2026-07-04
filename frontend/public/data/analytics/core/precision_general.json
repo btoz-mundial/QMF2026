@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-04T00:51:28.224Z",
+  "generated_at": "2026-07-04T19:55:59.061Z",
   "metric": "precision_general",
   "users": [
     {
       "user_id": "4EE3A0CA82",
       "display_name": "AJV",
-      "value": 0.47619047619047616,
+      "value": 0.4722222222222222,
       "extra": {
         "best_category": "standings",
-        "worst_category": "group",
+        "worst_category": "knockout",
         "category_breakdown": {
           "group": {
             "correct": 34,
@@ -21,9 +21,9 @@
             "accuracy": 47.92
           },
           "knockout": {
-            "correct": 43,
-            "possible": 90,
-            "accuracy": 47.78
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -31,7 +31,7 @@
     {
       "user_id": "7178DB5D04",
       "display_name": "AleXtremo",
-      "value": 0.5333333333333333,
+      "value": 0.5277777777777778,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -47,9 +47,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 39,
-            "possible": 90,
-            "accuracy": 43.33
+            "correct": 41,
+            "possible": 96,
+            "accuracy": 42.71
           }
         }
       }
@@ -57,7 +57,7 @@
     {
       "user_id": "1D12144F35",
       "display_name": "Andres9711",
-      "value": 0.580952380952381,
+      "value": 0.5648148148148148,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -74,8 +74,8 @@
           },
           "knockout": {
             "correct": 43,
-            "possible": 90,
-            "accuracy": 47.78
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -83,7 +83,7 @@
     {
       "user_id": "502D453FF5",
       "display_name": "Andresn",
-      "value": 0.5619047619047619,
+      "value": 0.5509259259259259,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -99,9 +99,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -109,7 +109,7 @@
     {
       "user_id": "6665E150B0",
       "display_name": "ARLO",
-      "value": 0.47619047619047616,
+      "value": 0.4675925925925926,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -125,9 +125,9 @@
             "accuracy": 50
           },
           "knockout": {
-            "correct": 35,
-            "possible": 90,
-            "accuracy": 38.89
+            "correct": 36,
+            "possible": 96,
+            "accuracy": 37.5
           }
         }
       }
@@ -135,7 +135,7 @@
     {
       "user_id": "F07429A0E3",
       "display_name": "ARR",
-      "value": 0.45714285714285713,
+      "value": 0.44907407407407407,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -151,9 +151,9 @@
             "accuracy": 47.92
           },
           "knockout": {
-            "correct": 36,
-            "possible": 90,
-            "accuracy": 40
+            "correct": 37,
+            "possible": 96,
+            "accuracy": 38.54
           }
         }
       }
@@ -161,7 +161,7 @@
     {
       "user_id": "C1EFD7520A",
       "display_name": "AR",
-      "value": 0.6,
+      "value": 0.5879629629629629,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -177,9 +177,9 @@
             "accuracy": 77.08
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -187,7 +187,7 @@
     {
       "user_id": "9011183686",
       "display_name": "Badillo",
-      "value": 0.5857142857142857,
+      "value": 0.5740740740740741,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -203,9 +203,9 @@
             "accuracy": 68.75
           },
           "knockout": {
-            "correct": 43,
-            "possible": 90,
-            "accuracy": 47.78
+            "correct": 44,
+            "possible": 96,
+            "accuracy": 45.83
           }
         }
       }
@@ -213,7 +213,7 @@
     {
       "user_id": "5283E0D056",
       "display_name": "Beth",
-      "value": 0.49047619047619045,
+      "value": 0.47685185185185186,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -230,8 +230,8 @@
           },
           "knockout": {
             "correct": 36,
-            "possible": 90,
-            "accuracy": 40
+            "possible": 96,
+            "accuracy": 37.5
           }
         }
       }
@@ -239,7 +239,7 @@
     {
       "user_id": "B3B92F46ED",
       "display_name": "BODI",
-      "value": 0.6142857142857143,
+      "value": 0.6018518518518519,
       "extra": {
         "best_category": "standings",
         "worst_category": "group",
@@ -255,9 +255,9 @@
             "accuracy": 75
           },
           "knockout": {
-            "correct": 53,
-            "possible": 90,
-            "accuracy": 58.89
+            "correct": 54,
+            "possible": 96,
+            "accuracy": 56.25
           }
         }
       }
@@ -265,7 +265,7 @@
     {
       "user_id": "2BC645A052",
       "display_name": "BtoZ",
-      "value": 0.4,
+      "value": 0.3888888888888889,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -282,8 +282,8 @@
           },
           "knockout": {
             "correct": 29,
-            "possible": 90,
-            "accuracy": 32.22
+            "possible": 96,
+            "accuracy": 30.21
           }
         }
       }
@@ -291,7 +291,7 @@
     {
       "user_id": "8DF4EEAC63",
       "display_name": "CAZU",
-      "value": 0.5952380952380952,
+      "value": 0.5879629629629629,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -307,9 +307,9 @@
             "accuracy": 68.75
           },
           "knockout": {
-            "correct": 50,
-            "possible": 90,
-            "accuracy": 55.56
+            "correct": 52,
+            "possible": 96,
+            "accuracy": 54.17
           }
         }
       }
@@ -317,7 +317,7 @@
     {
       "user_id": "A8FD28D6BA",
       "display_name": "CEGM",
-      "value": 0.5190476190476191,
+      "value": 0.5092592592592593,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -333,9 +333,9 @@
             "accuracy": 64.58
           },
           "knockout": {
-            "correct": 37,
-            "possible": 90,
-            "accuracy": 41.11
+            "correct": 38,
+            "possible": 96,
+            "accuracy": 39.58
           }
         }
       }
@@ -343,7 +343,7 @@
     {
       "user_id": "EF919C72F7",
       "display_name": "ChuyGallegos",
-      "value": 0.580952380952381,
+      "value": 0.5740740740740741,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -359,9 +359,9 @@
             "accuracy": 70.83
           },
           "knockout": {
-            "correct": 47,
-            "possible": 90,
-            "accuracy": 52.22
+            "correct": 49,
+            "possible": 96,
+            "accuracy": 51.04
           }
         }
       }
@@ -369,7 +369,7 @@
     {
       "user_id": "23C4468823",
       "display_name": "David Magaña",
-      "value": 0.4714285714285714,
+      "value": 0.46296296296296297,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -385,9 +385,9 @@
             "accuracy": 52.08
           },
           "knockout": {
-            "correct": 34,
-            "possible": 90,
-            "accuracy": 37.78
+            "correct": 35,
+            "possible": 96,
+            "accuracy": 36.46
           }
         }
       }
@@ -395,7 +395,7 @@
     {
       "user_id": "B8964AAF79",
       "display_name": "DiegoMagaña",
-      "value": 0.4380952380952381,
+      "value": 0.4305555555555556,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -411,9 +411,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 27,
-            "possible": 90,
-            "accuracy": 30
+            "correct": 28,
+            "possible": 96,
+            "accuracy": 29.17
           }
         }
       }
@@ -421,7 +421,7 @@
     {
       "user_id": "8F205AE989",
       "display_name": "Enrique el Chief",
-      "value": 0.5380952380952381,
+      "value": 0.5277777777777778,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -437,9 +437,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 38,
-            "possible": 90,
-            "accuracy": 42.22
+            "correct": 39,
+            "possible": 96,
+            "accuracy": 40.63
           }
         }
       }
@@ -447,7 +447,7 @@
     {
       "user_id": "AE26D11B16",
       "display_name": "ExiliadosFC",
-      "value": 0.47619047619047616,
+      "value": 0.4675925925925926,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -463,9 +463,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 32,
-            "possible": 90,
-            "accuracy": 35.56
+            "correct": 33,
+            "possible": 96,
+            "accuracy": 34.38
           }
         }
       }
@@ -473,7 +473,7 @@
     {
       "user_id": "E201266422",
       "display_name": "Felix Varela",
-      "value": 0.49523809523809526,
+      "value": 0.4861111111111111,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -489,9 +489,9 @@
             "accuracy": 54.17
           },
           "knockout": {
-            "correct": 37,
-            "possible": 90,
-            "accuracy": 41.11
+            "correct": 38,
+            "possible": 96,
+            "accuracy": 39.58
           }
         }
       }
@@ -499,7 +499,7 @@
     {
       "user_id": "D351395C7E",
       "display_name": "FJGA",
-      "value": 0.5428571428571428,
+      "value": 0.5324074074074074,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -515,9 +515,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -525,7 +525,7 @@
     {
       "user_id": "6172891E3A",
       "display_name": "FMV",
-      "value": 0.5380952380952381,
+      "value": 0.5324074074074074,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -541,9 +541,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 35,
-            "possible": 90,
-            "accuracy": 38.89
+            "correct": 37,
+            "possible": 96,
+            "accuracy": 38.54
           }
         }
       }
@@ -551,7 +551,7 @@
     {
       "user_id": "732633D10E",
       "display_name": "GABO",
-      "value": 0.6142857142857143,
+      "value": 0.6018518518518519,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -567,9 +567,9 @@
             "accuracy": 70.83
           },
           "knockout": {
-            "correct": 46,
-            "possible": 90,
-            "accuracy": 51.11
+            "correct": 47,
+            "possible": 96,
+            "accuracy": 48.96
           }
         }
       }
@@ -577,7 +577,7 @@
     {
       "user_id": "16310FEBE5",
       "display_name": "GilGzz",
-      "value": 0.5666666666666667,
+      "value": 0.5601851851851852,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -593,9 +593,9 @@
             "accuracy": 70.83
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }
@@ -603,7 +603,7 @@
     {
       "user_id": "0933C88879",
       "display_name": "Golden Eagle",
-      "value": 0.47619047619047616,
+      "value": 0.4675925925925926,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -619,9 +619,9 @@
             "accuracy": 50
           },
           "knockout": {
-            "correct": 36,
-            "possible": 90,
-            "accuracy": 40
+            "correct": 37,
+            "possible": 96,
+            "accuracy": 38.54
           }
         }
       }
@@ -629,7 +629,7 @@
     {
       "user_id": "3C3D690EE4",
       "display_name": "GSG",
-      "value": 0.5619047619047619,
+      "value": 0.5509259259259259,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -645,9 +645,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 46,
-            "possible": 90,
-            "accuracy": 51.11
+            "correct": 47,
+            "possible": 96,
+            "accuracy": 48.96
           }
         }
       }
@@ -655,7 +655,7 @@
     {
       "user_id": "3855CBD142",
       "display_name": "Heisenberg FIFAS 26",
-      "value": 0.5095238095238095,
+      "value": 0.5,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -671,9 +671,9 @@
             "accuracy": 56.25
           },
           "knockout": {
-            "correct": 38,
-            "possible": 90,
-            "accuracy": 42.22
+            "correct": 39,
+            "possible": 96,
+            "accuracy": 40.63
           }
         }
       }
@@ -681,7 +681,7 @@
     {
       "user_id": "278ECC1B7A",
       "display_name": "Hernangzz",
-      "value": 0.49047619047619045,
+      "value": 0.47685185185185186,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -698,8 +698,8 @@
           },
           "knockout": {
             "correct": 35,
-            "possible": 90,
-            "accuracy": 38.89
+            "possible": 96,
+            "accuracy": 36.46
           }
         }
       }
@@ -707,7 +707,7 @@
     {
       "user_id": "1AC2FE7AF5",
       "display_name": "HZE",
-      "value": 0.5571428571428572,
+      "value": 0.5462962962962963,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -723,9 +723,9 @@
             "accuracy": 75
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -733,7 +733,7 @@
     {
       "user_id": "B13A945BF8",
       "display_name": "IFCR",
-      "value": 0.5285714285714286,
+      "value": 0.5277777777777778,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -749,9 +749,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 41,
-            "possible": 90,
-            "accuracy": 45.56
+            "correct": 44,
+            "possible": 96,
+            "accuracy": 45.83
           }
         }
       }
@@ -759,7 +759,7 @@
     {
       "user_id": "DB48897D9E",
       "display_name": "IPM",
-      "value": 0.6047619047619047,
+      "value": 0.5925925925925926,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -775,9 +775,9 @@
             "accuracy": 70.83
           },
           "knockout": {
-            "correct": 46,
-            "possible": 90,
-            "accuracy": 51.11
+            "correct": 47,
+            "possible": 96,
+            "accuracy": 48.96
           }
         }
       }
@@ -785,7 +785,7 @@
     {
       "user_id": "198CA6C5CB",
       "display_name": "JAGOL",
-      "value": 0.5190476190476191,
+      "value": 0.5138888888888888,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -801,9 +801,9 @@
             "accuracy": 50
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }
@@ -811,7 +811,7 @@
     {
       "user_id": "FAC51CF2CF",
       "display_name": "Javi Villareal",
-      "value": 0.5333333333333333,
+      "value": 0.5277777777777778,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -827,9 +827,9 @@
             "accuracy": 60.42
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 44,
+            "possible": 96,
+            "accuracy": 45.83
           }
         }
       }
@@ -837,7 +837,7 @@
     {
       "user_id": "F6E2313B1B",
       "display_name": "JCAV",
-      "value": 0.5714285714285714,
+      "value": 0.5601851851851852,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -853,9 +853,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 46,
-            "possible": 90,
-            "accuracy": 51.11
+            "correct": 47,
+            "possible": 96,
+            "accuracy": 48.96
           }
         }
       }
@@ -863,7 +863,7 @@
     {
       "user_id": "31A6CB0C21",
       "display_name": "Jerry",
-      "value": 0.5142857142857142,
+      "value": 0.5046296296296297,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -879,9 +879,9 @@
             "accuracy": 62.5
           },
           "knockout": {
-            "correct": 40,
-            "possible": 90,
-            "accuracy": 44.44
+            "correct": 41,
+            "possible": 96,
+            "accuracy": 42.71
           }
         }
       }
@@ -889,7 +889,7 @@
     {
       "user_id": "80920F584F",
       "display_name": "Jesus Edilberto",
-      "value": 0.5619047619047619,
+      "value": 0.5509259259259259,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -905,9 +905,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -915,7 +915,7 @@
     {
       "user_id": "E0B28E3E04",
       "display_name": "JLSuriano",
-      "value": 0.5285714285714286,
+      "value": 0.5185185185185185,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -931,9 +931,9 @@
             "accuracy": 60.42
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -941,7 +941,7 @@
     {
       "user_id": "5EC15D0CF2",
       "display_name": "JMtzCelis",
-      "value": 0.580952380952381,
+      "value": 0.5740740740740741,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -957,9 +957,9 @@
             "accuracy": 79.17
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }
@@ -967,7 +967,7 @@
     {
       "user_id": "D053A979C1",
       "display_name": "Jose J Silva",
-      "value": 0.5095238095238095,
+      "value": 0.5046296296296297,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -983,9 +983,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 38,
-            "possible": 90,
-            "accuracy": 42.22
+            "correct": 40,
+            "possible": 96,
+            "accuracy": 41.67
           }
         }
       }
@@ -993,7 +993,7 @@
     {
       "user_id": "432BF50FA9",
       "display_name": "Jose Treviño",
-      "value": 0.4714285714285714,
+      "value": 0.46296296296296297,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1009,9 +1009,9 @@
             "accuracy": 52.08
           },
           "knockout": {
-            "correct": 35,
-            "possible": 90,
-            "accuracy": 38.89
+            "correct": 36,
+            "possible": 96,
+            "accuracy": 37.5
           }
         }
       }
@@ -1019,7 +1019,7 @@
     {
       "user_id": "2383A882D9",
       "display_name": "JPGR",
-      "value": 0.5333333333333333,
+      "value": 0.5185185185185185,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1036,8 +1036,8 @@
           },
           "knockout": {
             "correct": 41,
-            "possible": 90,
-            "accuracy": 45.56
+            "possible": 96,
+            "accuracy": 42.71
           }
         }
       }
@@ -1045,7 +1045,7 @@
     {
       "user_id": "6B1DBB716C",
       "display_name": "JPRR",
-      "value": 0.5333333333333333,
+      "value": 0.5277777777777778,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1061,9 +1061,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 37,
-            "possible": 90,
-            "accuracy": 41.11
+            "correct": 39,
+            "possible": 96,
+            "accuracy": 40.63
           }
         }
       }
@@ -1071,7 +1071,7 @@
     {
       "user_id": "9C75772EA0",
       "display_name": "JuanPI",
-      "value": 0.5476190476190477,
+      "value": 0.5370370370370371,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1087,9 +1087,9 @@
             "accuracy": 70.83
           },
           "knockout": {
-            "correct": 39,
-            "possible": 90,
-            "accuracy": 43.33
+            "correct": 40,
+            "possible": 96,
+            "accuracy": 41.67
           }
         }
       }
@@ -1097,7 +1097,7 @@
     {
       "user_id": "8A01EA47FC",
       "display_name": "Juan T",
-      "value": 0.5142857142857142,
+      "value": 0.5046296296296297,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1113,9 +1113,9 @@
             "accuracy": 60.42
           },
           "knockout": {
-            "correct": 38,
-            "possible": 90,
-            "accuracy": 42.22
+            "correct": 39,
+            "possible": 96,
+            "accuracy": 40.63
           }
         }
       }
@@ -1123,7 +1123,7 @@
     {
       "user_id": "E9831BEEE3",
       "display_name": "LCV",
-      "value": 0.5619047619047619,
+      "value": 0.5509259259259259,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1139,9 +1139,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -1149,7 +1149,7 @@
     {
       "user_id": "E4FC183EB7",
       "display_name": "LJMV",
-      "value": 0.5190476190476191,
+      "value": 0.5092592592592593,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1165,9 +1165,9 @@
             "accuracy": 54.17
           },
           "knockout": {
-            "correct": 45,
-            "possible": 90,
-            "accuracy": 50
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }
@@ -1175,7 +1175,7 @@
     {
       "user_id": "CAA8D66DAA",
       "display_name": "LRMS",
-      "value": 0.5952380952380952,
+      "value": 0.5833333333333334,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1191,9 +1191,9 @@
             "accuracy": 68.75
           },
           "knockout": {
-            "correct": 47,
-            "possible": 90,
-            "accuracy": 52.22
+            "correct": 48,
+            "possible": 96,
+            "accuracy": 50
           }
         }
       }
@@ -1201,7 +1201,7 @@
     {
       "user_id": "3DE522E965",
       "display_name": "LUD",
-      "value": 0.5047619047619047,
+      "value": 0.5,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1217,8 +1217,8 @@
             "accuracy": 62.5
           },
           "knockout": {
-            "correct": 30,
-            "possible": 90,
+            "correct": 32,
+            "possible": 96,
             "accuracy": 33.33
           }
         }
@@ -1227,7 +1227,7 @@
     {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
-      "value": 0.48095238095238096,
+      "value": 0.47685185185185186,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1243,9 +1243,9 @@
             "accuracy": 56.25
           },
           "knockout": {
-            "correct": 33,
-            "possible": 90,
-            "accuracy": 36.67
+            "correct": 35,
+            "possible": 96,
+            "accuracy": 36.46
           }
         }
       }
@@ -1253,7 +1253,7 @@
     {
       "user_id": "8E0D4A705C",
       "display_name": "LWCP",
-      "value": 0.5523809523809524,
+      "value": 0.5416666666666666,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1269,9 +1269,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 37,
-            "possible": 90,
-            "accuracy": 41.11
+            "correct": 38,
+            "possible": 96,
+            "accuracy": 39.58
           }
         }
       }
@@ -1279,7 +1279,7 @@
     {
       "user_id": "1829AF0B20",
       "display_name": "Memo Garcia",
-      "value": 0.5190476190476191,
+      "value": 0.5138888888888888,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1295,9 +1295,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 40,
-            "possible": 90,
-            "accuracy": 44.44
+            "correct": 42,
+            "possible": 96,
+            "accuracy": 43.75
           }
         }
       }
@@ -1305,7 +1305,7 @@
     {
       "user_id": "F4DAEB067A",
       "display_name": "MEMR",
-      "value": 0.49047619047619045,
+      "value": 0.49074074074074076,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1321,9 +1321,9 @@
             "accuracy": 58.33
           },
           "knockout": {
-            "correct": 36,
-            "possible": 90,
-            "accuracy": 40
+            "correct": 39,
+            "possible": 96,
+            "accuracy": 40.63
           }
         }
       }
@@ -1331,7 +1331,7 @@
     {
       "user_id": "CC6B00FB62",
       "display_name": "Miri",
-      "value": 0.5047619047619047,
+      "value": 0.5,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1347,9 +1347,9 @@
             "accuracy": 62.5
           },
           "knockout": {
-            "correct": 35,
-            "possible": 90,
-            "accuracy": 38.89
+            "correct": 37,
+            "possible": 96,
+            "accuracy": 38.54
           }
         }
       }
@@ -1357,7 +1357,7 @@
     {
       "user_id": "0C09D57C3D",
       "display_name": "Nacho Luna",
-      "value": 0.5857142857142857,
+      "value": 0.5740740740740741,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1373,9 +1373,9 @@
             "accuracy": 68.75
           },
           "knockout": {
-            "correct": 45,
-            "possible": 90,
-            "accuracy": 50
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }
@@ -1383,7 +1383,7 @@
     {
       "user_id": "E1B3B9BFCB",
       "display_name": "Nestor",
-      "value": 0.5619047619047619,
+      "value": 0.5509259259259259,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1399,9 +1399,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -1409,7 +1409,7 @@
     {
       "user_id": "7667C7B572",
       "display_name": "O Gomez",
-      "value": 0.5714285714285714,
+      "value": 0.5601851851851852,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1425,9 +1425,9 @@
             "accuracy": 66.67
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 45,
+            "possible": 96,
+            "accuracy": 46.88
           }
         }
       }
@@ -1435,7 +1435,7 @@
     {
       "user_id": "349A5D07D9",
       "display_name": "Pacotrevi",
-      "value": 0.5571428571428572,
+      "value": 0.5462962962962963,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1451,9 +1451,9 @@
             "accuracy": 62.5
           },
           "knockout": {
-            "correct": 41,
-            "possible": 90,
-            "accuracy": 45.56
+            "correct": 42,
+            "possible": 96,
+            "accuracy": 43.75
           }
         }
       }
@@ -1461,7 +1461,7 @@
     {
       "user_id": "2EF31BF1A6",
       "display_name": "Paco T",
-      "value": 0.5523809523809524,
+      "value": 0.5416666666666666,
       "extra": {
         "best_category": "standings",
         "worst_category": "group",
@@ -1477,9 +1477,9 @@
             "accuracy": 62.5
           },
           "knockout": {
-            "correct": 49,
-            "possible": 90,
-            "accuracy": 54.44
+            "correct": 50,
+            "possible": 96,
+            "accuracy": 52.08
           }
         }
       }
@@ -1487,7 +1487,7 @@
     {
       "user_id": "224DC707ED",
       "display_name": "Pepe Sanchez",
-      "value": 0.580952380952381,
+      "value": 0.5694444444444444,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1503,9 +1503,9 @@
             "accuracy": 77.08
           },
           "knockout": {
-            "correct": 41,
-            "possible": 90,
-            "accuracy": 45.56
+            "correct": 42,
+            "possible": 96,
+            "accuracy": 43.75
           }
         }
       }
@@ -1513,7 +1513,7 @@
     {
       "user_id": "72A9ED8F20",
       "display_name": "Pipo",
-      "value": 0.49523809523809526,
+      "value": 0.4861111111111111,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1529,9 +1529,9 @@
             "accuracy": 47.92
           },
           "knockout": {
-            "correct": 38,
-            "possible": 90,
-            "accuracy": 42.22
+            "correct": 39,
+            "possible": 96,
+            "accuracy": 40.63
           }
         }
       }
@@ -1539,7 +1539,7 @@
     {
       "user_id": "9EB553DA57",
       "display_name": "Poncho",
-      "value": 0.4,
+      "value": 0.39351851851851855,
       "extra": {
         "best_category": "group",
         "worst_category": "standings",
@@ -1555,9 +1555,9 @@
             "accuracy": 16.67
           },
           "knockout": {
-            "correct": 37,
-            "possible": 90,
-            "accuracy": 41.11
+            "correct": 38,
+            "possible": 96,
+            "accuracy": 39.58
           }
         }
       }
@@ -1565,7 +1565,7 @@
     {
       "user_id": "726607D90E",
       "display_name": "Potro",
-      "value": 0.6,
+      "value": 0.5879629629629629,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1581,9 +1581,9 @@
             "accuracy": 79.17
           },
           "knockout": {
-            "correct": 45,
-            "possible": 90,
-            "accuracy": 50
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }
@@ -1591,7 +1591,7 @@
     {
       "user_id": "1D2C13E050",
       "display_name": "RCHL",
-      "value": 0.5285714285714286,
+      "value": 0.5185185185185185,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1607,9 +1607,9 @@
             "accuracy": 54.17
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -1617,7 +1617,7 @@
     {
       "user_id": "C19435FB3E",
       "display_name": "RO11",
-      "value": 0.5238095238095238,
+      "value": 0.5138888888888888,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1633,9 +1633,9 @@
             "accuracy": 62.5
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -1643,7 +1643,7 @@
     {
       "user_id": "A44F6A82DF",
       "display_name": "RRR",
-      "value": 0.5142857142857142,
+      "value": 0.5046296296296297,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1659,9 +1659,9 @@
             "accuracy": 56.25
           },
           "knockout": {
-            "correct": 39,
-            "possible": 90,
-            "accuracy": 43.33
+            "correct": 40,
+            "possible": 96,
+            "accuracy": 41.67
           }
         }
       }
@@ -1669,7 +1669,7 @@
     {
       "user_id": "CB1163524F",
       "display_name": "RRT",
-      "value": 0.5571428571428572,
+      "value": 0.5462962962962963,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1685,9 +1685,9 @@
             "accuracy": 75
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -1695,7 +1695,7 @@
     {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
-      "value": 0.4857142857142857,
+      "value": 0.47685185185185186,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1711,9 +1711,9 @@
             "accuracy": 50
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 43,
+            "possible": 96,
+            "accuracy": 44.79
           }
         }
       }
@@ -1721,7 +1721,7 @@
     {
       "user_id": "EC8976134D",
       "display_name": "Salux",
-      "value": 0.4857142857142857,
+      "value": 0.4722222222222222,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1738,8 +1738,8 @@
           },
           "knockout": {
             "correct": 40,
-            "possible": 90,
-            "accuracy": 44.44
+            "possible": 96,
+            "accuracy": 41.67
           }
         }
       }
@@ -1747,7 +1747,7 @@
     {
       "user_id": "A3C25D9D42",
       "display_name": "Santiago Gutierrez",
-      "value": 0.36666666666666664,
+      "value": 0.35648148148148145,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1764,8 +1764,8 @@
           },
           "knockout": {
             "correct": 23,
-            "possible": 90,
-            "accuracy": 25.56
+            "possible": 96,
+            "accuracy": 23.96
           }
         }
       }
@@ -1773,7 +1773,7 @@
     {
       "user_id": "C9CE9AF477",
       "display_name": "Shadai LL",
-      "value": 0.5380952380952381,
+      "value": 0.5324074074074074,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1789,9 +1789,9 @@
             "accuracy": 56.25
           },
           "knockout": {
-            "correct": 42,
-            "possible": 90,
-            "accuracy": 46.67
+            "correct": 44,
+            "possible": 96,
+            "accuracy": 45.83
           }
         }
       }
@@ -1799,7 +1799,7 @@
     {
       "user_id": "18734EA2D1",
       "display_name": "Skywalker",
-      "value": 0.5142857142857142,
+      "value": 0.5,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1816,8 +1816,8 @@
           },
           "knockout": {
             "correct": 38,
-            "possible": 90,
-            "accuracy": 42.22
+            "possible": 96,
+            "accuracy": 39.58
           }
         }
       }
@@ -1825,7 +1825,7 @@
     {
       "user_id": "91F0A88C8D",
       "display_name": "Steve Gerald",
-      "value": 0.46190476190476193,
+      "value": 0.4583333333333333,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1841,8 +1841,8 @@
             "accuracy": 52.08
           },
           "knockout": {
-            "correct": 30,
-            "possible": 90,
+            "correct": 32,
+            "possible": 96,
             "accuracy": 33.33
           }
         }
@@ -1851,7 +1851,7 @@
     {
       "user_id": "E5DF64F6CC",
       "display_name": "Tom",
-      "value": 0.49047619047619045,
+      "value": 0.48148148148148145,
       "extra": {
         "best_category": "group",
         "worst_category": "knockout",
@@ -1867,9 +1867,9 @@
             "accuracy": 52.08
           },
           "knockout": {
-            "correct": 37,
-            "possible": 90,
-            "accuracy": 41.11
+            "correct": 38,
+            "possible": 96,
+            "accuracy": 39.58
           }
         }
       }
@@ -1877,7 +1877,7 @@
     {
       "user_id": "B97C49CA8A",
       "display_name": "YP",
-      "value": 0.5476190476190477,
+      "value": 0.5416666666666666,
       "extra": {
         "best_category": "standings",
         "worst_category": "knockout",
@@ -1893,9 +1893,9 @@
             "accuracy": 60.42
           },
           "knockout": {
-            "correct": 44,
-            "possible": 90,
-            "accuracy": 48.89
+            "correct": 46,
+            "possible": 96,
+            "accuracy": 47.92
           }
         }
       }

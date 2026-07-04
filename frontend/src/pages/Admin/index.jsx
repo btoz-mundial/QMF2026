@@ -11,6 +11,27 @@ const PATHS = {
   standings: 'data/results/standings_results.json',
   knockout:  'data/results/knockout_results.json',
   teams:     'data/teams/teams.json',
+  bracket:   'data/metadata/bracket_graph.json',
+  meta:      'data/metadata/matches_metadata.json',
+}
+
+// ─── Propagación de bracket ──────────────────────────────────────────────────────
+// bracket_graph define a dónde avanza cada partido:
+//   feeds_into        → destino del GANADOR  { match_id, slot: 'home'|'away' }
+//   loser_feeds_into  → destino del PERDEDOR (solo semis → 3er lugar)
+const SLOT_FIELD = { home: 'home_team', away: 'away_team' }
+
+// knockout_results.json es un array de partidos.
+function applySlotArr(arr, target, team) {
+  if (!target?.match_id || !SLOT_FIELD[target.slot]) return
+  const row = arr.find(x => x.match_id === target.match_id)
+  if (row) row[SLOT_FIELD[target.slot]] = team
+}
+// matches_metadata.json es un objeto indexado por match_id (string).
+function applySlotObj(obj, target, team) {
+  if (!target?.match_id || !SLOT_FIELD[target.slot]) return
+  const row = obj[String(target.match_id)]
+  if (row) row[SLOT_FIELD[target.slot]] = team
 }
 
 const GROUPS = ['A','B','C','D','E','F','G','H','I','J','K','L']
@@ -315,6 +336,7 @@ function TablaTab({ token, notify }) {
 // ─── TAB: Bracket (knockout) ─────────────────────────────────────────────────────
 function BracketTab({ token, notify }) {
   const [matches, setMatches] = useState(null)
+  const [graph, setGraph]     = useState(null)
   const [filter, setFilter]   = useState('pendientes')
   const [editId, setEditId]   = useState(null)
   const [draft, setDraft]     = useState({})
@@ -323,14 +345,18 @@ function BracketTab({ token, notify }) {
 
   const load = useCallback(async () => {
     setErr(null)
-    try { const { json } = await ghGet(PATHS.knockout, token); setMatches(json) }
+    try {
+      const [ko, bg] = await Promise.all([ghGet(PATHS.knockout, token), ghGet(PATHS.bracket, token)])
+      setMatches(ko.json)
+      setGraph(bg.json)
+    }
     catch (e) { setErr(e.status === 401 ? 'Token inválido' : 'No se pudo cargar (' + (e.status || '?') + ')') }
   }, [token])
 
   useEffect(() => { load() }, [load])
 
   if (err) return <ErrorBox msg={err} onRetry={load} />
-  if (!matches) return <Loading />
+  if (!matches || !graph) return <Loading />
 
   const isPending = m => m.status !== 'final'
   const list = [...matches].sort((a, b) => a.match_id - b.match_id)
@@ -360,16 +386,39 @@ function BracketTab({ token, notify }) {
     }
     const adv = (draft.adv || '').trim()
     if (!adv) { notify('Indica quién avanza', 'err'); return }
+
+    // Destinos de avance según bracket_graph
+    const node       = graph[m.match_id] || {}
+    const winTarget  = node.feeds_into        || null   // ganador → siguiente partido
+    const loseTarget = node.loser_feeds_into  || null   // perdedor → 3er lugar (solo semis)
+    const winner     = adv
+    const loser      = (m.home_team && m.away_team)
+      ? (adv === m.home_team ? m.away_team : m.home_team)
+      : null
+
     setSaving(true)
     try {
+      // 1) knockout_results: resultado del partido + propagación de equipos al siguiente
       await saveWithRetry(PATHS.knockout, json => {
         const row = json.find(x => x.match_id === m.match_id)
         if (!row) throw new Error('match not found')
         row.home_goals = h; row.away_goals = a
         row.home_penalties = hp; row.away_penalties = ap
         row.advance_team = adv; row.winner_type = wt; row.status = 'final'
+        if (winTarget)           applySlotArr(json, winTarget, winner)
+        if (loseTarget && loser) applySlotArr(json, loseTarget, loser)
       }, `Knockout #${m.match_id}: avanza ${adv}`, token)
-      notify(`✓ Guardado #${m.match_id}`, 'ok')
+
+      // 2) matches_metadata: propaga los equipos a los slots del siguiente partido
+      if (winTarget || (loseTarget && loser)) {
+        await saveWithRetry(PATHS.meta, json => {
+          if (winTarget)           applySlotObj(json, winTarget, winner)
+          if (loseTarget && loser) applySlotObj(json, loseTarget, loser)
+        }, `Metadata: ${winner} → #${winTarget?.match_id ?? '-'}`, token)
+      }
+
+      const dest = winTarget ? ` → #${winTarget.match_id}` : ''
+      notify(`✓ Guardado #${m.match_id}${dest}`, 'ok')
       setEditId(null)
       await load()
     } catch (e) {

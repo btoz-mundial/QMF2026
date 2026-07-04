@@ -1428,6 +1428,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -2895,6 +2921,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -4368,6 +4420,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -5835,6 +5913,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -7308,6 +7412,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -8771,6 +8901,32 @@
         "breakdown": {
           "home_team": true,
           "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
@@ -10248,6 +10404,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -11715,6 +11897,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Turquia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -13188,6 +13396,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Curazao",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -14655,6 +14889,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -16128,6 +16388,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -17595,6 +17881,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -19068,6 +19380,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Australia",
@@ -20535,6 +20873,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -22008,6 +22372,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Noruega",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Australia",
@@ -23473,6 +23863,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Argelia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": false
         }
@@ -24948,6 +25364,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Australia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -26412,6 +26854,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
@@ -27888,6 +28356,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Australia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -29355,6 +29849,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -30828,6 +31348,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -32295,6 +32841,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -33768,6 +34340,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -35235,6 +35833,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -36708,6 +37332,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -38175,6 +38825,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "USA",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -39648,6 +40324,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -41118,6 +41820,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -42583,6 +43311,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": false,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
           "exact_goals": false,
           "advance": true
         }
@@ -44058,6 +44812,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -45523,6 +46303,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Panama",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
@@ -46998,6 +47804,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Australia",
@@ -48465,6 +49297,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -49938,6 +50796,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -51405,6 +52289,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Australia",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -52878,6 +53788,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -54345,6 +55281,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -55818,6 +56780,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -57285,6 +58273,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Argelia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -58758,6 +59772,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -60225,6 +61265,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -61698,6 +62764,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -63165,6 +64257,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -64638,6 +65756,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -66105,6 +67249,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 4,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -67578,6 +68748,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -69045,6 +70241,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -70518,6 +71740,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -71985,6 +73233,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -73458,6 +74732,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -74924,6 +76224,32 @@
           "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 3,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": true,
+          "away_goals": true,
+          "exact_goals": true,
           "advance": false
         }
       },
@@ -76398,6 +77724,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -77865,6 +79217,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Australia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -79338,6 +80716,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -80805,6 +82209,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -82278,6 +83708,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Australia",
@@ -83745,6 +85201,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -85218,6 +86700,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -86685,6 +88193,32 @@
           "away_goals": true,
           "exact_goals": true,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -88158,6 +89692,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -89625,6 +91185,32 @@
           "away_goals": true,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -91098,6 +92684,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -92565,6 +94177,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Australia",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -94038,6 +95676,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -95502,6 +97166,32 @@
           "home_team": true,
           "away_team": false,
           "home_goals": true,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
           "away_goals": false,
           "exact_goals": false,
           "advance": false
@@ -96978,6 +98668,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -98448,6 +100164,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -99906,6 +101648,32 @@
           "home_goals": 1,
           "away_goals": 1,
           "advance_team": "Argentina"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Paraguay",
+          "home_goals": 4,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
         },
         "points": 0,
         "breakdown": {
@@ -101388,6 +103156,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Turquia",
@@ -102855,6 +104649,32 @@
           "away_goals": false,
           "exact_goals": false,
           "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Turquia",
+          "home_goals": 3,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 0,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
+          "exact_goals": false,
+          "advance": false
         }
       },
       {
@@ -104328,6 +106148,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Ghana",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 2,
+        "breakdown": {
+          "home_team": false,
+          "away_team": true,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "USA",
@@ -105798,6 +107644,32 @@
         }
       },
       {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Portugal",
+          "away_team": "Panama",
+          "home_goals": 3,
+          "away_goals": 0,
+          "advance_team": "Portugal"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": false,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": true,
+          "exact_goals": false,
+          "advance": false
+        }
+      },
+      {
         "match_id": 88,
         "prediction": {
           "home_team": "Paraguay",
@@ -107263,6 +109135,32 @@
           "away_team": false,
           "home_goals": false,
           "away_goals": true,
+          "exact_goals": false,
+          "advance": true
+        }
+      },
+      {
+        "match_id": 87,
+        "prediction": {
+          "home_team": "Colombia",
+          "away_team": "Croacia",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Colombia"
+        },
+        "result": {
+          "home_team": "Colombia",
+          "away_team": "Ghana",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "Colombia"
+        },
+        "points": 1,
+        "breakdown": {
+          "home_team": true,
+          "away_team": false,
+          "home_goals": false,
+          "away_goals": false,
           "exact_goals": false,
           "advance": true
         }
