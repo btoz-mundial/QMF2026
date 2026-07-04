@@ -1,67 +1,26 @@
 {
-  "generated_at": "2026-07-03T21:02:04.075Z",
+  "generated_at": "2026-07-04T00:51:28.147Z",
   "metric": "eficiencia_de_puntos",
   "users": [
-    {
-      "user_id": "732633D10E",
-      "display_name": "GABO",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 62.68,
-      "breakdown": {
-        "group_efficiency": 68.06,
-        "standings_efficiency": 74.17,
-        "knockout_efficiency": 41.67
-      },
-      "extra": {
-        "earned_points": 173,
-        "available_points": 276,
-        "earned_group_points": 49,
-        "available_group_points": 72,
-        "earned_standings_points": 89,
-        "available_standings_points": 120,
-        "earned_knockout_points": 35,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 49,
-            "available": 72,
-            "efficiency": 68.06
-          },
-          "standings": {
-            "earned": 89,
-            "available": 120,
-            "efficiency": 74.17
-          },
-          "knockout": {
-            "earned": 35,
-            "available": 84,
-            "efficiency": 41.67
-          }
-        }
-      },
-      "rank": 1
-    },
     {
       "user_id": "726607D90E",
       "display_name": "Potro",
       "metric_id": "eficiencia_de_puntos",
-      "value": 62.68,
+      "value": 62.06,
       "breakdown": {
         "group_efficiency": 59.72,
         "standings_efficiency": 80.83,
-        "knockout_efficiency": 39.29
+        "knockout_efficiency": 38.89
       },
       "extra": {
-        "earned_points": 173,
-        "available_points": 276,
+        "earned_points": 175,
+        "available_points": 282,
         "earned_group_points": 43,
         "available_group_points": 72,
         "earned_standings_points": 97,
         "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 35,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -76,74 +35,33 @@
             "efficiency": 80.83
           },
           "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
+            "earned": 35,
+            "available": 90,
+            "efficiency": 38.89
           }
         }
       },
-      "rank": 2
-    },
-    {
-      "user_id": "C1EFD7520A",
-      "display_name": "AR",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 61.59,
-      "breakdown": {
-        "group_efficiency": 62.5,
-        "standings_efficiency": 78.33,
-        "knockout_efficiency": 36.9
-      },
-      "extra": {
-        "earned_points": 170,
-        "available_points": 276,
-        "earned_group_points": 45,
-        "available_group_points": 72,
-        "earned_standings_points": 94,
-        "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 45,
-            "available": 72,
-            "efficiency": 62.5
-          },
-          "standings": {
-            "earned": 94,
-            "available": 120,
-            "efficiency": 78.33
-          },
-          "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
-          }
-        }
-      },
-      "rank": 3
+      "rank": 1
     },
     {
       "user_id": "B3B92F46ED",
       "display_name": "BODI",
       "metric_id": "eficiencia_de_puntos",
-      "value": 61.59,
+      "value": 61.7,
       "breakdown": {
         "group_efficiency": 55.56,
         "standings_efficiency": 76.67,
-        "knockout_efficiency": 45.24
+        "knockout_efficiency": 46.67
       },
       "extra": {
-        "earned_points": 170,
-        "available_points": 276,
+        "earned_points": 174,
+        "available_points": 282,
         "earned_group_points": 40,
         "available_group_points": 72,
         "earned_standings_points": 92,
         "available_standings_points": 120,
-        "earned_knockout_points": 38,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 42,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -158,9 +76,91 @@
             "efficiency": 76.67
           },
           "knockout": {
-            "earned": 38,
-            "available": 84,
-            "efficiency": 45.24
+            "earned": 42,
+            "available": 90,
+            "efficiency": 46.67
+          }
+        }
+      },
+      "rank": 2
+    },
+    {
+      "user_id": "732633D10E",
+      "display_name": "GABO",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 61.7,
+      "breakdown": {
+        "group_efficiency": 68.06,
+        "standings_efficiency": 74.17,
+        "knockout_efficiency": 40
+      },
+      "extra": {
+        "earned_points": 174,
+        "available_points": 282,
+        "earned_group_points": 49,
+        "available_group_points": 72,
+        "earned_standings_points": 89,
+        "available_standings_points": 120,
+        "earned_knockout_points": 36,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 49,
+            "available": 72,
+            "efficiency": 68.06
+          },
+          "standings": {
+            "earned": 89,
+            "available": 120,
+            "efficiency": 74.17
+          },
+          "knockout": {
+            "earned": 36,
+            "available": 90,
+            "efficiency": 40
+          }
+        }
+      },
+      "rank": 3
+    },
+    {
+      "user_id": "C1EFD7520A",
+      "display_name": "AR",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 60.99,
+      "breakdown": {
+        "group_efficiency": 62.5,
+        "standings_efficiency": 78.33,
+        "knockout_efficiency": 36.67
+      },
+      "extra": {
+        "earned_points": 172,
+        "available_points": 282,
+        "earned_group_points": 45,
+        "available_group_points": 72,
+        "earned_standings_points": 94,
+        "available_standings_points": 120,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 45,
+            "available": 72,
+            "efficiency": 62.5
+          },
+          "standings": {
+            "earned": 94,
+            "available": 120,
+            "efficiency": 78.33
+          },
+          "knockout": {
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
@@ -170,21 +170,21 @@
       "user_id": "DB48897D9E",
       "display_name": "IPM",
       "metric_id": "eficiencia_de_puntos",
-      "value": 60.51,
+      "value": 59.93,
       "breakdown": {
         "group_efficiency": 65.28,
         "standings_efficiency": 71.67,
-        "knockout_efficiency": 40.48
+        "knockout_efficiency": 40
       },
       "extra": {
-        "earned_points": 167,
-        "available_points": 276,
+        "earned_points": 169,
+        "available_points": 282,
         "earned_group_points": 47,
         "available_group_points": 72,
         "earned_standings_points": 86,
         "available_standings_points": 120,
-        "earned_knockout_points": 34,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 36,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -199,33 +199,74 @@
             "efficiency": 71.67
           },
           "knockout": {
-            "earned": 34,
-            "available": 84,
-            "efficiency": 40.48
+            "earned": 36,
+            "available": 90,
+            "efficiency": 40
           }
         }
       },
       "rank": 5
     },
     {
+      "user_id": "8DF4EEAC63",
+      "display_name": "CAZU",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 59.57,
+      "breakdown": {
+        "group_efficiency": 58.33,
+        "standings_efficiency": 70.83,
+        "knockout_efficiency": 45.56
+      },
+      "extra": {
+        "earned_points": 168,
+        "available_points": 282,
+        "earned_group_points": 42,
+        "available_group_points": 72,
+        "earned_standings_points": 85,
+        "available_standings_points": 120,
+        "earned_knockout_points": 41,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 42,
+            "available": 72,
+            "efficiency": 58.33
+          },
+          "standings": {
+            "earned": 85,
+            "available": 120,
+            "efficiency": 70.83
+          },
+          "knockout": {
+            "earned": 41,
+            "available": 90,
+            "efficiency": 45.56
+          }
+        }
+      },
+      "rank": 6
+    },
+    {
       "user_id": "5EC15D0CF2",
       "display_name": "JMtzCelis",
       "metric_id": "eficiencia_de_puntos",
-      "value": 60.14,
+      "value": 59.57,
       "breakdown": {
         "group_efficiency": 55.56,
         "standings_efficiency": 79.17,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 166,
-        "available_points": 276,
+        "earned_points": 168,
+        "available_points": 282,
         "earned_group_points": 40,
         "available_group_points": 72,
         "earned_standings_points": 95,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -240,33 +281,33 @@
             "efficiency": 79.17
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
-      "rank": 6
+      "rank": 7
     },
     {
       "user_id": "224DC707ED",
       "display_name": "Pepe Sanchez",
       "metric_id": "eficiencia_de_puntos",
-      "value": 60.14,
+      "value": 59.57,
       "breakdown": {
         "group_efficiency": 61.11,
         "standings_efficiency": 78.33,
         "knockout_efficiency": 33.33
       },
       "extra": {
-        "earned_points": 166,
-        "available_points": 276,
+        "earned_points": 168,
+        "available_points": 282,
         "earned_group_points": 44,
         "available_group_points": 72,
         "earned_standings_points": 94,
         "available_standings_points": 120,
-        "earned_knockout_points": 28,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -281,33 +322,33 @@
             "efficiency": 78.33
           },
           "knockout": {
-            "earned": 28,
-            "available": 84,
+            "earned": 30,
+            "available": 90,
             "efficiency": 33.33
           }
         }
       },
-      "rank": 7
+      "rank": 8
     },
     {
       "user_id": "CAA8D66DAA",
       "display_name": "LRMS",
       "metric_id": "eficiencia_de_puntos",
-      "value": 59.78,
+      "value": 59.22,
       "breakdown": {
         "group_efficiency": 62.5,
         "standings_efficiency": 70.83,
-        "knockout_efficiency": 41.67
+        "knockout_efficiency": 41.11
       },
       "extra": {
-        "earned_points": 165,
-        "available_points": 276,
+        "earned_points": 167,
+        "available_points": 282,
         "earned_group_points": 45,
         "available_group_points": 72,
         "earned_standings_points": 85,
         "available_standings_points": 120,
-        "earned_knockout_points": 35,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 37,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -322,33 +363,33 @@
             "efficiency": 70.83
           },
           "knockout": {
-            "earned": 35,
-            "available": 84,
-            "efficiency": 41.67
+            "earned": 37,
+            "available": 90,
+            "efficiency": 41.11
           }
         }
       },
-      "rank": 8
+      "rank": 9
     },
     {
       "user_id": "9011183686",
       "display_name": "Badillo",
       "metric_id": "eficiencia_de_puntos",
-      "value": 59.42,
+      "value": 58.87,
       "breakdown": {
         "group_efficiency": 65.28,
         "standings_efficiency": 70.83,
-        "knockout_efficiency": 38.1
+        "knockout_efficiency": 37.78
       },
       "extra": {
-        "earned_points": 164,
-        "available_points": 276,
+        "earned_points": 166,
+        "available_points": 282,
         "earned_group_points": 47,
         "available_group_points": 72,
         "earned_standings_points": 85,
         "available_standings_points": 120,
-        "earned_knockout_points": 32,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 34,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -363,115 +404,33 @@
             "efficiency": 70.83
           },
           "knockout": {
-            "earned": 32,
-            "available": 84,
-            "efficiency": 38.1
-          }
-        }
-      },
-      "rank": 9
-    },
-    {
-      "user_id": "8DF4EEAC63",
-      "display_name": "CAZU",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 59.42,
-      "breakdown": {
-        "group_efficiency": 58.33,
-        "standings_efficiency": 70.83,
-        "knockout_efficiency": 44.05
-      },
-      "extra": {
-        "earned_points": 164,
-        "available_points": 276,
-        "earned_group_points": 42,
-        "available_group_points": 72,
-        "earned_standings_points": 85,
-        "available_standings_points": 120,
-        "earned_knockout_points": 37,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 42,
-            "available": 72,
-            "efficiency": 58.33
-          },
-          "standings": {
-            "earned": 85,
-            "available": 120,
-            "efficiency": 70.83
-          },
-          "knockout": {
-            "earned": 37,
-            "available": 84,
-            "efficiency": 44.05
+            "earned": 34,
+            "available": 90,
+            "efficiency": 37.78
           }
         }
       },
       "rank": 10
     },
     {
-      "user_id": "0C09D57C3D",
-      "display_name": "Nacho Luna",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 59.06,
-      "breakdown": {
-        "group_efficiency": 62.5,
-        "standings_efficiency": 70.83,
-        "knockout_efficiency": 39.29
-      },
-      "extra": {
-        "earned_points": 163,
-        "available_points": 276,
-        "earned_group_points": 45,
-        "available_group_points": 72,
-        "earned_standings_points": 85,
-        "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 45,
-            "available": 72,
-            "efficiency": 62.5
-          },
-          "standings": {
-            "earned": 85,
-            "available": 120,
-            "efficiency": 70.83
-          },
-          "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
-          }
-        }
-      },
-      "rank": 11
-    },
-    {
       "user_id": "EF919C72F7",
       "display_name": "ChuyGallegos",
       "metric_id": "eficiencia_de_puntos",
-      "value": 58.7,
+      "value": 58.87,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 74.17,
-        "knockout_efficiency": 38.1
+        "knockout_efficiency": 40
       },
       "extra": {
-        "earned_points": 162,
-        "available_points": 276,
+        "earned_points": 166,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 89,
         "available_standings_points": 120,
-        "earned_knockout_points": 32,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 36,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -486,33 +445,74 @@
             "efficiency": 74.17
           },
           "knockout": {
-            "earned": 32,
-            "available": 84,
-            "efficiency": 38.1
+            "earned": 36,
+            "available": 90,
+            "efficiency": 40
+          }
+        }
+      },
+      "rank": 11
+    },
+    {
+      "user_id": "0C09D57C3D",
+      "display_name": "Nacho Luna",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 58.51,
+      "breakdown": {
+        "group_efficiency": 62.5,
+        "standings_efficiency": 70.83,
+        "knockout_efficiency": 38.89
+      },
+      "extra": {
+        "earned_points": 165,
+        "available_points": 282,
+        "earned_group_points": 45,
+        "available_group_points": 72,
+        "earned_standings_points": 85,
+        "available_standings_points": 120,
+        "earned_knockout_points": 35,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 45,
+            "available": 72,
+            "efficiency": 62.5
+          },
+          "standings": {
+            "earned": 85,
+            "available": 120,
+            "efficiency": 70.83
+          },
+          "knockout": {
+            "earned": 35,
+            "available": 90,
+            "efficiency": 38.89
           }
         }
       },
       "rank": 12
     },
     {
-      "user_id": "1AC2FE7AF5",
-      "display_name": "HZE",
+      "user_id": "CB1163524F",
+      "display_name": "RRT",
       "metric_id": "eficiencia_de_puntos",
-      "value": 58.7,
+      "value": 58.16,
       "breakdown": {
         "group_efficiency": 54.17,
         "standings_efficiency": 76.67,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 162,
-        "available_points": 276,
+        "earned_points": 164,
+        "available_points": 282,
         "earned_group_points": 39,
         "available_group_points": 72,
         "earned_standings_points": 92,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -527,74 +527,33 @@
             "efficiency": 76.67
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
       "rank": 13
     },
     {
-      "user_id": "CB1163524F",
-      "display_name": "RRT",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 58.7,
-      "breakdown": {
-        "group_efficiency": 54.17,
-        "standings_efficiency": 76.67,
-        "knockout_efficiency": 36.9
-      },
-      "extra": {
-        "earned_points": 162,
-        "available_points": 276,
-        "earned_group_points": 39,
-        "available_group_points": 72,
-        "earned_standings_points": 92,
-        "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 39,
-            "available": 72,
-            "efficiency": 54.17
-          },
-          "standings": {
-            "earned": 92,
-            "available": 120,
-            "efficiency": 76.67
-          },
-          "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
-          }
-        }
-      },
-      "rank": 14
-    },
-    {
       "user_id": "502D453FF5",
       "display_name": "Andresn",
       "metric_id": "eficiencia_de_puntos",
-      "value": 58.33,
+      "value": 57.8,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 71.67,
-        "knockout_efficiency": 39.29
+        "knockout_efficiency": 38.89
       },
       "extra": {
-        "earned_points": 161,
-        "available_points": 276,
+        "earned_points": 163,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 86,
         "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 35,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -609,9 +568,50 @@
             "efficiency": 71.67
           },
           "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
+            "earned": 35,
+            "available": 90,
+            "efficiency": 38.89
+          }
+        }
+      },
+      "rank": 14
+    },
+    {
+      "user_id": "1AC2FE7AF5",
+      "display_name": "HZE",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 57.8,
+      "breakdown": {
+        "group_efficiency": 54.17,
+        "standings_efficiency": 76.67,
+        "knockout_efficiency": 35.56
+      },
+      "extra": {
+        "earned_points": 163,
+        "available_points": 282,
+        "earned_group_points": 39,
+        "available_group_points": 72,
+        "earned_standings_points": 92,
+        "available_standings_points": 120,
+        "earned_knockout_points": 32,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 39,
+            "available": 72,
+            "efficiency": 54.17
+          },
+          "standings": {
+            "earned": 92,
+            "available": 120,
+            "efficiency": 76.67
+          },
+          "knockout": {
+            "earned": 32,
+            "available": 90,
+            "efficiency": 35.56
           }
         }
       },
@@ -621,21 +621,21 @@
       "user_id": "1D12144F35",
       "display_name": "Andres9711",
       "metric_id": "eficiencia_de_puntos",
-      "value": 57.97,
+      "value": 57.09,
       "breakdown": {
         "group_efficiency": 63.89,
         "standings_efficiency": 67.5,
-        "knockout_efficiency": 39.29
+        "knockout_efficiency": 37.78
       },
       "extra": {
-        "earned_points": 160,
-        "available_points": 276,
+        "earned_points": 161,
+        "available_points": 282,
         "earned_group_points": 46,
         "available_group_points": 72,
         "earned_standings_points": 81,
         "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 34,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -650,9 +650,9 @@
             "efficiency": 67.5
           },
           "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
+            "earned": 34,
+            "available": 90,
+            "efficiency": 37.78
           }
         }
       },
@@ -662,21 +662,21 @@
       "user_id": "16310FEBE5",
       "display_name": "GilGzz",
       "metric_id": "eficiencia_de_puntos",
-      "value": 57.61,
+      "value": 57.09,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 72.5,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 159,
-        "available_points": 276,
+        "earned_points": 161,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 87,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -691,9 +691,9 @@
             "efficiency": 72.5
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
@@ -703,21 +703,21 @@
       "user_id": "7667C7B572",
       "display_name": "O Gomez",
       "metric_id": "eficiencia_de_puntos",
-      "value": 57.61,
+      "value": 56.74,
       "breakdown": {
         "group_efficiency": 61.11,
         "standings_efficiency": 67.5,
-        "knockout_efficiency": 40.48
+        "knockout_efficiency": 38.89
       },
       "extra": {
-        "earned_points": 159,
-        "available_points": 276,
+        "earned_points": 160,
+        "available_points": 282,
         "earned_group_points": 44,
         "available_group_points": 72,
         "earned_standings_points": 81,
         "available_standings_points": 120,
-        "earned_knockout_points": 34,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 35,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -732,9 +732,9 @@
             "efficiency": 67.5
           },
           "knockout": {
-            "earned": 34,
-            "available": 84,
-            "efficiency": 40.48
+            "earned": 35,
+            "available": 90,
+            "efficiency": 38.89
           }
         }
       },
@@ -744,21 +744,21 @@
       "user_id": "F6E2313B1B",
       "display_name": "JCAV",
       "metric_id": "eficiencia_de_puntos",
-      "value": 56.88,
+      "value": 56.38,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 65.83,
-        "knockout_efficiency": 42.86
+        "knockout_efficiency": 42.22
       },
       "extra": {
-        "earned_points": 157,
-        "available_points": 276,
+        "earned_points": 159,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 79,
         "available_standings_points": 120,
-        "earned_knockout_points": 36,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 38,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -773,9 +773,9 @@
             "efficiency": 65.83
           },
           "knockout": {
-            "earned": 36,
-            "available": 84,
-            "efficiency": 42.86
+            "earned": 38,
+            "available": 90,
+            "efficiency": 42.22
           }
         }
       },
@@ -785,21 +785,21 @@
       "user_id": "80920F584F",
       "display_name": "Jesus Edilberto",
       "metric_id": "eficiencia_de_puntos",
-      "value": 56.88,
+      "value": 56.38,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 68.33,
-        "knockout_efficiency": 39.29
+        "knockout_efficiency": 38.89
       },
       "extra": {
-        "earned_points": 157,
-        "available_points": 276,
+        "earned_points": 159,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 82,
         "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 35,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -814,9 +814,9 @@
             "efficiency": 68.33
           },
           "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
+            "earned": 35,
+            "available": 90,
+            "efficiency": 38.89
           }
         }
       },
@@ -826,21 +826,21 @@
       "user_id": "9C75772EA0",
       "display_name": "JuanPI",
       "metric_id": "eficiencia_de_puntos",
-      "value": 56.88,
+      "value": 56.03,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 70.83,
-        "knockout_efficiency": 35.71
+        "knockout_efficiency": 34.44
       },
       "extra": {
-        "earned_points": 157,
-        "available_points": 276,
+        "earned_points": 158,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 85,
         "available_standings_points": 120,
-        "earned_knockout_points": 30,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 31,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -855,9 +855,9 @@
             "efficiency": 70.83
           },
           "knockout": {
-            "earned": 30,
-            "available": 84,
-            "efficiency": 35.71
+            "earned": 31,
+            "available": 90,
+            "efficiency": 34.44
           }
         }
       },
@@ -867,21 +867,21 @@
       "user_id": "E1B3B9BFCB",
       "display_name": "Nestor",
       "metric_id": "eficiencia_de_puntos",
-      "value": 56.16,
+      "value": 55.67,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 65.83,
-        "knockout_efficiency": 40.48
+        "knockout_efficiency": 40
       },
       "extra": {
-        "earned_points": 155,
-        "available_points": 276,
+        "earned_points": 157,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 79,
         "available_standings_points": 120,
-        "earned_knockout_points": 34,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 36,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -896,9 +896,9 @@
             "efficiency": 65.83
           },
           "knockout": {
-            "earned": 34,
-            "available": 84,
-            "efficiency": 40.48
+            "earned": 36,
+            "available": 90,
+            "efficiency": 40
           }
         }
       },
@@ -908,21 +908,21 @@
       "user_id": "3C3D690EE4",
       "display_name": "GSG",
       "metric_id": "eficiencia_de_puntos",
-      "value": 55.8,
+      "value": 55.32,
       "breakdown": {
         "group_efficiency": 61.11,
         "standings_efficiency": 63.33,
-        "knockout_efficiency": 40.48
+        "knockout_efficiency": 40
       },
       "extra": {
-        "earned_points": 154,
-        "available_points": 276,
+        "earned_points": 156,
+        "available_points": 282,
         "earned_group_points": 44,
         "available_group_points": 72,
         "earned_standings_points": 76,
         "available_standings_points": 120,
-        "earned_knockout_points": 34,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 36,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -937,9 +937,9 @@
             "efficiency": 63.33
           },
           "knockout": {
-            "earned": 34,
-            "available": 84,
-            "efficiency": 40.48
+            "earned": 36,
+            "available": 90,
+            "efficiency": 40
           }
         }
       },
@@ -949,21 +949,21 @@
       "user_id": "E9831BEEE3",
       "display_name": "LCV",
       "metric_id": "eficiencia_de_puntos",
-      "value": 55.8,
+      "value": 55.32,
       "breakdown": {
         "group_efficiency": 61.11,
         "standings_efficiency": 65,
-        "knockout_efficiency": 38.1
+        "knockout_efficiency": 37.78
       },
       "extra": {
-        "earned_points": 154,
-        "available_points": 276,
+        "earned_points": 156,
+        "available_points": 282,
         "earned_group_points": 44,
         "available_group_points": 72,
         "earned_standings_points": 78,
         "available_standings_points": 120,
-        "earned_knockout_points": 32,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 34,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -978,9 +978,9 @@
             "efficiency": 65
           },
           "knockout": {
-            "earned": 32,
-            "available": 84,
-            "efficiency": 38.1
+            "earned": 34,
+            "available": 90,
+            "efficiency": 37.78
           }
         }
       },
@@ -990,21 +990,21 @@
       "user_id": "8E0D4A705C",
       "display_name": "LWCP",
       "metric_id": "eficiencia_de_puntos",
-      "value": 55.8,
+      "value": 55.32,
       "breakdown": {
         "group_efficiency": 65.28,
         "standings_efficiency": 67.5,
-        "knockout_efficiency": 30.95
+        "knockout_efficiency": 31.11
       },
       "extra": {
-        "earned_points": 154,
-        "available_points": 276,
+        "earned_points": 156,
+        "available_points": 282,
         "earned_group_points": 47,
         "available_group_points": 72,
         "earned_standings_points": 81,
         "available_standings_points": 120,
-        "earned_knockout_points": 26,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 28,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1019,33 +1019,74 @@
             "efficiency": 67.5
           },
           "knockout": {
-            "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
+            "earned": 28,
+            "available": 90,
+            "efficiency": 31.11
           }
         }
       },
       "rank": 25
     },
     {
+      "user_id": "349A5D07D9",
+      "display_name": "Pacotrevi",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 55.32,
+      "breakdown": {
+        "group_efficiency": 63.89,
+        "standings_efficiency": 63.33,
+        "knockout_efficiency": 37.78
+      },
+      "extra": {
+        "earned_points": 156,
+        "available_points": 282,
+        "earned_group_points": 46,
+        "available_group_points": 72,
+        "earned_standings_points": 76,
+        "available_standings_points": 120,
+        "earned_knockout_points": 34,
+        "available_knockout_points": 90,
+        "best_stage": "group",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 46,
+            "available": 72,
+            "efficiency": 63.89
+          },
+          "standings": {
+            "earned": 76,
+            "available": 120,
+            "efficiency": 63.33
+          },
+          "knockout": {
+            "earned": 34,
+            "available": 90,
+            "efficiency": 37.78
+          }
+        }
+      },
+      "rank": 26
+    },
+    {
       "user_id": "2EF31BF1A6",
       "display_name": "Paco T",
       "metric_id": "eficiencia_de_puntos",
-      "value": 55.8,
+      "value": 55.32,
       "breakdown": {
         "group_efficiency": 51.39,
         "standings_efficiency": 66.67,
-        "knockout_efficiency": 44.05
+        "knockout_efficiency": 43.33
       },
       "extra": {
-        "earned_points": 154,
-        "available_points": 276,
+        "earned_points": 156,
+        "available_points": 282,
         "earned_group_points": 37,
         "available_group_points": 72,
         "earned_standings_points": 80,
         "available_standings_points": 120,
-        "earned_knockout_points": 37,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 39,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1060,33 +1101,33 @@
             "efficiency": 66.67
           },
           "knockout": {
-            "earned": 37,
-            "available": 84,
-            "efficiency": 44.05
+            "earned": 39,
+            "available": 90,
+            "efficiency": 43.33
           }
         }
       },
-      "rank": 26
+      "rank": 27
     },
     {
       "user_id": "6172891E3A",
       "display_name": "FMV",
       "metric_id": "eficiencia_de_puntos",
-      "value": 55.07,
+      "value": 54.61,
       "breakdown": {
         "group_efficiency": 63.89,
         "standings_efficiency": 67.5,
-        "knockout_efficiency": 29.76
+        "knockout_efficiency": 30
       },
       "extra": {
-        "earned_points": 152,
-        "available_points": 276,
+        "earned_points": 154,
+        "available_points": 282,
         "earned_group_points": 46,
         "available_group_points": 72,
         "earned_standings_points": 81,
         "available_standings_points": 120,
-        "earned_knockout_points": 25,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 27,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1101,50 +1142,9 @@
             "efficiency": 67.5
           },
           "knockout": {
-            "earned": 25,
-            "available": 84,
-            "efficiency": 29.76
-          }
-        }
-      },
-      "rank": 27
-    },
-    {
-      "user_id": "349A5D07D9",
-      "display_name": "Pacotrevi",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 55.07,
-      "breakdown": {
-        "group_efficiency": 63.89,
-        "standings_efficiency": 63.33,
-        "knockout_efficiency": 35.71
-      },
-      "extra": {
-        "earned_points": 152,
-        "available_points": 276,
-        "earned_group_points": 46,
-        "available_group_points": 72,
-        "earned_standings_points": 76,
-        "available_standings_points": 120,
-        "earned_knockout_points": 30,
-        "available_knockout_points": 84,
-        "best_stage": "group",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 46,
-            "available": 72,
-            "efficiency": 63.89
-          },
-          "standings": {
-            "earned": 76,
-            "available": 120,
-            "efficiency": 63.33
-          },
-          "knockout": {
-            "earned": 30,
-            "available": 84,
-            "efficiency": 35.71
+            "earned": 27,
+            "available": 90,
+            "efficiency": 30
           }
         }
       },
@@ -1154,21 +1154,21 @@
       "user_id": "B97C49CA8A",
       "display_name": "YP",
       "metric_id": "eficiencia_de_puntos",
-      "value": 54.71,
+      "value": 54.26,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 63.33,
-        "knockout_efficiency": 39.29
+        "knockout_efficiency": 38.89
       },
       "extra": {
-        "earned_points": 151,
-        "available_points": 276,
+        "earned_points": 153,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 76,
         "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 35,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1183,9 +1183,9 @@
             "efficiency": 63.33
           },
           "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
+            "earned": 35,
+            "available": 90,
+            "efficiency": 38.89
           }
         }
       },
@@ -1195,21 +1195,21 @@
       "user_id": "8F205AE989",
       "display_name": "Enrique el Chief",
       "metric_id": "eficiencia_de_puntos",
-      "value": 54.35,
+      "value": 53.9,
       "breakdown": {
         "group_efficiency": 59.72,
         "standings_efficiency": 65.83,
         "knockout_efficiency": 33.33
       },
       "extra": {
-        "earned_points": 150,
-        "available_points": 276,
+        "earned_points": 152,
+        "available_points": 282,
         "earned_group_points": 43,
         "available_group_points": 72,
         "earned_standings_points": 79,
         "available_standings_points": 120,
-        "earned_knockout_points": 28,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1224,8 +1224,8 @@
             "efficiency": 65.83
           },
           "knockout": {
-            "earned": 28,
-            "available": 84,
+            "earned": 30,
+            "available": 90,
             "efficiency": 33.33
           }
         }
@@ -1236,21 +1236,21 @@
       "user_id": "D351395C7E",
       "display_name": "FJGA",
       "metric_id": "eficiencia_de_puntos",
-      "value": 54.35,
+      "value": 53.9,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 63.33,
-        "knockout_efficiency": 38.1
+        "knockout_efficiency": 37.78
       },
       "extra": {
-        "earned_points": 150,
-        "available_points": 276,
+        "earned_points": 152,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 76,
         "available_standings_points": 120,
-        "earned_knockout_points": 32,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 34,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1265,238 +1265,33 @@
             "efficiency": 63.33
           },
           "knockout": {
-            "earned": 32,
-            "available": 84,
-            "efficiency": 38.1
+            "earned": 34,
+            "available": 90,
+            "efficiency": 37.78
           }
         }
       },
       "rank": 31
     },
     {
-      "user_id": "FAC51CF2CF",
-      "display_name": "Javi Villareal",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 54.35,
-      "breakdown": {
-        "group_efficiency": 56.94,
-        "standings_efficiency": 63.33,
-        "knockout_efficiency": 39.29
-      },
-      "extra": {
-        "earned_points": 150,
-        "available_points": 276,
-        "earned_group_points": 41,
-        "available_group_points": 72,
-        "earned_standings_points": 76,
-        "available_standings_points": 120,
-        "earned_knockout_points": 33,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 41,
-            "available": 72,
-            "efficiency": 56.94
-          },
-          "standings": {
-            "earned": 76,
-            "available": 120,
-            "efficiency": 63.33
-          },
-          "knockout": {
-            "earned": 33,
-            "available": 84,
-            "efficiency": 39.29
-          }
-        }
-      },
-      "rank": 32
-    },
-    {
-      "user_id": "6B1DBB716C",
-      "display_name": "JPRR",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 54.35,
-      "breakdown": {
-        "group_efficiency": 59.72,
-        "standings_efficiency": 65.83,
-        "knockout_efficiency": 33.33
-      },
-      "extra": {
-        "earned_points": 150,
-        "available_points": 276,
-        "earned_group_points": 43,
-        "available_group_points": 72,
-        "earned_standings_points": 79,
-        "available_standings_points": 120,
-        "earned_knockout_points": 28,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 43,
-            "available": 72,
-            "efficiency": 59.72
-          },
-          "standings": {
-            "earned": 79,
-            "available": 120,
-            "efficiency": 65.83
-          },
-          "knockout": {
-            "earned": 28,
-            "available": 84,
-            "efficiency": 33.33
-          }
-        }
-      },
-      "rank": 33
-    },
-    {
-      "user_id": "C19435FB3E",
-      "display_name": "RO11",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 54.35,
-      "breakdown": {
-        "group_efficiency": 52.78,
-        "standings_efficiency": 68.33,
-        "knockout_efficiency": 35.71
-      },
-      "extra": {
-        "earned_points": 150,
-        "available_points": 276,
-        "earned_group_points": 38,
-        "available_group_points": 72,
-        "earned_standings_points": 82,
-        "available_standings_points": 120,
-        "earned_knockout_points": 30,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 38,
-            "available": 72,
-            "efficiency": 52.78
-          },
-          "standings": {
-            "earned": 82,
-            "available": 120,
-            "efficiency": 68.33
-          },
-          "knockout": {
-            "earned": 30,
-            "available": 84,
-            "efficiency": 35.71
-          }
-        }
-      },
-      "rank": 34
-    },
-    {
-      "user_id": "A8FD28D6BA",
-      "display_name": "CEGM",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 53.99,
-      "breakdown": {
-        "group_efficiency": 56.94,
-        "standings_efficiency": 65.83,
-        "knockout_efficiency": 34.52
-      },
-      "extra": {
-        "earned_points": 149,
-        "available_points": 276,
-        "earned_group_points": 41,
-        "available_group_points": 72,
-        "earned_standings_points": 79,
-        "available_standings_points": 120,
-        "earned_knockout_points": 29,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 41,
-            "available": 72,
-            "efficiency": 56.94
-          },
-          "standings": {
-            "earned": 79,
-            "available": 120,
-            "efficiency": 65.83
-          },
-          "knockout": {
-            "earned": 29,
-            "available": 84,
-            "efficiency": 34.52
-          }
-        }
-      },
-      "rank": 35
-    },
-    {
-      "user_id": "B13A945BF8",
-      "display_name": "IFCR",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 53.99,
-      "breakdown": {
-        "group_efficiency": 58.33,
-        "standings_efficiency": 65,
-        "knockout_efficiency": 34.52
-      },
-      "extra": {
-        "earned_points": 149,
-        "available_points": 276,
-        "earned_group_points": 42,
-        "available_group_points": 72,
-        "earned_standings_points": 78,
-        "available_standings_points": 120,
-        "earned_knockout_points": 29,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 42,
-            "available": 72,
-            "efficiency": 58.33
-          },
-          "standings": {
-            "earned": 78,
-            "available": 120,
-            "efficiency": 65
-          },
-          "knockout": {
-            "earned": 29,
-            "available": 84,
-            "efficiency": 34.52
-          }
-        }
-      },
-      "rank": 36
-    },
-    {
       "user_id": "2383A882D9",
       "display_name": "JPGR",
       "metric_id": "eficiencia_de_puntos",
-      "value": 53.62,
+      "value": 53.9,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 64.17,
-        "knockout_efficiency": 34.52
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 148,
-        "available_points": 276,
+        "earned_points": 152,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 77,
         "available_standings_points": 120,
-        "earned_knockout_points": 29,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1511,9 +1306,214 @@
             "efficiency": 64.17
           },
           "knockout": {
-            "earned": 29,
-            "available": 84,
-            "efficiency": 34.52
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
+          }
+        }
+      },
+      "rank": 32
+    },
+    {
+      "user_id": "6B1DBB716C",
+      "display_name": "JPRR",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 53.9,
+      "breakdown": {
+        "group_efficiency": 59.72,
+        "standings_efficiency": 65.83,
+        "knockout_efficiency": 33.33
+      },
+      "extra": {
+        "earned_points": 152,
+        "available_points": 282,
+        "earned_group_points": 43,
+        "available_group_points": 72,
+        "earned_standings_points": 79,
+        "available_standings_points": 120,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 43,
+            "available": 72,
+            "efficiency": 59.72
+          },
+          "standings": {
+            "earned": 79,
+            "available": 120,
+            "efficiency": 65.83
+          },
+          "knockout": {
+            "earned": 30,
+            "available": 90,
+            "efficiency": 33.33
+          }
+        }
+      },
+      "rank": 33
+    },
+    {
+      "user_id": "C19435FB3E",
+      "display_name": "RO11",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 53.9,
+      "breakdown": {
+        "group_efficiency": 52.78,
+        "standings_efficiency": 68.33,
+        "knockout_efficiency": 35.56
+      },
+      "extra": {
+        "earned_points": 152,
+        "available_points": 282,
+        "earned_group_points": 38,
+        "available_group_points": 72,
+        "earned_standings_points": 82,
+        "available_standings_points": 120,
+        "earned_knockout_points": 32,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 38,
+            "available": 72,
+            "efficiency": 52.78
+          },
+          "standings": {
+            "earned": 82,
+            "available": 120,
+            "efficiency": 68.33
+          },
+          "knockout": {
+            "earned": 32,
+            "available": 90,
+            "efficiency": 35.56
+          }
+        }
+      },
+      "rank": 34
+    },
+    {
+      "user_id": "FAC51CF2CF",
+      "display_name": "Javi Villareal",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 53.55,
+      "breakdown": {
+        "group_efficiency": 56.94,
+        "standings_efficiency": 63.33,
+        "knockout_efficiency": 37.78
+      },
+      "extra": {
+        "earned_points": 151,
+        "available_points": 282,
+        "earned_group_points": 41,
+        "available_group_points": 72,
+        "earned_standings_points": 76,
+        "available_standings_points": 120,
+        "earned_knockout_points": 34,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 41,
+            "available": 72,
+            "efficiency": 56.94
+          },
+          "standings": {
+            "earned": 76,
+            "available": 120,
+            "efficiency": 63.33
+          },
+          "knockout": {
+            "earned": 34,
+            "available": 90,
+            "efficiency": 37.78
+          }
+        }
+      },
+      "rank": 35
+    },
+    {
+      "user_id": "A8FD28D6BA",
+      "display_name": "CEGM",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 53.19,
+      "breakdown": {
+        "group_efficiency": 56.94,
+        "standings_efficiency": 65.83,
+        "knockout_efficiency": 33.33
+      },
+      "extra": {
+        "earned_points": 150,
+        "available_points": 282,
+        "earned_group_points": 41,
+        "available_group_points": 72,
+        "earned_standings_points": 79,
+        "available_standings_points": 120,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 41,
+            "available": 72,
+            "efficiency": 56.94
+          },
+          "standings": {
+            "earned": 79,
+            "available": 120,
+            "efficiency": 65.83
+          },
+          "knockout": {
+            "earned": 30,
+            "available": 90,
+            "efficiency": 33.33
+          }
+        }
+      },
+      "rank": 36
+    },
+    {
+      "user_id": "B13A945BF8",
+      "display_name": "IFCR",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 53.19,
+      "breakdown": {
+        "group_efficiency": 58.33,
+        "standings_efficiency": 65,
+        "knockout_efficiency": 33.33
+      },
+      "extra": {
+        "earned_points": 150,
+        "available_points": 282,
+        "earned_group_points": 42,
+        "available_group_points": 72,
+        "earned_standings_points": 78,
+        "available_standings_points": 120,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 42,
+            "available": 72,
+            "efficiency": 58.33
+          },
+          "standings": {
+            "earned": 78,
+            "available": 120,
+            "efficiency": 65
+          },
+          "knockout": {
+            "earned": 30,
+            "available": 90,
+            "efficiency": 33.33
           }
         }
       },
@@ -1523,21 +1523,21 @@
       "user_id": "C9CE9AF477",
       "display_name": "Shadai LL",
       "metric_id": "eficiencia_de_puntos",
-      "value": 53.62,
+      "value": 53.19,
       "breakdown": {
         "group_efficiency": 61.11,
         "standings_efficiency": 60.83,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 148,
-        "available_points": 276,
+        "earned_points": 150,
+        "available_points": 282,
         "earned_group_points": 44,
         "available_group_points": 72,
         "earned_standings_points": 73,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1552,40 +1552,40 @@
             "efficiency": 60.83
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
       "rank": 38
     },
     {
-      "user_id": "7178DB5D04",
-      "display_name": "AleXtremo",
+      "user_id": "31A6CB0C21",
+      "display_name": "Jerry",
       "metric_id": "eficiencia_de_puntos",
-      "value": 53.26,
+      "value": 52.84,
       "breakdown": {
-        "group_efficiency": 56.94,
+        "group_efficiency": 52.78,
         "standings_efficiency": 65,
-        "knockout_efficiency": 33.33
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 147,
-        "available_points": 276,
-        "earned_group_points": 41,
+        "earned_points": 149,
+        "available_points": 282,
+        "earned_group_points": 38,
         "available_group_points": 72,
         "earned_standings_points": 78,
         "available_standings_points": 120,
-        "earned_knockout_points": 28,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
           "group": {
-            "earned": 41,
+            "earned": 38,
             "available": 72,
-            "efficiency": 56.94
+            "efficiency": 52.78
           },
           "standings": {
             "earned": 78,
@@ -1593,9 +1593,9 @@
             "efficiency": 65
           },
           "knockout": {
-            "earned": 28,
-            "available": 84,
-            "efficiency": 33.33
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
@@ -1605,21 +1605,21 @@
       "user_id": "E0B28E3E04",
       "display_name": "JLSuriano",
       "metric_id": "eficiencia_de_puntos",
-      "value": 53.26,
+      "value": 52.84,
       "breakdown": {
         "group_efficiency": 55.56,
         "standings_efficiency": 63.33,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 147,
-        "available_points": 276,
+        "earned_points": 149,
+        "available_points": 282,
         "earned_group_points": 40,
         "available_group_points": 72,
         "earned_standings_points": 76,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1634,40 +1634,40 @@
             "efficiency": 63.33
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
       "rank": 40
     },
     {
-      "user_id": "31A6CB0C21",
-      "display_name": "Jerry",
+      "user_id": "7178DB5D04",
+      "display_name": "AleXtremo",
       "metric_id": "eficiencia_de_puntos",
-      "value": 52.54,
+      "value": 52.48,
       "breakdown": {
-        "group_efficiency": 52.78,
+        "group_efficiency": 56.94,
         "standings_efficiency": 65,
-        "knockout_efficiency": 34.52
+        "knockout_efficiency": 32.22
       },
       "extra": {
-        "earned_points": 145,
-        "available_points": 276,
-        "earned_group_points": 38,
+        "earned_points": 148,
+        "available_points": 282,
+        "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 78,
         "available_standings_points": 120,
         "earned_knockout_points": 29,
-        "available_knockout_points": 84,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
           "group": {
-            "earned": 38,
+            "earned": 41,
             "available": 72,
-            "efficiency": 52.78
+            "efficiency": 56.94
           },
           "standings": {
             "earned": 78,
@@ -1676,8 +1676,8 @@
           },
           "knockout": {
             "earned": 29,
-            "available": 84,
-            "efficiency": 34.52
+            "available": 90,
+            "efficiency": 32.22
           }
         }
       },
@@ -1687,21 +1687,21 @@
       "user_id": "1D2C13E050",
       "display_name": "RCHL",
       "metric_id": "eficiencia_de_puntos",
-      "value": 52.17,
+      "value": 51.77,
       "breakdown": {
         "group_efficiency": 59.72,
         "standings_efficiency": 58.33,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 144,
-        "available_points": 276,
+        "earned_points": 146,
+        "available_points": 282,
         "earned_group_points": 43,
         "available_group_points": 72,
         "earned_standings_points": 70,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1716,9 +1716,9 @@
             "efficiency": 58.33
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
@@ -1728,21 +1728,21 @@
       "user_id": "8A01EA47FC",
       "display_name": "Juan T",
       "metric_id": "eficiencia_de_puntos",
-      "value": 51.81,
+      "value": 51.42,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 62.5,
-        "knockout_efficiency": 32.14
+        "knockout_efficiency": 32.22
       },
       "extra": {
-        "earned_points": 143,
-        "available_points": 276,
+        "earned_points": 145,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 75,
         "available_standings_points": 120,
-        "earned_knockout_points": 27,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 29,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1757,9 +1757,9 @@
             "efficiency": 62.5
           },
           "knockout": {
-            "earned": 27,
-            "available": 84,
-            "efficiency": 32.14
+            "earned": 29,
+            "available": 90,
+            "efficiency": 32.22
           }
         }
       },
@@ -1769,21 +1769,21 @@
       "user_id": "E4FC183EB7",
       "display_name": "LJMV",
       "metric_id": "eficiencia_de_puntos",
-      "value": 51.81,
+      "value": 51.42,
       "breakdown": {
         "group_efficiency": 52.78,
         "standings_efficiency": 58.33,
-        "knockout_efficiency": 41.67
+        "knockout_efficiency": 41.11
       },
       "extra": {
-        "earned_points": 143,
-        "available_points": 276,
+        "earned_points": 145,
+        "available_points": 282,
         "earned_group_points": 38,
         "available_group_points": 72,
         "earned_standings_points": 70,
         "available_standings_points": 120,
-        "earned_knockout_points": 35,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 37,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1798,9 +1798,9 @@
             "efficiency": 58.33
           },
           "knockout": {
-            "earned": 35,
-            "available": 84,
-            "efficiency": 41.67
+            "earned": 37,
+            "available": 90,
+            "efficiency": 41.11
           }
         }
       },
@@ -1810,21 +1810,21 @@
       "user_id": "1829AF0B20",
       "display_name": "Memo Garcia",
       "metric_id": "eficiencia_de_puntos",
-      "value": 51.45,
+      "value": 50.71,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 58.33,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 35.56
       },
       "extra": {
-        "earned_points": 142,
-        "available_points": 276,
+        "earned_points": 143,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 70,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 32,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1839,9 +1839,9 @@
             "efficiency": 58.33
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 32,
+            "available": 90,
+            "efficiency": 35.56
           }
         }
       },
@@ -1851,21 +1851,21 @@
       "user_id": "18734EA2D1",
       "display_name": "Skywalker",
       "metric_id": "eficiencia_de_puntos",
-      "value": 51.45,
+      "value": 50.71,
       "breakdown": {
         "group_efficiency": 55.56,
         "standings_efficiency": 60.83,
-        "knockout_efficiency": 34.52
+        "knockout_efficiency": 33.33
       },
       "extra": {
-        "earned_points": 142,
-        "available_points": 276,
+        "earned_points": 143,
+        "available_points": 282,
         "earned_group_points": 40,
         "available_group_points": 72,
         "earned_standings_points": 73,
         "available_standings_points": 120,
-        "earned_knockout_points": 29,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1880,9 +1880,9 @@
             "efficiency": 60.83
           },
           "knockout": {
-            "earned": 29,
-            "available": 84,
-            "efficiency": 34.52
+            "earned": 30,
+            "available": 90,
+            "efficiency": 33.33
           }
         }
       },
@@ -1892,21 +1892,21 @@
       "user_id": "198CA6C5CB",
       "display_name": "JAGOL",
       "metric_id": "eficiencia_de_puntos",
-      "value": 50.72,
+      "value": 50.35,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 56.67,
-        "knockout_efficiency": 36.9
+        "knockout_efficiency": 36.67
       },
       "extra": {
-        "earned_points": 140,
-        "available_points": 276,
+        "earned_points": 142,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 68,
         "available_standings_points": 120,
-        "earned_knockout_points": 31,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 33,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1921,9 +1921,9 @@
             "efficiency": 56.67
           },
           "knockout": {
-            "earned": 31,
-            "available": 84,
-            "efficiency": 36.9
+            "earned": 33,
+            "available": 90,
+            "efficiency": 36.67
           }
         }
       },
@@ -1933,21 +1933,21 @@
       "user_id": "D053A979C1",
       "display_name": "Jose J Silva",
       "metric_id": "eficiencia_de_puntos",
-      "value": 50.72,
+      "value": 50.35,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 60,
-        "knockout_efficiency": 32.14
+        "knockout_efficiency": 32.22
       },
       "extra": {
-        "earned_points": 140,
-        "available_points": 276,
+        "earned_points": 142,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 72,
         "available_standings_points": 120,
-        "earned_knockout_points": 27,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 29,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -1962,115 +1962,33 @@
             "efficiency": 60
           },
           "knockout": {
-            "earned": 27,
-            "available": 84,
-            "efficiency": 32.14
+            "earned": 29,
+            "available": 90,
+            "efficiency": 32.22
           }
         }
       },
       "rank": 48
     },
     {
-      "user_id": "3DE522E965",
-      "display_name": "LUD",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 50.72,
-      "breakdown": {
-        "group_efficiency": 63.89,
-        "standings_efficiency": 60,
-        "knockout_efficiency": 26.19
-      },
-      "extra": {
-        "earned_points": 140,
-        "available_points": 276,
-        "earned_group_points": 46,
-        "available_group_points": 72,
-        "earned_standings_points": 72,
-        "available_standings_points": 120,
-        "earned_knockout_points": 22,
-        "available_knockout_points": 84,
-        "best_stage": "group",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 46,
-            "available": 72,
-            "efficiency": 63.89
-          },
-          "standings": {
-            "earned": 72,
-            "available": 120,
-            "efficiency": 60
-          },
-          "knockout": {
-            "earned": 22,
-            "available": 84,
-            "efficiency": 26.19
-          }
-        }
-      },
-      "rank": 49
-    },
-    {
-      "user_id": "F4DAEB067A",
-      "display_name": "MEMR",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 50.72,
-      "breakdown": {
-        "group_efficiency": 54.17,
-        "standings_efficiency": 61.67,
-        "knockout_efficiency": 32.14
-      },
-      "extra": {
-        "earned_points": 140,
-        "available_points": 276,
-        "earned_group_points": 39,
-        "available_group_points": 72,
-        "earned_standings_points": 74,
-        "available_standings_points": 120,
-        "earned_knockout_points": 27,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 39,
-            "available": 72,
-            "efficiency": 54.17
-          },
-          "standings": {
-            "earned": 74,
-            "available": 120,
-            "efficiency": 61.67
-          },
-          "knockout": {
-            "earned": 27,
-            "available": 84,
-            "efficiency": 32.14
-          }
-        }
-      },
-      "rank": 50
-    },
-    {
       "user_id": "A44F6A82DF",
       "display_name": "RRR",
       "metric_id": "eficiencia_de_puntos",
-      "value": 50.72,
+      "value": 50.35,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 58.33,
         "knockout_efficiency": 33.33
       },
       "extra": {
-        "earned_points": 140,
-        "available_points": 276,
+        "earned_points": 142,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 70,
         "available_standings_points": 120,
-        "earned_knockout_points": 28,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2085,9 +2003,91 @@
             "efficiency": 58.33
           },
           "knockout": {
-            "earned": 28,
-            "available": 84,
+            "earned": 30,
+            "available": 90,
             "efficiency": 33.33
+          }
+        }
+      },
+      "rank": 49
+    },
+    {
+      "user_id": "3DE522E965",
+      "display_name": "LUD",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 50,
+      "breakdown": {
+        "group_efficiency": 63.89,
+        "standings_efficiency": 60,
+        "knockout_efficiency": 25.56
+      },
+      "extra": {
+        "earned_points": 141,
+        "available_points": 282,
+        "earned_group_points": 46,
+        "available_group_points": 72,
+        "earned_standings_points": 72,
+        "available_standings_points": 120,
+        "earned_knockout_points": 23,
+        "available_knockout_points": 90,
+        "best_stage": "group",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 46,
+            "available": 72,
+            "efficiency": 63.89
+          },
+          "standings": {
+            "earned": 72,
+            "available": 120,
+            "efficiency": 60
+          },
+          "knockout": {
+            "earned": 23,
+            "available": 90,
+            "efficiency": 25.56
+          }
+        }
+      },
+      "rank": 50
+    },
+    {
+      "user_id": "F4DAEB067A",
+      "display_name": "MEMR",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 50,
+      "breakdown": {
+        "group_efficiency": 54.17,
+        "standings_efficiency": 61.67,
+        "knockout_efficiency": 31.11
+      },
+      "extra": {
+        "earned_points": 141,
+        "available_points": 282,
+        "earned_group_points": 39,
+        "available_group_points": 72,
+        "earned_standings_points": 74,
+        "available_standings_points": 120,
+        "earned_knockout_points": 28,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 39,
+            "available": 72,
+            "efficiency": 54.17
+          },
+          "standings": {
+            "earned": 74,
+            "available": 120,
+            "efficiency": 61.67
+          },
+          "knockout": {
+            "earned": 28,
+            "available": 90,
+            "efficiency": 31.11
           }
         }
       },
@@ -2097,21 +2097,21 @@
       "user_id": "EC8976134D",
       "display_name": "Salux",
       "metric_id": "eficiencia_de_puntos",
-      "value": 50.36,
+      "value": 49.65,
       "breakdown": {
         "group_efficiency": 50,
         "standings_efficiency": 61.67,
-        "knockout_efficiency": 34.52
+        "knockout_efficiency": 33.33
       },
       "extra": {
-        "earned_points": 139,
-        "available_points": 276,
+        "earned_points": 140,
+        "available_points": 282,
         "earned_group_points": 36,
         "available_group_points": 72,
         "earned_standings_points": 74,
         "available_standings_points": 120,
-        "earned_knockout_points": 29,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2126,9 +2126,9 @@
             "efficiency": 61.67
           },
           "knockout": {
-            "earned": 29,
-            "available": 84,
-            "efficiency": 34.52
+            "earned": 30,
+            "available": 90,
+            "efficiency": 33.33
           }
         }
       },
@@ -2138,21 +2138,21 @@
       "user_id": "E5DF64F6CC",
       "display_name": "Tom",
       "metric_id": "eficiencia_de_puntos",
-      "value": 50,
+      "value": 49.65,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 59.17,
-        "knockout_efficiency": 30.95
+        "knockout_efficiency": 31.11
       },
       "extra": {
-        "earned_points": 138,
-        "available_points": 276,
+        "earned_points": 140,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 71,
         "available_standings_points": 120,
-        "earned_knockout_points": 26,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 28,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2167,74 +2167,33 @@
             "efficiency": 59.17
           },
           "knockout": {
-            "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
+            "earned": 28,
+            "available": 90,
+            "efficiency": 31.11
           }
         }
       },
       "rank": 53
     },
     {
-      "user_id": "3855CBD142",
-      "display_name": "Heisenberg FIFAS 26",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 49.64,
-      "breakdown": {
-        "group_efficiency": 58.33,
-        "standings_efficiency": 55.83,
-        "knockout_efficiency": 33.33
-      },
-      "extra": {
-        "earned_points": 137,
-        "available_points": 276,
-        "earned_group_points": 42,
-        "available_group_points": 72,
-        "earned_standings_points": 67,
-        "available_standings_points": 120,
-        "earned_knockout_points": 28,
-        "available_knockout_points": 84,
-        "best_stage": "group",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 42,
-            "available": 72,
-            "efficiency": 58.33
-          },
-          "standings": {
-            "earned": 67,
-            "available": 120,
-            "efficiency": 55.83
-          },
-          "knockout": {
-            "earned": 28,
-            "available": 84,
-            "efficiency": 33.33
-          }
-        }
-      },
-      "rank": 54
-    },
-    {
       "user_id": "CC6B00FB62",
       "display_name": "Miri",
       "metric_id": "eficiencia_de_puntos",
-      "value": 48.91,
+      "value": 49.29,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 57.5,
-        "knockout_efficiency": 29.76
+        "knockout_efficiency": 32.22
       },
       "extra": {
-        "earned_points": 135,
-        "available_points": 276,
+        "earned_points": 139,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 69,
         "available_standings_points": 120,
-        "earned_knockout_points": 25,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 29,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2249,74 +2208,33 @@
             "efficiency": 57.5
           },
           "knockout": {
-            "earned": 25,
-            "available": 84,
-            "efficiency": 29.76
+            "earned": 29,
+            "available": 90,
+            "efficiency": 32.22
           }
         }
       },
-      "rank": 55
+      "rank": 54
     },
     {
-      "user_id": "E201266422",
-      "display_name": "Felix Varela",
+      "user_id": "3855CBD142",
+      "display_name": "Heisenberg FIFAS 26",
       "metric_id": "eficiencia_de_puntos",
-      "value": 48.55,
-      "breakdown": {
-        "group_efficiency": 56.94,
-        "standings_efficiency": 55,
-        "knockout_efficiency": 32.14
-      },
-      "extra": {
-        "earned_points": 134,
-        "available_points": 276,
-        "earned_group_points": 41,
-        "available_group_points": 72,
-        "earned_standings_points": 66,
-        "available_standings_points": 120,
-        "earned_knockout_points": 27,
-        "available_knockout_points": 84,
-        "best_stage": "group",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 41,
-            "available": 72,
-            "efficiency": 56.94
-          },
-          "standings": {
-            "earned": 66,
-            "available": 120,
-            "efficiency": 55
-          },
-          "knockout": {
-            "earned": 27,
-            "available": 84,
-            "efficiency": 32.14
-          }
-        }
-      },
-      "rank": 56
-    },
-    {
-      "user_id": "278ECC1B7A",
-      "display_name": "Hernangzz",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 48.55,
+      "value": 48.94,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 55.83,
-        "knockout_efficiency": 29.76
+        "knockout_efficiency": 32.22
       },
       "extra": {
-        "earned_points": 134,
-        "available_points": 276,
+        "earned_points": 138,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 67,
         "available_standings_points": 120,
-        "earned_knockout_points": 25,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 29,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2331,33 +2249,33 @@
             "efficiency": 55.83
           },
           "knockout": {
-            "earned": 25,
-            "available": 84,
-            "efficiency": 29.76
+            "earned": 29,
+            "available": 90,
+            "efficiency": 32.22
           }
         }
       },
-      "rank": 57
+      "rank": 55
     },
     {
       "user_id": "72A9ED8F20",
       "display_name": "Pipo",
       "metric_id": "eficiencia_de_puntos",
-      "value": 48.55,
+      "value": 48.94,
       "breakdown": {
         "group_efficiency": 59.72,
         "standings_efficiency": 54.17,
-        "knockout_efficiency": 30.95
+        "knockout_efficiency": 33.33
       },
       "extra": {
-        "earned_points": 134,
-        "available_points": 276,
+        "earned_points": 138,
+        "available_points": 282,
         "earned_group_points": 43,
         "available_group_points": 72,
         "earned_standings_points": 65,
         "available_standings_points": 120,
-        "earned_knockout_points": 26,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 30,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2372,115 +2290,33 @@
             "efficiency": 54.17
           },
           "knockout": {
-            "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
+            "earned": 30,
+            "available": 90,
+            "efficiency": 33.33
           }
         }
       },
-      "rank": 58
-    },
-    {
-      "user_id": "0933C88879",
-      "display_name": "Golden Eagle",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 48.19,
-      "breakdown": {
-        "group_efficiency": 55.56,
-        "standings_efficiency": 55.83,
-        "knockout_efficiency": 30.95
-      },
-      "extra": {
-        "earned_points": 133,
-        "available_points": 276,
-        "earned_group_points": 40,
-        "available_group_points": 72,
-        "earned_standings_points": 67,
-        "available_standings_points": 120,
-        "earned_knockout_points": 26,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 40,
-            "available": 72,
-            "efficiency": 55.56
-          },
-          "standings": {
-            "earned": 67,
-            "available": 120,
-            "efficiency": 55.83
-          },
-          "knockout": {
-            "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
-          }
-        }
-      },
-      "rank": 59
-    },
-    {
-      "user_id": "6665E150B0",
-      "display_name": "ARLO",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 47.83,
-      "breakdown": {
-        "group_efficiency": 56.94,
-        "standings_efficiency": 55,
-        "knockout_efficiency": 29.76
-      },
-      "extra": {
-        "earned_points": 132,
-        "available_points": 276,
-        "earned_group_points": 41,
-        "available_group_points": 72,
-        "earned_standings_points": 66,
-        "available_standings_points": 120,
-        "earned_knockout_points": 25,
-        "available_knockout_points": 84,
-        "best_stage": "group",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 41,
-            "available": 72,
-            "efficiency": 56.94
-          },
-          "standings": {
-            "earned": 66,
-            "available": 120,
-            "efficiency": 55
-          },
-          "knockout": {
-            "earned": 25,
-            "available": 84,
-            "efficiency": 29.76
-          }
-        }
-      },
-      "rank": 60
+      "rank": 56
     },
     {
       "user_id": "5283E0D056",
       "display_name": "Beth",
       "metric_id": "eficiencia_de_puntos",
-      "value": 47.83,
+      "value": 48.23,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 55.83,
-        "knockout_efficiency": 27.38
+        "knockout_efficiency": 30
       },
       "extra": {
-        "earned_points": 132,
-        "available_points": 276,
+        "earned_points": 136,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 67,
         "available_standings_points": 120,
-        "earned_knockout_points": 23,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 27,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2495,33 +2331,115 @@
             "efficiency": 55.83
           },
           "knockout": {
-            "earned": 23,
-            "available": 84,
-            "efficiency": 27.38
+            "earned": 27,
+            "available": 90,
+            "efficiency": 30
           }
         }
       },
-      "rank": 61
+      "rank": 57
+    },
+    {
+      "user_id": "E201266422",
+      "display_name": "Felix Varela",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 48.23,
+      "breakdown": {
+        "group_efficiency": 56.94,
+        "standings_efficiency": 55,
+        "knockout_efficiency": 32.22
+      },
+      "extra": {
+        "earned_points": 136,
+        "available_points": 282,
+        "earned_group_points": 41,
+        "available_group_points": 72,
+        "earned_standings_points": 66,
+        "available_standings_points": 120,
+        "earned_knockout_points": 29,
+        "available_knockout_points": 90,
+        "best_stage": "group",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 41,
+            "available": 72,
+            "efficiency": 56.94
+          },
+          "standings": {
+            "earned": 66,
+            "available": 120,
+            "efficiency": 55
+          },
+          "knockout": {
+            "earned": 29,
+            "available": 90,
+            "efficiency": 32.22
+          }
+        }
+      },
+      "rank": 58
+    },
+    {
+      "user_id": "278ECC1B7A",
+      "display_name": "Hernangzz",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 47.87,
+      "breakdown": {
+        "group_efficiency": 58.33,
+        "standings_efficiency": 55.83,
+        "knockout_efficiency": 28.89
+      },
+      "extra": {
+        "earned_points": 135,
+        "available_points": 282,
+        "earned_group_points": 42,
+        "available_group_points": 72,
+        "earned_standings_points": 67,
+        "available_standings_points": 120,
+        "earned_knockout_points": 26,
+        "available_knockout_points": 90,
+        "best_stage": "group",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 42,
+            "available": 72,
+            "efficiency": 58.33
+          },
+          "standings": {
+            "earned": 67,
+            "available": 120,
+            "efficiency": 55.83
+          },
+          "knockout": {
+            "earned": 26,
+            "available": 90,
+            "efficiency": 28.89
+          }
+        }
+      },
+      "rank": 59
     },
     {
       "user_id": "AE26D11B16",
       "display_name": "ExiliadosFC",
       "metric_id": "eficiencia_de_puntos",
-      "value": 47.83,
+      "value": 47.52,
       "breakdown": {
         "group_efficiency": 55.56,
         "standings_efficiency": 56.67,
-        "knockout_efficiency": 28.57
+        "knockout_efficiency": 28.89
       },
       "extra": {
-        "earned_points": 132,
-        "available_points": 276,
+        "earned_points": 134,
+        "available_points": 282,
         "earned_group_points": 40,
         "available_group_points": 72,
         "earned_standings_points": 68,
         "available_standings_points": 120,
-        "earned_knockout_points": 24,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 26,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2536,33 +2454,74 @@
             "efficiency": 56.67
           },
           "knockout": {
-            "earned": 24,
-            "available": 84,
-            "efficiency": 28.57
+            "earned": 26,
+            "available": 90,
+            "efficiency": 28.89
           }
         }
       },
-      "rank": 62
+      "rank": 60
+    },
+    {
+      "user_id": "0933C88879",
+      "display_name": "Golden Eagle",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 47.52,
+      "breakdown": {
+        "group_efficiency": 55.56,
+        "standings_efficiency": 55.83,
+        "knockout_efficiency": 30
+      },
+      "extra": {
+        "earned_points": 134,
+        "available_points": 282,
+        "earned_group_points": 40,
+        "available_group_points": 72,
+        "earned_standings_points": 67,
+        "available_standings_points": 120,
+        "earned_knockout_points": 27,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 40,
+            "available": 72,
+            "efficiency": 55.56
+          },
+          "standings": {
+            "earned": 67,
+            "available": 120,
+            "efficiency": 55.83
+          },
+          "knockout": {
+            "earned": 27,
+            "available": 90,
+            "efficiency": 30
+          }
+        }
+      },
+      "rank": 61
     },
     {
       "user_id": "4CA014CA5E",
       "display_name": "Luigi R",
       "metric_id": "eficiencia_de_puntos",
-      "value": 47.1,
+      "value": 47.52,
       "breakdown": {
         "group_efficiency": 56.94,
         "standings_efficiency": 54.17,
-        "knockout_efficiency": 28.57
+        "knockout_efficiency": 31.11
       },
       "extra": {
-        "earned_points": 130,
-        "available_points": 276,
+        "earned_points": 134,
+        "available_points": 282,
         "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 65,
         "available_standings_points": 120,
-        "earned_knockout_points": 24,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 28,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2577,40 +2536,40 @@
             "efficiency": 54.17
           },
           "knockout": {
-            "earned": 24,
-            "available": 84,
-            "efficiency": 28.57
+            "earned": 28,
+            "available": 90,
+            "efficiency": 31.11
           }
         }
       },
-      "rank": 63
+      "rank": 62
     },
     {
-      "user_id": "F07429A0E3",
-      "display_name": "ARR",
+      "user_id": "6665E150B0",
+      "display_name": "ARLO",
       "metric_id": "eficiencia_de_puntos",
-      "value": 46.74,
+      "value": 47.16,
       "breakdown": {
-        "group_efficiency": 51.39,
+        "group_efficiency": 56.94,
         "standings_efficiency": 55,
-        "knockout_efficiency": 30.95
+        "knockout_efficiency": 28.89
       },
       "extra": {
-        "earned_points": 129,
-        "available_points": 276,
-        "earned_group_points": 37,
+        "earned_points": 133,
+        "available_points": 282,
+        "earned_group_points": 41,
         "available_group_points": 72,
         "earned_standings_points": 66,
         "available_standings_points": 120,
         "earned_knockout_points": 26,
-        "available_knockout_points": 84,
-        "best_stage": "standings",
+        "available_knockout_points": 90,
+        "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
           "group": {
-            "earned": 37,
+            "earned": 41,
             "available": 72,
-            "efficiency": 51.39
+            "efficiency": 56.94
           },
           "standings": {
             "earned": 66,
@@ -2619,73 +2578,32 @@
           },
           "knockout": {
             "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
+            "available": 90,
+            "efficiency": 28.89
           }
         }
       },
-      "rank": 64
-    },
-    {
-      "user_id": "23C4468823",
-      "display_name": "David Magaña",
-      "metric_id": "eficiencia_de_puntos",
-      "value": 46.74,
-      "breakdown": {
-        "group_efficiency": 55.56,
-        "standings_efficiency": 52.5,
-        "knockout_efficiency": 30.95
-      },
-      "extra": {
-        "earned_points": 129,
-        "available_points": 276,
-        "earned_group_points": 40,
-        "available_group_points": 72,
-        "earned_standings_points": 63,
-        "available_standings_points": 120,
-        "earned_knockout_points": 26,
-        "available_knockout_points": 84,
-        "best_stage": "group",
-        "worst_stage": "knockout",
-        "stage_breakdown": {
-          "group": {
-            "earned": 40,
-            "available": 72,
-            "efficiency": 55.56
-          },
-          "standings": {
-            "earned": 63,
-            "available": 120,
-            "efficiency": 52.5
-          },
-          "knockout": {
-            "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
-          }
-        }
-      },
-      "rank": 65
+      "rank": 63
     },
     {
       "user_id": "CC94195BEB",
       "display_name": "RSP",
       "metric_id": "eficiencia_de_puntos",
-      "value": 46.74,
+      "value": 46.45,
       "breakdown": {
         "group_efficiency": 50,
         "standings_efficiency": 52.5,
-        "knockout_efficiency": 35.71
+        "knockout_efficiency": 35.56
       },
       "extra": {
-        "earned_points": 129,
-        "available_points": 276,
+        "earned_points": 131,
+        "available_points": 282,
         "earned_group_points": 36,
         "available_group_points": 72,
         "earned_standings_points": 63,
         "available_standings_points": 120,
-        "earned_knockout_points": 30,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 32,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2700,9 +2618,91 @@
             "efficiency": 52.5
           },
           "knockout": {
-            "earned": 30,
-            "available": 84,
-            "efficiency": 35.71
+            "earned": 32,
+            "available": 90,
+            "efficiency": 35.56
+          }
+        }
+      },
+      "rank": 64
+    },
+    {
+      "user_id": "F07429A0E3",
+      "display_name": "ARR",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 46.1,
+      "breakdown": {
+        "group_efficiency": 51.39,
+        "standings_efficiency": 55,
+        "knockout_efficiency": 30
+      },
+      "extra": {
+        "earned_points": 130,
+        "available_points": 282,
+        "earned_group_points": 37,
+        "available_group_points": 72,
+        "earned_standings_points": 66,
+        "available_standings_points": 120,
+        "earned_knockout_points": 27,
+        "available_knockout_points": 90,
+        "best_stage": "standings",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 37,
+            "available": 72,
+            "efficiency": 51.39
+          },
+          "standings": {
+            "earned": 66,
+            "available": 120,
+            "efficiency": 55
+          },
+          "knockout": {
+            "earned": 27,
+            "available": 90,
+            "efficiency": 30
+          }
+        }
+      },
+      "rank": 65
+    },
+    {
+      "user_id": "23C4468823",
+      "display_name": "David Magaña",
+      "metric_id": "eficiencia_de_puntos",
+      "value": 46.1,
+      "breakdown": {
+        "group_efficiency": 55.56,
+        "standings_efficiency": 52.5,
+        "knockout_efficiency": 30
+      },
+      "extra": {
+        "earned_points": 130,
+        "available_points": 282,
+        "earned_group_points": 40,
+        "available_group_points": 72,
+        "earned_standings_points": 63,
+        "available_standings_points": 120,
+        "earned_knockout_points": 27,
+        "available_knockout_points": 90,
+        "best_stage": "group",
+        "worst_stage": "knockout",
+        "stage_breakdown": {
+          "group": {
+            "earned": 40,
+            "available": 72,
+            "efficiency": 55.56
+          },
+          "standings": {
+            "earned": 63,
+            "available": 120,
+            "efficiency": 52.5
+          },
+          "knockout": {
+            "earned": 27,
+            "available": 90,
+            "efficiency": 30
           }
         }
       },
@@ -2712,21 +2712,21 @@
       "user_id": "432BF50FA9",
       "display_name": "Jose Treviño",
       "metric_id": "eficiencia_de_puntos",
-      "value": 46.38,
+      "value": 46.1,
       "breakdown": {
         "group_efficiency": 54.17,
         "standings_efficiency": 52.5,
-        "knockout_efficiency": 30.95
+        "knockout_efficiency": 31.11
       },
       "extra": {
-        "earned_points": 128,
-        "available_points": 276,
+        "earned_points": 130,
+        "available_points": 282,
         "earned_group_points": 39,
         "available_group_points": 72,
         "earned_standings_points": 63,
         "available_standings_points": 120,
-        "earned_knockout_points": 26,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 28,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2741,9 +2741,9 @@
             "efficiency": 52.5
           },
           "knockout": {
-            "earned": 26,
-            "available": 84,
-            "efficiency": 30.95
+            "earned": 28,
+            "available": 90,
+            "efficiency": 31.11
           }
         }
       },
@@ -2753,21 +2753,21 @@
       "user_id": "91F0A88C8D",
       "display_name": "Steve Gerald",
       "metric_id": "eficiencia_de_puntos",
-      "value": 46.38,
+      "value": 46.1,
       "breakdown": {
         "group_efficiency": 58.33,
         "standings_efficiency": 53.33,
-        "knockout_efficiency": 26.19
+        "knockout_efficiency": 26.67
       },
       "extra": {
-        "earned_points": 128,
-        "available_points": 276,
+        "earned_points": 130,
+        "available_points": 282,
         "earned_group_points": 42,
         "available_group_points": 72,
         "earned_standings_points": 64,
         "available_standings_points": 120,
-        "earned_knockout_points": 22,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 24,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2782,9 +2782,9 @@
             "efficiency": 53.33
           },
           "knockout": {
-            "earned": 22,
-            "available": 84,
-            "efficiency": 26.19
+            "earned": 24,
+            "available": 90,
+            "efficiency": 26.67
           }
         }
       },
@@ -2794,21 +2794,21 @@
       "user_id": "4EE3A0CA82",
       "display_name": "AJV",
       "metric_id": "eficiencia_de_puntos",
-      "value": 45.65,
+      "value": 45.04,
       "breakdown": {
         "group_efficiency": 47.22,
         "standings_efficiency": 46.67,
-        "knockout_efficiency": 42.86
+        "knockout_efficiency": 41.11
       },
       "extra": {
-        "earned_points": 126,
-        "available_points": 276,
+        "earned_points": 127,
+        "available_points": 282,
         "earned_group_points": 34,
         "available_group_points": 72,
         "earned_standings_points": 56,
         "available_standings_points": 120,
-        "earned_knockout_points": 36,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 37,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2823,9 +2823,9 @@
             "efficiency": 46.67
           },
           "knockout": {
-            "earned": 36,
-            "available": 84,
-            "efficiency": 42.86
+            "earned": 37,
+            "available": 90,
+            "efficiency": 41.11
           }
         }
       },
@@ -2835,21 +2835,21 @@
       "user_id": "B8964AAF79",
       "display_name": "DiegoMagaña",
       "metric_id": "eficiencia_de_puntos",
-      "value": 45.29,
+      "value": 44.68,
       "breakdown": {
         "group_efficiency": 51.39,
         "standings_efficiency": 56.67,
-        "knockout_efficiency": 23.81
+        "knockout_efficiency": 23.33
       },
       "extra": {
-        "earned_points": 125,
-        "available_points": 276,
+        "earned_points": 126,
+        "available_points": 282,
         "earned_group_points": 37,
         "available_group_points": 72,
         "earned_standings_points": 68,
         "available_standings_points": 120,
-        "earned_knockout_points": 20,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 21,
+        "available_knockout_points": 90,
         "best_stage": "standings",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2864,9 +2864,9 @@
             "efficiency": 56.67
           },
           "knockout": {
-            "earned": 20,
-            "available": 84,
-            "efficiency": 23.81
+            "earned": 21,
+            "available": 90,
+            "efficiency": 23.33
           }
         }
       },
@@ -2876,21 +2876,21 @@
       "user_id": "2BC645A052",
       "display_name": "BtoZ",
       "metric_id": "eficiencia_de_puntos",
-      "value": 39.49,
+      "value": 39.36,
       "breakdown": {
         "group_efficiency": 47.22,
         "standings_efficiency": 43.33,
-        "knockout_efficiency": 27.38
+        "knockout_efficiency": 27.78
       },
       "extra": {
-        "earned_points": 109,
-        "available_points": 276,
+        "earned_points": 111,
+        "available_points": 282,
         "earned_group_points": 34,
         "available_group_points": 72,
         "earned_standings_points": 52,
         "available_standings_points": 120,
-        "earned_knockout_points": 23,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 25,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2905,9 +2905,9 @@
             "efficiency": 43.33
           },
           "knockout": {
-            "earned": 23,
-            "available": 84,
-            "efficiency": 27.38
+            "earned": 25,
+            "available": 90,
+            "efficiency": 27.78
           }
         }
       },
@@ -2917,21 +2917,21 @@
       "user_id": "A3C25D9D42",
       "display_name": "Santiago Gutierrez",
       "metric_id": "eficiencia_de_puntos",
-      "value": 34.78,
+      "value": 34.04,
       "breakdown": {
         "group_efficiency": 54.17,
         "standings_efficiency": 33.33,
-        "knockout_efficiency": 20.24
+        "knockout_efficiency": 18.89
       },
       "extra": {
         "earned_points": 96,
-        "available_points": 276,
+        "available_points": 282,
         "earned_group_points": 39,
         "available_group_points": 72,
         "earned_standings_points": 40,
         "available_standings_points": 120,
         "earned_knockout_points": 17,
-        "available_knockout_points": 84,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "knockout",
         "stage_breakdown": {
@@ -2947,8 +2947,8 @@
           },
           "knockout": {
             "earned": 17,
-            "available": 84,
-            "efficiency": 20.24
+            "available": 90,
+            "efficiency": 18.89
           }
         }
       },
@@ -2958,21 +2958,21 @@
       "user_id": "9EB553DA57",
       "display_name": "Poncho",
       "metric_id": "eficiencia_de_puntos",
-      "value": 32.61,
+      "value": 32.27,
       "breakdown": {
         "group_efficiency": 54.17,
         "standings_efficiency": 17.5,
-        "knockout_efficiency": 35.71
+        "knockout_efficiency": 34.44
       },
       "extra": {
-        "earned_points": 90,
-        "available_points": 276,
+        "earned_points": 91,
+        "available_points": 282,
         "earned_group_points": 39,
         "available_group_points": 72,
         "earned_standings_points": 21,
         "available_standings_points": 120,
-        "earned_knockout_points": 30,
-        "available_knockout_points": 84,
+        "earned_knockout_points": 31,
+        "available_knockout_points": 90,
         "best_stage": "group",
         "worst_stage": "standings",
         "stage_breakdown": {
@@ -2987,9 +2987,9 @@
             "efficiency": 17.5
           },
           "knockout": {
-            "earned": 30,
-            "available": 84,
-            "efficiency": 35.71
+            "earned": 31,
+            "available": 90,
+            "efficiency": 34.44
           }
         }
       },

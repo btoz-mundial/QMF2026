@@ -1,56 +1,54 @@
 [
   {
     "rank": 1,
-    "display_name": "GABO",
-    "total_points": 173,
-    "tied_with": 2,
-    "covered_positions": [
-      1,
-      2
-    ],
-    "total_prize_pool": 16000,
-    "payout": 8000
-  },
-  {
-    "rank": 1,
     "display_name": "Potro",
-    "total_points": 173,
-    "tied_with": 2,
+    "total_points": 175,
+    "tied_with": 1,
     "covered_positions": [
-      1,
-      2
+      1
     ],
-    "total_prize_pool": 16000,
-    "payout": 8000
+    "total_prize_pool": 9500,
+    "payout": 9500
   },
   {
-    "rank": 3,
-    "display_name": "AR",
-    "total_points": 170,
-    "tied_with": 2,
-    "covered_positions": [
-      3,
-      4
-    ],
-    "total_prize_pool": 8000,
-    "payout": 4000
-  },
-  {
-    "rank": 3,
+    "rank": 2,
     "display_name": "BODI",
-    "total_points": 170,
+    "total_points": 174,
     "tied_with": 2,
     "covered_positions": [
-      3,
+      2,
+      3
+    ],
+    "total_prize_pool": 11000,
+    "payout": 5500
+  },
+  {
+    "rank": 2,
+    "display_name": "GABO",
+    "total_points": 174,
+    "tied_with": 2,
+    "covered_positions": [
+      2,
+      3
+    ],
+    "total_prize_pool": 11000,
+    "payout": 5500
+  },
+  {
+    "rank": 4,
+    "display_name": "AR",
+    "total_points": 172,
+    "tied_with": 1,
+    "covered_positions": [
       4
     ],
-    "total_prize_pool": 8000,
-    "payout": 4000
+    "total_prize_pool": 3500,
+    "payout": 3500
   },
   {
     "rank": 5,
     "display_name": "IPM",
-    "total_points": 167,
+    "total_points": 169,
     "tied_with": 1,
     "covered_positions": [
       5
@@ -60,111 +58,120 @@
   },
   {
     "rank": 6,
-    "display_name": "JMtzCelis",
-    "total_points": 166,
-    "tied_with": 2,
+    "display_name": "CAZU",
+    "total_points": 168,
+    "tied_with": 3,
     "covered_positions": [
       6,
-      7
+      7,
+      8
     ],
-    "total_prize_pool": 3000,
-    "payout": 1500
+    "total_prize_pool": 4250,
+    "payout": 1416.6666666666667
+  },
+  {
+    "rank": 6,
+    "display_name": "JMtzCelis",
+    "total_points": 168,
+    "tied_with": 3,
+    "covered_positions": [
+      6,
+      7,
+      8
+    ],
+    "total_prize_pool": 4250,
+    "payout": 1416.6666666666667
   },
   {
     "rank": 6,
     "display_name": "Pepe Sanchez",
-    "total_points": 166,
-    "tied_with": 2,
+    "total_points": 168,
+    "tied_with": 3,
     "covered_positions": [
       6,
-      7
+      7,
+      8
     ],
-    "total_prize_pool": 3000,
-    "payout": 1500
+    "total_prize_pool": 4250,
+    "payout": 1416.6666666666667
   },
   {
-    "rank": 8,
+    "rank": 9,
     "display_name": "LRMS",
-    "total_points": 165,
+    "total_points": 167,
     "tied_with": 1,
     "covered_positions": [
-      8
+      9
     ],
     "total_prize_pool": 1250,
     "payout": 1250
   },
   {
-    "rank": 9,
+    "rank": 10,
     "display_name": "Badillo",
-    "total_points": 164,
+    "total_points": 166,
     "tied_with": 2,
     "covered_positions": [
-      9,
-      10
-    ],
-    "total_prize_pool": 2250,
-    "payout": 1125
-  },
-  {
-    "rank": 9,
-    "display_name": "CAZU",
-    "total_points": 164,
-    "tied_with": 2,
-    "covered_positions": [
-      9,
-      10
-    ],
-    "total_prize_pool": 2250,
-    "payout": 1125
-  },
-  {
-    "rank": 11,
-    "display_name": "Nacho Luna",
-    "total_points": 163,
-    "tied_with": 1,
-    "covered_positions": [
+      10,
       11
     ],
-    "total_prize_pool": 1000,
+    "total_prize_pool": 2000,
+    "payout": 1000
+  },
+  {
+    "rank": 10,
+    "display_name": "ChuyGallegos",
+    "total_points": 166,
+    "tied_with": 2,
+    "covered_positions": [
+      10,
+      11
+    ],
+    "total_prize_pool": 2000,
     "payout": 1000
   },
   {
     "rank": 12,
-    "display_name": "ChuyGallegos",
-    "total_points": 162,
-    "tied_with": 3,
+    "display_name": "Nacho Luna",
+    "total_points": 165,
+    "tied_with": 1,
     "covered_positions": [
-      12,
-      13,
-      14
+      12
     ],
-    "total_prize_pool": 2000,
-    "payout": 666.6666666666666
+    "total_prize_pool": 750,
+    "payout": 750
   },
   {
-    "rank": 12,
-    "display_name": "HZE",
-    "total_points": 162,
-    "tied_with": 3,
-    "covered_positions": [
-      12,
-      13,
-      14
-    ],
-    "total_prize_pool": 2000,
-    "payout": 666.6666666666666
-  },
-  {
-    "rank": 12,
+    "rank": 13,
     "display_name": "RRT",
-    "total_points": 162,
-    "tied_with": 3,
+    "total_points": 164,
+    "tied_with": 1,
     "covered_positions": [
-      12,
-      13,
+      13
+    ],
+    "total_prize_pool": 750,
+    "payout": 750
+  },
+  {
+    "rank": 14,
+    "display_name": "Andresn",
+    "total_points": 163,
+    "tied_with": 2,
+    "covered_positions": [
       14
     ],
-    "total_prize_pool": 2000,
-    "payout": 666.6666666666666
+    "total_prize_pool": 500,
+    "payout": 250
+  },
+  {
+    "rank": 14,
+    "display_name": "HZE",
+    "total_points": 163,
+    "tied_with": 2,
+    "covered_positions": [
+      14
+    ],
+    "total_prize_pool": 500,
+    "payout": 250
   }
 ]
