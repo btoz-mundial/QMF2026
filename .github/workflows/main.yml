@@ -10,9 +10,12 @@ permissions:
   pages: write
   id-token: write
 
+# Un solo deploy a la vez; NO cancelar el que está en curso (cancelar un
+# deploy de Pages a media ejecución provoca "Deployment failed, try again later").
+# Los runs intermedios en cola se descartan y solo corre el último → converge igual.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:

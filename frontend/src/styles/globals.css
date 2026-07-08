@@ -104,3 +104,19 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .qmf-live-dot { animation: none; }
 }
+
+/* Glow verde para resaltar una tarjeta nueva (pulso suave) */
+@keyframes qmf-new-glow-pulse {
+  0%, 100% { box-shadow: 0 0 7px 0 color-mix(in srgb, var(--color-success) 28%, transparent); }
+  50%      { box-shadow: 0 0 16px 3px color-mix(in srgb, var(--color-success) 50%, transparent); }
+}
+.qmf-new-glow {
+  animation: qmf-new-glow-pulse 2.4s ease-in-out infinite;
+  border-color: color-mix(in srgb, var(--color-success) 45%, var(--color-primary)) !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .qmf-new-glow {
+    animation: none;
+    box-shadow: 0 0 12px 0 color-mix(in srgb, var(--color-success) 38%, transparent);
+  }
+}

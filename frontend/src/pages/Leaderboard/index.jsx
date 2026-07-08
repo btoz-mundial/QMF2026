@@ -4,9 +4,11 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Trophy, Search, Medal, TrendingUp, Shield, Users, DollarSign } from 'lucide-react'
 import { DATA_URLS } from '@/config/urls'
 import { useSimulation } from '@/hooks/useSimulation'
+import { useKnockoutSimulation } from '@/hooks/useKnockoutSimulation'
 import SimulationCard from './SimulationCard'
 import SimulationBanner from './SimulationBanner'
-import { scenarioLabel } from './simLabels'
+import KnockoutSimTile from './KnockoutSimTile'
+import { scenarioLabel, knockoutScenarioLabel } from './simLabels'
 
 // ── Fetch helpers ──────────────────────────────────────────────────────────────
 async function fetchOptional(url) {
@@ -209,7 +211,7 @@ function PreparationBanner() {
 }
 
 // ── SummaryCards ───────────────────────────────────────────────────────────────
-function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile, notStarted }) {
+function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile, notStarted, extraTile = null }) {
   const leader = lb[0]
   const second = lb[1]
   const gap = (leader?.total_points ?? 0) - (second?.total_points ?? 0)
@@ -246,9 +248,11 @@ function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile, notStarted })
       accent: '#34D399',
     },
   ]
+  // Cuando hay tile de simulación (knockout, escritorio) reemplaza la 4ª métrica.
+  const shownCards = extraTile ? cards.slice(0, 3) : cards
   return (
     <div style={{ display: 'grid', gridTemplateColumns: isMobile ? 'repeat(2,1fr)' : 'repeat(4,1fr)', gap: '0.625rem', marginBottom: '1.125rem' }}>
-      {cards.map((c, i) => (
+      {shownCards.map((c, i) => (
         <motion.div key={i}
           initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.07 }}
           style={{
@@ -270,6 +274,7 @@ function SummaryCards({ lb, paidPositions, payoutsTotal, isMobile, notStarted })
           </div>
         </motion.div>
       ))}
+      {extraTile}
     </div>
   )
 }
@@ -549,9 +554,15 @@ export default function Leaderboard() {
   const [pageData, setPageData] = useState(null)
   const [loading, setLoading]   = useState(true)
   const [search, setSearch]     = useState('')
+  const [simOpen, setSimOpen]   = useState(false)  // tile knockout expandido (escritorio)
   const navigate  = useNavigate()
   const isMobile  = useIsMobile(680)
-  const sim       = useSimulation(pageData?.lb)
+  const groupSim  = useSimulation(pageData?.lb)
+  const koSim     = useKnockoutSimulation(pageData?.lb)
+  // Grupos tiene prioridad mientras haya partido de grupos pendiente; al cerrarse
+  // la fase (groupSim.nextMatch === null) el simulador pasa a eliminatorias.
+  const isKnockoutSim = !groupSim.nextMatch && !!koSim.nextMatch
+  const sim       = isKnockoutSim ? koSim : groupSim
 
   useEffect(() => {
     async function load() {
@@ -606,6 +617,12 @@ export default function Leaderboard() {
   // estado neutral pre-torneo: el banner deja claro que es hipotético.
   const showNeutral = notStarted && !simActive
 
+  // Presentación del simulador:
+  //  - knockout + escritorio → tile compacto dentro de la fila resumen (sin banda).
+  //  - grupos, o knockout en móvil → tarjeta full-width + banner (como antes).
+  const koDesktopTile   = isKnockoutSim && !isMobile && !showNeutral
+  const showFullWidthSim = (!isKnockoutSim && !!groupSim.nextMatch) || (isKnockoutSim && isMobile)
+
   let safeData = baseLb.filter(x => x?.user_id)
   // Pre-tournament: present everyone in neutral alphabetical order (no real ranking exists yet)
   if (showNeutral) {
@@ -638,6 +655,7 @@ export default function Leaderboard() {
             : <>
                 {paidPositions > 0 && ` · Top ${paidPositions} en zona de premios`}
                 {snapshotLabel && ` · hasta ${snapshotLabel}`}
+                {simActive && koDesktopTile && ' · simulación activa'}
               </>}
         </p>
       </motion.div>
@@ -645,21 +663,44 @@ export default function Leaderboard() {
       {/* ── Pre-tournament banner ── */}
       {showNeutral && <PreparationBanner />}
 
-      {/* ── Simulación: tarjeta (entrada) + banner (modo activo) ── */}
-      <SimulationCard
-        nextMatch={sim.nextMatch}
-        consensus={sim.consensus}
-        outcome={sim.outcome}
-        onSelect={sim.setOutcome}
-        isLastGroupMatch={sim.isLastGroupMatch}
-        fetching={sim.fetching}
-      />
-      {simActive && (
-        <SimulationBanner scenario={scenarioLabel(sim.outcome, sim.nextMatch)} onReset={sim.reset} />
+      {/* ── Simulación: tarjeta full-width (grupos / knockout móvil) + banner ── */}
+      {showFullWidthSim && (
+        <SimulationCard
+          variant={isKnockoutSim ? 'knockout' : 'group'}
+          nextMatch={sim.nextMatch}
+          consensus={groupSim.consensus}
+          outcome={groupSim.outcome}
+          onSelect={groupSim.setOutcome}
+          isLastGroupMatch={groupSim.isLastGroupMatch}
+          fetching={sim.fetching}
+          score={koSim.score}
+          onScore={koSim.setScore}
+        />
+      )}
+      {simActive && !koDesktopTile && (
+        <SimulationBanner
+          scenario={isKnockoutSim
+            ? knockoutScenarioLabel(koSim.score, koSim.nextMatch)
+            : scenarioLabel(groupSim.outcome, groupSim.nextMatch)}
+          onReset={sim.reset}
+        />
       )}
 
-      {/* ── Summary cards ── */}
-      <SummaryCards lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal} isMobile={isMobile} notStarted={showNeutral} />
+      {/* ── Summary cards (en knockout+escritorio, la 4ª celda es el simulador) ── */}
+      <SummaryCards
+        lb={safeData} paidPositions={paidPositions} payoutsTotal={payoutsTotal}
+        isMobile={isMobile} notStarted={showNeutral}
+        extraTile={koDesktopTile ? (
+          <KnockoutSimTile
+            nextMatch={koSim.nextMatch}
+            score={koSim.score}
+            expanded={simOpen}
+            onToggle={setSimOpen}
+            onScore={koSim.setScore}
+            onReset={() => { koSim.reset(); setSimOpen(false) }}
+          />
+        ) : null}
+      />
 
       {/* ── Aviso: Rasgos del Jugador desbloqueados (se oculta tras 6-jul-2026) ── */}
       {!search && !simActive && new Date() < new Date(2026, 6, 6) && (

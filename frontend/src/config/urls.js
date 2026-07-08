@@ -52,6 +52,7 @@ const RAW = {
   // --- Analytics -- engagement ---
   consensoPartidos: `${BASE}data/analytics/engagement/consenso_partidos.json`,
   consensoVotantes: `${BASE}data/analytics/engagement/consenso_votantes.json`,
+  simulacionKnockout: `${BASE}data/analytics/engagement/simulacion_knockout.json`,
 
   // --- Analytics -- intelligence ---
   campeonVivo:      `${BASE}data/analytics/intelligence/campeon_vivo.json`,

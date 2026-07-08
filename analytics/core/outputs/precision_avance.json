@@ -1,123 +1,9 @@
 [
   {
-    "user_id": "C1EFD7520A",
-    "display_name": "AR",
-    "metric_id": "precision_avance",
-    "value": 65.63,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 11,
-      "total_predictions": 16,
-      "accuracy_percent": 68.75
-    },
-    "rank": 1
-  },
-  {
-    "user_id": "B3B92F46ED",
-    "display_name": "BODI",
-    "metric_id": "precision_avance",
-    "value": 65.63,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 11,
-      "total_predictions": 16,
-      "accuracy_percent": 68.75
-    },
-    "rank": 2
-  },
-  {
-    "user_id": "EF919C72F7",
-    "display_name": "ChuyGallegos",
-    "metric_id": "precision_avance",
-    "value": 65.63,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 11,
-      "total_predictions": 16,
-      "accuracy_percent": 68.75
-    },
-    "rank": 3
-  },
-  {
-    "user_id": "B13A945BF8",
-    "display_name": "IFCR",
-    "metric_id": "precision_avance",
-    "value": 65.63,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 18,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 56.25
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 12,
-      "total_predictions": 16,
-      "accuracy_percent": 75
-    },
-    "rank": 4
-  },
-  {
-    "user_id": "5EC15D0CF2",
-    "display_name": "JMtzCelis",
-    "metric_id": "precision_avance",
-    "value": 65.63,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 11,
-      "total_predictions": 16,
-      "accuracy_percent": 68.75
-    },
-    "rank": 5
-  },
-  {
-    "user_id": "224DC707ED",
-    "display_name": "Pepe Sanchez",
-    "metric_id": "precision_avance",
-    "value": 65.63,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 11,
-      "total_predictions": 16,
-      "accuracy_percent": 68.75
-    },
-    "rank": 6
-  },
-  {
     "user_id": "16310FEBE5",
     "display_name": "GilGzz",
     "metric_id": "precision_avance",
-    "value": 64.06,
+    "value": 65.11,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 19,
@@ -126,55 +12,17 @@
       "position_accuracy_percent": 59.38
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 11,
-      "total_predictions": 16,
-      "accuracy_percent": 68.75
+      "correct_predictions": 17,
+      "total_predictions": 24,
+      "accuracy_percent": 70.83
     },
-    "rank": 7
+    "rank": 1
   },
   {
-    "user_id": "198CA6C5CB",
-    "display_name": "JAGOL",
+    "user_id": "C1EFD7520A",
+    "display_name": "AR",
     "metric_id": "precision_avance",
-    "value": 64.06,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 17,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 53.13
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 12,
-      "total_predictions": 16,
-      "accuracy_percent": 75
-    },
-    "rank": 8
-  },
-  {
-    "user_id": "C19435FB3E",
-    "display_name": "RO11",
-    "metric_id": "precision_avance",
-    "value": 64.06,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 22,
-      "correct_positions": 21,
-      "total_slots": 32,
-      "team_accuracy_percent": 68.75,
-      "position_accuracy_percent": 65.63
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
-      "accuracy_percent": 62.5
-    },
-    "rank": 9
-  },
-  {
-    "user_id": "D351395C7E",
-    "display_name": "FJGA",
-    "metric_id": "precision_avance",
-    "value": 62.5,
+    "value": 64.59,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 20,
@@ -183,17 +31,17 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
-      "accuracy_percent": 62.5
+      "correct_predictions": 16,
+      "total_predictions": 24,
+      "accuracy_percent": 66.67
     },
-    "rank": 10
+    "rank": 2
   },
   {
-    "user_id": "732633D10E",
-    "display_name": "GABO",
+    "user_id": "B3B92F46ED",
+    "display_name": "BODI",
     "metric_id": "precision_avance",
-    "value": 62.5,
+    "value": 64.59,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 20,
@@ -202,16 +50,35 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
-      "accuracy_percent": 62.5
+      "correct_predictions": 16,
+      "total_predictions": 24,
+      "accuracy_percent": 66.67
     },
-    "rank": 11
+    "rank": 3
   },
   {
     "user_id": "1AC2FE7AF5",
     "display_name": "HZE",
     "metric_id": "precision_avance",
+    "value": 64.59,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 16,
+      "total_predictions": 24,
+      "accuracy_percent": 66.67
+    },
+    "rank": 4
+  },
+  {
+    "user_id": "EF919C72F7",
+    "display_name": "ChuyGallegos",
+    "metric_id": "precision_avance",
     "value": 62.5,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
@@ -221,11 +88,49 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 12
+    "rank": 5
+  },
+  {
+    "user_id": "5EC15D0CF2",
+    "display_name": "JMtzCelis",
+    "metric_id": "precision_avance",
+    "value": 62.5,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 15,
+      "total_predictions": 24,
+      "accuracy_percent": 62.5
+    },
+    "rank": 6
+  },
+  {
+    "user_id": "D053A979C1",
+    "display_name": "Jose J Silva",
+    "metric_id": "precision_avance",
+    "value": 62.5,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 15,
+      "total_predictions": 24,
+      "accuracy_percent": 62.5
+    },
+    "rank": 7
   },
   {
     "user_id": "0C09D57C3D",
@@ -240,30 +145,30 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 13
+    "rank": 8
   },
   {
-    "user_id": "2EF31BF1A6",
-    "display_name": "Paco T",
+    "user_id": "224DC707ED",
+    "display_name": "Pepe Sanchez",
     "metric_id": "precision_avance",
     "value": 62.5,
     "group_qualifiers_accuracy": {
-      "correct_teams": 22,
+      "correct_teams": 21,
       "correct_positions": 20,
       "total_slots": 32,
-      "team_accuracy_percent": 68.75,
+      "team_accuracy_percent": 65.63,
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 14
+    "rank": 9
   },
   {
     "user_id": "EC8976134D",
@@ -278,30 +183,49 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 15
+    "rank": 10
   },
   {
-    "user_id": "3C3D690EE4",
-    "display_name": "GSG",
+    "user_id": "198CA6C5CB",
+    "display_name": "JAGOL",
     "metric_id": "precision_avance",
-    "value": 60.94,
+    "value": 61.98,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
-      "correct_positions": 19,
+      "correct_positions": 17,
       "total_slots": 32,
       "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 59.38
+      "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
-      "accuracy_percent": 62.5
+      "correct_predictions": 17,
+      "total_predictions": 24,
+      "accuracy_percent": 70.83
     },
-    "rank": 16
+    "rank": 11
+  },
+  {
+    "user_id": "B13A945BF8",
+    "display_name": "IFCR",
+    "metric_id": "precision_avance",
+    "value": 61.46,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 16,
+      "total_predictions": 24,
+      "accuracy_percent": 66.67
+    },
+    "rank": 12
   },
   {
     "user_id": "DB48897D9E",
@@ -316,11 +240,11 @@
       "position_accuracy_percent": 59.38
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 17
+    "rank": 13
   },
   {
     "user_id": "CAA8D66DAA",
@@ -335,11 +259,11 @@
       "position_accuracy_percent": 59.38
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 18
+    "rank": 14
   },
   {
     "user_id": "726607D90E",
@@ -354,36 +278,17 @@
       "position_accuracy_percent": 59.38
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 19
-  },
-  {
-    "user_id": "502D453FF5",
-    "display_name": "Andresn",
-    "metric_id": "precision_avance",
-    "value": 59.38,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 20
+    "rank": 15
   },
   {
     "user_id": "8DF4EEAC63",
     "display_name": "CAZU",
     "metric_id": "precision_avance",
-    "value": 59.38,
+    "value": 60.41,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 20,
@@ -392,49 +297,106 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 16
+  },
+  {
+    "user_id": "D351395C7E",
+    "display_name": "FJGA",
+    "metric_id": "precision_avance",
+    "value": 60.41,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 17
+  },
+  {
+    "user_id": "732633D10E",
+    "display_name": "GABO",
+    "metric_id": "precision_avance",
+    "value": 60.41,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 18
+  },
+  {
+    "user_id": "C19435FB3E",
+    "display_name": "RO11",
+    "metric_id": "precision_avance",
+    "value": 59.9,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 21,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 65.63
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
+    },
+    "rank": 19
+  },
+  {
+    "user_id": "1D12144F35",
+    "display_name": "Andres9711",
+    "metric_id": "precision_avance",
+    "value": 59.38,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 15,
+      "total_predictions": 24,
+      "accuracy_percent": 62.5
+    },
+    "rank": 20
+  },
+  {
+    "user_id": "1D2C13E050",
+    "display_name": "RCHL",
+    "metric_id": "precision_avance",
+    "value": 59.38,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 15,
+      "total_predictions": 24,
+      "accuracy_percent": 62.5
     },
     "rank": 21
-  },
-  {
-    "user_id": "D053A979C1",
-    "display_name": "Jose J Silva",
-    "metric_id": "precision_avance",
-    "value": 59.38,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 22
-  },
-  {
-    "user_id": "CB1163524F",
-    "display_name": "RRT",
-    "metric_id": "precision_avance",
-    "value": 59.38,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 20,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 62.5
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 23
   },
   {
     "user_id": "CC94195BEB",
@@ -449,17 +411,93 @@
       "position_accuracy_percent": 56.25
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
+    },
+    "rank": 22
+  },
+  {
+    "user_id": "9011183686",
+    "display_name": "Badillo",
+    "metric_id": "precision_avance",
+    "value": 58.86,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 19,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 59.38
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 23
+  },
+  {
+    "user_id": "5283E0D056",
+    "display_name": "Beth",
+    "metric_id": "precision_avance",
+    "value": 58.86,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 19,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 59.38
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
     },
     "rank": 24
   },
   {
-    "user_id": "E5DF64F6CC",
-    "display_name": "Tom",
+    "user_id": "3C3D690EE4",
+    "display_name": "GSG",
     "metric_id": "precision_avance",
-    "value": 59.38,
+    "value": 58.86,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 19,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 59.38
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 25
+  },
+  {
+    "user_id": "C9CE9AF477",
+    "display_name": "Shadai LL",
+    "metric_id": "precision_avance",
+    "value": 58.86,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 19,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 59.38
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 26
+  },
+  {
+    "user_id": "502D453FF5",
+    "display_name": "Andresn",
+    "metric_id": "precision_avance",
+    "value": 58.34,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 20,
@@ -468,11 +506,30 @@
       "position_accuracy_percent": 62.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 25
+    "rank": 27
+  },
+  {
+    "user_id": "2EF31BF1A6",
+    "display_name": "Paco T",
+    "metric_id": "precision_avance",
+    "value": 58.34,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
+    },
+    "rank": 28
   },
   {
     "user_id": "7178DB5D04",
@@ -487,74 +544,112 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
+      "correct_predictions": 15,
+      "total_predictions": 24,
       "accuracy_percent": 62.5
     },
-    "rank": 26
-  },
-  {
-    "user_id": "9011183686",
-    "display_name": "Badillo",
-    "metric_id": "precision_avance",
-    "value": 57.81,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 22,
-      "correct_positions": 19,
-      "total_slots": 32,
-      "team_accuracy_percent": 68.75,
-      "position_accuracy_percent": 59.38
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 27
-  },
-  {
-    "user_id": "5283E0D056",
-    "display_name": "Beth",
-    "metric_id": "precision_avance",
-    "value": 57.81,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 22,
-      "correct_positions": 19,
-      "total_slots": 32,
-      "team_accuracy_percent": 68.75,
-      "position_accuracy_percent": 59.38
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 28
-  },
-  {
-    "user_id": "3855CBD142",
-    "display_name": "Heisenberg FIFAS 26",
-    "metric_id": "precision_avance",
-    "value": 57.81,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 19,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 59.38
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
     "rank": 29
+  },
+  {
+    "user_id": "6665E150B0",
+    "display_name": "ARLO",
+    "metric_id": "precision_avance",
+    "value": 57.29,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 30
+  },
+  {
+    "user_id": "278ECC1B7A",
+    "display_name": "Hernangzz",
+    "metric_id": "precision_avance",
+    "value": 57.29,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 31
+  },
+  {
+    "user_id": "A44F6A82DF",
+    "display_name": "RRR",
+    "metric_id": "precision_avance",
+    "value": 57.29,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 32
+  },
+  {
+    "user_id": "8E0D4A705C",
+    "display_name": "LWCP",
+    "metric_id": "precision_avance",
+    "value": 56.78,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 19,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 59.38
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
+    },
+    "rank": 33
+  },
+  {
+    "user_id": "CB1163524F",
+    "display_name": "RRT",
+    "metric_id": "precision_avance",
+    "value": 56.25,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 12,
+      "total_predictions": 24,
+      "accuracy_percent": 50
+    },
+    "rank": 34
   },
   {
     "user_id": "2383A882D9",
     "display_name": "JPGR",
     "metric_id": "precision_avance",
-    "value": 57.81,
+    "value": 55.73,
     "group_qualifiers_accuracy": {
       "correct_teams": 22,
       "correct_positions": 21,
@@ -563,55 +658,17 @@
       "position_accuracy_percent": 65.63
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
     },
-    "rank": 30
+    "rank": 35
   },
   {
-    "user_id": "8E0D4A705C",
-    "display_name": "LWCP",
+    "user_id": "72A9ED8F20",
+    "display_name": "Pipo",
     "metric_id": "precision_avance",
-    "value": 57.81,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 19,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 59.38
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 31
-  },
-  {
-    "user_id": "C9CE9AF477",
-    "display_name": "Shadai LL",
-    "metric_id": "precision_avance",
-    "value": 57.81,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 19,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 59.38
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 32
-  },
-  {
-    "user_id": "B97C49CA8A",
-    "display_name": "YP",
-    "metric_id": "precision_avance",
-    "value": 57.81,
+    "value": 55.73,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 17,
@@ -620,74 +677,36 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 10,
-      "total_predictions": 16,
-      "accuracy_percent": 62.5
-    },
-    "rank": 33
-  },
-  {
-    "user_id": "1D12144F35",
-    "display_name": "Andres9711",
-    "metric_id": "precision_avance",
-    "value": 56.25,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 18,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 56.25
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 34
-  },
-  {
-    "user_id": "6665E150B0",
-    "display_name": "ARLO",
-    "metric_id": "precision_avance",
-    "value": 56.25,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 18,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 56.25
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 35
-  },
-  {
-    "user_id": "F07429A0E3",
-    "display_name": "ARR",
-    "metric_id": "precision_avance",
-    "value": 56.25,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 18,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 56.25
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
     },
     "rank": 36
   },
   {
-    "user_id": "278ECC1B7A",
-    "display_name": "Hernangzz",
+    "user_id": "B97C49CA8A",
+    "display_name": "YP",
     "metric_id": "precision_avance",
-    "value": 56.25,
+    "value": 55.73,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 17,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 53.13
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
+    },
+    "rank": 37
+  },
+  {
+    "user_id": "F6E2313B1B",
+    "display_name": "JCAV",
+    "metric_id": "precision_avance",
+    "value": 55.21,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 18,
@@ -696,17 +715,17 @@
       "position_accuracy_percent": 56.25
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 37
+    "rank": 38
   },
   {
     "user_id": "E0B28E3E04",
     "display_name": "JLSuriano",
     "metric_id": "precision_avance",
-    "value": 56.25,
+    "value": 55.21,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 18,
@@ -715,17 +734,17 @@
       "position_accuracy_percent": 56.25
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 38
+    "rank": 39
   },
   {
     "user_id": "8A01EA47FC",
     "display_name": "Juan T",
     "metric_id": "precision_avance",
-    "value": 56.25,
+    "value": 55.21,
     "group_qualifiers_accuracy": {
       "correct_teams": 19,
       "correct_positions": 18,
@@ -734,17 +753,36 @@
       "position_accuracy_percent": 56.25
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 39
+    "rank": 40
+  },
+  {
+    "user_id": "E4FC183EB7",
+    "display_name": "LJMV",
+    "metric_id": "precision_avance",
+    "value": 55.21,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
+    },
+    "rank": 41
   },
   {
     "user_id": "7667C7B572",
     "display_name": "O Gomez",
     "metric_id": "precision_avance",
-    "value": 56.25,
+    "value": 55.21,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 18,
@@ -753,55 +791,112 @@
       "position_accuracy_percent": 56.25
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 40
-  },
-  {
-    "user_id": "1D2C13E050",
-    "display_name": "RCHL",
-    "metric_id": "precision_avance",
-    "value": 56.25,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 22,
-      "correct_positions": 18,
-      "total_slots": 32,
-      "team_accuracy_percent": 68.75,
-      "position_accuracy_percent": 56.25
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 41
-  },
-  {
-    "user_id": "A44F6A82DF",
-    "display_name": "RRR",
-    "metric_id": "precision_avance",
-    "value": 56.25,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 18,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 56.25
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
     "rank": 42
+  },
+  {
+    "user_id": "3855CBD142",
+    "display_name": "Heisenberg FIFAS 26",
+    "metric_id": "precision_avance",
+    "value": 54.69,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 19,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 59.38
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 12,
+      "total_predictions": 24,
+      "accuracy_percent": 50
+    },
+    "rank": 43
+  },
+  {
+    "user_id": "E5DF64F6CC",
+    "display_name": "Tom",
+    "metric_id": "precision_avance",
+    "value": 54.16,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 20,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 62.5
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
+    },
+    "rank": 44
+  },
+  {
+    "user_id": "9C75772EA0",
+    "display_name": "JuanPI",
+    "metric_id": "precision_avance",
+    "value": 53.65,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 17,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 53.13
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
+    },
+    "rank": 45
+  },
+  {
+    "user_id": "E1B3B9BFCB",
+    "display_name": "Nestor",
+    "metric_id": "precision_avance",
+    "value": 53.65,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 17,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 53.13
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
+    },
+    "rank": 46
+  },
+  {
+    "user_id": "F07429A0E3",
+    "display_name": "ARR",
+    "metric_id": "precision_avance",
+    "value": 53.13,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 18,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 56.25
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 12,
+      "total_predictions": 24,
+      "accuracy_percent": 50
+    },
+    "rank": 47
   },
   {
     "user_id": "6172891E3A",
     "display_name": "FMV",
     "metric_id": "precision_avance",
-    "value": 54.69,
+    "value": 52.61,
     "group_qualifiers_accuracy": {
       "correct_teams": 22,
       "correct_positions": 19,
@@ -810,55 +905,36 @@
       "position_accuracy_percent": 59.38
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
     },
-    "rank": 43
+    "rank": 48
   },
   {
-    "user_id": "0933C88879",
-    "display_name": "Golden Eagle",
+    "user_id": "1829AF0B20",
+    "display_name": "Memo Garcia",
     "metric_id": "precision_avance",
-    "value": 53.13,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 16,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 50
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
-    },
-    "rank": 44
-  },
-  {
-    "user_id": "F6E2313B1B",
-    "display_name": "JCAV",
-    "metric_id": "precision_avance",
-    "value": 53.13,
+    "value": 52.61,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
-      "correct_positions": 18,
+      "correct_positions": 15,
       "total_slots": 32,
       "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 56.25
+      "position_accuracy_percent": 46.88
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
+      "correct_predictions": 14,
+      "total_predictions": 24,
+      "accuracy_percent": 58.33
     },
-    "rank": 45
+    "rank": 49
   },
   {
     "user_id": "80920F584F",
     "display_name": "Jesus Edilberto",
     "metric_id": "precision_avance",
-    "value": 53.13,
+    "value": 52.09,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 16,
@@ -867,34 +943,53 @@
       "position_accuracy_percent": 50
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 9,
-      "total_predictions": 16,
-      "accuracy_percent": 56.25
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 46
+    "rank": 50
   },
   {
-    "user_id": "E4FC183EB7",
-    "display_name": "LJMV",
+    "user_id": "E9831BEEE3",
+    "display_name": "LCV",
     "metric_id": "precision_avance",
-    "value": 53.13,
+    "value": 52.09,
     "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 18,
+      "correct_teams": 21,
+      "correct_positions": 16,
       "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 56.25
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 50
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 47
+    "rank": 51
   },
   {
-    "user_id": "9C75772EA0",
-    "display_name": "JuanPI",
+    "user_id": "A8FD28D6BA",
+    "display_name": "CEGM",
+    "metric_id": "precision_avance",
+    "value": 51.56,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 17,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 53.13
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 12,
+      "total_predictions": 24,
+      "accuracy_percent": 50
+    },
+    "rank": 52
+  },
+  {
+    "user_id": "3DE522E965",
+    "display_name": "LUD",
     "metric_id": "precision_avance",
     "value": 51.56,
     "group_qualifiers_accuracy": {
@@ -905,11 +1000,11 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
+      "correct_predictions": 12,
+      "total_predictions": 24,
       "accuracy_percent": 50
     },
-    "rank": 48
+    "rank": 53
   },
   {
     "user_id": "F4DAEB067A",
@@ -924,68 +1019,11 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
+      "correct_predictions": 12,
+      "total_predictions": 24,
       "accuracy_percent": 50
     },
-    "rank": 49
-  },
-  {
-    "user_id": "E1B3B9BFCB",
-    "display_name": "Nestor",
-    "metric_id": "precision_avance",
-    "value": 51.56,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 22,
-      "correct_positions": 17,
-      "total_slots": 32,
-      "team_accuracy_percent": 68.75,
-      "position_accuracy_percent": 53.13
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
-    },
-    "rank": 50
-  },
-  {
-    "user_id": "72A9ED8F20",
-    "display_name": "Pipo",
-    "metric_id": "precision_avance",
-    "value": 51.56,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 17,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 53.13
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
-    },
-    "rank": 51
-  },
-  {
-    "user_id": "8F205AE989",
-    "display_name": "Enrique el Chief",
-    "metric_id": "precision_avance",
-    "value": 50,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 20,
-      "correct_positions": 16,
-      "total_slots": 32,
-      "team_accuracy_percent": 62.5,
-      "position_accuracy_percent": 50
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
-    },
-    "rank": 52
+    "rank": 54
   },
   {
     "user_id": "E201266422",
@@ -1000,11 +1038,30 @@
       "position_accuracy_percent": 50
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
+      "correct_predictions": 12,
+      "total_predictions": 24,
       "accuracy_percent": 50
     },
-    "rank": 53
+    "rank": 55
+  },
+  {
+    "user_id": "0933C88879",
+    "display_name": "Golden Eagle",
+    "metric_id": "precision_avance",
+    "value": 50,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 16,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 50
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 12,
+      "total_predictions": 24,
+      "accuracy_percent": 50
+    },
+    "rank": 56
   },
   {
     "user_id": "FAC51CF2CF",
@@ -1019,55 +1076,17 @@
       "position_accuracy_percent": 50
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
+      "correct_predictions": 12,
+      "total_predictions": 24,
       "accuracy_percent": 50
     },
-    "rank": 54
-  },
-  {
-    "user_id": "E9831BEEE3",
-    "display_name": "LCV",
-    "metric_id": "precision_avance",
-    "value": 50,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 16,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 50
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
-    },
-    "rank": 55
-  },
-  {
-    "user_id": "A8FD28D6BA",
-    "display_name": "CEGM",
-    "metric_id": "precision_avance",
-    "value": 48.44,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 22,
-      "correct_positions": 17,
-      "total_slots": 32,
-      "team_accuracy_percent": 68.75,
-      "position_accuracy_percent": 53.13
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
-    },
-    "rank": 56
+    "rank": 57
   },
   {
     "user_id": "432BF50FA9",
     "display_name": "Jose Treviño",
     "metric_id": "precision_avance",
-    "value": 48.44,
+    "value": 49.48,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 17,
@@ -1076,49 +1095,11 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
-    },
-    "rank": 57
-  },
-  {
-    "user_id": "3DE522E965",
-    "display_name": "LUD",
-    "metric_id": "precision_avance",
-    "value": 48.44,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 17,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 53.13
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
     },
     "rank": 58
-  },
-  {
-    "user_id": "1829AF0B20",
-    "display_name": "Memo Garcia",
-    "metric_id": "precision_avance",
-    "value": 48.44,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 15,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 46.88
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
-    },
-    "rank": 59
   },
   {
     "user_id": "9EB553DA57",
@@ -1133,74 +1114,36 @@
       "position_accuracy_percent": 59.38
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 6,
-      "total_predictions": 16,
+      "correct_predictions": 9,
+      "total_predictions": 24,
       "accuracy_percent": 37.5
     },
+    "rank": 59
+  },
+  {
+    "user_id": "8F205AE989",
+    "display_name": "Enrique el Chief",
+    "metric_id": "precision_avance",
+    "value": 47.91,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 20,
+      "correct_positions": 16,
+      "total_slots": 32,
+      "team_accuracy_percent": 62.5,
+      "position_accuracy_percent": 50
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
+    },
     "rank": 60
-  },
-  {
-    "user_id": "31A6CB0C21",
-    "display_name": "Jerry",
-    "metric_id": "precision_avance",
-    "value": 46.88,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 16,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 50
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
-    },
-    "rank": 61
-  },
-  {
-    "user_id": "6B1DBB716C",
-    "display_name": "JPRR",
-    "metric_id": "precision_avance",
-    "value": 46.88,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 16,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 50
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
-    },
-    "rank": 62
-  },
-  {
-    "user_id": "23C4468823",
-    "display_name": "David Magaña",
-    "metric_id": "precision_avance",
-    "value": 45.31,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 15,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 46.88
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
-    },
-    "rank": 63
   },
   {
     "user_id": "AE26D11B16",
     "display_name": "ExiliadosFC",
     "metric_id": "precision_avance",
-    "value": 45.31,
+    "value": 47.4,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 17,
@@ -1209,36 +1152,17 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 6,
-      "total_predictions": 16,
-      "accuracy_percent": 37.5
+      "correct_predictions": 10,
+      "total_predictions": 24,
+      "accuracy_percent": 41.67
     },
-    "rank": 64
-  },
-  {
-    "user_id": "349A5D07D9",
-    "display_name": "Pacotrevi",
-    "metric_id": "precision_avance",
-    "value": 45.31,
-    "group_qualifiers_accuracy": {
-      "correct_teams": 21,
-      "correct_positions": 15,
-      "total_slots": 32,
-      "team_accuracy_percent": 65.63,
-      "position_accuracy_percent": 46.88
-    },
-    "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
-    },
-    "rank": 65
+    "rank": 61
   },
   {
     "user_id": "18734EA2D1",
     "display_name": "Skywalker",
     "metric_id": "precision_avance",
-    "value": 45.31,
+    "value": 47.4,
     "group_qualifiers_accuracy": {
       "correct_teams": 22,
       "correct_positions": 13,
@@ -1247,17 +1171,74 @@
       "position_accuracy_percent": 40.63
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 8,
-      "total_predictions": 16,
-      "accuracy_percent": 50
+      "correct_predictions": 13,
+      "total_predictions": 24,
+      "accuracy_percent": 54.17
     },
-    "rank": 66
+    "rank": 62
+  },
+  {
+    "user_id": "23C4468823",
+    "display_name": "David Magaña",
+    "metric_id": "precision_avance",
+    "value": 46.36,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 15,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 46.88
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
+    },
+    "rank": 63
+  },
+  {
+    "user_id": "31A6CB0C21",
+    "display_name": "Jerry",
+    "metric_id": "precision_avance",
+    "value": 45.84,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 16,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 50
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 10,
+      "total_predictions": 24,
+      "accuracy_percent": 41.67
+    },
+    "rank": 64
+  },
+  {
+    "user_id": "6B1DBB716C",
+    "display_name": "JPRR",
+    "metric_id": "precision_avance",
+    "value": 45.84,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 21,
+      "correct_positions": 16,
+      "total_slots": 32,
+      "team_accuracy_percent": 65.63,
+      "position_accuracy_percent": 50
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 10,
+      "total_predictions": 24,
+      "accuracy_percent": 41.67
+    },
+    "rank": 65
   },
   {
     "user_id": "4CA014CA5E",
     "display_name": "Luigi R",
     "metric_id": "precision_avance",
-    "value": 42.19,
+    "value": 45.31,
     "group_qualifiers_accuracy": {
       "correct_teams": 21,
       "correct_positions": 17,
@@ -1266,36 +1247,36 @@
       "position_accuracy_percent": 53.13
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 5,
-      "total_predictions": 16,
-      "accuracy_percent": 31.25
+      "correct_predictions": 9,
+      "total_predictions": 24,
+      "accuracy_percent": 37.5
     },
-    "rank": 67
+    "rank": 66
   },
   {
-    "user_id": "CC6B00FB62",
-    "display_name": "Miri",
+    "user_id": "349A5D07D9",
+    "display_name": "Pacotrevi",
     "metric_id": "precision_avance",
-    "value": 42.19,
+    "value": 44.28,
     "group_qualifiers_accuracy": {
-      "correct_teams": 22,
+      "correct_teams": 21,
       "correct_positions": 15,
       "total_slots": 32,
-      "team_accuracy_percent": 68.75,
+      "team_accuracy_percent": 65.63,
       "position_accuracy_percent": 46.88
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 6,
-      "total_predictions": 16,
-      "accuracy_percent": 37.5
+      "correct_predictions": 10,
+      "total_predictions": 24,
+      "accuracy_percent": 41.67
     },
-    "rank": 68
+    "rank": 67
   },
   {
     "user_id": "4EE3A0CA82",
     "display_name": "AJV",
     "metric_id": "precision_avance",
-    "value": 40.63,
+    "value": 41.66,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 12,
@@ -1304,11 +1285,11 @@
       "position_accuracy_percent": 37.5
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 7,
-      "total_predictions": 16,
-      "accuracy_percent": 43.75
+      "correct_predictions": 11,
+      "total_predictions": 24,
+      "accuracy_percent": 45.83
     },
-    "rank": 69
+    "rank": 68
   },
   {
     "user_id": "91F0A88C8D",
@@ -1323,9 +1304,28 @@
       "position_accuracy_percent": 43.75
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 6,
-      "total_predictions": 16,
+      "correct_predictions": 9,
+      "total_predictions": 24,
       "accuracy_percent": 37.5
+    },
+    "rank": 69
+  },
+  {
+    "user_id": "CC6B00FB62",
+    "display_name": "Miri",
+    "metric_id": "precision_avance",
+    "value": 40.11,
+    "group_qualifiers_accuracy": {
+      "correct_teams": 22,
+      "correct_positions": 15,
+      "total_slots": 32,
+      "team_accuracy_percent": 68.75,
+      "position_accuracy_percent": 46.88
+    },
+    "knockout_advancement_accuracy": {
+      "correct_predictions": 8,
+      "total_predictions": 24,
+      "accuracy_percent": 33.33
     },
     "rank": 70
   },
@@ -1333,7 +1333,7 @@
     "user_id": "B8964AAF79",
     "display_name": "DiegoMagaña",
     "metric_id": "precision_avance",
-    "value": 39.06,
+    "value": 36.98,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 13,
@@ -1342,9 +1342,9 @@
       "position_accuracy_percent": 40.63
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 6,
-      "total_predictions": 16,
-      "accuracy_percent": 37.5
+      "correct_predictions": 8,
+      "total_predictions": 24,
+      "accuracy_percent": 33.33
     },
     "rank": 71
   },
@@ -1352,7 +1352,7 @@
     "user_id": "2BC645A052",
     "display_name": "BtoZ",
     "metric_id": "precision_avance",
-    "value": 34.38,
+    "value": 36.46,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 14,
@@ -1361,9 +1361,9 @@
       "position_accuracy_percent": 43.75
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 4,
-      "total_predictions": 16,
-      "accuracy_percent": 25
+      "correct_predictions": 7,
+      "total_predictions": 24,
+      "accuracy_percent": 29.17
     },
     "rank": 72
   },
@@ -1371,7 +1371,7 @@
     "user_id": "A3C25D9D42",
     "display_name": "Santiago Gutierrez",
     "metric_id": "precision_avance",
-    "value": 34.38,
+    "value": 30.21,
     "group_qualifiers_accuracy": {
       "correct_teams": 20,
       "correct_positions": 10,
@@ -1380,9 +1380,9 @@
       "position_accuracy_percent": 31.25
     },
     "knockout_advancement_accuracy": {
-      "correct_predictions": 6,
-      "total_predictions": 16,
-      "accuracy_percent": 37.5
+      "correct_predictions": 7,
+      "total_predictions": 24,
+      "accuracy_percent": 29.17
     },
     "rank": 73
   }
