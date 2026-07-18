@@ -1,1787 +1,599 @@
 {
-  "generated_at": "2026-07-08T17:47:52.549Z",
+  "generated_at": "2026-07-18T23:52:41.042Z",
   "metric": "simulacion_knockout",
   "next_count": 3,
   "matches": [
     {
-      "match_id": 97,
-      "stage": "QF",
-      "home_team": "Francia",
-      "away_team": "Marruecos",
-      "match_date": "09-Jul",
-      "kickoff_utc": "14:00",
-      "picks": [
-        {
-          "user_id": "4EE3A0CA82",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "7178DB5D04",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "1D12144F35",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "502D453FF5",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "6665E150B0",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "F07429A0E3",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "C1EFD7520A",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "9011183686",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "5283E0D056",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "B3B92F46ED",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "2BC645A052",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "8DF4EEAC63",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "A8FD28D6BA",
-          "home_team": "Francia",
-          "away_team": "Japon",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "EF919C72F7",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "23C4468823",
-          "home_team": "Francia",
-          "away_team": "Brasil",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "B8964AAF79",
-          "home_team": "Francia",
-          "away_team": "Mexico",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "8F205AE989",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "AE26D11B16",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 3,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "E201266422",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "D351395C7E",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "6172891E3A",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "732633D10E",
-          "home_team": "Francia",
-          "away_team": "Korea",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "16310FEBE5",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "0933C88879",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "3C3D690EE4",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "3855CBD142",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "278ECC1B7A",
-          "home_team": "Francia",
-          "away_team": "Suecia",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "1AC2FE7AF5",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "B13A945BF8",
-          "home_team": "Francia",
-          "away_team": "Japon",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "DB48897D9E",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "198CA6C5CB",
-          "home_team": "Francia",
-          "away_team": "Japon",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "FAC51CF2CF",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "F6E2313B1B",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "31A6CB0C21",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "80920F584F",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "E0B28E3E04",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "5EC15D0CF2",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "D053A979C1",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "432BF50FA9",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "2383A882D9",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "6B1DBB716C",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "9C75772EA0",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "8A01EA47FC",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "E9831BEEE3",
-          "home_team": "Francia",
-          "away_team": "Suiza",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "E4FC183EB7",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "CAA8D66DAA",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "3DE522E965",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "4CA014CA5E",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 3,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "8E0D4A705C",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "1829AF0B20",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "F4DAEB067A",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "CC6B00FB62",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "0C09D57C3D",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "E1B3B9BFCB",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "7667C7B572",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "349A5D07D9",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "2EF31BF1A6",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "224DC707ED",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "72A9ED8F20",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "9EB553DA57",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "726607D90E",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "1D2C13E050",
-          "home_team": "Francia",
-          "away_team": "Marruecos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "C19435FB3E",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "A44F6A82DF",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "P Bajos"
-        },
-        {
-          "user_id": "CB1163524F",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "CC94195BEB",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "EC8976134D",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "A3C25D9D42",
-          "home_team": "Alemania",
-          "away_team": "Suecia",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "C9CE9AF477",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "18734EA2D1",
-          "home_team": "Francia",
-          "away_team": "Japon",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "91F0A88C8D",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "E5DF64F6CC",
-          "home_team": "Alemania",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Alemania"
-        },
-        {
-          "user_id": "B97C49CA8A",
-          "home_team": "Francia",
-          "away_team": "P Bajos",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Francia"
-        }
-      ]
-    },
-    {
-      "match_id": 98,
-      "stage": "QF",
+      "match_id": 104,
+      "stage": "Final",
       "home_team": "España",
-      "away_team": "Belgica",
-      "match_date": "10-Jul",
+      "away_team": "Argentina",
+      "match_date": "19-Jun",
       "kickoff_utc": "13:00",
       "picks": [
         {
           "user_id": "4EE3A0CA82",
           "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
+          "away_team": "Brasil",
+          "home_goals": 1,
           "away_goals": 1,
           "advance_team": "España"
         },
         {
           "user_id": "7178DB5D04",
           "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
+          "away_team": "Portugal",
+          "home_goals": 0,
+          "away_goals": 1,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "1D12144F35",
-          "home_team": "España",
-          "away_team": "Belgica",
+          "home_team": "Francia",
+          "away_team": "Portugal",
           "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
+          "away_goals": 1,
+          "advance_team": "Francia"
         },
         {
           "user_id": "502D453FF5",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Brasil"
         },
         {
           "user_id": "6665E150B0",
           "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "F07429A0E3",
-          "home_team": "Croacia",
-          "away_team": "Belgica",
+          "home_team": "Belgica",
+          "away_team": "Portugal",
           "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Belgica"
+          "away_goals": 1,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "C1EFD7520A",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
+          "home_team": "Francia",
+          "away_team": "Argentina",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Francia"
         },
         {
           "user_id": "9011183686",
           "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "5283E0D056",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "B3B92F46ED",
-          "home_team": "España",
-          "away_team": "Senegal",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "2BC645A052",
-          "home_team": "España",
-          "away_team": "Turquia",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "8DF4EEAC63",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "A8FD28D6BA",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "EF919C72F7",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "23C4468823",
-          "home_team": "Uruguay",
-          "away_team": "Belgica",
-          "home_goals": 0,
-          "away_goals": 1,
-          "advance_team": "Belgica"
-        },
-        {
-          "user_id": "B8964AAF79",
-          "home_team": "Colombia",
-          "away_team": "Turquia",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Turquia"
-        },
-        {
-          "user_id": "8F205AE989",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "AE26D11B16",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "E201266422",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "D351395C7E",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "6172891E3A",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "732633D10E",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "16310FEBE5",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "0933C88879",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "3C3D690EE4",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "3855CBD142",
-          "home_team": "España",
-          "away_team": "Turquia",
-          "home_goals": 0,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "278ECC1B7A",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "1AC2FE7AF5",
-          "home_team": "España",
-          "away_team": "Belgica",
+          "away_team": "Brasil",
           "home_goals": 1,
           "away_goals": 2,
-          "advance_team": "Belgica"
-        },
-        {
-          "user_id": "B13A945BF8",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "DB48897D9E",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "198CA6C5CB",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "FAC51CF2CF",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "F6E2313B1B",
-          "home_team": "España",
-          "away_team": "Senegal",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "31A6CB0C21",
-          "home_team": "España",
-          "away_team": "Turquia",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "80920F584F",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "E0B28E3E04",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "5EC15D0CF2",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "D053A979C1",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "432BF50FA9",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "2383A882D9",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "6B1DBB716C",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "9C75772EA0",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "8A01EA47FC",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "E9831BEEE3",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "E4FC183EB7",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "CAA8D66DAA",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "3DE522E965",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "4CA014CA5E",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "8E0D4A705C",
-          "home_team": "España",
-          "away_team": "Turquia",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "1829AF0B20",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 3,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "F4DAEB067A",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "CC6B00FB62",
-          "home_team": "Colombia",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "Belgica"
-        },
-        {
-          "user_id": "0C09D57C3D",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "E1B3B9BFCB",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "7667C7B572",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "349A5D07D9",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "2EF31BF1A6",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "224DC707ED",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "72A9ED8F20",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "9EB553DA57",
-          "home_team": "España",
-          "away_team": "Korea",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "726607D90E",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "1D2C13E050",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "C19435FB3E",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "A44F6A82DF",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "CB1163524F",
-          "home_team": "Croacia",
-          "away_team": "Belgica",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Belgica"
-        },
-        {
-          "user_id": "CC94195BEB",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "EC8976134D",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "A3C25D9D42",
-          "home_team": "España",
-          "away_team": "Qatar",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "C9CE9AF477",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "18734EA2D1",
-          "home_team": "España",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "91F0A88C8D",
-          "home_team": "España",
-          "away_team": "Turquia",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "E5DF64F6CC",
-          "home_team": "España",
-          "away_team": "USA",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "España"
-        },
-        {
-          "user_id": "B97C49CA8A",
-          "home_team": "Portugal",
-          "away_team": "Belgica",
-          "home_goals": 2,
-          "away_goals": 3,
-          "advance_team": "Belgica"
-        }
-      ]
-    },
-    {
-      "match_id": 99,
-      "stage": "QF",
-      "home_team": "Noruega",
-      "away_team": "Inglaterra",
-      "match_date": "11-Jul",
-      "kickoff_utc": "15:00",
-      "picks": [
-        {
-          "user_id": "4EE3A0CA82",
-          "home_team": "Brasil",
-          "away_team": "Croacia",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "7178DB5D04",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "1D12144F35",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "502D453FF5",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "6665E150B0",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "F07429A0E3",
-          "home_team": "Noruega",
-          "away_team": "Mexico",
-          "home_goals": 3,
-          "away_goals": 0,
-          "advance_team": "Noruega"
-        },
-        {
-          "user_id": "C1EFD7520A",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 0,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "9011183686",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 0,
           "advance_team": "Brasil"
         },
         {
           "user_id": "5283E0D056",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "B3B92F46ED",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "2BC645A052",
-          "home_team": "Brasil",
-          "away_team": "Japon",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "8DF4EEAC63",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "A8FD28D6BA",
           "home_team": "P Bajos",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 1,
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 2,
           "advance_team": "P Bajos"
         },
         {
+          "user_id": "B3B92F46ED",
+          "home_team": "España",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "2BC645A052",
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "8DF4EEAC63",
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        {
+          "user_id": "A8FD28D6BA",
+          "home_team": "Francia",
+          "away_team": "P Bajos",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Francia"
+        },
+        {
           "user_id": "EF919C72F7",
-          "home_team": "Brasil",
+          "home_team": "España",
           "away_team": "Inglaterra",
           "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "23C4468823",
+          "home_team": "Belgica",
+          "away_team": "Inglaterra",
+          "home_goals": 0,
           "away_goals": 1,
           "advance_team": "Inglaterra"
         },
         {
-          "user_id": "23C4468823",
+          "user_id": "B8964AAF79",
+          "home_team": "Francia",
+          "away_team": "Inglaterra",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Inglaterra"
+        },
+        {
+          "user_id": "8F205AE989",
+          "home_team": "P Bajos",
+          "away_team": "Argentina",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Argentina"
+        },
+        {
+          "user_id": "AE26D11B16",
+          "home_team": "P Bajos",
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 0,
+          "advance_team": "P Bajos"
+        },
+        {
+          "user_id": "E201266422",
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "D351395C7E",
           "home_team": "Alemania",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "B8964AAF79",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "away_team": "Argentina",
           "home_goals": 1,
-          "away_goals": 3,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "8F205AE989",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "AE26D11B16",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "E201266422",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "D351395C7E",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Argentina"
         },
         {
           "user_id": "6172891E3A",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 2,
+          "home_team": "España",
+          "away_team": "Brasil",
+          "home_goals": 3,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "España"
         },
         {
           "user_id": "732633D10E",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Brasil"
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 3,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "16310FEBE5",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Brasil"
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Francia"
         },
         {
           "user_id": "0933C88879",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Brasil"
+          "home_team": "Alemania",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 0,
+          "advance_team": "Alemania"
         },
         {
           "user_id": "3C3D690EE4",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 1,
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 2,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "España"
         },
         {
           "user_id": "3855CBD142",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 3,
-          "away_goals": 0,
-          "advance_team": "Brasil"
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Francia"
         },
         {
           "user_id": "278ECC1B7A",
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Portugal"
+        },
+        {
+          "user_id": "1AC2FE7AF5",
           "home_team": "P Bajos",
-          "away_team": "Inglaterra",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "P Bajos"
+        },
+        {
+          "user_id": "B13A945BF8",
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 3,
+          "away_goals": 3,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "DB48897D9E",
+          "home_team": "España",
+          "away_team": "Argentina",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "198CA6C5CB",
+          "home_team": "España",
+          "away_team": "Argentina",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Argentina"
+        },
+        {
+          "user_id": "FAC51CF2CF",
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "F6E2313B1B",
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "31A6CB0C21",
+          "home_team": "España",
+          "away_team": "Francia",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "80920F584F",
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "Portugal"
+        },
+        {
+          "user_id": "E0B28E3E04",
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "5EC15D0CF2",
+          "home_team": "España",
+          "away_team": "Brasil",
+          "home_goals": 1,
+          "away_goals": 1,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "D053A979C1",
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "432BF50FA9",
+          "home_team": "Alemania",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Alemania"
+        },
+        {
+          "user_id": "2383A882D9",
+          "home_team": "P Bajos",
+          "away_team": "Portugal",
           "home_goals": 2,
           "away_goals": 1,
           "advance_team": "P Bajos"
         },
         {
-          "user_id": "1AC2FE7AF5",
-          "home_team": "Noruega",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 3,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "B13A945BF8",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "DB48897D9E",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "198CA6C5CB",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "FAC51CF2CF",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 1,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "F6E2313B1B",
-          "home_team": "Noruega",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "31A6CB0C21",
-          "home_team": "Francia",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 3,
-          "advance_team": "Francia"
-        },
-        {
-          "user_id": "80920F584F",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "E0B28E3E04",
-          "home_team": "Brasil",
-          "away_team": "Croacia",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "5EC15D0CF2",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "D053A979C1",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "432BF50FA9",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "2383A882D9",
-          "home_team": "Ecuador",
-          "away_team": "Mexico",
-          "home_goals": 0,
-          "away_goals": 1,
-          "advance_team": "Mexico"
-        },
-        {
           "user_id": "6B1DBB716C",
-          "home_team": "Francia",
-          "away_team": "Mexico",
-          "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Francia"
+          "home_team": "España",
+          "away_team": "Argentina",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Argentina"
         },
         {
           "user_id": "9C75772EA0",
-          "home_team": "Marruecos",
-          "away_team": "Inglaterra",
-          "home_goals": 1,
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 3,
           "away_goals": 1,
-          "advance_team": "Inglaterra"
+          "advance_team": "España"
         },
         {
           "user_id": "8A01EA47FC",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "P Bajos",
+          "away_team": "Brasil",
           "home_goals": 2,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "P Bajos"
         },
         {
           "user_id": "E9831BEEE3",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "España",
+          "away_team": "Argentina",
           "home_goals": 1,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Argentina"
         },
         {
           "user_id": "E4FC183EB7",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
+          "home_team": "Francia",
+          "away_team": "Argentina",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "Francia"
         },
         {
           "user_id": "CAA8D66DAA",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "España",
+          "away_team": "Argentina",
           "home_goals": 1,
           "away_goals": 0,
-          "advance_team": "Brasil"
+          "advance_team": "España"
         },
         {
           "user_id": "3DE522E965",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "Francia",
+          "away_team": "Portugal",
           "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Brasil"
+          "away_goals": 1,
+          "advance_team": "Francia"
         },
         {
           "user_id": "4CA014CA5E",
-          "home_team": "Marruecos",
-          "away_team": "Inglaterra",
+          "home_team": "P Bajos",
+          "away_team": "Portugal",
           "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Marruecos"
+          "away_goals": 2,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "8E0D4A705C",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
+          "home_team": "Francia",
+          "away_team": "Portugal",
           "home_goals": 2,
-          "away_goals": 0,
-          "advance_team": "Brasil"
+          "away_goals": 2,
+          "advance_team": "Francia"
         },
         {
           "user_id": "1829AF0B20",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 3,
           "away_goals": 2,
-          "advance_team": "Inglaterra"
+          "advance_team": "España"
         },
         {
           "user_id": "F4DAEB067A",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 0,
-          "away_goals": 0,
-          "advance_team": "Brasil"
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Francia"
         },
         {
           "user_id": "CC6B00FB62",
-          "home_team": "Brasil",
-          "away_team": "Croacia",
-          "home_goals": 0,
-          "away_goals": 1,
-          "advance_team": "Croacia"
+          "home_team": "Belgica",
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "0C09D57C3D",
-          "home_team": "Brasil",
+          "home_team": "España",
           "away_team": "Inglaterra",
           "home_goals": 1,
-          "away_goals": 1,
+          "away_goals": 2,
           "advance_team": "Inglaterra"
         },
         {
           "user_id": "E1B3B9BFCB",
-          "home_team": "Brasil",
-          "away_team": "Croacia",
-          "home_goals": 2,
+          "home_team": "Francia",
+          "away_team": "Portugal",
+          "home_goals": 3,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Francia"
         },
         {
           "user_id": "7667C7B572",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Brasil"
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 1,
+          "away_goals": 2,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "349A5D07D9",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "España",
+          "away_team": "Argentina",
           "home_goals": 1,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Argentina"
         },
         {
           "user_id": "2EF31BF1A6",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 3,
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 2,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Francia"
         },
         {
           "user_id": "224DC707ED",
-          "home_team": "Brasil",
+          "home_team": "España",
           "away_team": "Inglaterra",
-          "home_goals": 1,
-          "away_goals": 1,
+          "home_goals": 2,
+          "away_goals": 3,
           "advance_team": "Inglaterra"
         },
         {
           "user_id": "72A9ED8F20",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "P Bajos",
+          "away_team": "Argentina",
           "home_goals": 2,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "P Bajos"
         },
         {
           "user_id": "9EB553DA57",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
+          "home_team": "España",
+          "away_team": "Brasil",
           "home_goals": 2,
-          "away_goals": 1,
+          "away_goals": 3,
           "advance_team": "Brasil"
         },
         {
           "user_id": "726607D90E",
-          "home_team": "Japon",
-          "away_team": "Inglaterra",
+          "home_team": "España",
+          "away_team": "Portugal",
           "home_goals": 1,
           "away_goals": 2,
-          "advance_team": "Inglaterra"
+          "advance_team": "Portugal"
         },
         {
           "user_id": "1D2C13E050",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 3,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Francia"
         },
         {
           "user_id": "C19435FB3E",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 2,
-          "away_goals": 1,
-          "advance_team": "Brasil"
+          "home_team": "España",
+          "away_team": "Brasil",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "España"
         },
         {
           "user_id": "A44F6A82DF",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "P Bajos",
+          "away_team": "Portugal",
           "home_goals": 1,
           "away_goals": 0,
-          "advance_team": "Brasil"
+          "advance_team": "P Bajos"
         },
         {
           "user_id": "CB1163524F",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 0,
-          "advance_team": "Brasil"
+          "home_team": "Belgica",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 2,
+          "advance_team": "Portugal"
         },
         {
           "user_id": "CC94195BEB",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 2,
-          "away_goals": 2,
-          "advance_team": "Inglaterra"
-        },
-        {
-          "user_id": "EC8976134D",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "A3C25D9D42",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
-          "home_goals": 3,
-          "away_goals": 2,
-          "advance_team": "Brasil"
-        },
-        {
-          "user_id": "C9CE9AF477",
-          "home_team": "Brasil",
+          "home_team": "Francia",
           "away_team": "Inglaterra",
           "home_goals": 2,
           "away_goals": 1,
-          "advance_team": "Brasil"
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "EC8976134D",
+          "home_team": "Francia",
+          "away_team": "Brasil",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "Francia"
+        },
+        {
+          "user_id": "A3C25D9D42",
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 3,
+          "away_goals": 2,
+          "advance_team": "España"
+        },
+        {
+          "user_id": "C9CE9AF477",
+          "home_team": "España",
+          "away_team": "Portugal",
+          "home_goals": 2,
+          "away_goals": 1,
+          "advance_team": "España"
         },
         {
           "user_id": "18734EA2D1",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "Francia",
+          "away_team": "Portugal",
           "home_goals": 2,
           "away_goals": 2,
-          "advance_team": "Brasil"
+          "advance_team": "Portugal"
         },
         {
           "user_id": "91F0A88C8D",
-          "home_team": "Brasil",
-          "away_team": "Mexico",
+          "home_team": "Francia",
+          "away_team": "Brasil",
           "home_goals": 2,
-          "away_goals": 0,
+          "away_goals": 3,
           "advance_team": "Brasil"
         },
         {
           "user_id": "E5DF64F6CC",
-          "home_team": "Brasil",
+          "home_team": "Alemania",
           "away_team": "Mexico",
-          "home_goals": 2,
+          "home_goals": 1,
           "away_goals": 2,
           "advance_team": "Mexico"
         },
         {
           "user_id": "B97C49CA8A",
-          "home_team": "Brasil",
-          "away_team": "Inglaterra",
+          "home_team": "Francia",
+          "away_team": "Brasil",
           "home_goals": 3,
-          "away_goals": 1,
-          "advance_team": "Brasil"
+          "away_goals": 2,
+          "advance_team": "Francia"
         }
       ]
     }

@@ -16,9 +16,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 6,
@@ -28,22 +28,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          69,
-          69,
-          69
+          65,
+          66,
+          66
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "low",
-        "strength_delta": 0.14,
+        "strength_delta": 0.13,
         "group_accuracy": 0.47,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.34,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -60,24 +60,13 @@
           "rank_swing": 40,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.26
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.58,
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -87,22 +76,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
+        "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          38,
-          37,
-          37
+          27,
+          30,
+          28
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.26,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.25,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -134,9 +123,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -149,9 +138,9 @@
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          17,
+          19,
           18,
-          18
+          20
         ]
       },
       "phase_strength": {
@@ -161,7 +150,7 @@
         "group_accuracy": 0.64,
         "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -180,22 +169,36 @@
         }
       },
       {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            18,
+            21,
+            23
+          ],
+          "momentum_strength": 5
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.26
+          "knockout_accuracy": 0.31,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -204,23 +207,23 @@
         "volatility_score": 0.64
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -5,
+        "momentum_strength": 5,
         "recent_ranks": [
-          16,
-          16,
-          16
+          18,
+          21,
+          23
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.26,
+        "strength_delta": 0.28,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -239,20 +242,6 @@
         }
       },
       {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            61,
-            59,
-            58
-          ],
-          "momentum_strength": 3
-        }
-      },
-      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
@@ -266,9 +255,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -277,13 +266,13 @@
         "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          61,
-          59,
-          58
+          56,
+          57,
+          56
         ]
       },
       "phase_strength": {
@@ -293,7 +282,7 @@
         "group_accuracy": 0.57,
         "knockout_accuracy": 0.28,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -314,9 +303,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.42,
+        "correct": 13,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 15,
@@ -329,19 +318,19 @@
         "recent_delta": 1,
         "momentum_strength": 1,
         "recent_ranks": [
-          63,
-          63,
-          62
+          65,
+          65,
+          64
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.24,
         "group_accuracy": 0.51,
-        "knockout_accuracy": 0.29,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -367,15 +356,15 @@
         "metrics": {
           "group_accuracy": 0.63,
           "knockout_accuracy": 0.35,
-          "strength_delta": 0.28
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 16,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -388,19 +377,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          1,
-          1,
-          1
+          2,
+          2,
+          2
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.27,
         "group_accuracy": 0.63,
         "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -433,8 +422,8 @@
     "metrics": {
       "advance_accuracy": {
         "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -444,12 +433,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          11,
-          14,
-          14
+          13,
+          13,
+          13
         ]
       },
       "phase_strength": {
@@ -459,7 +448,7 @@
         "group_accuracy": 0.65,
         "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -473,8 +462,22 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 59,
+          "rank_swing": 61,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            62,
+            61,
+            58
+          ],
+          "momentum_strength": 4
         }
       },
       {
@@ -484,41 +487,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.26,
-          "strength_delta": 0.32
+          "knockout_accuracy": 0.27,
+          "strength_delta": 0.31
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.52,
+        "correct": 16,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 60,
-        "rank_swing": 59,
-        "volatility_score": 0.81
+        "worst_rank": 62,
+        "rank_swing": 61,
+        "volatility_score": 0.84
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "trend": "up",
+        "recent_delta": 4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          58,
-          58,
-          59
+          62,
+          61,
+          58
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.32,
+        "strength_delta": 0.31,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.26,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -539,9 +542,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 16,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -562,11 +565,11 @@
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.18,
+        "strength_delta": 0.17,
         "group_accuracy": 0.56,
         "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -583,24 +586,13 @@
           "rank_swing": 71,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.47,
-          "knockout_accuracy": 0.21,
-          "strength_delta": 0.26
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.29,
-        "correct": 7,
-        "total_matches": 24
+        "accuracy": 0.32,
+        "correct": 10,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -619,13 +611,13 @@
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.26,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.47,
-        "knockout_accuracy": 0.21,
+        "knockout_accuracy": 0.23,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -647,8 +639,8 @@
     "metrics": {
       "advance_accuracy": {
         "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -658,22 +650,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
           9,
-          9,
-          9
+          8,
+          8
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.21,
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.37,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -692,20 +684,6 @@
         }
       },
       {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            31,
-            33,
-            36
-          ],
-          "momentum_strength": 5
-        }
-      },
-      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
@@ -719,9 +697,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -730,13 +708,13 @@
         "volatility_score": 0.56
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -5,
-        "momentum_strength": 5,
+        "trend": "stable",
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          31,
-          33,
-          36
+          34,
+          34,
+          34
         ]
       },
       "phase_strength": {
@@ -746,7 +724,7 @@
         "group_accuracy": 0.57,
         "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -767,9 +745,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -782,19 +760,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          8,
-          8,
-          8
+          6,
+          6,
+          6
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.2,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.37,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -808,22 +786,8 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 66,
+          "rank_swing": 67,
           "volatility_threshold": 15
-        }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            67,
-            66,
-            64
-          ],
-          "momentum_strength": 3
         }
       },
       {
@@ -833,41 +797,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.56,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.27
+          "knockout_accuracy": 0.26,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.42,
+        "correct": 13,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 67,
-        "rank_swing": 66,
-        "volatility_score": 0.9
+        "worst_rank": 68,
+        "rank_swing": 67,
+        "volatility_score": 0.92
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          67,
+          68,
           66,
-          64
+          67
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.27,
+        "strength_delta": 0.29,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.26,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -892,16 +856,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.51,
-          "knockout_accuracy": 0.2,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.19,
+          "strength_delta": 0.33
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
-        "correct": 8,
-        "total_matches": 24
+        "accuracy": 0.32,
+        "correct": 10,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -922,11 +886,11 @@
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.33,
         "group_accuracy": 0.51,
-        "knockout_accuracy": 0.2,
+        "knockout_accuracy": 0.19,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -951,16 +915,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.6,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.29
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.3
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -970,22 +934,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          31,
-          31,
-          31
+          38,
+          34,
+          34
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.29,
+        "strength_delta": 0.3,
         "group_accuracy": 0.6,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1004,36 +968,22 @@
         }
       },
       {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            63,
-            66,
-            67
-          ],
-          "momentum_strength": 4
-        }
-      },
-      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.56,
-          "knockout_accuracy": 0.24,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.27,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.42,
-        "correct": 10,
-        "total_matches": 24
+        "accuracy": 0.35,
+        "correct": 11,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1042,23 +992,23 @@
         "volatility_score": 0.9
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "trend": "stable",
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          63,
-          66,
-          67
+          60,
+          57,
+          58
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.28,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.24,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1083,16 +1033,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.57,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.26
+          "knockout_accuracy": 0.29,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1102,22 +1052,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
           53,
-          54,
-          54
+          55,
+          55
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.26,
+        "strength_delta": 0.28,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.29,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1142,16 +1092,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.25
+          "knockout_accuracy": 0.32,
+          "strength_delta": 0.26
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1161,22 +1111,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 4,
-        "momentum_strength": 4,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          35,
           31,
-          31
+          30,
+          32
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.25,
+        "strength_delta": 0.26,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1190,22 +1140,8 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 27,
+          "rank_swing": 38,
           "volatility_threshold": 15
-        }
-      },
-      {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            24,
-            25,
-            28
-          ],
-          "momentum_strength": 4
         }
       },
       {
@@ -1215,41 +1151,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.64,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.36
+          "knockout_accuracy": 0.26,
+          "strength_delta": 0.38
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 28,
-        "rank_swing": 27,
-        "volatility_score": 0.37
+        "worst_rank": 39,
+        "rank_swing": 38,
+        "volatility_score": 0.52
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -4,
-        "momentum_strength": 4,
+        "trend": "stable",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          24,
-          25,
-          28
+          36,
+          39,
+          38
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.36,
+        "strength_delta": 0.38,
         "group_accuracy": 0.64,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.26,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1264,16 +1200,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.68,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.35
+          "knockout_accuracy": 0.31,
+          "strength_delta": 0.37
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1283,22 +1219,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          3,
-          3,
-          3
+          7,
+          10,
+          10
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.35,
+        "strength_delta": 0.37,
         "group_accuracy": 0.68,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1306,16 +1242,6 @@
     "user_id": "16310FEBE5",
     "display_name": "GilGzz",
     "traits": [
-      {
-        "id": "precise_advancements",
-        "label": "Bola de Cristal",
-        "description": "Adivina quién avanza con precisión sospechosa.",
-        "confidence": "medium",
-        "metrics": {
-          "advance_accuracy": 0.71,
-          "knockout_matches": 24
-        }
-      },
       {
         "id": "high_volatility",
         "label": "Montaña Rusa",
@@ -1329,9 +1255,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.71,
-        "correct": 17,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1341,22 +1267,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          14,
-          15,
-          15
+          10,
+          10,
+          12
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.23,
+        "strength_delta": 0.21,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.34,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1381,16 +1307,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.56,
-          "knockout_accuracy": 0.27,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.25,
+          "strength_delta": 0.3
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1400,22 +1326,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          59,
-          59,
-          60
+          64,
+          64,
+          64
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.3,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.27,
+        "knockout_accuracy": 0.25,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1447,9 +1373,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1459,10 +1385,10 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          21,
+          22,
           21,
           21
         ]
@@ -1474,7 +1400,7 @@
         "group_accuracy": 0.61,
         "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1488,8 +1414,22 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 56,
+          "rank_swing": 60,
           "volatility_threshold": 15
+        }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            59,
+            60,
+            61
+          ],
+          "momentum_strength": 2
         }
       },
       {
@@ -1499,41 +1439,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.3
+          "knockout_accuracy": 0.26,
+          "strength_delta": 0.32
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 57,
-        "rank_swing": 56,
-        "volatility_score": 0.77
+        "worst_rank": 61,
+        "rank_swing": 60,
+        "volatility_score": 0.82
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          56,
-          56,
-          56
+          59,
+          60,
+          61
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
+        "strength_delta": 0.32,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.26,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1559,15 +1499,15 @@
         "metrics": {
           "group_accuracy": 0.58,
           "knockout_accuracy": 0.26,
-          "strength_delta": 0.33
+          "strength_delta": 0.32
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1580,19 +1520,19 @@
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          59,
+          60,
           61,
-          60
+          61
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.33,
+        "strength_delta": 0.32,
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.26,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1613,9 +1553,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 16,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1625,12 +1565,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 4,
-        "momentum_strength": 4,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          14,
-          10,
-          10
+          13,
+          13,
+          13
         ]
       },
       "phase_strength": {
@@ -1640,7 +1580,7 @@
         "group_accuracy": 0.54,
         "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1659,17 +1599,17 @@
         }
       },
       {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
         "confidence": "medium",
         "metrics": {
           "recent_ranks": [
-            35,
-            33,
-            31
+            36,
+            37,
+            38
           ],
-          "momentum_strength": 4
+          "momentum_strength": 2
         }
       },
       {
@@ -1679,16 +1619,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.32,
-          "strength_delta": 0.26
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.67,
-        "correct": 16,
-        "total_matches": 24
+        "accuracy": 0.61,
+        "correct": 19,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1697,23 +1637,23 @@
         "volatility_score": 0.73
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 4,
-        "momentum_strength": 4,
+        "trend": "down",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          35,
-          33,
-          31
+          36,
+          37,
+          38
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.26,
+        "strength_delta": 0.28,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.32,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1738,16 +1678,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.65,
-          "knockout_accuracy": 0.35,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.37,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.68,
+        "correct": 21,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1757,22 +1697,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
           7,
-          7,
-          7
+          5,
+          5
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.29,
         "group_accuracy": 0.65,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.37,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1787,7 +1727,7 @@
         "confidence": "medium",
         "metrics": {
           "advance_accuracy": 0.71,
-          "knockout_matches": 24
+          "knockout_matches": 31
         }
       },
       {
@@ -1799,27 +1739,13 @@
           "rank_swing": 58,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            45,
-            44,
-            43
-          ],
-          "momentum_strength": 2
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
         "accuracy": 0.71,
-        "correct": 17,
-        "total_matches": 24
+        "correct": 22,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1828,23 +1754,23 @@
         "volatility_score": 0.79
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 2,
-        "momentum_strength": 2,
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          45,
-          44,
+          42,
+          43,
           43
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.23,
+        "strength_delta": 0.24,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.34,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1861,24 +1787,13 @@
           "rank_swing": 41,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.57,
-          "knockout_accuracy": 0.32,
-          "strength_delta": 0.25
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1888,22 +1803,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          37,
-          38,
-          37
+          27,
+          30,
+          28
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.25,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.24,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.32,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1920,13 +1835,27 @@
           "rank_swing": 70,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            17,
+            15,
+            13
+          ],
+          "momentum_strength": 4
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1935,23 +1864,23 @@
         "volatility_score": 0.96
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 3,
-        "momentum_strength": 3,
+        "trend": "up",
+        "recent_delta": 4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          20,
-          16,
-          17
+          17,
+          15,
+          13
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.2,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.37,
+        "knockout_accuracy": 0.38,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -1968,13 +1897,27 @@
           "rank_swing": 69,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            44,
+            46,
+            47
+          ],
+          "momentum_strength": 3
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.42,
-        "correct": 10,
-        "total_matches": 24
+        "accuracy": 0.39,
+        "correct": 12,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -1983,23 +1926,23 @@
         "volatility_score": 0.95
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          42,
-          42,
-          42
+          44,
+          46,
+          47
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.22,
+        "strength_delta": 0.25,
         "group_accuracy": 0.53,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.28,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2018,20 +1961,6 @@
         }
       },
       {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            17,
-            19,
-            20
-          ],
-          "momentum_strength": 3
-        }
-      },
-      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
@@ -2045,9 +1974,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2056,13 +1985,13 @@
         "volatility_score": 0.56
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": 2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          17,
-          19,
-          20
+          23,
+          21,
+          21
         ]
       },
       "phase_strength": {
@@ -2072,7 +2001,7 @@
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2093,9 +2022,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.52,
+        "correct": 16,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2105,22 +2034,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           41,
           41,
-          40
+          41
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.24,
+        "strength_delta": 0.25,
         "group_accuracy": 0.56,
         "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2141,9 +2070,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.58,
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2153,10 +2082,10 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          6,
+          5,
           6,
           6
         ]
@@ -2168,7 +2097,7 @@
         "group_accuracy": 0.56,
         "knockout_accuracy": 0.34,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2200,9 +2129,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.58,
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2215,9 +2144,9 @@
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          48,
-          49,
-          49
+          47,
+          47,
+          48
         ]
       },
       "phase_strength": {
@@ -2227,7 +2156,7 @@
         "group_accuracy": 0.57,
         "knockout_accuracy": 0.29,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2252,16 +2181,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.54,
-          "knockout_accuracy": 0.26,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.25,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.39,
+        "correct": 12,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2271,22 +2200,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          67,
-          68,
-          68
+          69,
+          69,
+          69
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.29,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.26,
+        "knockout_accuracy": 0.25,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2311,16 +2240,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.25
+          "knockout_accuracy": 0.32,
+          "strength_delta": 0.26
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.39,
+        "correct": 12,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2330,10 +2259,10 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          28,
+          31,
           28,
           28
         ]
@@ -2341,11 +2270,11 @@
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.25,
+        "strength_delta": 0.26,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2377,9 +2306,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.42,
-        "correct": 10,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2389,12 +2318,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 6,
+        "momentum_strength": 6,
         "recent_ranks": [
-          31,
-          33,
-          31
+          34,
+          28,
+          28
         ]
       },
       "phase_strength": {
@@ -2404,7 +2333,7 @@
         "group_accuracy": 0.6,
         "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2429,16 +2358,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.29,
-          "strength_delta": 0.29
+          "knockout_accuracy": 0.33,
+          "strength_delta": 0.26
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2448,22 +2377,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
+        "recent_delta": 1,
         "momentum_strength": 1,
         "recent_ranks": [
-          21,
-          23,
-          22
+          19,
+          20,
+          18
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.29,
+        "strength_delta": 0.26,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.29,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2477,7 +2406,7 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 45,
+          "rank_swing": 47,
           "volatility_threshold": 15
         }
       },
@@ -2488,41 +2417,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.57,
-          "knockout_accuracy": 0.29,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.27,
+          "strength_delta": 0.3
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 46,
-        "rank_swing": 45,
-        "volatility_score": 0.62
+        "worst_rank": 48,
+        "rank_swing": 47,
+        "volatility_score": 0.64
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
+        "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          44,
-          43,
-          43
+          47,
+          47,
+          48
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.3,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.29,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2539,38 +2468,13 @@
           "rank_swing": 26,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
-        "metrics": {
-          "recent_ranks": [
-            21,
-            23,
-            24
-          ],
-          "momentum_strength": 3
-        }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.61,
-          "knockout_accuracy": 0.32,
-          "strength_delta": 0.29
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.58,
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2579,23 +2483,23 @@
         "volatility_score": 0.36
       },
       "momentum": {
-        "trend": "down",
-        "recent_delta": -3,
-        "momentum_strength": 3,
+        "trend": "stable",
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          21,
-          23,
-          24
+          15,
+          16,
+          16
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.29,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.25,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.32,
+        "knockout_accuracy": 0.37,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2616,9 +2520,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2631,19 +2535,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          45,
-          44,
-          45
+          42,
+          41,
+          42
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.18,
         "group_accuracy": 0.53,
         "knockout_accuracy": 0.34,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2668,16 +2572,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.63,
-          "knockout_accuracy": 0.34,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.35,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2687,22 +2591,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          10,
-          10,
-          10
+          12,
+          8,
+          8
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.27,
         "group_accuracy": 0.63,
-        "knockout_accuracy": 0.34,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2727,16 +2631,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.64,
-          "knockout_accuracy": 0.25,
-          "strength_delta": 0.39
+          "knockout_accuracy": 0.27,
+          "strength_delta": 0.36
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2746,22 +2650,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 3,
+        "momentum_strength": 3,
         "recent_ranks": [
-          50,
-          51,
-          51
+          47,
+          44,
+          44
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.39,
+        "strength_delta": 0.36,
         "group_accuracy": 0.64,
-        "knockout_accuracy": 0.25,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2793,9 +2697,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.38,
-        "correct": 9,
-        "total_matches": 24
+        "accuracy": 0.32,
+        "correct": 10,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2805,12 +2709,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
+          63,
           61,
-          61,
-          62
+          63
         ]
       },
       "phase_strength": {
@@ -2820,7 +2724,7 @@
         "group_accuracy": 0.57,
         "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2852,9 +2756,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2864,12 +2768,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 2,
-        "momentum_strength": 2,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          24,
-          21,
-          22
+          27,
+          26,
+          26
         ]
       },
       "phase_strength": {
@@ -2879,7 +2783,7 @@
         "group_accuracy": 0.65,
         "knockout_accuracy": 0.28,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2898,6 +2802,20 @@
         }
       },
       {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            51,
+            47,
+            44
+          ],
+          "momentum_strength": 7
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
@@ -2912,8 +2830,8 @@
     "metrics": {
       "advance_accuracy": {
         "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2922,13 +2840,13 @@
         "volatility_score": 0.88
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "trend": "up",
+        "recent_delta": 7,
+        "momentum_strength": 7,
         "recent_ranks": [
-          45,
+          51,
           47,
-          47
+          44
         ]
       },
       "phase_strength": {
@@ -2938,7 +2856,7 @@
         "group_accuracy": 0.57,
         "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -2957,25 +2875,22 @@
         }
       },
       {
-        "id": "falling",
-        "label": "En Caída",
-        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
-        "confidence": "medium",
+        "id": "group_specialist",
+        "label": "Amo de Grupos",
+        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
+        "confidence": "high",
         "metrics": {
-          "recent_ranks": [
-            43,
-            44,
-            47
-          ],
-          "momentum_strength": 4
+          "group_accuracy": 0.54,
+          "knockout_accuracy": 0.28,
+          "strength_delta": 0.26
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -2984,23 +2899,23 @@
         "volatility_score": 0.97
       },
       "momentum": {
-        "trend": "down",
+        "trend": "stable",
         "recent_delta": -4,
         "momentum_strength": 4,
         "recent_ranks": [
-          43,
-          44,
-          47
+          47,
+          51,
+          51
         ]
       },
       "phase_strength": {
-        "strongest_phase": "balanced",
-        "confidence": "medium",
-        "strength_delta": 0.24,
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.26,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.3,
+        "knockout_accuracy": 0.28,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3026,15 +2941,15 @@
         "metrics": {
           "group_accuracy": 0.57,
           "knockout_accuracy": 0.28,
-          "strength_delta": 0.28
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.33,
+        "accuracy": 0.26,
         "correct": 8,
-        "total_matches": 24
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3048,18 +2963,18 @@
         "momentum_strength": 1,
         "recent_ranks": [
           55,
-          55,
+          54,
           54
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.29,
         "group_accuracy": 0.57,
         "knockout_accuracy": 0.28,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3084,16 +2999,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.63,
-          "knockout_accuracy": 0.34,
+          "knockout_accuracy": 0.35,
           "strength_delta": 0.28
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3103,10 +3018,10 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          11,
+          10,
           10,
           10
         ]
@@ -3116,9 +3031,9 @@
         "confidence": "high",
         "strength_delta": 0.28,
         "group_accuracy": 0.63,
-        "knockout_accuracy": 0.34,
+        "knockout_accuracy": 0.35,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3150,9 +3065,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3162,12 +3077,12 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": 1,
+        "momentum_strength": 1,
         "recent_ranks": [
-          28,
-          28,
-          28
+          26,
+          25,
+          25
         ]
       },
       "phase_strength": {
@@ -3177,7 +3092,7 @@
         "group_accuracy": 0.58,
         "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3202,16 +3117,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.61,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.34,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.52,
+        "correct": 16,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3221,22 +3136,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
+        "recent_delta": 1,
         "momentum_strength": 1,
         "recent_ranks": [
-          17,
           19,
+          18,
           18
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.27,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.34,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3268,9 +3183,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.42,
-        "correct": 10,
-        "total_matches": 24
+        "accuracy": 0.45,
+        "correct": 14,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3284,7 +3199,7 @@
         "momentum_strength": 0,
         "recent_ranks": [
           24,
-          25,
+          24,
           24
         ]
       },
@@ -3295,7 +3210,7 @@
         "group_accuracy": 0.64,
         "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3312,13 +3227,27 @@
           "rank_swing": 70,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            27,
+            30,
+            32
+          ],
+          "momentum_strength": 5
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3327,23 +3256,23 @@
         "volatility_score": 0.96
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "trend": "down",
+        "recent_delta": -5,
+        "momentum_strength": 5,
         "recent_ranks": [
-          24,
-          25,
-          24
+          27,
+          30,
+          32
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.16,
+        "strength_delta": 0.19,
         "group_accuracy": 0.51,
-        "knockout_accuracy": 0.35,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3368,16 +3297,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.61,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.34,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3390,19 +3319,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          5,
-          5,
-          5
+          4,
+          4,
+          4
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.27,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.34,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3427,16 +3356,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.6,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.31
+          "knockout_accuracy": 0.31,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3446,22 +3375,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
+        "recent_delta": 1,
         "momentum_strength": 1,
         "recent_ranks": [
-          56,
-          56,
-          57
+          53,
+          52,
+          52
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.31,
+        "strength_delta": 0.29,
         "group_accuracy": 0.6,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3478,13 +3407,24 @@
           "rank_swing": 72,
           "volatility_threshold": 15
         }
+      },
+      {
+        "id": "group_specialist",
+        "label": "Amo de Grupos",
+        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
+        "confidence": "high",
+        "metrics": {
+          "group_accuracy": 0.54,
+          "knockout_accuracy": 0.28,
+          "strength_delta": 0.26
+        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.38,
-        "correct": 9,
-        "total_matches": 24
+        "accuracy": 0.35,
+        "correct": 11,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3497,19 +3437,19 @@
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          73,
-          73,
-          73
+          72,
+          72,
+          72
         ]
       },
       "phase_strength": {
-        "strongest_phase": "balanced",
-        "confidence": "medium",
-        "strength_delta": 0.25,
+        "strongest_phase": "group",
+        "confidence": "high",
+        "strength_delta": 0.26,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.29,
+        "knockout_accuracy": 0.28,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3526,24 +3466,13 @@
           "rank_swing": 66,
           "volatility_threshold": 15
         }
-      },
-      {
-        "id": "group_specialist",
-        "label": "Amo de Grupos",
-        "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
-        "confidence": "high",
-        "metrics": {
-          "group_accuracy": 0.6,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.26
-        }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.65,
+        "correct": 20,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3553,22 +3482,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
           1,
           1,
-          2
+          1
         ]
       },
       "phase_strength": {
-        "strongest_phase": "group",
-        "confidence": "high",
-        "strength_delta": 0.26,
+        "strongest_phase": "balanced",
+        "confidence": "medium",
+        "strength_delta": 0.23,
         "group_accuracy": 0.6,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.37,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3594,15 +3523,15 @@
         "metrics": {
           "group_accuracy": 0.6,
           "knockout_accuracy": 0.33,
-          "strength_delta": 0.26
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.58,
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3612,22 +3541,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -2,
-        "momentum_strength": 2,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          38,
-          38,
+          40,
+          40,
           40
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.26,
+        "strength_delta": 0.27,
         "group_accuracy": 0.6,
         "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3648,9 +3577,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3660,22 +3589,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 4,
-        "momentum_strength": 4,
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          28,
-          28,
-          24
+          24,
+          26,
+          26
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.21,
         "group_accuracy": 0.53,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3694,17 +3623,17 @@
         }
       },
       {
-        "id": "rising",
-        "label": "Enrachado",
-        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
         "confidence": "medium",
         "metrics": {
           "recent_ranks": [
-            50,
+            44,
             47,
-            45
+            48
           ],
-          "momentum_strength": 5
+          "momentum_strength": 4
         }
       },
       {
@@ -3714,16 +3643,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.27
+          "knockout_accuracy": 0.3,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3732,23 +3661,23 @@
         "volatility_score": 0.68
       },
       "momentum": {
-        "trend": "up",
-        "recent_delta": 5,
-        "momentum_strength": 5,
+        "trend": "down",
+        "recent_delta": -4,
+        "momentum_strength": 4,
         "recent_ranks": [
-          50,
+          44,
           47,
-          45
+          48
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.27,
+        "strength_delta": 0.29,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.3,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3769,9 +3698,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.5,
-        "correct": 12,
-        "total_matches": 24
+        "accuracy": 0.42,
+        "correct": 13,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3781,22 +3710,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          11,
-          10,
-          10
+          15,
+          17,
+          17
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.21,
+        "strength_delta": 0.23,
         "group_accuracy": 0.54,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.31,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3817,9 +3746,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.61,
+        "correct": 19,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 32,
@@ -3829,22 +3758,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          63,
-          65,
-          64
+          56,
+          56,
+          56
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.17,
         "group_accuracy": 0.5,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.33,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3865,9 +3794,9 @@
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.63,
-        "correct": 15,
-        "total_matches": 24
+        "accuracy": 0.58,
+        "correct": 18,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3877,22 +3806,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "recent_delta": 0,
+        "momentum_strength": 0,
         "recent_ranks": [
-          48,
-          49,
-          49
+          44,
+          44,
+          44
         ]
       },
       "phase_strength": {
         "strongest_phase": "balanced",
         "confidence": "medium",
-        "strength_delta": 0.19,
+        "strength_delta": 0.18,
         "group_accuracy": 0.5,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3906,7 +3835,7 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 71,
+          "rank_swing": 72,
           "volatility_threshold": 15
         }
       },
@@ -3918,40 +3847,40 @@
         "metrics": {
           "group_accuracy": 0.54,
           "knockout_accuracy": 0.17,
-          "strength_delta": 0.37
+          "strength_delta": 0.38
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
         "accuracy": 0.29,
-        "correct": 7,
-        "total_matches": 24
+        "correct": 9,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 72,
-        "rank_swing": 71,
-        "volatility_score": 0.97
+        "worst_rank": 73,
+        "rank_swing": 72,
+        "volatility_score": 0.99
       },
       "momentum": {
         "trend": "stable",
         "recent_delta": 0,
         "momentum_strength": 0,
         "recent_ranks": [
-          72,
-          72,
-          72
+          73,
+          73,
+          73
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.37,
+        "strength_delta": 0.38,
         "group_accuracy": 0.54,
         "knockout_accuracy": 0.17,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -3970,22 +3899,36 @@
         }
       },
       {
+        "id": "rising",
+        "label": "Enrachado",
+        "description": "Escala posiciones y suma puntos fecha tras fecha. ¿Racha pasajera o nueva realidad?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            38,
+            37,
+            34
+          ],
+          "momentum_strength": 4
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.61,
-          "knockout_accuracy": 0.31,
-          "strength_delta": 0.3
+          "knockout_accuracy": 0.32,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.55,
+        "correct": 17,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -3994,23 +3937,23 @@
         "volatility_score": 0.66
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": -1,
-        "momentum_strength": 1,
+        "trend": "up",
+        "recent_delta": 4,
+        "momentum_strength": 4,
         "recent_ranks": [
           38,
-          38,
-          39
+          37,
+          34
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.3,
+        "strength_delta": 0.29,
         "group_accuracy": 0.61,
-        "knockout_accuracy": 0.31,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -4035,16 +3978,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.56,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.27,
+          "strength_delta": 0.29
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.54,
-        "correct": 13,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -4054,22 +3997,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -1,
+        "momentum_strength": 1,
         "recent_ranks": [
           52,
-          51,
-          52
+          53,
+          53
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.29,
         "group_accuracy": 0.56,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.27,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -4083,7 +4026,7 @@
         "description": "Sus posiciones suben y bajan sin avisar. Al menos el torneo es entretenido.",
         "confidence": "high",
         "metrics": {
-          "rank_swing": 65,
+          "rank_swing": 67,
           "volatility_threshold": 15
         }
       },
@@ -4094,41 +4037,41 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.26,
-          "strength_delta": 0.32
+          "knockout_accuracy": 0.24,
+          "strength_delta": 0.34
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.38,
-        "correct": 9,
-        "total_matches": 24
+        "accuracy": 0.35,
+        "correct": 11,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
-        "worst_rank": 66,
-        "rank_swing": 65,
-        "volatility_score": 0.89
+        "worst_rank": 68,
+        "rank_swing": 67,
+        "volatility_score": 0.92
       },
       "momentum": {
         "trend": "stable",
         "recent_delta": -1,
         "momentum_strength": 1,
         "recent_ranks": [
-          63,
-          63,
-          64
+          67,
+          68,
+          68
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.32,
+        "strength_delta": 0.34,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.26,
+        "knockout_accuracy": 0.24,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -4147,22 +4090,36 @@
         }
       },
       {
+        "id": "falling",
+        "label": "En Caída",
+        "description": "Viene cuesta abajo en las últimas fechas. ¿Momentáneo o preocupante?",
+        "confidence": "medium",
+        "metrics": {
+          "recent_ranks": [
+            56,
+            57,
+            58
+          ],
+          "momentum_strength": 2
+        }
+      },
+      {
         "id": "group_specialist",
         "label": "Amo de Grupos",
         "description": "La fase de grupos es su territorio. Las eliminatorias dirán el resto.",
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.57,
-          "knockout_accuracy": 0.28,
-          "strength_delta": 0.28
+          "knockout_accuracy": 0.25,
+          "strength_delta": 0.32
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.46,
-        "correct": 11,
-        "total_matches": 24
+        "accuracy": 0.42,
+        "correct": 13,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -4171,23 +4128,23 @@
         "volatility_score": 0.93
       },
       "momentum": {
-        "trend": "stable",
-        "recent_delta": 1,
-        "momentum_strength": 1,
+        "trend": "down",
+        "recent_delta": -2,
+        "momentum_strength": 2,
         "recent_ranks": [
-          53,
-          53,
-          52
+          56,
+          57,
+          58
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.28,
+        "strength_delta": 0.32,
         "group_accuracy": 0.57,
-        "knockout_accuracy": 0.28,
+        "knockout_accuracy": 0.25,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   },
@@ -4212,16 +4169,16 @@
         "confidence": "high",
         "metrics": {
           "group_accuracy": 0.58,
-          "knockout_accuracy": 0.33,
-          "strength_delta": 0.25
+          "knockout_accuracy": 0.32,
+          "strength_delta": 0.27
         }
       }
     ],
     "metrics": {
       "advance_accuracy": {
-        "accuracy": 0.58,
-        "correct": 14,
-        "total_matches": 24
+        "accuracy": 0.48,
+        "correct": 15,
+        "total_matches": 31
       },
       "volatility": {
         "best_rank": 1,
@@ -4231,22 +4188,22 @@
       },
       "momentum": {
         "trend": "stable",
-        "recent_delta": 0,
-        "momentum_strength": 0,
+        "recent_delta": -3,
+        "momentum_strength": 3,
         "recent_ranks": [
           31,
-          33,
-          31
+          34,
+          34
         ]
       },
       "phase_strength": {
         "strongest_phase": "group",
         "confidence": "high",
-        "strength_delta": 0.25,
+        "strength_delta": 0.27,
         "group_accuracy": 0.58,
-        "knockout_accuracy": 0.33,
+        "knockout_accuracy": 0.32,
         "group_matches": 72,
-        "knockout_matches": 24
+        "knockout_matches": 31
       }
     }
   }
