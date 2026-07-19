@@ -587,8 +587,17 @@ export default function Leaderboard() {
       const rachaMap   = buildRachaBoxes(timeline)
       const scoreMap   = buildScoreMap(scoreDetails)
 
+      // Nº de LUGARES de premio (no de personas): con empates, varias personas
+      // comparten un mismo lugar (covered_positions), así que contar filas infla
+      // el total. La verdad = el mayor lugar cubierto entre las filas que pagan.
       const paidPositions = Array.isArray(payouts)
-        ? payouts.filter(p => p.payout > 0).length
+        ? payouts.reduce((mx, p) => {
+            if ((p.payout ?? 0) <= 0) return mx
+            const pos = Array.isArray(p.covered_positions) && p.covered_positions.length
+              ? Math.max(...p.covered_positions)
+              : (p.rank ?? 0)
+            return Math.max(mx, pos)
+          }, 0)
         : (payouts?.paid_positions ?? 0)
       const payoutsTotal = Array.isArray(payouts)
         ? payouts.reduce((s, p) => s + (p.payout ?? 0), 0)
@@ -636,6 +645,14 @@ export default function Leaderboard() {
   const filtered = safeData.filter(e =>
     (e.display_name ?? '').toLowerCase().includes(search.toLowerCase())
   )
+
+  // Divisor de zona de premios: UNA sola línea, tras el último jugador dentro de
+  // la zona (rank <= paidPositions). Robusto a empates en el borde — antes se
+  // dibujaba una vez por cada empatado en el rank frontera (o ninguna si ese rank
+  // no existía por un empate previo).
+  const zoneDividerIdx = (!showNeutral && paidPositions > 0 && paidPositions < total)
+    ? filtered.reduce((acc, u, i) => ((u.rank ?? Infinity) <= paidPositions ? i : acc), -1)
+    : -1
 
   return (
     <div style={{ maxWidth: 1500, margin: '0 auto' }}>
@@ -755,10 +772,9 @@ export default function Leaderboard() {
                   </div>
                 ) : (
                   filtered.map((entry, index) => {
-                    const isLastZone = entry.rank === paidPositions
-
-                    // Divider shown only after the last prize position — never pre-tournament
-                    const showPremiosLabel = !showNeutral && !search && isLastZone && paidPositions < total
+                    // Divider una sola vez, tras el último jugador dentro de la zona
+                    // (índice precomputado, robusto a empates). Nunca durante búsqueda.
+                    const showPremiosLabel = !search && index === zoneDividerIdx
 
                     // Stable alphabetical list number (independent of search filter)
                     const listNum = safeData.findIndex(u => u.user_id === entry.user_id) + 1

@@ -423,6 +423,47 @@ export default function HallOfFame() {
           </div>
         </section>}
 
+        {/* ── CÓMO RECLAMAR EL PREMIO — banner arriba, solo con el torneo cerrado ── */}
+        {tournamentOver && (
+          <section>
+            <div style={{
+              position: 'relative', overflow: 'hidden', borderRadius: 14,
+              background: 'linear-gradient(135deg, #12100e 0%, #17130a 50%, #12100e 100%)',
+              border: '1px solid rgba(251,191,36,0.35)',
+              boxShadow: '0 0 30px rgba(251,191,36,0.06), inset 0 1px 0 rgba(255,255,255,0.04)',
+              padding: isMobile ? '22px 20px' : '26px 32px',
+              display: 'flex', gap: isMobile ? 16 : 22,
+              alignItems: 'flex-start', flexDirection: isMobile ? 'column' : 'row',
+            }}>
+              <div style={{ position: 'absolute', top: -50, right: -50, width: 180, height: 180, borderRadius: '50%', background: 'radial-gradient(circle, rgba(251,191,36,0.10) 0%, transparent 70%)', pointerEvents: 'none' }} />
+
+              <div style={{
+                width: 46, height: 46, borderRadius: 12, flexShrink: 0,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                background: 'rgba(251,191,36,0.10)', border: '1px solid rgba(251,191,36,0.35)',
+                fontSize: 22,
+              }}>✉️</div>
+
+              <div style={{ flex: 1, position: 'relative' }}>
+                <div style={{ fontSize: 11, fontWeight: 700, color: '#FBBF24', letterSpacing: '0.14em', fontFamily: 'var(--font-mono)', textTransform: 'uppercase', marginBottom: 8 }}>
+                  Ganadores · Cómo reclamar tu premio
+                </div>
+                <div style={{ fontSize: isMobile ? 14 : 15, color: 'rgba(255,255,255,0.78)', lineHeight: 1.65, marginBottom: 12 }}>
+                  Si tu nombre aparece en la zona de pago, ¡muchas felicidades! Para recibir tu premio, escríbenos a{' '}
+                  <a
+                    href="mailto:humberto.zapata@zeconsultores.com?subject=Reclamo%20de%20premio%20QMF%202026"
+                    style={{ color: '#FDE68A', fontWeight: 700, textDecoration: 'none', borderBottom: '1px solid rgba(253,230,138,0.45)', whiteSpace: 'nowrap' }}
+                  >humberto.zapata@zeconsultores.com</a>{' '}
+                  con tu nombre completo y cómo prefieres recibir el pago. En cuanto confirmemos tu lugar, coordinamos la entrega.
+                </div>
+                <div style={{ fontSize: 12, color: 'rgba(255,255,255,0.42)', fontFamily: 'var(--font-mono)' }}>
+                  Incluye tu nombre de participante para ubicarte más rápido.
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
         {/* ── ZONA DE PAGO ────────────────────────────────────── */}
         <section>
           <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', marginBottom: 20, gap: 12, flexWrap: 'wrap' }}>

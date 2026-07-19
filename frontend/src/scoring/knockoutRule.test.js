@@ -7,7 +7,7 @@
  */
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { scoreKnockoutMatch, projectKnockout } from './knockoutRule.js'
+import { scoreKnockoutMatch, projectKnockout, winnerFromScore } from './knockoutRule.js'
 
 const real = { home_team: 'Mexico', away_team: 'Korea', home_goals: 2, away_goals: 1 }
 
@@ -73,6 +73,44 @@ test('projectKnockout suma el delta y re-rankea', () => {
   assert.equal(deltas.b.ptsGain, 5)
   assert.equal(deltas.b.rankDelta, 1) // de #2 a #1
   assert.equal(deltas.a.rankDelta, -1) // de #1 a #2
+})
+
+test('winnerFromScore: gana el de más goles; empate → null', () => {
+  const rt = { home_team: 'Argentina', away_team: 'Francia' }
+  assert.equal(winnerFromScore(rt, { home_goals: 2, away_goals: 1 }), 'Argentina')
+  assert.equal(winnerFromScore(rt, { home_goals: 1, away_goals: 2 }), 'Francia')
+  assert.equal(winnerFromScore(rt, { home_goals: 1, away_goals: 1 }), null)
+})
+
+test('bono de campeón (match 104, +15) a quien acertó el ganador', () => {
+  const lb = [
+    { user_id: 'a', total_points: 100, rank: 1, breakdown: { knockout: 0, bonus: 0 } },
+    { user_id: 'b', total_points: 100, rank: 1, breakdown: { knockout: 0, bonus: 0 } },
+  ]
+  // Final real: Francia (home) vs Argentina (away). Marcador simulado 1-2 → gana Argentina.
+  const picks = [
+    { user_id: 'a', home_team: 'Francia', away_team: 'Argentina', home_goals: 0, away_goals: 2, advance_team: 'Argentina' }, // home_team + away_team + away_goals + campeón
+    { user_id: 'b', home_team: 'Brasil',  away_team: 'Argentina', home_goals: 3, away_goals: 0, advance_team: 'Francia' },    // solo away_team; campeón equivocado
+  ]
+  const { projected, deltas } = projectKnockout(
+    lb, picks, { home_team: 'Francia', away_team: 'Argentina' }, { home_goals: 1, away_goals: 2 }, 15,
+  )
+  const byId = Object.fromEntries(projected.map(u => [u.user_id, u]))
+  // a: home_team(1)+away_team(1)+away_goals(1)=3 de partido + 15 bono = 18
+  assert.equal(deltas.a.ptsGain, 18)
+  assert.equal(byId.a.breakdown.bonus, 15)
+  // b: away_team(1) de partido, sin bono
+  assert.equal(deltas.b.ptsGain, 1)
+  assert.equal(byId.b.breakdown.bonus, 0)
+  // a rompe el empate y queda #1
+  assert.equal(byId.a.rank, 1)
+})
+
+test('empate en la final → sin bono de campeón (penales no se simulan)', () => {
+  const lb = [{ user_id: 'a', total_points: 100, rank: 1, breakdown: { knockout: 0, bonus: 0 } }]
+  const picks = [{ user_id: 'a', home_team: 'Francia', away_team: 'Argentina', home_goals: 1, away_goals: 1, advance_team: 'Argentina' }]
+  const { deltas } = projectKnockout(lb, picks, { home_team: 'Francia', away_team: 'Argentina' }, { home_goals: 1, away_goals: 1 }, 15)
+  assert.equal(deltas.a.ptsGain, 5) // solo el marcador exacto (1-1), sin bono
 })
 
 test('no muta el leaderboard oficial de entrada', () => {

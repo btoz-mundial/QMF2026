@@ -54,11 +54,14 @@ export function useKnockoutSimulation(officialLb) {
 
   const { projected, deltas } = useMemo(() => {
     if (!score || !match || !officialLb) return { projected: null, deltas: null }
+    // Bono oficial: match 104 (campeón) +15, match 103 (tercer lugar) +5, resto 0.
+    const bonusPoints = match.match_id === 104 ? 15 : match.match_id === 103 ? 5 : 0
     return projectKnockout(
       officialLb,
       match.picks ?? [],
       { home_team: match.home_team, away_team: match.away_team },
       score,
+      bonusPoints,
     )
   }, [score, match, officialLb])
 
